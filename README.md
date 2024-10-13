@@ -4,8 +4,8 @@ an async for archipelago that is itself a roguelike. the sequel to [ENDLESS TOWE
 much of the relevant information is being stored on several different markdown files.
 this async will be hosted in a different discord server, which will be opening up in... a few weeks, probably.
 
-[ideas for the async](ideas.md)
-[rules and notes that i paste into the discord server](pasted_rules_and_notes.md)
-[info about the resources you find ingame](resources.md)
-[the skill tree (for permanent upgrades)](skilltree.md)
-[notes about submissions](submissions.md)
+- [ideas for the async](ideas.md)
+- [rules and notes that i paste into the discord server](pasted_rules_and_notes.md)
+- [info about the resources you find ingame](resources.md)
+- [the skill tree (for permanent upgrades)](skilltree.md)
+- [notes about submissions](submissions.md)
