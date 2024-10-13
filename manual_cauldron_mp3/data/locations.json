@@ -1,0 +1,72 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Location 0",
+            "category": [
+                "locations"
+            ],
+            "requires": []
+        },
+        {
+            "name": "Location 1",
+            "category": [
+                "locations"
+            ],
+            "requires": "|Cold Hard Cash:1|"
+        },
+        {
+            "name": "Location 2",
+            "category": [
+                "locations"
+            ],
+            "requires": "|Cold Hard Cash:2|"
+        },
+        {
+            "name": "Location 3",
+            "category": [
+                "locations"
+            ],
+            "requires": "|Cold Hard Cash:3|"
+        },
+        {
+            "name": "Location 4",
+            "category": [
+                "locations"
+            ],
+            "requires": "|Cold Hard Cash:4|"
+        },
+        {
+            "name": "Location 5",
+            "category": [
+                "locations"
+            ],
+            "requires": "|Cold Hard Cash:5|"
+        },
+        {
+            "name": "Location 6",
+            "category": [
+                "locations"
+            ],
+            "requires": "|Cold Hard Cash:6|"
+        },
+        {
+            "name": "Location 7",
+            "category": [
+                "locations"
+            ],
+            "requires": "|Cold Hard Cash:7|"
+        },
+        {
+            "name": "Location 8",
+            "category": [
+                "locations"
+            ],
+            "requires": "|Cold Hard Cash:8|"
+        },
+        {
+            "name": "victory",
+            "victory": true
+        }
+    ]
+}

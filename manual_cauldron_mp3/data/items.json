@@ -1,0 +1,117 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Spruce Branch",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Eternal Flame",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Iron",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Void",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Lilypad",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Stardust",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Strawberry",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Eel",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Ice",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Regrets",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Clay",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Jellyfish",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Philodendron",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Ectoplasm",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        }
+    ]
+}
