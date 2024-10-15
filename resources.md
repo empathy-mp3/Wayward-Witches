@@ -4,8 +4,8 @@
 *a branch covered in snow.*
 *found exclusively in tundras.*
 
-### Eternal Flame
-*the flame that keeps on burning.*
+### Cinders
+*a small flame that never seems to go out.*
 *found exclusively in hell.*
 
 ### Iron
@@ -32,26 +32,54 @@
 *a long deep sea fish.*
 *found exclusively under the ocean.*
 
-### Ice
-*a chunk of frozen water.*
-*found in tundras or mountains.*
+### Incense
+*a stick with a sacred, yet awful smell.*
+*found in tundras or hell.*
+*found farther from home.*
 
-### Regrets
-*the thoughts of those who could've made better choices.*
-*found in hell or the shadow realm.*
+### Chalk
+*a white rock that always leaves a mark.*
+*found in caverns or on the moon.*
+*found closer to home.*
 
 ### Clay
 *a rich, malleable soil used for sculptures.*
-*found in caverns or marshes.*
+*found in marshes or under the ocean.*
+*found farther from home.*
 
-### Jellyfish
-*a glowy, floaty sea creature.*
-*found under the ocean or on the moon.*
+### Limestone
+*a light-tinted sedimentary rock.*
+*found in the shadow realm or marshes.*
+*found closer to home.*
 
-### Philodendron
-*a widespread large flowering plant.*
-*found in more mundane locations.*
+### Snow
+*a soft clump of tiny ice shards.*
+*found in the tundra or mountain.*
+*found closer to home.*
 
-### Ectoplasm
-*a substance left by strange magical beings.*
-*found in more mystical locations.*
+### Rabbit Foot
+*a lucky charm from a magical creature.*
+*found on the moon or the shadow realm.*
+*found farther from home.*
+
+### Slate
+*a layered metamorphic rock.*
+*found in mountains or caverns.*
+*found farther from home.*
+
+### Basalt
+*a fire-grained dark igneous rock.*
+*found in hell or under the ocean.*
+*found closer to home.*
+
+### Dragon Scale
+*a truly powerful reagent.*
+*found at the summit of victory.*
+
+### Discarded Penny
+*a discarded copper coin, useless as a reagent.*
+*found everywhere.*
+
+### Ashes
+*they never seem to fade away.*
+*found commonly farther from home.*
