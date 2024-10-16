@@ -6,8 +6,8 @@ starting: Evade Death's Grasp, Crafting Magical Trinkets, Summoning of Familiars
 +1 life
 
 Evade Death's Grasp (I)
+*as though it were child's play, cast a spell to keep your fate at bay.*
 costs 1 `Incense` -> 2 `Ashes`, 1 `Void` -> 4 `Ashes`, 1 `Stardust` -> ???
-*will give one extra chance before our inevitable downfall*
 unlocks: ???
 
 ## Crafting Magical Trinkets (I-???) (currently: X)

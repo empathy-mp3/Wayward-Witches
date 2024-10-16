@@ -8,7 +8,7 @@ most roguelikes nowadays have a few key features:
 - there are upgrades that persist between each run, and you grow stronger after each one.
 
 this async has all of those properties!
-- death link is on, we have an amount of lives, and when a death_link is sent, we lose one life. once we're out of lives, the run (the whole async) will end and we'll have to start over.
+- death link is on, and each death reduces our lives by 1. once we're out of lives, the run (the whole async) will end and we'll have to start over.
 - (it's a randomizer so it's normally generated randomly)
 - some items will persist between runs, and the async will grow easier each time, as more things are unlocked.
 
@@ -19,7 +19,8 @@ all the people that reacted to [this message](https://discord.com/channels/73120
 
 it is my hope that this async will be significantly less annoying than the previous. while many people enjoyed it the whole time, many others grew tired of playing the same game over and over again. for that reason, i'll only let players have *one* slot that randomly chooses between up to *six* (number may change) different games.
 as for issues with manuals that occurred last async, i'm considering making it so that manuals are randomly chosen up to a third of the time (so that Hollow Knight with weight of 2 and a manual game with weight of 1 is allowed, but if they were both 1 weight, then it'd be a manual 1/2 of the time). the problem is, like, i fully trust someone like Alexander230 to be fully reasonable about manuals. if he dies ingame, i trust him to actually go through with sending the deathlink. but i shouldn't be inconsistent in my rules of this sort of thing. as much as i trust certain people to be reasonable about manuals, if i don't do *something* about it, the same incident will happen once more.
-it's also just really easy to fall into that sort of trap. if you're not enjoying your games
+i'll also likely have a much more stable sleep schedule this time, and i'll pace myself more. the daily cycling shop made it so that i had to be constantly there to maintain the shop, especially since we'd need to buy a lot of things immediately after they become available. after completely scrapping the cycling daily shop altogether, this'll be less of a concern. all permanent upgrades will still be able to be purchased in the days after they become available.
+as discussed last time, releases will not be permanent. i'm planning on making it so that all players have to goal on the same run, but that might drag on for way too long. perhaps it'd be better if everyone has to goal *once*, but releases don't stay between runs. i'm not sure, though. i do still like the first idea, despite how long it might take. i'm open to input on this. what i *do* know is that this async will most assuredly be longer than the last one.
 
 ## planning channel post
 
