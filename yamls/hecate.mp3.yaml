@@ -4,7 +4,7 @@ game:
   Outer Wilds: 3
   Manual_DeckedOut2_mp3: 3
   ULTRAKILL: 3
-  TUNIC: 103
+  TUNIC: 3
 description: empathy.mp3 game for Wayward Witches async
 Noita:
   progression_balancing: '50'
@@ -73,6 +73,7 @@ Outer Wilds:
   dlc_only: 'false'
   randomize_coordinates: 'true'
   randomize_orbits: 'true'
+  randomize_rotations: 'true'
   randomize_warp_platforms: 'true'
   randomize_dark_bramble_layout:
     'false': 1
@@ -91,6 +92,10 @@ Outer Wilds:
     'false': 2
     'true': 1
   enable_hn1_mod: 'true'
+  enable_outsider_mod: 'true'
+  enable_ac_mod: 'true'
+  enable_hn2_mod: 'true'
+  enable_fq_mod: 'false'
   
 
 Manual_DeckedOut2_mp3:
@@ -204,8 +209,8 @@ ULTRAKILL:
   shotgun_form: random
   nailgun_form: random
   randomize_skulls: random
-  randomize_limbo_switches: false
-  randomize_violence_switches: false
+  randomize_limbo_switches: random
+  randomize_violence_switches: random
   point_multiplier: random-range-3-7
   ui_color_randomizer: random
   gun_color_randomizer: random
@@ -229,7 +234,7 @@ TUNIC:
   non_local_items:
   - Gold Questagon
   start_inventory:
-    Money x200: 20
+    Money x200: 10
   start_inventory_from_pool: {}
   keys_behind_bosses: random
   shuffle_ladders: random
