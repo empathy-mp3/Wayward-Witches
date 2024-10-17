@@ -2,50 +2,51 @@
 
 starting: Evade Death's Grasp, Crafting Magical Trinkets, Summoning of Familiars
 
-## Evade Death's Grasp (I - inf.) (currently: 0)
-+1 life
+## evadedeathsgrasp (I - inf.) (currently: 0)
 
 Evade Death's Grasp (I)
-*as though it were child's play, cast a spell to keep your fate at bay.*
+*+1 life.*
 costs 1 `Incense` -> 2 `Ashes`, 1 `Void` -> 4 `Ashes`, 1 `Stardust` -> ???
 unlocks: ???
 
-## Crafting Magical Trinkets (I-???) (currently: X)
-charms in HK, badges in PM, etc.
+## craftingmagicaltrinkets (I-???) (currently: X)
 
 Crafting Magical Trinkets (I)
 costs 1 `Strawberry`, 2 `Slate`
-*make little magical trinkets to help us on our journey*
+*Charms, Badges, etc.*
 unlocks: ???
 
-## Brew of Strength (I-???) (currently: X)
-things that strengthen weapons or characters
+## brewofstrength (I-???) (currently: X)
 
 Brew of Strength (I)
 costs 2 `Iron`, 1 `Cinders`
-*brew potions that increase our strength*
+*ATK offerings, ATK Up, etc.*
 unlocks: ???
 
-## Crafting Weapons (I-???) (currently: X)
-new weapons that were previously not had
+## craftingweapons (I-???) (currently: X)
 
 Crafting Weapons (I)
 costs 2 `Iron`, 2 `Spruce Branch`
-*make new weapons with which to keep fighting*
+*new weapons*
 unlocks: ???
 
-## Spell of Vitality (I-???) (currently: X)
-more hp and healing
+## spellofvitality (I-???) (currently: X)
 
 Spell of Vitality (I)
 costs 1 `Limestone`, 2 `Chalk`
-*withstand more wounds, and recover from them faster*
+*more HP, more healing, etc.*
 unlocks: ???
 
-## Summoning of Familiars (I-???) (currently: X)
-companion things
+## summoningoffamiliars (I-???) (currently: X)
 
 Summoning of Familiars (I)
 costs 1 `Eel`, 2 `Chalk`
-*summon companions to aid you in your fight*
+*summon new friends.*
+unlocks: ???
+
+## findmorecash (I-???) (currently: X)
+
+Find more Cash (I)
+costs 1 `Eel`, 2 `Chalk`
+*more money.*
 unlocks: ???
