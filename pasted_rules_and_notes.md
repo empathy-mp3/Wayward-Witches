@@ -30,10 +30,10 @@ the second roguelike async has a forum post! it's not open for yaml submissions 
 
 - be kind to others!
 - have fun!
-- no racism, sexism, transphobia, bigotry, etc. 
-- avoid spamming or off-topic memes outside of #off-topic. i don't *entirely* care about people staying on topic, and it's perfectly fine if players are having a completely unrelated discussion in #general, but especially random memes should be in #off-topic.
+- no racism, sexism, transphobia, bigotry, etc. one warning before a ban.
+- avoid spamming or off-topic memes outside of #off-topic. i don't *entirely* care about people staying on topic, but especially random memes should be in #off-topic.
 - no badmouthing related communities or bringing in outside issues
-- dont self-promote or promote other discords outside of #self-promotion channel
+- dont self-promote or promote other discords without permission
 - avoid politics and heavy personal subjects. 
 - no NSFW stuff (no AD games either, except ultrakill (though if more edge cases like that exist you can ask))
 
@@ -41,10 +41,11 @@ the second roguelike async has a forum post! it's not open for yaml submissions 
 
 - hint games are actually allowed since they have less of an impact on the game
 - cheesetracker will be mandatory. since this a non-standard async, instead of using cheesetracker in the normal way, i'll keep the cheesetracker from the *first* run, and then every time you play, you need to mark BK in that cheesetracker (even if you aren't actually BK, and even though it's on a different run)
-  - activity is expected every 2.5 days (just because this is gonna be a faster pace async), so mark BK on the aforementioned first cheesetracker. i'll ping you if you're over 2.5 days whenever i check in. if i ping you more than twice, we'll have to figure out what we're gonna do with your slot if you can't actively play it.
+  - activity is expected every 3 days, so mark BK on the aforementioned first cheesetracker. i'll ping you if you're over 3 days whenever i check in. if i ping you more than twice, we'll have to figure out what we're gonna do with your slot if you can't actively play it.
 - if you're playing a manual, it is your responsibility to make sure you're actually adhering to logic, and actually sending and recieving deathlinks yourself.
   - if you get somewhere in-game that is actually out of logic, you can send that check. but, if you're just sending random checks out of logic, one warning before a ban.
 - if you're tired of your game, don't just go around cheating because you're tired. instead, ask me, and we can work something out. this async can be changed in the middle!
+- release auto, collect auto
 
 ## what's this async's deal?
 
@@ -61,27 +62,38 @@ this async has all of those properties!
 ## yaml submission rules
 
 - do them in #yaml-submissions
-- you may submit **1 world**. however, since this async keeps regenerating, your yaml is allowed to pick from up to **6 games** randomly.
+- you may submit `1 world`. however, since this async keeps regenerating, your yaml is allowed to pick from up to `6 games` randomly.
 - if you don't have as much free time, consider playing games that can BK more quickly.
 - supported and unsupported are fine, and if you're playing manuals, you must use weighted game options to make them appear only 1/3 of the time (or less).
   - so for example, if you're playing Hollow Knight and Manual_DeckedOut2_mp3 both with weight of 1, that's not allowed because the manual appears 1/2 of the time.
   - if you're unsure what i mean, check my example submission. also, please ask about manuals before submitting them.
 - `death_link` must be enabled. if your game sends deathlink but doesnt receive it, that's fine, but if it receives but doesn't send then that's not fine.
   - settings that make certain things not send deathlinks or deathlink amnesty are fully allowed.
-- with your submission, list up to 5-10 useful/filler items in your game. you *can* submit progression items, but please don't submit too important ones.
-  - only add them if they *increase your survivability* or *make goaling easier*.
-  - specifically, keys that unlock areas are definitely not allowed, and neither are major abilities like `Mothwing_Cloak` in hollow knight.
-  - but things like guns in ultrakill (ideally ones that don't unlock *too* many checks) are allowed. just know you aren't finding it until later.
-  - if you're playing a roguelike where the only items are progression, then i guess that's fine
-  - you must also list whether these items are *unique* or *duplicate*. what i mean is: is there exactly one copy of this item? or are there several in the pool?
-  - don't list every copy of a duplicate item.
-  - if the items you're listing are *relatively insignificant*, you can list more than 10 of them.
-- also, please list some filler items for your game. ideally, 2-4 filler items that there are several copies of in the pool.
-- no extremely lengthy games (OSRS or Allsanity/Perfection SDV)
+- no extremely lengthy games (OSRS or Allsanity/Perfection SDV) or games that require hundreds of items to beat.
 - avoid having massive amounts of the same progression item in your game. (stuff like low DLCQ coin bundles). 
+  - also, avoid massive amounts of filler too. this is less of an issue, though.
+- don't go too crazy with start inventory and start hints! and don't start_inventory progression items.
 - i highly recommend you play with difficult settings! you may be unsure if you can even beat a game at first, and that's fine. i'll be **changing yaml options** as a permanent upgrade.
   - if you wish to opt into that, inside your yaml, add comments (with #) next to yaml options. check my example submission to see what i mean!
   - please don't mark settings that change how many progression items are required, unless you're doing a macguffin hunt goal. it's the equivalent of me just locking away progression items, which i'm trying to avoid in the first place. things like reducing strawberries to goal in C64 is good, but things like disabling move rando is not.
 - i also recommend you play with a lot of random settings, as it'll help cause more variety. if you're trying to do both hard and random settings, things like weighted options or `random-high` can help.
-- please mention your 
+- please compress your yaml down as much as possible. i'll be editing yamls *frequently* this async, so i'd like to not have massive walls of text explaining every yaml option everytime i want to edit something.
+- with your submission, list a few useful/filler items in your game. you *can* submit progression items, but please don't submit too important ones.
+  - only add them if they *increase your survivability* or *make goaling easier*.
+  - you must also list whether these items are *unique* or *duplicate*. what i mean is: is there exactly one copy of this item? or are there several in the pool?
+  - don't list every copy of a duplicate item.
+- *collectively, you must submit 10-20 yaml changes and useful items.* if your game has fewer useful items, but a lot of yaml settings that can make things difficult (that i'd change to make things easier), that's what this is for, and vice versa.
+- also, please list some filler items for your game. ideally, 2-4 filler items that there are several copies of in the pool.
+  - if your game is like Terraria, and has a lot of filler items that there are only 1 of, please mention that!
+- mention your **origin**! witches often like to remain in the shadows, and their origins reflect that. with your submission you must list your origin as one of these eight:
+  - tundra
+  - hell
+  - cavern
+  - shadow realm
+  - marsh
+  - moon
+  - mountain
+  - under the ocean
+- i would like to have a balanced count of origins, though. if you have no preference (or have a secondary preference), please list it.
+  - these origins *do* matter, but perhaps not as much as you might expect.
 

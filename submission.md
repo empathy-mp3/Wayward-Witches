@@ -2,6 +2,8 @@
 
 ## hecate.mp3
 
+origin: any
+
 Noita:
 duplicate items:
 ```
