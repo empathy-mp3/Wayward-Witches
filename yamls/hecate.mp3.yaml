@@ -1,0 +1,245 @@
+name: hecate.mp3
+game: 
+  Noita: 3
+  Outer Wilds: 3
+  Manual_DeckedOut2_mp3: 3
+  ULTRAKILL: 3
+  TUNIC: 103
+description: empathy.mp3 game for Wayward Witches async
+Noita:
+  progression_balancing: '50'
+  accessibility: items
+  death_link: 'true'
+  bad_effects: 
+    'true': 10 # change to 2
+    'false': 2 # change to 10
+  victory_condition: 
+    greed_ending: 1
+    pure_ending: 7
+    peaceful_ending: 5 # reduce peaceful_ending to 1
+  path_option: 
+    main_path: 1
+    side_path: 7
+    main_world: 5 # reduce main_world to 1
+  hidden_chests: random-range-2-4
+  pedestal_checks: random-range-4-8
+  orbs_as_checks:
+    no_orbs: 1 # increase no_orbs to 4
+    main_path: 3
+    side_path: 10
+    main_world: 5 # reduce main_world to 1
+  bosses_as_checks:
+    no_bosses: 1 # increase no_bosses to 4
+    main_path: 3
+    side_path: 10
+    all_bosses: 5 # reduce all_bosses to 1
+  extra_orbs: random-low # change to random-high
+  shop_price: 
+    full_price: 10 # reduce full_price to 0
+    75_percent_off: 5
+    50_percent_off: 2
+    25_percent_off: 1
+
+
+Outer Wilds:
+  progression_balancing: normal
+  accessibility: items
+  goal:
+    song_of_five: 1
+    song_of_the_nomai: 2
+    song_of_the_stranger: 2
+    song_of_six: 4
+    song_of_seven: 12 # reduce to 7, then to 2
+    echoes_of_the_eye: 2
+  spawn:
+    hourglass_twins: 3
+    timber_hearth: 1
+    brittle_hollow: 3
+    giants_deep: 3
+    stranger: 6
+  early_key_item:
+    translator: 3
+    nomai_warp_codes: 3
+    launch_codes: 1
+    stranger_light_modulator: 0
+  triggers:
+    - option_category: Outer Wilds
+      option_name: spawn
+      option_result: stranger
+      options:
+        Outer Wilds:
+          early_key_item: stranger_light_modulator
+  enable_eote_dlc: 'true'
+  dlc_only: 'false'
+  randomize_coordinates: 'true'
+  randomize_orbits: 'true'
+  randomize_warp_platforms: 'true'
+  randomize_dark_bramble_layout:
+    'false': 1
+    'true': 20 # reduce to 11, then to 2
+    hub_start: 8
+  trap_chance: random-range-60-80 # reduce this to random-range-40-60, then to random-range-20-40, then to random-range-0-20
+  trap_type_weights:
+    Audio Trap: 0
+    Nap Trap: 3
+    Ship Damage Trap: 1
+  death_link: default
+  logsanity:
+    'false': 2
+    'true': 1
+  split_translator:
+    'false': 2
+    'true': 1
+  enable_hn1_mod: 'true'
+  
+
+Manual_DeckedOut2_mp3:
+  progression_balancing: 50
+  accessibility: items
+  goal:
+    enter the hideout: 32 # reduce to 1
+    craft all legendary cards: 32 # reduce to 1
+    complete a 30 ember run: 1
+    complete a 40 ember run: 2
+    complete a 50 ember run: 4
+    complete a 60 ember run: 8
+    complete a 70 ember run: 16
+    acquire 27 unique cards: 4
+    acquire 23 unique artifakes: 4
+    complete a 70 ember and 16 crown run: 8
+    complete a deepfrost difficulty run: 4
+    blow up the gateway with the bomb: 8
+  filler_traps: random-high # change to random, then to random-low
+  death_link: 'true'
+  frost_ember_locations: 'true'
+  coin_crown_locations: 'true'
+  artifake_locations: 'true'
+  unique_card_locations: 'true'
+  difficulty_objective_locations: 'true'
+  area_objective_locations: 'true'
+  various_ground_item_locations: 'true'
+  legendary_part_locations: 'true' # change to 'false'
+  various_area_locations: 'true'
+  common_card_location_count: 0
+  uncommon_card_location_count: 0
+  rare_card_location_count: 0
+  legendary_card_location_count: 6 # reduce to 0
+  crown_shop_location_count: 0
+  victory_tome_location_count: 6
+  crown_victory:
+    crown: 1
+    victory: 1
+  triggers:
+    - option_category: Manual_DeckedOut2_mp3
+      option_name: crown_victory
+      option_result: crown
+      options:
+        Manual_DeckedOut2_mp3:
+          crown_shop_location_count: 6
+          victory_tome_location_count: 0
+  # change the next 3 options to random-high
+  tactical_approach_count: random-low
+  pork_chop_power_count: random-low
+  dungeon_lackey_count: random-low
+  # change the next 3 options to random-high
+  pay_to_win_count: random-low
+  tailor_for_success_count: random-low
+  last_stand_count: random-low
+  # change the next 3 options to random-high
+  revelation_count: random-low
+  aquata_breather_count: random-low
+  eureka_count: random-low
+  # change the next 4 options to random-high
+  caves_of_carnage_key_count: random-low
+  black_mines_key_count: random-low
+  flooded_depths_key_count: random-low
+  burning_dark_key_count: random-low
+
+
+ULTRAKILL:
+  goal: 
+    "1_4": 5
+    "2_4": 5
+    "3_2": 5
+    "4_4": 5
+    "5_4": 5
+    "6_2": 5
+    "7_4": 5
+    "P_1": 10 # reduce to 1
+    "P_2": 10 # reduce to 1
+  goal_requirement: random-high # change to random-low
+  include_secret_mission_completion: random
+  unlock_type: random
+  trap_percent: random-high # change to random-low
+  boss_rewards: 
+    disabled: 3
+    standard: 7 # reduce to 2
+    extended: 11 # reduce to 1
+  challenge_rewards:
+    'true': 10
+    'false': 25 # reduce to 2
+  p_rank_rewards: 
+    'true': 10
+    'false': 25 # reduce to 2
+  hank_rewards: random
+  randomize_clash_mode: false
+  fish_rewards: random
+  cleaning_rewards: false
+  chess_reward: random
+  rocket_race_reward: random
+  starting_weapon: 
+    any_weapon: 5
+    any_weapon_or_arm: 15 # reduce to 1
+  randomize_secondary_fire: random
+  start_with_arm: random
+  starting_stamina: random-high
+  starting_walljumps: random-high
+  start_with_slide: 
+    'true': 3
+    'false': 1
+  start_with_slam:
+    'true': 3
+    'false': 1
+  revolver_form: random
+  shotgun_form: random
+  nailgun_form: random
+  randomize_skulls: random
+  randomize_limbo_switches: false
+  randomize_violence_switches: false
+  point_multiplier: random-range-3-7
+  ui_color_randomizer: random
+  gun_color_randomizer: random
+  music_randomizer: random
+  cybergrind_hints: true
+  death_link: true
+  progression_balancing: 50
+  accessibility: items
+
+
+TUNIC:
+  progression_balancing: '50'
+  accessibility: items
+  sword_progression: 'true'
+  start_with_sword: 'false'
+  ability_shuffling: 'true'
+  laurels_location: anywhere
+  logic_rules: restricted
+  lanternless: 'false'
+  maskless: 'false'
+  non_local_items:
+  - Gold Questagon
+  start_inventory:
+    Money x200: 20
+  start_inventory_from_pool: {}
+  keys_behind_bosses: random
+  shuffle_ladders: random
+  entrance_rando: random
+  fixed_shop: random
+  fool_traps:
+    off: 2
+    normal: 4
+    double: 8
+    onslaught: 16 # change to 0
+  hexagon_quest: random
+  hexagon_goal: random
+  extra_hexagon_percentage: random
