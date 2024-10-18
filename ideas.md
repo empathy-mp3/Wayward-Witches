@@ -29,11 +29,10 @@
 
 ## other resources
 
-| source              | item            | use                |
-| ------------------- | --------------- | ------------------ |
-| goal                | Dragon Scale    | strong spells      |
-| everywhere          | Discarded Penny | temporary upgrades |
-| non-early locations | Ashes           | many things        |
+| source     | item            | use                |
+| ---------- | --------------- | ------------------ |
+| goal       | Dragon Scale    | strong spells      |
+| everywhere | Discarded Penny | temporary upgrades |
 
 ## issues with previous async / ideas for new one
 

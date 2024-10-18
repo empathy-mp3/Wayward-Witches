@@ -66,7 +66,7 @@
             "count": 0
         },
         {
-            "name": "Ice",
+            "name": "Incense",
             "category": [
                 "items"
             ],
@@ -74,7 +74,7 @@
             "count": 0
         },
         {
-            "name": "Regrets",
+            "name": "Chalk",
             "category": [
                 "items"
             ],
@@ -90,7 +90,7 @@
             "count": 0
         },
         {
-            "name": "Jellyfish",
+            "name": "Limestone",
             "category": [
                 "items"
             ],
@@ -98,7 +98,7 @@
             "count": 0
         },
         {
-            "name": "Philodendron",
+            "name": "Snow",
             "category": [
                 "items"
             ],
@@ -106,7 +106,31 @@
             "count": 0
         },
         {
-            "name": "Ectoplasm",
+            "name": "Rabbit Foot",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Slate",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Basalt",
+            "category": [
+                "items"
+            ],
+            "progression": true,
+            "count": 0
+        },
+        {
+            "name": "Discarded Penny",
             "category": [
                 "items"
             ],
