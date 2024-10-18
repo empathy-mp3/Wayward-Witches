@@ -8,7 +8,6 @@ game:
 description: empathy.mp3 game for Wayward Witches async
 Noita:
   progression_balancing: '50'
-  accessibility: items
   death_link: 'true'
   bad_effects: 
     'true': 10 # change to 2
@@ -43,7 +42,6 @@ Noita:
 
 Outer Wilds:
   progression_balancing: normal
-  accessibility: items
   goal:
     song_of_five: 1
     song_of_the_nomai: 2
@@ -100,7 +98,6 @@ Outer Wilds:
 
 Manual_DeckedOut2_mp3:
   progression_balancing: 50
-  accessibility: items
   goal:
     enter the hideout: 32 # reduce to 1
     craft all legendary cards: 32 # reduce to 1
@@ -218,19 +215,14 @@ ULTRAKILL:
   cybergrind_hints: true
   death_link: true
   progression_balancing: 50
-  accessibility: items
 
 
 TUNIC:
   progression_balancing: '50'
-  accessibility: items
   sword_progression: 'true'
   start_with_sword: 'false'
   ability_shuffling: 'true'
   laurels_location: anywhere
-  logic_rules: restricted
-  lanternless: 'false'
-  maskless: 'false'
   non_local_items:
   - Gold Questagon
   start_inventory:
@@ -247,4 +239,10 @@ TUNIC:
     onslaught: 16 # change to 0
   hexagon_quest: random
   hexagon_goal: random
-  extra_hexagon_percentage: random
+  extra_hexagon_percentage: random  
+  lanternless: 'false'
+  maskless: 'false'
+  laurels_zips: 'false'
+  ice_grappling: 'off'
+  ladder_storage: 'off'
+  ladder_storage_without_items: 'false'
