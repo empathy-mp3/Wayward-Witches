@@ -19,7 +19,7 @@ filler:
 "Powder Pouch"
 ```
 
-Outer Wilds:
+Outer Wilds https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/tag/v0.3.4:
 unique items:
 ```
 "Velocity Matcher"
@@ -38,7 +38,7 @@ filler:
 "Oxygen Refill"
 ```
 
-Manual_DeckedOut2_mp3:
+Manual_DeckedOut2_mp3 https://github.com/empathy-mp3/decked-out-2-AP/releases/tag/v1.3.1:
 duplicate items:
 ```
 "Second Wind":2
@@ -52,7 +52,7 @@ filler:
 "Moment of Clarity"
 ```
 
-ULTRAKILL:
+ULTRAKILL https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/tag/2.2.2 :
 unique items:
 ```
 "Revolver - Marksman": 1

@@ -67,6 +67,7 @@ this async has all of those properties!
 - supported and unsupported are fine, and if you're playing manuals, you must use weighted game options to make them appear only 1/3 of the time (or less).
   - so for example, if you're playing Hollow Knight and Manual_DeckedOut2_mp3 both with weight of 1, that's not allowed because the manual appears 1/2 of the time.
   - if you're unsure what i mean, check my example submission. also, please ask about manuals before submitting them.
+- if unsupported or manual, please link to the apworld github or the discord thread (or just put it there if not applicable)
 - `death_link` must be enabled. if your game sends deathlink but doesnt receive it, that's fine, but if it receives but doesn't send then that's not fine.
   - settings that make certain things not send deathlinks or deathlink amnesty are fully allowed.
 - no extremely lengthy games (OSRS or Allsanity/Perfection SDV) or games that require hundreds of items to beat.
