@@ -79,7 +79,3 @@
 ### Discarded Penny
 *a discarded copper coin, useless as a reagent.*
 *found everywhere.*
-
-### Ashes
-*they never seem to fade away.*
-*found commonly farther from home.*

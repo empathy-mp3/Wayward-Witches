@@ -59,6 +59,9 @@ this async has all of those properties!
 - (it's a randomizer so it's normally generated randomly)
 - some items will persist between runs, and the async will grow easier each time, as more things are unlocked.
 
+yaml submission deadline: <t:1731085200:F> <t:1731085200:R>
+earliest start date: <t:1731344400:F> <t:1731344400:R>
+
 ## yaml submission rules
 
 - do them in #yaml-submissions
@@ -98,3 +101,19 @@ this async has all of those properties!
 - i would like to have a balanced count of origins, though. if you have no preference (or have a secondary preference), please list it.
   - these origins *do* matter, but perhaps not as much as you might expect.
 
+# welcome to Wayward Witches: roguelike async 2
+
+we are a coven of witches, on a journey. the world we find ourselves in is not safe for us, but each time we perish, we end up right back at the beginning of our journey. thankfully, our nature as witches allows us to cast spells to keep persisting through it all. it's a matter of time before we reach our goal, but how much Time will it take? 
+
+*looks like somebody played hades 2!*
+
+that's the extent of the lore to this async, but it informs the design and the general theming of things.
+yaml submission deadline: <t:1731085200:F> <t:1731085200:R>
+earliest start date: <t:1731344400:F> <t:1731344400:R>
+
+the entirety of the async will be within this discord server: https://discord.gg/tGHg2Q4aJ9
+
+## forum post of actual announcement
+
+i said it'd take a while, but the second roguelike async is open for yaml submissions! all of it will be on a different discord server, including yaml submissions.
+*with death comes a reset, but we learn and grow stronger over time. inevitably we will win, but it's only a matter of Time...*
