@@ -94,3 +94,10 @@ duplicate items:
 "MP Offering": 2
 "Potion Offering": 2
 ```
+filler:
+```
+"Money x32"
+"HP Berry x2"
+"Lure"
+"MP Berry x2"
+```
