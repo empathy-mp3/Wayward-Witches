@@ -104,3 +104,69 @@ Brighter Gamma
 
 filler:
 Disable Horror Music
+
+## Connor
+
+Origin: Moon
+
+Manual_Godhome_Eszenn
+
+unique items:
+"Fury of the Fallen": 1
+"Grubsong": 1
+"Flukenest": 1
+"Lifeblood Heart": 1
+"Lifeblood Core": 1
+"Hiveblood": 1
+
+Filler Items:
+"The Urge to Keep Fighting"
+
+Link: ⁠Manual for Archipelago⁠Hollow Knight - Godhome
+Manual_SquareMusic_Connor
+unique items: 
+"Shiva": 1
+"Ifrit": 1
+"Odin": 1
+"Ramuh": 1
+"Leviathan": 1
+"Bahamut": 1
+"Phoenix": 1
+"Knights of the Round": 1
+"Alexander": 1
+
+filler items: 
+"Hi-Potion"
+
+Timespinner:
+Unique Items:
+"Galaxy Earrings": 1
+"Eternal Coat": 1
+"Eternal Crown": 1
+
+Filler Items:
+"Berry Pick-Mi-Up"
+
+Undertale
+Unique Items:
+"ITEM": 1
+"temy armor": 1
+
+Filler Items (Note There's only one and sometimes they're not in the pool):
+"Temmie Flakes"
+"100G"
+
+Hollow Knight:
+Unique Items:
+"Focus": 1
+"Quick_Slash": 1
+"Shaman_Stone": 1
+"Fragile_Strength": 1
+"Fragile_Heart": 1
+"Hiveblood": 1
+"Mark_of_Pride": 1
+"Lifeblood_Heart": 1
+"Lifeblood_Core": 1
+
+Filler Items:
+"Geo_Rock-Default" 
