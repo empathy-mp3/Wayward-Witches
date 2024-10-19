@@ -1,0 +1,21 @@
+﻿name: ChromaNyan
+
+description: so we back in the mine
+
+game: Minecraft
+requires:
+  version: 0.5.0
+
+Minecraft:
+  progression_balancing: 50
+  advancement_goal: 70 # change to 60, then 50
+  egg_shards_required: 15 # change to 12, then 10
+  egg_shards_available: 15
+  required_bosses:
+    ender_dragon: 1
+    wither: 1
+  shuffle_structures: 'true'
+  structure_compasses: 'true'
+  combat_difficulty: hard # change to normal, then easy
+  bee_traps: 100 # change to 50, then 0
+  death_link: 'true'

@@ -9,6 +9,7 @@ hecate.mp3 (TUNC): "Gun": 1
 hecate.mp3 (UK): reduce `any_weapon_or_arm` to 1
 Connor (Godhome): "Flukenest": 1
 Connor (HK): "Shaman_Stone": 1
+ChromaNyan: "Infinity Book"
 
 ## fire
 hecate.mp3 (UK): "Rocket Launcher - Firestarter": 1
@@ -53,6 +54,7 @@ hecate.mp3 (DO2): reduce `legendary_card_location_count` to 0
 Connor (Godhome): change `exclude_p5` to `true`
 Connor (Godhome): change `include_bindings` to `false`
 Connor (Godhome): change `include_radiant_difficulty` to `false`
+ChromaNyan: reduce `combat_difficulty` by one level: 2
 
 ## sight
 Alex230: Brighter Gamma
@@ -77,6 +79,7 @@ hecate.mp3 (OW): reduce `trap_chance`: 3
 hecate.mp3 (TUNC): change `fool_traps: onslaught` to 0
 Connor (SquareMusic): lower `filler_traps` by varied amounts: 3
 Connor (TS): lower `trap_chance` by 25: 3Connor (UT): "ITEM": 1
+ChromaNyan: reduce `bee_traps` by 50: 2
 
 ## goal
 hecate.mp3 (Noita): reduce `peaceful_ending` to 1
@@ -90,6 +93,8 @@ Connor (Godhome): lower `number_of_bosses` to `random-range-20-30`
 Connor (HK): change `Goal` to easier goals: 4
 Connor (TS): change `dad_percent` to `true`
 Connor (UT): decrease `key_pieces` by varied amounts: 2
+ChromaNyan: reduce `egg_shards_required` by varied amounts: 2
+ChromaNyan: reduce `advancement_goal` by 10: 2
 
 ## boss
 hecate.mp3 (Noita): increase `bosses_as_checks no_bosses` to 4
@@ -115,6 +120,7 @@ hecate.mp3 (Noita): change `extra_orbs` to `random-high`
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
 hecate.mp3 (UK): "Revolver - Marksman": 1
+ChromaNyan: "4 Diamond Ore": 2
 
 ## defense
 hecate.mp3 (TUNC): "DEF Offering": 2
@@ -132,6 +138,7 @@ hecate.mp3 (TUNC): "Bone Card": 1
 ## attack
 hecate.mp3 (TUNC): "ATT Offering": 2
 Connor (TS): change `damage_rando` to `mostlybuffs`
+ChromaNyan: "Sharpness III Book"
 
 ## stamina
 hecate.mp3 (TUNC): "SP Offering": 2
@@ -141,9 +148,11 @@ hecate.mp3 (TUNC): "MP Offering": 2
 
 ## slots
 hecate.mp3 (TUNC): "Card Slot": 1
+ChromaNyan: "Shulker Box": 2
 
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
+ChromaNyan: "16 Porkchops": 1
 
 ## second chance
 hecate.mp3 (DO2): change `pay_to_win_count`, `tailor_for_success_count`, and `last_stand_count` to random-high
@@ -203,3 +212,6 @@ Connor (SquareMusic): "Knights of the Round": 1
 
 ## robot
 Connor (SquareMusic): "Alexander": 1
+
+## luck
+ChromaNyan: "Looting III Book"

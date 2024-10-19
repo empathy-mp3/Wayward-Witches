@@ -170,3 +170,24 @@ Unique Items:
 
 Filler Items:
 "Geo_Rock-Default" 
+
+## ChromaNyan
+
+origin: moon (secondary preference: shadow realm)
+
+Minecraft:
+unique items:
+"Sharpness III Book"
+"Looting III Book"
+"Infinity Book"
+
+duplicate items:
+"16 Porkchops":1
+"4 Diamond Ore":2
+"Shulker Box":2
+
+filler:
+"16 Iron Ore"
+"8 Gold Ore"
+"32 Arrows"
+"4 Emeralds"
