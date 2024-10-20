@@ -187,7 +187,7 @@ duplicate items:
 "Shulker Box":2
 
 filler:
-"16 Iron Ore"
-"8 Gold Ore"
+"Rotten Flesh"
+"50 XP"
 "32 Arrows"
 "4 Emeralds"
