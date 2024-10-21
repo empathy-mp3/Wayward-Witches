@@ -191,3 +191,57 @@ filler:
 "50 XP"
 "32 Arrows"
 "4 Emeralds"
+
+## DiStegRogue
+
+Origin: Any/No Preference
+
+Pokemon R/B:
+Unique Items:
+HM02 Fly
+Thunder Badge
+Exp. All
+
+Fillers:
+Poke Ball
+Great Ball
+
+Pokemon Emerald:
+Unique Items:
+Exp. Share
+HM02 Fly
+
+Filler:
+Poke Ball
+Great Ball
+
+
+Ocarina of Time:
+Unique Items:
+Biggoron Sword
+Double Defense
+Nayru's Love
+
+Duplicate Items:
+Bottle with Red Potion: 1
+Heart Container: 3
+Hylian Shield: 1
+
+Filler:
+Bombs (5)
+Recovery Heart
+Rupee (1)
+
+A Link to the Past:
+Unique Items:
+Bug Catching Net
+
+Duplicate Items:
+Boss Heart Container: 3
+Bottle: 1
+Progressive Mail: 1
+Progressive Sword: 2
+
+Filler:
+Rupees (20)
+Bombs (10)

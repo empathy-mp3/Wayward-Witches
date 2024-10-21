@@ -29,6 +29,9 @@ Connor (Godhome): "Lifeblood Core": 1
 Connor (HK): "Lifeblood_Heart": 1
 Connor (HK): "Lifeblood_Core": 1
 Connor (HK): "Fragile_Heart": 1
+DiStegRogue (LTTP): change `enemy_health` to `default`
+DiStegRogue (OOT): Heart Container: 3
+DiStegRogue (LTTP): Boss Heart Container: 3
 
 ## healing
 hecate.mp3 (TUNC): "Potion Offering": 2
@@ -55,6 +58,7 @@ Connor (Godhome): change `exclude_p5` to `true`
 Connor (Godhome): change `include_bindings` to `false`
 Connor (Godhome): change `include_radiant_difficulty` to `false`
 ChromaNyan: reduce `combat_difficulty` by one level: 2
+DiStegRogue (OOT): make `mq_dungeons_mode` easier: 2
 
 ## sight
 Alex230: Brighter Gamma
@@ -92,9 +96,11 @@ Connor (Godhome): change `victory_condition` to `boss_rush`
 Connor (Godhome): lower `number_of_bosses` to `random-range-20-30`
 Connor (HK): change `Goal` to easier goals: 4
 Connor (TS): change `dad_percent` to `true`
-Connor (UT): decrease `key_pieces` by varied amounts: 2
-ChromaNyan: reduce `egg_shards_required` by varied amounts: 2
 ChromaNyan: reduce `advancement_goal` by 10: 2
+DiStegRogue (RB): lower `elite_four_badges_condition` range: 2
+DiStegRogue (RB): lower `elite_four_key_items_condition` range: 2
+DiStegRogue (Emerald): change `goal` to easier options: 2
+DiStegRogue (Emerald): lower `elite_four_count`: 2
 
 ## boss
 hecate.mp3 (Noita): increase `bosses_as_checks no_bosses` to 4
@@ -102,6 +108,8 @@ hecate.mp3 (Noita): decrease `bosses_as_checks all_bosses` to 1
 hecate.mp3 (UK): reduce `boss_rewards: standard` to 2
 hecate.mp3 (UK): reduce `boss_rewards: extended` to 1
 Connor (TS): change `boss_rando` to `scaled`
+DiStegRogue (OOT): change `shuffle_bosses` to `limited`
+DiStegRogue (LTTP): make `boss_shuffle` easier: 2
 
 ## key
 hecate.mp3 (DO2): change `caves_of_carnage_key_count`, `black_mines_key_count`, `flooded_depths_key_count`, and `burning_dark_key_count` to random-high
@@ -116,6 +124,8 @@ hecate.mp3 (DO2): "Stability": 3
 
 ## macguffins
 hecate.mp3 (Noita): change `extra_orbs` to `random-high`
+Connor (UT): decrease `key_pieces` by varied amounts: 2
+ChromaNyan: reduce `egg_shards_required` by varied amounts: 2
 
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
@@ -129,16 +139,23 @@ Connor (TS): "Eternal Coat": 1
 Connor (TS): "Eternal Crown": 1
 Connor (UT): "temy armor": 1
 Connor (UT): change `prog_armor` to `false`
+DiStegRogue (OOT): Double Defense
+DiStegRogue (LTTP): Progressive Mail: 1
+DiStegRogue (OOT): Hylian Shield: 1
+DiStegRogue (OOT): Nayru's Love
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
 hecate.mp3 (OW): "Autopilot": 1
 hecate.mp3 (TUNC): "Bone Card": 1
+DiStegRogue (OOT): lower `deadly_bonks` amount: 2
 
 ## attack
 hecate.mp3 (TUNC): "ATT Offering": 2
 Connor (TS): change `damage_rando` to `mostlybuffs`
 ChromaNyan: "Sharpness III Book"
+DiStegRogue (LTTP): change `enemy_damage` to `default`
+DiStegRogue (OOT): lower `damage_multiplier` amount: 2
 
 ## stamina
 hecate.mp3 (TUNC): "SP Offering": 2
@@ -156,6 +173,8 @@ ChromaNyan: "16 Porkchops": 1
 
 ## second chance
 hecate.mp3 (DO2): change `pay_to_win_count`, `tailor_for_success_count`, and `last_stand_count` to random-high
+DiStegRogue (OOT): Bottle with Red Potion: 1
+DiStegRogue (LTTP): Bottle: 1
 
 ## progression balancing
 Alex230: increase `progression_balancing` by 10: 5
@@ -179,11 +198,17 @@ Connor (Godhome): "Fury of the Fallen": 1
 ## XP
 Connor (TS): "Galaxy Earrings": 1
 Connor (TS): increase `extra_earrings_xp` by 12: 2
+DiStegRogue (RB): Exp. All
+DiStegRogue (Emerald): Exp. Share
+DiStegRogue (RB): increase `exp_modifier` by 16: 2
+DiStegRogue (Emerald): increase `match_trainer_levels_bonus` by 10: 2
 
 ## melee weapon
 Connor (HK): "Quick_Slash": 1
 Connor (HK): "Fragile_Strength": 1
 Connor (HK): change `RandomizeNail` to `false`
+DiStegRogue (LTTP): Progressive Sword: 2
+DiStegRogue (OOT): Biggoron Sword
 
 ## reach
 Connor (HK): "Mark_of_Pride": 1
@@ -200,9 +225,14 @@ Connor (SquareMusic): "Shiva": 1
 ## beast
 Connor (SquareMusic): "Ifrit": 1
 Connor (SquareMusic): "Bahamut": 1
+DiStegRogue (Emerald): change `wild_encounter_blacklist` to `[]`
+DiStegRogue (LTTP): Bug Catching Net
 
 ## god
 Connor (SquareMusic): "Odin": 1
+DiStegRogue (RB): change `randomize_legendary_pokemon` to `any`
+DiStegRogue (Emerald): change `starter_blacklist` to `[]`
+DiStegRogue (Emerald): change `trainer_party_blacklist` to `_Legendaries`
 
 ## water
 Connor (SquareMusic): "Leviathan": 1
@@ -215,3 +245,12 @@ Connor (SquareMusic): "Alexander": 1
 
 ## luck
 ChromaNyan: "Looting III Book"
+DiStegRogue (Emerald): change `guaranteed_catch` to true
+
+## flight
+DiStegRogue (RB): HM02 Fly
+DiStegRogue (Emerald): HM02 Fly
+DiStegRogue (RB): Thunder Badge
+
+## utility
+DiStegRogue (LTTP): change `item_functionality` to `easy`
