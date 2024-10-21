@@ -245,3 +245,85 @@ Progressive Sword: 2
 Filler:
 Rupees (20)
 Bombs (10)
+
+## Sylsko
+
+origin: Tundra
+
+Celeste 64: 
+Exclude Location:
+Badeline Cassette Strawberry
+
+Fillers:
+Raspberry
+
+
+Timespinner:
+Duplicate Items:
+Max Sand: 3
+Max Aura: 3
+Max HP: 3
+
+Unique Items:
+Empire Crown
+Eternal Coat
+Galaxy Earrings
+Jewerly Box
+
+Filler:
+Berry Pick-Mi-Up
+Ether
+
+
+Tunic:
+Duplicate Items:
+Firecracker x5: 2
+Money x255: 2
+
+Unique Items:
+Muffling Bell
+Magic Dagger
+Magic Wand
+Gun
+Dath Stone
+Hero Relic - ATT
+Hero Relic - DEF
+Hero Relic - HP
+Hero Relic - MP
+Hero Relic - POTION
+Hero Relic - SP
+
+Exclude Location:
+Rooted Ziggurat Lower - Hexagon Blue
+
+Filler:
+HP Berry
+MP Berry
+
+
+Astalon:
+Link: ⁠Archipelago⁠Astalon: Tears of the Earth
+Unique Items:
+Amulet of Sol
+Blood Chalice
+Icarus Emblem
+
+Filler:
+200 Orbs
+
+
+Ender Lilies:
+Link: ⁠Archipelago⁠Ender Lilies: Quietus of the Kn…
+Duplicate Items:
+Amulet Gem: 2
+Priestess' Wish: 3
+Chain of Sorcery: 3
+
+Unique Items:
+Furious Blight x800
+Stagnant Blight x800
+Last Rites
+Amulet Jewel
+
+Filler:
+Lily's Note

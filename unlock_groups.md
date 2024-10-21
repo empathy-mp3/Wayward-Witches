@@ -10,6 +10,9 @@ hecate.mp3 (UK): reduce `any_weapon_or_arm` to 1
 Connor (Godhome): "Flukenest": 1
 Connor (HK): "Shaman_Stone": 1
 ChromaNyan: "Infinity Book"
+Sylsko (TUNC): Magic Wand
+Sylsko (TUNC): Gun
+Sylsko (Ender Lilies): Last Rites
 
 ## fire
 hecate.mp3 (UK): "Rocket Launcher - Firestarter": 1
@@ -19,6 +22,7 @@ Connor (SquareMusic): "Phoenix": 1
 hecate.mp3 (UK): "Rocket Launcher - S.R.S. Cannon": 1
 hecate.mp3 (UK): "Railcannon - Malicious": 1
 hecate.mp3 (UK): "Shotgun - Core Eject": 1
+Sylsko (TUNC): Firecracker x5: 2
 
 ## vitality
 hecate.mp3 (Noita): "Extra Max HP": 4
@@ -32,6 +36,10 @@ Connor (HK): "Fragile_Heart": 1
 DiStegRogue (LTTP): change `enemy_health` to `default`
 DiStegRogue (OOT): Heart Container: 3
 DiStegRogue (LTTP): Boss Heart Container: 3
+Sylsko (TS): Max HP: 3
+Sylsko (TUNC): Hero Relic - HP
+Sylsko (Ender Lilies): Amulet Gem: 2
+Sylsko (Ender Lilies): Amulet Jewel
 
 ## healing
 hecate.mp3 (TUNC): "Potion Offering": 2
@@ -39,6 +47,10 @@ hecate.mp3 (TUNC): "Potion Flask": 2
 Connor (Godhome): "Hiveblood": 1
 Connor (HK): "Hiveblood": 1
 Connor (HK): "Focus": 1
+Sylsko (TUNC): Hero Relic - POTION
+Sylsko (Astalon): Blood Chalice
+Sylsko (Astalon): change `fast_blood_chalice` to `true`
+Sylsko (Ender Lilies): Priestess' Wish: 3
 
 ## fearless
 Alex230: Disable Atmosfear Mod
@@ -59,21 +71,29 @@ Connor (Godhome): change `include_bindings` to `false`
 Connor (Godhome): change `include_radiant_difficulty` to `false`
 ChromaNyan: reduce `combat_difficulty` by one level: 2
 DiStegRogue (OOT): make `mq_dungeons_mode` easier: 2
+Sylsko (Ender Lilies): change `minibosses_chapter` to `false`
+Sylsko (Ender Lilies): reduce `start_chapter` by 2: 2
+Sylsko (Ender Lilies): reduce `max_chapter` by varying amounts: 2
 
 ## sight
 Alex230: Brighter Gamma
 Alex230: Allow Using Automap
+Sylsko (Astalon): change `start_with_qol` to `true`
 
 ## speed
 hecate.mp3 (DO2): "Loot & Scoot":2
 hecate.mp3 (DO2): "Quickstep":2
 hecate.mp3 (OW): "Fuel Capacity Upgrade": 2
 hecate.mp3 (OW): "Boost Duration Upgrade": 2
+Sylsko (C64): reduce `badeline_chaser_speed` by varying amounts: 3
+Sylsko (TS): change `quick_seed` to `true`
+Sylsko (Astalon): Icarus Emblem
 
 ## stealth
 hecate.mp3 (DO2): "Sneak":3
 hecate.mp3 (OW): reduce `randomize_dark_bramble_layout: 'true'` chance: 2
 hecate.mp3 (TUNC): "Muffling Bell": 1
+Sylsko (TUNC): Muffling Bell
 
 ## traps
 hecate.mp3 (Noita): change `bad_effects: 'true'` to 2
@@ -101,6 +121,7 @@ DiStegRogue (RB): lower `elite_four_badges_condition` range: 2
 DiStegRogue (RB): lower `elite_four_key_items_condition` range: 2
 DiStegRogue (Emerald): change `goal` to easier options: 2
 DiStegRogue (Emerald): lower `elite_four_count`: 2
+Sylsko (Ender Lilies): change `goal` to easier goal: 2
 
 ## boss
 hecate.mp3 (Noita): increase `bosses_as_checks no_bosses` to 4
@@ -110,9 +131,15 @@ hecate.mp3 (UK): reduce `boss_rewards: extended` to 1
 Connor (TS): change `boss_rando` to `scaled`
 DiStegRogue (OOT): change `shuffle_bosses` to `limited`
 DiStegRogue (LTTP): make `boss_shuffle` easier: 2
+Sylsko (TUNC): change `keys_behind_bosses` to `true`
+Sylsko (TS): reduce `boss_rando` difficulty: 2
+Sylsko (TUNC): add `Rooted Ziggurat Lower - Hexagon Blue` to `exclude_locations`
 
 ## key
 hecate.mp3 (DO2): change `caves_of_carnage_key_count`, `black_mines_key_count`, `flooded_depths_key_count`, and `burning_dark_key_count` to random-high
+Sylsko (Astalon): change `start_with_ascendant_key` to `true`
+Sylsko (Astalon): change `open_early_doors` to `true`
+Connor (UT): decrease `key_pieces` by varied amounts: 2
 
 ## breath
 hecate.mp3 (DO2): change `revelation_count`, `aquata_breather_count`, and `eureka_count` to random-high
@@ -121,16 +148,23 @@ hecate.mp3 (OW): "Oxygen Capacity Upgrade": 2
 ## dangerous areas
 hecate.mp3 (Noita): reduce `path option: main_world` to 1
 hecate.mp3 (DO2): "Stability": 3
+Sylsko (C64): add `Badeline Cassette Strawberry` to `exclude_locations`
 
 ## macguffins
 hecate.mp3 (Noita): change `extra_orbs` to `random-high`
-Connor (UT): decrease `key_pieces` by varied amounts: 2
 ChromaNyan: reduce `egg_shards_required` by varied amounts: 2
+Sylsko (C64): reduce `total_strawberries` by 10: 2
+Sylsko (C64): reduce `strawberries_required_percentage` by varying amounts: 3
 
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
 hecate.mp3 (UK): "Revolver - Marksman": 1
 ChromaNyan: "4 Diamond Ore": 2
+Sylsko (TUNC): Money x255: 2
+Sylsko (Astalon): lower `cost_multiplier`: 3
+Sylsko (Astalon): Amulet of Sol
+Sylsko (Ender Lilies): Furious Blight x800
+Sylsko (Ender Lilies): Stagnant Blight x800
 
 ## defense
 hecate.mp3 (TUNC): "DEF Offering": 2
@@ -143,6 +177,8 @@ DiStegRogue (OOT): Double Defense
 DiStegRogue (LTTP): Progressive Mail: 1
 DiStegRogue (OOT): Hylian Shield: 1
 DiStegRogue (OOT): Nayru's Love
+Sylsko (TUNC): Hero Relic - DEF
+Sylsko (TS): Eternal Coat
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
@@ -156,16 +192,25 @@ Connor (TS): change `damage_rando` to `mostlybuffs`
 ChromaNyan: "Sharpness III Book"
 DiStegRogue (LTTP): change `enemy_damage` to `default`
 DiStegRogue (OOT): lower `damage_multiplier` amount: 2
+Sylsko (TUNC): Hero Relic - ATT
+Sylsko (TS): Empire Crown
+Sylsko (TS): make `damage_rando` better: 2
 
 ## stamina
 hecate.mp3 (TUNC): "SP Offering": 2
+Sylsko (TUNC): Hero Relic - SP
 
 ## mana
 hecate.mp3 (TUNC): "MP Offering": 2
+Sylsko (TUNC): Hero Relic - MP
+Sylsko (TS): Max Sand: 3
+Sylsko (TS): Max Aura: 3
 
 ## slots
 hecate.mp3 (TUNC): "Card Slot": 1
 ChromaNyan: "Shulker Box": 2
+Sylsko (TS): Jewerly Box
+Sylsko (Ender Lilies): Chain of Sorcery: 3
 
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
@@ -202,6 +247,7 @@ DiStegRogue (RB): Exp. All
 DiStegRogue (Emerald): Exp. Share
 DiStegRogue (RB): increase `exp_modifier` by 16: 2
 DiStegRogue (Emerald): increase `match_trainer_levels_bonus` by 10: 2
+Sylsko (TS): Galaxy Earrings
 
 ## melee weapon
 Connor (HK): "Quick_Slash": 1
@@ -209,6 +255,7 @@ Connor (HK): "Fragile_Strength": 1
 Connor (HK): change `RandomizeNail` to `false`
 DiStegRogue (LTTP): Progressive Sword: 2
 DiStegRogue (OOT): Biggoron Sword
+Sylsko (TUNC): change `start_with_sword` to `true`
 
 ## reach
 Connor (HK): "Mark_of_Pride": 1
@@ -221,6 +268,7 @@ Connor (Godhome): "Grubsong": 1
 
 ## ice
 Connor (SquareMusic): "Shiva": 1
+Sylsko (TUNC): Magic Dagger
 
 ## beast
 Connor (SquareMusic): "Ifrit": 1
@@ -239,6 +287,9 @@ Connor (SquareMusic): "Leviathan": 1
 
 ## army
 Connor (SquareMusic): "Knights of the Round": 1
+Sylsko (TS): reduce `EnemyRando` difficulty: 2
+Sylsko (C64): change `badeline_chaser_frequency` to varying amounts: 3
+Sylsko (Ender Lilies): set `starting_spirit: any_sub_spirit` to 0
 
 ## robot
 Connor (SquareMusic): "Alexander": 1
@@ -247,10 +298,16 @@ Connor (SquareMusic): "Alexander": 1
 ChromaNyan: "Looting III Book"
 DiStegRogue (Emerald): change `guaranteed_catch` to true
 
-## flight
+## travel
 DiStegRogue (RB): HM02 Fly
 DiStegRogue (Emerald): HM02 Fly
 DiStegRogue (RB): Thunder Badge
+Sylsko (TUNC): Dath Stone
 
 ## utility
 DiStegRogue (LTTP): change `item_functionality` to `easy`
+Sylsko (Astalon): change `start_with_bell` to `true`
+
+## amnesty
+
+Sylsko (C64): increase `death_link_amnesty` by varying amounts: 3
