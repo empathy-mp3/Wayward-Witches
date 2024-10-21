@@ -327,3 +327,96 @@ Amulet Jewel
 
 Filler:
 Lily's Note
+
+## Caesius
+
+origin: shadow realm
+
+OOT:
+(6 yaml changes + 5 unique + 9 duplicates = 20)
+Unique Items:
+"Double Defense"
+"Biggoron Sword"
+"Nayrus Love"
+"Goron Tunic"
+"Zora Tunic"
+
+
+Duplicate Items:
+"Piece of Heart": 8
+"Heart Container": 1
+
+
+Filler
+"Bombs (5)"
+"Deku Nuts (5)"
+"Rupees (20)"
+
+
+Timespinner:
+(3 yaml changes + 4 unique + 8 duplicates = 15)
+Unique Items:
+"Galaxy Earrings"
+"Eternal Coat"
+"Eternal Crown"
+"Star of Lachiem"
+
+
+Duplicate Items:
+"Max HP": 4
+"Max Sand": 4
+
+
+Filler
+"Berry Pick-Mi-Up"
+"Mind Refresh"
+"Sand Vial"
+
+
+Marble Blast Ultra: ⁠Manual for Archipelago⁠Marble Blast Ultra (use the attached apworld, I added deathlink to it)
+(1 yaml changes + 0 unique + 13 duplicates = 14)
+
+Duplicate Items:
+"Time Travel (-10s)": 3
+"Time Travel (-5s)": 10
+
+
+Filler
+"Time Travel (-3s)"
+
+
+Emerald:
+(2 yaml changes + 1 unique + 15 duplicates = 18)
+Unique Items:
+"Sacred Ash"
+
+
+Duplicate Items:
+"Super Potion": 5
+"Revive": 5
+"Rare Candy": 5
+
+
+Filler
+"Great Ball"
+"Super Repel"
+
+
+Minecraft:
+(5 yaml changes + 3 unique + 4 duplicates = 12)
+Unique Items:
+"Sharpness III Book"
+"Looting III Book"
+"Infinity Book"
+
+
+Duplicate Items:
+"16 Porkchops": 2
+"4 Diamond Ore": 1
+"8 Gold Ore": 1
+
+
+Filler
+"50 XP"
+"32 Arrows"
+"4 Emeralds"

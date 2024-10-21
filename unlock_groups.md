@@ -13,10 +13,12 @@ ChromaNyan: "Infinity Book"
 Sylsko (TUNC): Magic Wand
 Sylsko (TUNC): Gun
 Sylsko (Ender Lilies): Last Rites
+Caesius (MC): "Infinity Book"
 
 ## fire
 hecate.mp3 (UK): "Rocket Launcher - Firestarter": 1
 Connor (SquareMusic): "Phoenix": 1
+Caesius (OOT): "Goron Tunic"
 
 ## explosion
 hecate.mp3 (UK): "Rocket Launcher - S.R.S. Cannon": 1
@@ -40,6 +42,9 @@ Sylsko (TS): Max HP: 3
 Sylsko (TUNC): Hero Relic - HP
 Sylsko (Ender Lilies): Amulet Gem: 2
 Sylsko (Ender Lilies): Amulet Jewel
+Caesius (OOT): "Piece of Heart": 8
+Caesius (OOT): "Heart Container": 1
+Caesius (TS): "Max HP": 4
 
 ## healing
 hecate.mp3 (TUNC): "Potion Offering": 2
@@ -51,6 +56,7 @@ Sylsko (TUNC): Hero Relic - POTION
 Sylsko (Astalon): Blood Chalice
 Sylsko (Astalon): change `fast_blood_chalice` to `true`
 Sylsko (Ender Lilies): Priestess' Wish: 3
+Caesius (Emerald): "Super Potion": 5
 
 ## fearless
 Alex230: Disable Atmosfear Mod
@@ -74,11 +80,13 @@ DiStegRogue (OOT): make `mq_dungeons_mode` easier: 2
 Sylsko (Ender Lilies): change `minibosses_chapter` to `false`
 Sylsko (Ender Lilies): reduce `start_chapter` by 2: 2
 Sylsko (Ender Lilies): reduce `max_chapter` by varying amounts: 2
+Caesius (MC): reduce `combat_difficulty` by one level: 2
 
 ## sight
 Alex230: Brighter Gamma
 Alex230: Allow Using Automap
 Sylsko (Astalon): change `start_with_qol` to `true`
+Caesius (Emerald): change `blind_trainers` to `true`
 
 ## speed
 hecate.mp3 (DO2): "Loot & Scoot":2
@@ -104,6 +112,7 @@ hecate.mp3 (TUNC): change `fool_traps: onslaught` to 0
 Connor (SquareMusic): lower `filler_traps` by varied amounts: 3
 Connor (TS): lower `trap_chance` by 25: 3Connor (UT): "ITEM": 1
 ChromaNyan: reduce `bee_traps` by 50: 2
+Caesius (MC): change `bee_traps` to `random-low`
 
 ## goal
 hecate.mp3 (Noita): reduce `peaceful_ending` to 1
@@ -134,6 +143,8 @@ DiStegRogue (LTTP): make `boss_shuffle` easier: 2
 Sylsko (TUNC): change `keys_behind_bosses` to `true`
 Sylsko (TS): reduce `boss_rando` difficulty: 2
 Sylsko (TUNC): add `Rooted Ziggurat Lower - Hexagon Blue` to `exclude_locations`
+Caesius (MC): remove a boss from `required_bosses`: 2
+Caesius (TS): change `boss_rando` to `scaled`
 
 ## key
 hecate.mp3 (DO2): change `caves_of_carnage_key_count`, `black_mines_key_count`, `flooded_depths_key_count`, and `burning_dark_key_count` to random-high
@@ -155,6 +166,7 @@ hecate.mp3 (Noita): change `extra_orbs` to `random-high`
 ChromaNyan: reduce `egg_shards_required` by varied amounts: 2
 Sylsko (C64): reduce `total_strawberries` by 10: 2
 Sylsko (C64): reduce `strawberries_required_percentage` by varying amounts: 3
+Caesius (Marble Blast): change `goal` to `'30 levels'`
 
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
@@ -165,6 +177,9 @@ Sylsko (Astalon): lower `cost_multiplier`: 3
 Sylsko (Astalon): Amulet of Sol
 Sylsko (Ender Lilies): Furious Blight x800
 Sylsko (Ender Lilies): Stagnant Blight x800
+Caesius (MC): "4 Diamond Ore": 1
+Caesius (MC): "8 Gold Ore": 1
+Caesius (Emerald): change `better_shops` to `true`
 
 ## defense
 hecate.mp3 (TUNC): "DEF Offering": 2
@@ -179,12 +194,18 @@ DiStegRogue (OOT): Hylian Shield: 1
 DiStegRogue (OOT): Nayru's Love
 Sylsko (TUNC): Hero Relic - DEF
 Sylsko (TS): Eternal Coat
+Caesius (OOT): "Double Defense"
+Caesius (OOT): "Nayrus Love"
+Caesius (OOT): halve `damage_multiplier`: 2
+Caesius (TS): "Eternal Coat"
+Caesius (TS): "Eternal Crown"
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
 hecate.mp3 (OW): "Autopilot": 1
 hecate.mp3 (TUNC): "Bone Card": 1
 DiStegRogue (OOT): lower `deadly_bonks` amount: 2
+Caesius (OOT): lower `deadly_bonks`: 3
 
 ## attack
 hecate.mp3 (TUNC): "ATT Offering": 2
@@ -195,6 +216,8 @@ DiStegRogue (OOT): lower `damage_multiplier` amount: 2
 Sylsko (TUNC): Hero Relic - ATT
 Sylsko (TS): Empire Crown
 Sylsko (TS): make `damage_rando` better: 2
+Caesius (MC): "Sharpness III Book"
+Caesius (TS): make `damage_rando` better: 2
 
 ## stamina
 hecate.mp3 (TUNC): "SP Offering": 2
@@ -205,6 +228,7 @@ hecate.mp3 (TUNC): "MP Offering": 2
 Sylsko (TUNC): Hero Relic - MP
 Sylsko (TS): Max Sand: 3
 Sylsko (TS): Max Aura: 3
+Caesius (TS): "Max Sand": 4
 
 ## slots
 hecate.mp3 (TUNC): "Card Slot": 1
@@ -215,11 +239,14 @@ Sylsko (Ender Lilies): Chain of Sorcery: 3
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
 ChromaNyan: "16 Porkchops": 1
+Caesius (MC): "16 Porkchops": 2
 
 ## second chance
 hecate.mp3 (DO2): change `pay_to_win_count`, `tailor_for_success_count`, and `last_stand_count` to random-high
 DiStegRogue (OOT): Bottle with Red Potion: 1
 DiStegRogue (LTTP): Bottle: 1
+Caesius (Emerald): "Revive": 5
+Caesius (Emerald): "Sacred Ash"
 
 ## progression balancing
 Alex230: increase `progression_balancing` by 10: 5
@@ -248,6 +275,8 @@ DiStegRogue (Emerald): Exp. Share
 DiStegRogue (RB): increase `exp_modifier` by 16: 2
 DiStegRogue (Emerald): increase `match_trainer_levels_bonus` by 10: 2
 Sylsko (TS): Galaxy Earrings
+Caesius (Emerald): "Rare Candy": 5
+Caesius (TS): "Galaxy Earrings"
 
 ## melee weapon
 Connor (HK): "Quick_Slash": 1
@@ -256,6 +285,9 @@ Connor (HK): change `RandomizeNail` to `false`
 DiStegRogue (LTTP): Progressive Sword: 2
 DiStegRogue (OOT): Biggoron Sword
 Sylsko (TUNC): change `start_with_sword` to `true`
+Caesius (OOT): change `shuffle_kokiri_sword` to `false`
+Caesius (OOT): "Biggoron Sword"
+Caesius (TS): "Star of Lachiem"
 
 ## reach
 Connor (HK): "Mark_of_Pride": 1
@@ -284,6 +316,7 @@ DiStegRogue (Emerald): change `trainer_party_blacklist` to `_Legendaries`
 
 ## water
 Connor (SquareMusic): "Leviathan": 1
+Caesius (OOT): "Zora Tunic"
 
 ## army
 Connor (SquareMusic): "Knights of the Round": 1
@@ -297,6 +330,7 @@ Connor (SquareMusic): "Alexander": 1
 ## luck
 ChromaNyan: "Looting III Book"
 DiStegRogue (Emerald): change `guaranteed_catch` to true
+Caesius (MC): "Looting III Book"
 
 ## travel
 DiStegRogue (RB): HM02 Fly
@@ -311,3 +345,8 @@ Sylsko (Astalon): change `start_with_bell` to `true`
 ## amnesty
 
 Sylsko (C64): increase `death_link_amnesty` by varying amounts: 3
+
+## time
+
+Caesius (Marble Blast): "Time Travel (-10s)": 3
+Caesius (Marble Blast): "Time Travel (-5s)": 10
