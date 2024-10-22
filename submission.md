@@ -420,3 +420,35 @@ Filler
 "50 XP"
 "32 Arrows"
 "4 Emeralds"
+
+## Rouginater
+
+Origin: Shadow Realm (Or tundra if needed, my username is Freezinater after all)
+
+Minecraft
+Duplicate Items:
+- Progressive Armor:2
+- 4 Diamond Ore:3
+- Shulker Box:1
+
+Meritous
+Unique Items:
+- Portable Compass
+- Ethereal Monocle
+- Crystal Summoner
+
+Peggle Deluxe
+Unique Items:
+- Jimmy Lightning
+- Renfield
+- Lord Cinderbottom
+- Splork
+- Tula
+
+Peggle Nights
+Unique Items:
+- Jimmy Lightning
+- Renfield
+- Lord Cinderbottom
+- Splork
+- Tula

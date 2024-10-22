@@ -14,17 +14,23 @@ Sylsko (TUNC): Magic Wand
 Sylsko (TUNC): Gun
 Sylsko (Ender Lilies): Last Rites
 Caesius (MC): "Infinity Book"
+Roguinater (Peggle Nights): Jimmy Lightning
+Roguinater (Peggle Deluxe): Jimmy Lightning
 
 ## fire
 hecate.mp3 (UK): "Rocket Launcher - Firestarter": 1
 Connor (SquareMusic): "Phoenix": 1
 Caesius (OOT): "Goron Tunic"
+Roguinater (Peggle Deluxe): Lord Cinderbottom
+Roguinater (Peggle Nights): Lord Cinderbottom
 
 ## explosion
 hecate.mp3 (UK): "Rocket Launcher - S.R.S. Cannon": 1
 hecate.mp3 (UK): "Railcannon - Malicious": 1
 hecate.mp3 (UK): "Shotgun - Core Eject": 1
 Sylsko (TUNC): Firecracker x5: 2
+Roguinater (Peggle Deluxe): Splork
+Roguinater (Peggle Nights): Splork
 
 ## vitality
 hecate.mp3 (Noita): "Extra Max HP": 4
@@ -81,12 +87,14 @@ Sylsko (Ender Lilies): change `minibosses_chapter` to `false`
 Sylsko (Ender Lilies): reduce `start_chapter` by 2: 2
 Sylsko (Ender Lilies): reduce `max_chapter` by varying amounts: 2
 Caesius (MC): reduce `combat_difficulty` by one level: 2
+Roguinater (MC): set `include_hard_advancements` to `false`
 
 ## sight
 Alex230: Brighter Gamma
 Alex230: Allow Using Automap
 Sylsko (Astalon): change `start_with_qol` to `true`
 Caesius (Emerald): change `blind_trainers` to `true`
+Roguinater (Meritous): Ethereal Monocle
 
 ## speed
 hecate.mp3 (DO2): "Loot & Scoot":2
@@ -113,6 +121,8 @@ Connor (SquareMusic): lower `filler_traps` by varied amounts: 3
 Connor (TS): lower `trap_chance` by 25: 3Connor (UT): "ITEM": 1
 ChromaNyan: reduce `bee_traps` by 50: 2
 Caesius (MC): change `bee_traps` to `random-low`
+Roguinater (Meritous): set `include_evolution_traps` to `false`
+Roguinater (MC): decrease `bee_traps` count by varying amounts: 3
 
 ## goal
 hecate.mp3 (Noita): reduce `peaceful_ending` to 1
@@ -131,6 +141,8 @@ DiStegRogue (RB): lower `elite_four_key_items_condition` range: 2
 DiStegRogue (Emerald): change `goal` to easier options: 2
 DiStegRogue (Emerald): lower `elite_four_count`: 2
 Sylsko (Ender Lilies): change `goal` to easier goal: 2
+Roguinater (Meritous): reduce `goal` difficulty: 5
+Roguinater (MC): reduce `advancement_goal` by 5: 3
 
 ## boss
 hecate.mp3 (Noita): increase `bosses_as_checks no_bosses` to 4
@@ -151,6 +163,7 @@ hecate.mp3 (DO2): change `caves_of_carnage_key_count`, `black_mines_key_count`, 
 Sylsko (Astalon): change `start_with_ascendant_key` to `true`
 Sylsko (Astalon): change `open_early_doors` to `true`
 Connor (UT): decrease `key_pieces` by varied amounts: 2
+Roguinater (V6): decrease `DoorCost` by 1: 2
 
 ## breath
 hecate.mp3 (DO2): change `revelation_count`, `aquata_breather_count`, and `eureka_count` to random-high
@@ -160,6 +173,9 @@ hecate.mp3 (OW): "Oxygen Capacity Upgrade": 2
 hecate.mp3 (Noita): reduce `path option: main_world` to 1
 hecate.mp3 (DO2): "Stability": 3
 Sylsko (C64): add `Badeline Cassette Strawberry` to `exclude_locations`
+Roguinater (MC): set `shuffle_structures` to `true`
+Roguinater (V6): make "Doing Things the Hard Way" and "Edge Games" less important locations: 2
+Roguinater (Peggle Nights): set `art_contest_pack` to `false`
 
 ## macguffins
 hecate.mp3 (Noita): change `extra_orbs` to `random-high`
@@ -167,6 +183,10 @@ ChromaNyan: reduce `egg_shards_required` by varied amounts: 2
 Sylsko (C64): reduce `total_strawberries` by 10: 2
 Sylsko (C64): reduce `strawberries_required_percentage` by varying amounts: 3
 Caesius (Marble Blast): change `goal` to `'30 levels'`
+Roguinater (Peggle Nights): decrease `certificates_required` by 2: 5
+Roguinater (MC): reduce `egg_shards_required` by varying amounts: 3
+Roguinater (MC): increase `egg_shards_available` by varying amounts: 3
+Roguinater (Peggle Deluxe): decrease `certificates_required` by 2: 5
 
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
@@ -180,6 +200,9 @@ Sylsko (Ender Lilies): Stagnant Blight x800
 Caesius (MC): "4 Diamond Ore": 1
 Caesius (MC): "8 Gold Ore": 1
 Caesius (Emerald): change `better_shops` to `true`
+Roguinater (Meritous): reduce `item_cache_cost`: 4
+Roguinater (MC): 4 Diamond Ore:3
+Roguinater (Meritous): Crystal Summoner
 
 ## defense
 hecate.mp3 (TUNC): "DEF Offering": 2
@@ -199,6 +222,7 @@ Caesius (OOT): "Nayrus Love"
 Caesius (OOT): halve `damage_multiplier`: 2
 Caesius (TS): "Eternal Coat"
 Caesius (TS): "Eternal Crown"
+Roguinater (MC): Progressive Armor:2
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
@@ -235,6 +259,7 @@ hecate.mp3 (TUNC): "Card Slot": 1
 ChromaNyan: "Shulker Box": 2
 Sylsko (TS): Jewerly Box
 Sylsko (Ender Lilies): Chain of Sorcery: 3
+Roguinater (MC): Shulker Box:1
 
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
@@ -247,11 +272,14 @@ DiStegRogue (OOT): Bottle with Red Potion: 1
 DiStegRogue (LTTP): Bottle: 1
 Caesius (Emerald): "Revive": 5
 Caesius (Emerald): "Sacred Ash"
+Roguinater (Peggle Nights): Renfield
+Roguinater (Peggle Deluxe): Renfield
 
 ## progression balancing
 Alex230: increase `progression_balancing` by 10: 5
 Connor (SquareMusic): increase `progression_balancing` by varied amounts: 3
 Connor (UT): increase `progression_balancing` by 20: 2
+Roguinater (Meritous): increase `progression_balancing` by 15: 3
 
 ## choice
 Alex230: Free Choice of Map
@@ -301,6 +329,7 @@ Connor (Godhome): "Grubsong": 1
 ## ice
 Connor (SquareMusic): "Shiva": 1
 Sylsko (TUNC): Magic Dagger
+Roguinater (Peggle Nights): set `holiday_2008_pack` to `false`
 
 ## beast
 Connor (SquareMusic): "Ifrit": 1
@@ -341,12 +370,23 @@ Sylsko (TUNC): Dath Stone
 ## utility
 DiStegRogue (LTTP): change `item_functionality` to `easy`
 Sylsko (Astalon): change `start_with_bell` to `true`
+Roguinater (Meritous): Portable Compass
 
 ## amnesty
 
 Sylsko (C64): increase `death_link_amnesty` by varying amounts: 3
+Roguinater (V6): increase `DeathLinkAmnesty`: 6
 
 ## time
 
 Caesius (Marble Blast): "Time Travel (-10s)": 3
 Caesius (Marble Blast): "Time Travel (-5s)": 10
+
+## ammo
+Roguinater (Peggle Deluxe): set `shuffle_starting_balls` to `false`
+Roguinater (Peggle Nights): set `shuffle_starting_balls` to `false`
+
+# sun
+Roguinater (Peggle Deluxe): Tula
+Roguinater (Peggle Nights): Tula
+Roguinater (Peggle Nights): set `spring_fever_pack` to `false`
