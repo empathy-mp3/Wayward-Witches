@@ -452,3 +452,25 @@ Unique Items:
 - Lord Cinderbottom
 - Splork
 - Tula
+
+## Maxor
+
+Origin: Under the Ocean
+
+Link to The Past
+
+Duplicate items :
+- Progressive Armor: 2
+- Progressive Sword: 4
+- Boss Heart Container: 2
+- Bottle : 2
+
+
+Unique Items :
+- Bug Catching Net
+
+
+Fillers :
+- Bombs (3 or 10)
+- Arrows (10)
+- Rupees (20)

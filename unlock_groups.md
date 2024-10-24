@@ -51,6 +51,8 @@ Sylsko (Ender Lilies): Amulet Jewel
 Caesius (OOT): "Piece of Heart": 8
 Caesius (OOT): "Heart Container": 1
 Caesius (TS): "Max HP": 4
+Maxor: Boss Heart Container: 2
+Maxor: reduce `enemy_health`: 2
 
 ## healing
 hecate.mp3 (TUNC): "Potion Offering": 2
@@ -219,10 +221,10 @@ Sylsko (TUNC): Hero Relic - DEF
 Sylsko (TS): Eternal Coat
 Caesius (OOT): "Double Defense"
 Caesius (OOT): "Nayrus Love"
-Caesius (OOT): halve `damage_multiplier`: 2
 Caesius (TS): "Eternal Coat"
 Caesius (TS): "Eternal Crown"
 Roguinater (MC): Progressive Armor:2
+Maxor: Progressive Armor: 2
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
@@ -235,8 +237,6 @@ Caesius (OOT): lower `deadly_bonks`: 3
 hecate.mp3 (TUNC): "ATT Offering": 2
 Connor (TS): change `damage_rando` to `mostlybuffs`
 ChromaNyan: "Sharpness III Book"
-DiStegRogue (LTTP): change `enemy_damage` to `default`
-DiStegRogue (OOT): lower `damage_multiplier` amount: 2
 Sylsko (TUNC): Hero Relic - ATT
 Sylsko (TS): Empire Crown
 Sylsko (TS): make `damage_rando` better: 2
@@ -274,6 +274,8 @@ Caesius (Emerald): "Revive": 5
 Caesius (Emerald): "Sacred Ash"
 Roguinater (Peggle Nights): Renfield
 Roguinater (Peggle Deluxe): Renfield
+Maxor: Bottle : 2
+Maxor: Bug Catching Net
 
 ## progression balancing
 Alex230: increase `progression_balancing` by 10: 5
@@ -316,6 +318,7 @@ Sylsko (TUNC): change `start_with_sword` to `true`
 Caesius (OOT): change `shuffle_kokiri_sword` to `false`
 Caesius (OOT): "Biggoron Sword"
 Caesius (TS): "Star of Lachiem"
+Maxor: Progressive Sword: 4
 
 ## reach
 Connor (HK): "Mark_of_Pride": 1
@@ -371,6 +374,7 @@ Sylsko (TUNC): Dath Stone
 DiStegRogue (LTTP): change `item_functionality` to `easy`
 Sylsko (Astalon): change `start_with_bell` to `true`
 Roguinater (Meritous): Portable Compass
+Maxor: reduce `item_functionality` difficulty: 2
 
 ## amnesty
 
@@ -386,7 +390,17 @@ Caesius (Marble Blast): "Time Travel (-5s)": 10
 Roguinater (Peggle Deluxe): set `shuffle_starting_balls` to `false`
 Roguinater (Peggle Nights): set `shuffle_starting_balls` to `false`
 
-# sun
+## sun
 Roguinater (Peggle Deluxe): Tula
 Roguinater (Peggle Nights): Tula
 Roguinater (Peggle Nights): set `spring_fever_pack` to `false`
+
+## copy
+Maxor: reduce `item_pool` difficulty: 2
+
+## enemy damage
+
+Maxor: change `enemy_damage` to `default`
+Caesius (OOT): halve `damage_multiplier`: 2
+DiStegRogue (LTTP): change `enemy_damage` to `default`
+DiStegRogue (OOT): lower `damage_multiplier` amount: 2
