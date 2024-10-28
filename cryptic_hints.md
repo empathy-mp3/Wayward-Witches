@@ -110,21 +110,29 @@
 ## luck
 
 ## travel
+*come home!* (Sylsko (TUNC): Dath Stone)
 
 ## utility
 
 ## amnesty
 
 ## time
+*for some reason, they decided to add these to a mod of this game, but they add instead of subtracting. like, why? there's no visual indication that it should be like that, and yet, they just added it! for fun! why?* (Caesius (Marble Blast): "Time Travel (-5s)")
+*did you know they made a sequel to this game? long time in the making, right?* (Caesius (Marble Blast): "Time Travel (-10s)")
+*turn back the hands...* (Caesius (Marble Blast): "Time Travel (-5s)")
+*it adds a little complexity to speedrunning.* (Caesius (Marble Blast): "Time Travel (-5s)")
 
 ## ammo
+*take a shot!* (Roguinater (Peggle Nights): set `shuffle_starting_balls` to `false`)
 
 ## sun
+*why are they wearing a rain coat and holding an umbrella? it wouldn't be necessary!* (Roguinater (Peggle Deluxe): Tula)
 
 ## copy
+*a simple enchantment can remove all material costs.* (ChromaNyan: "Infinity Book")
 
 ## enemy damage
-
-## defy death
+*it certainly doesn't mix well with ice!* (Caesius (OOT): halve `damage_multiplier`)
 
 ## knowledge
+*there's something to be learned in the cold.* (progressive `Snow` knowledge)
