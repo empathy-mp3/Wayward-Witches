@@ -49,6 +49,8 @@ Caesius (TS): "Max HP": 4
 Maxor: Boss Heart Container: 2
 Maxor: reduce `enemy_health`: 2
 Slipomatic_SM: Energy Tank: 3
+Rezalex: Boss Heart Container: 2
+Rezalex: reduce `enemy_health`: 2
 
 ## healing
 hecate.mp3 (DO2): "Second Wind": 2
@@ -125,6 +127,7 @@ ChromaNyan: reduce `bee_traps` by 50: 2
 Caesius (MC): change `bee_traps` to `random-low`
 Roguinater (Meritous): set `include_evolution_traps` to `false`
 Roguinater (MC): decrease `bee_traps` count by varying amounts: 3
+Rezalex: reduce `beemizer_trap_chance` to `random-low`
 
 ## goal
 hecate.mp3 (Noita): reduce `peaceful_ending` to 1
@@ -227,6 +230,7 @@ Caesius (TS): "Eternal Coat"
 Caesius (TS): "Eternal Crown"
 Roguinater (MC): Progressive Armor:2
 Maxor: Progressive Armor: 1
+Rezalex: Progressive Armor: 2
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
@@ -256,6 +260,7 @@ Sylsko (TS): Max Sand: 3
 Sylsko (TS): Max Aura: 3
 Caesius (TS): "Max Sand": 4
 Maxor: Magic Upgrade (1/2)
+Rezalex: Magic Upgrade (1/2)
 
 ## slots
 hecate.mp3 (TUNC): "Card Slot": 1
@@ -280,6 +285,9 @@ Roguinater (Peggle Deluxe): Renfield
 Maxor: Bottle : 3
 Maxor: Bug Catching Net
 Slipomatic_SM: Reserve Tank: 1
+Rezalex: Bug Catching Net
+Rezalex: Bottle: 2
+Rezalex: Magic Powder
 
 ## progression balancing
 Alex230: increase `progression_balancing` by 10: 5
@@ -324,6 +332,7 @@ Caesius (OOT): "Biggoron Sword"
 Caesius (TS): "Star of Lachiem"
 Maxor: Progressive Sword: 2
 Connor (HK): "Mark_of_Pride": 1
+Rezalex: Progressive Sword: 1
 
 ## starting area
 Connor (UT): change `starting_area` to easier areas: 3
@@ -378,6 +387,7 @@ Sylsko (Astalon): change `start_with_bell` to `true`
 Roguinater (Meritous): Portable Compass
 Maxor: reduce `item_functionality` difficulty: 2
 Connor (UT): "ITEM": 1
+Rezalex: reduce `item_functionality` difficulty: 2
 
 ## amnesty
 
@@ -411,6 +421,7 @@ Maxor: change `enemy_damage` to `default`
 Caesius (OOT): halve `damage_multiplier`: 2
 DiStegRogue (LTTP): change `enemy_damage` to `default`
 DiStegRogue (OOT): lower `damage_multiplier` amount: 2
+Rezalex: reduce `enemy_damage` difficulty: 2
 
 ## defy death
 

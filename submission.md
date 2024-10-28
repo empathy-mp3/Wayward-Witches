@@ -512,3 +512,26 @@ Unique Items:
 Duplicates:
 - Energy Tank: 3
 - Reserve Tank: 1
+
+## Rezalex
+
+Origin: Marsh
+
+A Link to the Past:
+
+Unique Items:
+Bug Catching Net
+Magic Upgrade (1/2)
+Magic Powder
+
+Duplicate Items:
+Progressive Armor: 2
+Progressive Sword: 1
+Bottle: 2
+Boss Heart Container: 2
+
+Fillers:
+Bombs (3)
+Bombs (10)
+Rupees (20)
+Arrows (10)
