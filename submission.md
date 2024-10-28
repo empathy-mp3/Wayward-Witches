@@ -430,12 +430,29 @@ Duplicate Items:
 - Progressive Armor:2
 - 4 Diamond Ore:3
 - Shulker Box:1
+Filler:
+- "50 XP"
+- "32 Arrows"
+- "4 Emeralds"
 
 Meritous
 Unique Items:
 - Portable Compass
 - Ethereal Monocle
 - Crystal Summoner
+Filler:
+- Crystals x500
+
+VVVVVV
+Filler:
+- Trinket 13
+- Trinket 14
+- Trinket 15
+- Trinket 16
+- Trinket 17
+- Trinket 18
+- Trinket 19
+- Trinket 20
 
 Peggle Deluxe
 Unique Items:
@@ -444,6 +461,8 @@ Unique Items:
 - Lord Cinderbottom
 - Splork
 - Tula
+Filler:
+- Broken Peg
 
 Peggle Nights
 Unique Items:
@@ -452,6 +471,8 @@ Unique Items:
 - Lord Cinderbottom
 - Splork
 - Tula
+Filler:
+- Broken Peg
 
 ## Maxor
 
@@ -461,9 +482,9 @@ Link to The Past
 
 Duplicate items :
 - Progressive Armor: 1
-- Progressive Sword: 3
+- Progressive Sword: 2
 - Boss Heart Container: 2
-- Bottle : 2
+- Bottle : 3
 
 
 Unique Items :
@@ -475,3 +496,19 @@ Fillers :
 - Bombs (10)
 - Arrows (10)
 - Rupees (20)
+
+## Slipomatic_SM
+
+Origin: Tundra
+
+Super Metroid
+
+Unique Items:
+- Charge Beam  (Can only recieve after doors_colors_rando is disabled)
+- Spazer Beam  (Can only recieve after doors_colors_rando is disabled)
+- X-Ray Scope
+
+
+Duplicates:
+- Energy Tank: 3
+- Reserve Tank: 1

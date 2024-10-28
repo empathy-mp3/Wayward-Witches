@@ -48,6 +48,7 @@ Caesius (OOT): "Heart Container": 1
 Caesius (TS): "Max HP": 4
 Maxor: Boss Heart Container: 2
 Maxor: reduce `enemy_health`: 2
+Slipomatic_SM: Energy Tank: 3
 
 ## healing
 hecate.mp3 (DO2): "Second Wind": 2
@@ -86,12 +87,14 @@ Sylsko (Ender Lilies): reduce `start_chapter` by 2: 2
 Sylsko (Ender Lilies): reduce `max_chapter` by varying amounts: 2
 Caesius (MC): reduce `combat_difficulty` by one level: 2
 Roguinater (MC): set `include_hard_advancements` to `false`
+Slipomatic_SM: change `max_difficulty` to `easy`
 
 ## sight
 Alex230: Brighter Gamma
 Alex230: Allow Using Automap
 Sylsko (Astalon): change `start_with_qol` to `true`
 Roguinater (Meritous): Ethereal Monocle
+Slipomatic_SM: X-Ray Scope
 
 ## speed
 hecate.mp3 (DO2): "Loot & Scoot":2
@@ -108,6 +111,7 @@ hecate.mp3 (OW): reduce `randomize_dark_bramble_layout: 'true'` chance: 2
 hecate.mp3 (TUNC): "Muffling Bell": 1
 Sylsko (TUNC): Muffling Bell
 Caesius (Emerald): change `blind_trainers` to `true`
+Slipomatic_SM: change `morph_placement` to `early`
 
 ## traps
 hecate.mp3 (Noita): change `bad_effects: 'true'` to 2
@@ -162,6 +166,7 @@ Sylsko (Astalon): change `start_with_ascendant_key` to `true`
 Sylsko (Astalon): change `open_early_doors` to `true`
 Connor (UT): decrease `key_pieces` by varied amounts: 2
 Roguinater (V6): decrease `DoorCost` by 1: 2
+Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}: 3
 
 ## breath
 hecate.mp3 (DO2): change `revelation_count`, `aquata_breather_count`, and `eureka_count` to random-high
@@ -174,6 +179,7 @@ Sylsko (C64): add `Badeline Cassette Strawberry` to `exclude_locations`
 Roguinater (MC): set `shuffle_structures` to `true`
 Roguinater (V6): make "Doing Things the Hard Way" and "Edge Games" less important locations: 2
 Roguinater (Peggle Nights): set `art_contest_pack` to `false`
+Slipomatic_SM: change `area_randomization` to `off`
 
 ## macguffins
 hecate.mp3 (Noita): change `extra_orbs` to `random-high`
@@ -271,8 +277,9 @@ Caesius (Emerald): "Revive": 5
 Caesius (Emerald): "Sacred Ash"
 Roguinater (Peggle Nights): Renfield
 Roguinater (Peggle Deluxe): Renfield
-Maxor: Bottle : 2
+Maxor: Bottle : 3
 Maxor: Bug Catching Net
+Slipomatic_SM: Reserve Tank: 1
 
 ## progression balancing
 Alex230: increase `progression_balancing` by 10: 5
@@ -315,7 +322,7 @@ Sylsko (TUNC): change `start_with_sword` to `true`
 Caesius (OOT): change `shuffle_kokiri_sword` to `false`
 Caesius (OOT): "Biggoron Sword"
 Caesius (TS): "Star of Lachiem"
-Maxor: Progressive Sword: 3
+Maxor: Progressive Sword: 2
 Connor (HK): "Mark_of_Pride": 1
 
 ## starting area
