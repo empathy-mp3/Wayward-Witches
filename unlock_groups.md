@@ -9,13 +9,9 @@ hecate.mp3 (TUNC): "Gun": 1
 hecate.mp3 (UK): reduce `any_weapon_or_arm` to 1
 Connor (Godhome): "Flukenest": 1
 Connor (HK): "Shaman_Stone": 1
-ChromaNyan: "Infinity Book"
 Sylsko (TUNC): Magic Wand
 Sylsko (TUNC): Gun
 Sylsko (Ender Lilies): Last Rites
-Caesius (MC): "Infinity Book"
-Roguinater (Peggle Nights): Jimmy Lightning
-Roguinater (Peggle Deluxe): Jimmy Lightning
 
 ## fire
 hecate.mp3 (UK): "Rocket Launcher - Firestarter": 1
@@ -34,7 +30,6 @@ Roguinater (Peggle Nights): Splork
 
 ## vitality
 hecate.mp3 (Noita): "Extra Max HP": 4
-hecate.mp3 (DO2): "Second Wind": 2
 hecate.mp3 (TUNC): "HP Offering": 2
 Connor (Godhome): "Lifeblood Heart": 1
 Connor (Godhome): "Lifeblood Core": 1
@@ -55,6 +50,7 @@ Maxor: Boss Heart Container: 2
 Maxor: reduce `enemy_health`: 2
 
 ## healing
+hecate.mp3 (DO2): "Second Wind": 2
 hecate.mp3 (TUNC): "Potion Offering": 2
 hecate.mp3 (TUNC): "Potion Flask": 2
 Connor (Godhome): "Hiveblood": 1
@@ -95,7 +91,6 @@ Roguinater (MC): set `include_hard_advancements` to `false`
 Alex230: Brighter Gamma
 Alex230: Allow Using Automap
 Sylsko (Astalon): change `start_with_qol` to `true`
-Caesius (Emerald): change `blind_trainers` to `true`
 Roguinater (Meritous): Ethereal Monocle
 
 ## speed
@@ -112,6 +107,7 @@ hecate.mp3 (DO2): "Sneak":3
 hecate.mp3 (OW): reduce `randomize_dark_bramble_layout: 'true'` chance: 2
 hecate.mp3 (TUNC): "Muffling Bell": 1
 Sylsko (TUNC): Muffling Bell
+Caesius (Emerald): change `blind_trainers` to `true`
 
 ## traps
 hecate.mp3 (Noita): change `bad_effects: 'true'` to 2
@@ -120,7 +116,7 @@ hecate.mp3 (DO2): reduce `filler_traps` chance: 2
 hecate.mp3 (OW): reduce `trap_chance`: 3
 hecate.mp3 (TUNC): change `fool_traps: onslaught` to 0
 Connor (SquareMusic): lower `filler_traps` by varied amounts: 3
-Connor (TS): lower `trap_chance` by 25: 3Connor (UT): "ITEM": 1
+Connor (TS): lower `trap_chance` by 25: 3
 ChromaNyan: reduce `bee_traps` by 50: 2
 Caesius (MC): change `bee_traps` to `random-low`
 Roguinater (Meritous): set `include_evolution_traps` to `false`
@@ -224,7 +220,7 @@ Caesius (OOT): "Nayrus Love"
 Caesius (TS): "Eternal Coat"
 Caesius (TS): "Eternal Crown"
 Roguinater (MC): Progressive Armor:2
-Maxor: Progressive Armor: 2
+Maxor: Progressive Armor: 1
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
@@ -253,6 +249,7 @@ Sylsko (TUNC): Hero Relic - MP
 Sylsko (TS): Max Sand: 3
 Sylsko (TS): Max Aura: 3
 Caesius (TS): "Max Sand": 4
+Maxor: Magic Upgrade (1/2)
 
 ## slots
 hecate.mp3 (TUNC): "Card Slot": 1
@@ -318,9 +315,7 @@ Sylsko (TUNC): change `start_with_sword` to `true`
 Caesius (OOT): change `shuffle_kokiri_sword` to `false`
 Caesius (OOT): "Biggoron Sword"
 Caesius (TS): "Star of Lachiem"
-Maxor: Progressive Sword: 4
-
-## reach
+Maxor: Progressive Sword: 3
 Connor (HK): "Mark_of_Pride": 1
 
 ## starting area
@@ -375,6 +370,7 @@ DiStegRogue (LTTP): change `item_functionality` to `easy`
 Sylsko (Astalon): change `start_with_bell` to `true`
 Roguinater (Meritous): Portable Compass
 Maxor: reduce `item_functionality` difficulty: 2
+Connor (UT): "ITEM": 1
 
 ## amnesty
 
@@ -397,6 +393,10 @@ Roguinater (Peggle Nights): set `spring_fever_pack` to `false`
 
 ## copy
 Maxor: reduce `item_pool` difficulty: 2
+ChromaNyan: "Infinity Book"
+Caesius (MC): "Infinity Book"
+Roguinater (Peggle Nights): Jimmy Lightning
+Roguinater (Peggle Deluxe): Jimmy Lightning
 
 ## enemy damage
 
@@ -404,3 +404,30 @@ Maxor: change `enemy_damage` to `default`
 Caesius (OOT): halve `damage_multiplier`: 2
 DiStegRogue (LTTP): change `enemy_damage` to `default`
 DiStegRogue (OOT): lower `damage_multiplier` amount: 2
+
+## defy death
+
++1 life: 50
++2 life: 10
+
+## knowledge
+
+-3% hint cost: 16
+-5% hint cost: 10
+progressive `Spruce Branch` knowledge: 2
+progressive `Cinders` knowledge: 2
+progressive `Iron` knowledge: 2
+progressive `Void` knowledge: 2
+progressive `Lilypad` knowledge: 2
+progressive `Stardust` knowledge: 2
+progressive `Strawberry` knowledge: 2
+progressive `Eel` knowledge: 2
+progressive `Incense` knowledge: 2
+progressive `Chalk` knowledge: 2
+progressive `Clay` knowledge: 2
+progressive `Limestone` knowledge: 2
+progressive `Snow` knowledge: 2
+progressive `Rabbit Foot` knowledge: 2
+progressive `Slate` knowledge: 2
+progressive `Basalt` knowledge: 2
+progressive `Dragon Scale` knowledge: 1

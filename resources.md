@@ -75,7 +75,3 @@
 ### Dragon Scale
 *a truly powerful reagent.*
 *found at the summit of victory.*
-
-### Discarded Penny
-*a discarded copper coin, useless as a reagent.*
-*found everywhere.*

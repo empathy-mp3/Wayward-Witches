@@ -460,17 +460,18 @@ Origin: Under the Ocean
 Link to The Past
 
 Duplicate items :
-- Progressive Armor: 2
-- Progressive Sword: 4
+- Progressive Armor: 1
+- Progressive Sword: 3
 - Boss Heart Container: 2
 - Bottle : 2
 
 
 Unique Items :
 - Bug Catching Net
-
+- Magic Upgrade (1/2)
 
 Fillers :
-- Bombs (3 or 10)
+- Bombs (3)
+- Bombs (10)
 - Arrows (10)
 - Rupees (20)

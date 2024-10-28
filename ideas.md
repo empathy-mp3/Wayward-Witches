@@ -29,10 +29,9 @@
 
 ## other resources
 
-| source     | item            | use                |
-| ---------- | --------------- | ------------------ |
-| goal       | Dragon Scale    | strong spells      |
-| everywhere | Discarded Penny | temporary upgrades |
+| source | item         | use           |
+| ------ | ------------ | ------------- |
+| goal   | Dragon Scale | strong spells |
 
 ## issues with previous async / ideas for new one
 
