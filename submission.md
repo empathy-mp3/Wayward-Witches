@@ -535,3 +535,85 @@ Bombs (3)
 Bombs (10)
 Rupees (20)
 Arrows (10)
+
+## Toto
+
+Origin
+
+Shadow Realm
+
+Slay the Spire
+
+Duplicate
+
+- "Rare Card Draw" [Not from pool]
+- "Rare Card Draw" [Not from pool]
+- "Rare Card Draw" [Not from pool]
+- "Relic" [Not from pool]
+- "Relic" [Not from pool]
+- "Relic" [Not from pool]
+- "Card Draw": 2 [Not from pool]
+- "Card Draw": 2 [Not from pool]
+- "Card Draw": 2 [Not from pool]
+- "Card Draw": 2 [Not from pool]
+- "Card Draw": 2 [Not from pool]
+- "Card Draw": 2 [Not from pool]
+
+Filler
+
+- "Card Draw"
+- "Relic"
+
+Sentinels of the Multiverse
+
+Filler
+
+- "Hero Toughness 1"
+- "Hero Fragility 1"
+- "Villain Fragility 1"
+- "Villain Toughness 1"
+
+Dark Souls III
+
+Duplicate
+
+- "Titanite Shard x2" x 3
+- "Large Titanite Shard" x 6
+- "Titanite Chunk" x 6
+- "Twinkling Titanite" x 6
+- "Titanite Scale" x 6
+- "Titanite Slab"
+- "Estus Shard"
+- "Undead Bone Shard"
+
+Filler
+
+- "Fading Soul"
+- "Soul of a Deserted Corpse"
+- "Large Soul of a Deserted Corpse"
+- "Soul of an Unknown Traveler"
+
+Hollow Knight
+
+Duplicate
+
+- "Full_Mask" [Not from pool]
+- "Full_Mask" [Not from pool]
+- "Pale_Ore"
+
+Filler
+
+- "Geo_Rock-Default"
+
+Unique
+
+- "Sprintmaster" [With 0 cost, see yaml]
+
+Timespinner
+
+Filler
+
+- "Potion"
+- "Ether"
+- "Sand Vial"
+- "Berry Pick-Mi-Up"

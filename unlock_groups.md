@@ -12,6 +12,10 @@ Connor (HK): "Shaman_Stone": 1
 Sylsko (TUNC): Magic Wand
 Sylsko (TUNC): Gun
 Sylsko (Ender Lilies): Last Rites
+Toto (SotM): remove `"Parse: Fugue State"` from `exclude_from_pool`
+Toto (SotM): remove `Urban Warfare Expatriette`, `Siege Breaker Bunker`, and `Nitro Boost Absolute Zero` from `exclude_from_pool`
+Toto (HK): change `RemoveSpellUpgrades` to `false`
+Toto (DS3): change `no_spell_requirements` to `true`
 
 ## fire
 hecate.mp3 (UK): "Rocket Launcher - Firestarter": 1
@@ -51,6 +55,10 @@ Maxor: reduce `enemy_health`: 2
 Slipomatic_SM: Energy Tank: 3
 Rezalex: Boss Heart Container: 2
 Rezalex: reduce `enemy_health`: 2
+Toto (HK): "Full_Mask" [Not from pool]
+Toto (HK): "Full_Mask" [Not from pool]
+Toto (TS): increase `hp_cap`: 5
+Toto (SotM): in `filler_weights`, change `HeroHp variant` to `pos`
 
 ## healing
 hecate.mp3 (DO2): "Second Wind": 2
@@ -64,11 +72,15 @@ Sylsko (Astalon): Blood Chalice
 Sylsko (Astalon): change `fast_blood_chalice` to `true`
 Sylsko (Ender Lilies): Priestess' Wish: 3
 Caesius (Emerald): "Super Potion": 5
+Toto (HK): change `RandomizeFocus` to `false`
+Toto (DS3): "Estus Shard"
+Toto (DS3): "Undead Bone Shard"
 
 ## fearless
 Alex230: Disable Atmosfear Mod
 Alex230: Disable Spooky Mod
 Alex230: Disable Malice Mod
+Toto (SotM): remove `The Stranger`, `The Runecarved Stranger`, `The Stranger 1929`, `The Stranger Wasteland Ronin`, and `The Stranger in the Corn` from `exclude_from_pool`
 
 ## challenge
 Alex230: Disable Fast Monsters
@@ -90,6 +102,8 @@ Sylsko (Ender Lilies): reduce `max_chapter` by varying amounts: 2
 Caesius (MC): reduce `combat_difficulty` by one level: 2
 Roguinater (MC): set `include_hard_advancements` to `false`
 Slipomatic_SM: change `max_difficulty` to `easy`
+Toto (StS): reduce `ascension` value: 6
+Toto (SotM): remove `Starlight`, `Starlight Genesis`, `Nightlore Council Starlight`, and `Starlight Area-51` from `exclude_from_pool`
 
 ## sight
 Alex230: Brighter Gamma
@@ -106,6 +120,10 @@ hecate.mp3 (OW): "Boost Duration Upgrade": 2
 Sylsko (C64): reduce `badeline_chaser_speed` by varying amounts: 3
 Sylsko (TS): change `quick_seed` to `true`
 Sylsko (Astalon): Icarus Emblem
+Toto (HK): "Sprintmaster" and `PlandoCharmCosts: {"Sprintmaster": 0}`
+Toto (SotM): remove `Freedom Six Tachyon` from `exclude_from_pool`
+Toto (TS): change `quick_seed: false` weight to 1
+Toto (HK): change `ExtraPlatforms` to `true`
 
 ## stealth
 hecate.mp3 (DO2): "Sneak":3
@@ -128,6 +146,7 @@ Caesius (MC): change `bee_traps` to `random-low`
 Roguinater (Meritous): set `include_evolution_traps` to `false`
 Roguinater (MC): decrease `bee_traps` count by varying amounts: 3
 Rezalex: reduce `beemizer_trap_chance` to `random-low`
+Toto (TS): decrease `trap_chance` by 20: 4
 
 ## goal
 hecate.mp3 (Noita): reduce `peaceful_ending` to 1
@@ -148,6 +167,8 @@ DiStegRogue (Emerald): lower `elite_four_count`: 2
 Sylsko (Ender Lilies): change `goal` to easier goal: 2
 Roguinater (Meritous): reduce `goal` difficulty: 5
 Roguinater (MC): reduce `advancement_goal` by 5: 3
+Toto (HK): make `Goal` more reasonable: 4
+Toto (TS): reduce `dad_percent: false` weight to 1
 
 ## boss
 hecate.mp3 (Noita): increase `bosses_as_checks no_bosses` to 4
@@ -162,6 +183,8 @@ Sylsko (TS): reduce `boss_rando` difficulty: 2
 Sylsko (TUNC): add `Rooted Ziggurat Lower - Hexagon Blue` to `exclude_locations`
 Caesius (MC): remove a boss from `required_bosses`: 2
 Caesius (TS): change `boss_rando` to `scaled`
+Toto (StS): reduce `final_act: true` weight: 2
+Toto (DS3): change `simple_early_bosses` to `true`
 
 ## key
 hecate.mp3 (DO2): change `caves_of_carnage_key_count`, `black_mines_key_count`, `flooded_depths_key_count`, and `burning_dark_key_count` to random-high
@@ -194,6 +217,7 @@ Roguinater (Peggle Nights): decrease `certificates_required` by 2: 5
 Roguinater (MC): reduce `egg_shards_required` by varying amounts: 3
 Roguinater (MC): increase `egg_shards_available` by varying amounts: 3
 Roguinater (Peggle Deluxe): decrease `certificates_required` by 2: 5
+Toto (SotM): change `required_scions` to 40, and in `filler_weights`, change `Scion min` to 20
 
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
@@ -210,6 +234,9 @@ Caesius (Emerald): change `better_shops` to `true`
 Roguinater (Meritous): reduce `item_cache_cost`: 4
 Roguinater (MC): 4 Diamond Ore:3
 Roguinater (Meritous): Crystal Summoner
+Toto (TS): reduce `shop_multiplier` to 1
+Toto (HK): halve `CostSanityHybridChance`: 2
+Toto (DS3): change `reduce_harmless_enemies` to `false`
 
 ## defense
 hecate.mp3 (TUNC): "DEF Offering": 2
@@ -248,6 +275,15 @@ Sylsko (TS): Empire Crown
 Sylsko (TS): make `damage_rando` better: 2
 Caesius (MC): "Sharpness III Book"
 Caesius (TS): make `damage_rando` better: 2
+Toto (SotM): in `filler_weights`, improve `HeroDamageDealt` and `VillainDamageTaken`
+Toto (HK): "Pale_Ore"
+Toto (DS3): "Titanite Shard x2" x 3
+Toto (DS3): "Large Titanite Shard x2" x 2
+Toto (DS3): "Titanite Chunk x2"
+Toto (DS3): "Twinkling Titanite x2"
+Toto (DS3): "Titanite Scale x2"
+Toto (DS3): "Titanite Slab"
+Toto (TS): improve `damage_rando` weights: 5
 
 ## stamina
 hecate.mp3 (TUNC): "SP Offering": 2
@@ -261,6 +297,7 @@ Sylsko (TS): Max Aura: 3
 Caesius (TS): "Max Sand": 4
 Maxor: Magic Upgrade (1/2)
 Rezalex: Magic Upgrade (1/2)
+Toto (SotM): remove `Argent Adept`, `Dark Conductor Argent Adept`, `Prime Wardens Argent Adept`, and `Xtreme Prime Wardens Argent Adept` from `exclude_from_pool`
 
 ## slots
 hecate.mp3 (TUNC): "Card Slot": 1
@@ -268,6 +305,7 @@ ChromaNyan: "Shulker Box": 2
 Sylsko (TS): Jewerly Box
 Sylsko (Ender Lilies): Chain of Sorcery: 3
 Roguinater (MC): Shulker Box:1
+Toto (HK): decrease `RandomCharmCosts` by 20: 6
 
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
@@ -288,6 +326,8 @@ Slipomatic_SM: Reserve Tank: 1
 Rezalex: Bug Catching Net
 Rezalex: Bottle: 2
 Rezalex: Magic Powder
++1 life: 50
++2 life: 10
 
 ## progression balancing
 Alex230: increase `progression_balancing` by 10: 5
@@ -297,6 +337,8 @@ Roguinater (Meritous): increase `progression_balancing` by 15: 3
 
 ## choice
 Alex230: Free Choice of Map
+Toto (StS): "Card Draw" x 2 [Not from pool]: 6
+Toto (StS): "Rare Card Draw" [Not from pool]: 3
 
 ## rest
 Alex230: Allow Free Saves and Loads
@@ -319,6 +361,10 @@ DiStegRogue (Emerald): increase `match_trainer_levels_bonus` by 10: 2
 Sylsko (TS): Galaxy Earrings
 Caesius (Emerald): "Rare Candy": 5
 Caesius (TS): "Galaxy Earrings"
+Toto (DS3): increase `min_levels_in_5` to 1
+Toto (DS3): increase `max_levels_in_5`: 2
+Toto (DS3): increase `min_levels_in_10` to 1
+Toto (DS3): increase `max_levels_in_10` by 5: 2
 
 ## melee weapon
 Connor (HK): "Quick_Slash": 1
@@ -333,9 +379,14 @@ Caesius (TS): "Star of Lachiem"
 Maxor: Progressive Sword: 2
 Connor (HK): "Mark_of_Pride": 1
 Rezalex: Progressive Sword: 1
+Toto (DS3): change `no_weapon_requirements` to `true`
+Toto (SotM): remove `Benchmark` and `Benchmark Supply & Demand` from `exclude_from_pool`
+Toto (HK): change `RandomizeNail` to `false`
 
-## starting area
+## starting
 Connor (UT): change `starting_area` to easier areas: 3
+Toto (SotM): increase `starting_items`
+Toto (SotM): in `filler_weights`, change `StartHandSize variant` to `both` and `specificity` to 1
 
 ## revenge
 Connor (Godhome): "Grubsong": 1
@@ -356,6 +407,7 @@ Connor (SquareMusic): "Odin": 1
 DiStegRogue (RB): change `randomize_legendary_pokemon` to `any`
 DiStegRogue (Emerald): change `starter_blacklist` to `[]`
 DiStegRogue (Emerald): change `trainer_party_blacklist` to `_Legendaries`
+Toto (SotM): remove `Legacy`, `America's Greatest Legacy`, `America's Newest Legacy`, and `Freedom Five Legacy` from `exclude_from_pool`
 
 ## water
 Connor (SquareMusic): "Leviathan": 1
@@ -366,9 +418,11 @@ Connor (SquareMusic): "Knights of the Round": 1
 Sylsko (TS): reduce `EnemyRando` difficulty: 2
 Sylsko (C64): change `badeline_chaser_frequency` to varying amounts: 3
 Sylsko (Ender Lilies): set `starting_spirit: any_sub_spirit` to 0
+Toto (SotM): decrease `death_link: individual` weight to 1
 
 ## robot
 Connor (SquareMusic): "Alexander": 1
+Toto (SotM): remove `Terminus`, `Ministry of Strategic Science Terminus`, and `Terminus 2199` from `exclude_from_pool`
 
 ## luck
 ChromaNyan: "Looting III Book"
@@ -388,6 +442,10 @@ Roguinater (Meritous): Portable Compass
 Maxor: reduce `item_functionality` difficulty: 2
 Connor (UT): "ITEM": 1
 Rezalex: reduce `item_functionality` difficulty: 2
+Toto (StS): "Relic" [Not from pool]: 3
+Toto (SotM): remove `Cypher`, `First Response Cypher`, and `Cypher Swarming Protocol` from `exclude_from_pool`
+Toto (DS3): change `auto_equip` and `lock_equip` to `false`
+Toto (DS3): change `no_equip_load` to `true`
 
 ## amnesty
 
@@ -407,6 +465,7 @@ Roguinater (Peggle Nights): set `shuffle_starting_balls` to `false`
 Roguinater (Peggle Deluxe): Tula
 Roguinater (Peggle Nights): Tula
 Roguinater (Peggle Nights): set `spring_fever_pack` to `false`
+Toto (SotM): remove `"Ra: Setting Sun"` from `exclude_from_pool`
 
 ## copy
 Maxor: reduce `item_pool` difficulty: 2
@@ -422,11 +481,7 @@ Caesius (OOT): halve `damage_multiplier`: 2
 DiStegRogue (LTTP): change `enemy_damage` to `default`
 DiStegRogue (OOT): lower `damage_multiplier` amount: 2
 Rezalex: reduce `enemy_damage` difficulty: 2
-
-## defy death
-
-+1 life: 50
-+2 life: 10
+Toto (SotM): in `filler_weights`, change `VillainCardPlays weight` to 0 and `VillainStartCardPlays weight` to 1
 
 ## knowledge
 
@@ -449,3 +504,4 @@ progressive `Rabbit Foot` knowledge: 2
 progressive `Slate` knowledge: 2
 progressive `Basalt` knowledge: 2
 progressive `Dragon Scale` knowledge: 1
+Toto (SotM): remove `The Scholar` and `The Scholar of the Infinite` from `exclude_from_pool`
