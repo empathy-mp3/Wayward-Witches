@@ -75,6 +75,7 @@ Caesius (Emerald): "Super Potion": 5
 Toto (HK): change `RandomizeFocus` to `false`
 Toto (DS3): "Estus Shard"
 Toto (DS3): "Undead Bone Shard"
+Connor (UT): "ITEM": 1
 
 ## fearless
 Alex230: Disable Atmosfear Mod
@@ -147,6 +148,19 @@ Roguinater (Meritous): set `include_evolution_traps` to `false`
 Roguinater (MC): decrease `bee_traps` count by varying amounts: 3
 Rezalex: reduce `beemizer_trap_chance` to `random-low`
 Toto (TS): decrease `trap_chance` by 20: 4
+Toto (HK): remove `HollowKnightTrapLink` `item_link`
+Toto (TS): remove `TimespinnerTrapLink` `item_link`
+Caesius (TS): remove `TimespinnerTrapLink` `item_link`
+Caesius (MC): remove `MinecraftTrapLink` `item_link`
+ChromaNyan: remove `MinecraftTrapLink` `item_link`
+Connor (TS): remove `TimespinnerTrapLink` `item_link`
+Connor (HK): remove `HollowKnightTrapLink` `item_link`
+DiStegRogue (LTTP): remove `LTTPTrapLink` `item_link`
+hecate.mp3 (TUNC): remove `TunicTrapLink` `item_link`
+Maxor: remove `LTTPTrapLink` `item_link`
+Rezalex: remove `LTTPTrapLink` `item_link`
+Roguinater (MC): remove `MinecraftTrapLink` `item_link`
+Sylsko (TUNC): remove `TunicTrapLink` `item_link`
 
 ## goal
 hecate.mp3 (Noita): reduce `peaceful_ending` to 1
@@ -369,6 +383,7 @@ Toto (DS3): increase `max_levels_in_10` by 5: 2
 ## melee weapon
 Connor (HK): "Quick_Slash": 1
 Connor (HK): "Fragile_Strength": 1
+Connor (HK): "Mark_of_Pride": 1
 Connor (HK): change `RandomizeNail` to `false`
 DiStegRogue (LTTP): Progressive Sword: 2
 DiStegRogue (OOT): Biggoron Sword
@@ -377,7 +392,6 @@ Caesius (OOT): change `shuffle_kokiri_sword` to `false`
 Caesius (OOT): "Biggoron Sword"
 Caesius (TS): "Star of Lachiem"
 Maxor: Progressive Sword: 2
-Connor (HK): "Mark_of_Pride": 1
 Rezalex: Progressive Sword: 1
 Toto (DS3): change `no_weapon_requirements` to `true`
 Toto (SotM): remove `Benchmark` and `Benchmark Supply & Demand` from `exclude_from_pool`
@@ -440,7 +454,6 @@ DiStegRogue (LTTP): change `item_functionality` to `easy`
 Sylsko (Astalon): change `start_with_bell` to `true`
 Roguinater (Meritous): Portable Compass
 Maxor: reduce `item_functionality` difficulty: 2
-Connor (UT): "ITEM": 1
 Rezalex: reduce `item_functionality` difficulty: 2
 Toto (StS): "Relic" [Not from pool]: 3
 Toto (SotM): remove `Cypher`, `First Response Cypher`, and `Cypher Swarming Protocol` from `exclude_from_pool`

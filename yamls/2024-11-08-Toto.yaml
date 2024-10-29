@@ -247,6 +247,14 @@ Hollow Knight:
   CostSanity: on
   CostSanityHybridChance: 100 # 100 -> 50 -> 25
   CostSanityGeoWeight: 4
+  item_links:
+    - name: HollowKnightTrapLink
+      item_pool: 
+        - Mimic_Grub
+      replacement_item: Mimic_Grub
+      link_replacement: true
+      local_items: 
+        - Mimic_Grub
 Timespinner:
   death_link: true
   progression_balancing: 0
@@ -325,3 +333,13 @@ Timespinner:
     - Chaos Trap
     - Neurotoxin Trap
     - Bee Trap
+  item_links:
+    - name: TimespinnerTrapLink
+      item_pool: 
+        - Meteor Sparrow Trap
+        - Poison Trap
+        - Chaos Trap
+        - Neurotoxin Trap
+        - Bee Trap
+      replacement_item: Chaos Trap
+      link_replacement: true

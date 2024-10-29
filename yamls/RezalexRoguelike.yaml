@@ -75,3 +75,9 @@ A Link to the Past:
   start_inventory:
     Rupees (300): 2 #just in case King Zora is in logic early on, would rather not farm multiple times
     Bombs (3): 1
+  item_links:
+    - name: LTTPTrapLink
+      item_pool: 
+        - Bee Trap
+      replacement_item: Bee Trap
+      link_replacement: true

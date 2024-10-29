@@ -69,6 +69,16 @@ Timespinner:
   - Meteor Sparrow Trap
   - Neurotoxin Trap
   - Poison Trap
+  item_links:
+    - name: TimespinnerTrapLink
+      item_pool: 
+        - Meteor Sparrow Trap
+        - Poison Trap
+        - Chaos Trap
+        - Neurotoxin Trap
+        - Bee Trap
+      replacement_item: Chaos Trap
+      link_replacement: true
 Undertale:
   progression_balancing: '0' #change to 20 then to 40
   accessibility: full
@@ -173,3 +183,11 @@ Hollow Knight:
   CostSanityEssenceWeight: random
   CostSanityCharmWeight: random
   CostSanityGeoWeight: random
+  item_links:
+    - name: HollowKnightTrapLink
+      item_pool: 
+        - Mimic_Grub
+      replacement_item: Mimic_Grub
+      link_replacement: true
+      local_items: 
+        - Mimic_Grub

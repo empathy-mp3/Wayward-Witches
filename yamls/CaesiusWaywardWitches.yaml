@@ -293,6 +293,16 @@ Timespinner: # 3 yaml change upgrades
   back_to_the_future: 'true'
   trap_chance: random
   traps: ['Meteor Sparrow Trap', 'Poison Trap', 'Chaos Trap', 'Neurotoxin Trap', 'Bee Trap']
+  item_links:
+    - name: TimespinnerTrapLink
+      item_pool: 
+        - Meteor Sparrow Trap
+        - Poison Trap
+        - Chaos Trap
+        - Neurotoxin Trap
+        - Bee Trap
+      replacement_item: Chaos Trap
+      link_replacement: true
 
 Manual_MarbleBlastUltra_KitLemonfoot: # 1 yaml change upgrade
   progression_balancing: normal
@@ -408,3 +418,9 @@ Minecraft: # 5 yaml change upgrades
   bee_traps: random-high # Change to random-low
   send_defeated_mobs: 'false'
   death_link: 'true'
+  item_links:
+    - name: MinecraftTrapLink
+      item_pool: 
+        - Bee Trap
+      replacement_item: Bee Trap
+      link_replacement: true

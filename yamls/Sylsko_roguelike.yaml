@@ -87,6 +87,12 @@ TUNIC:
   ladder_storage_without_items: false
   # exclude_locations:
   #   - Rooted Ziggurat Lower - Hexagon Blue
+  item_links:
+    - name: TunicTrapLink
+      item_pool: 
+        - Fool Trap
+      replacement_item: Fool Trap
+      link_replacement: true
 
 Astalon:
   progression_balancing: normal

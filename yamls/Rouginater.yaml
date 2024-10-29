@@ -37,13 +37,19 @@ Minecraft:
     'false': 25
   death_link:
     'true': 1
+  item_links:
+    - name: MinecraftTrapLink
+      item_pool: 
+        - Bee Trap
+      replacement_item: Bee Trap
+      link_replacement: true
 VVVVVV:
   progression_balancing:
     50: 25
   accessibility:
     full: 25
   priority_locations: # Upgrades: Hard Way and Edge Games as priority > normal location > excluded location
-    - Doing Things the Hard Way
+    - Doing things the hard way
     - Edge Games
   MusicRandomizer:
     'false': 25
