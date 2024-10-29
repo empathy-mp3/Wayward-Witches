@@ -489,11 +489,10 @@ Roguinater (Peggle Deluxe): Jimmy Lightning
 
 ## enemy damage
 
-Maxor: change `enemy_damage` to `default`
 Caesius (OOT): halve `damage_multiplier`: 2
 DiStegRogue (LTTP): change `enemy_damage` to `default`
 DiStegRogue (OOT): lower `damage_multiplier` amount: 2
-Rezalex: reduce `enemy_damage` difficulty: 2
+Rezalex: change `enemy_damage` to `default`
 Toto (SotM): in `filler_weights`, change `VillainCardPlays weight` to 0 and `VillainStartCardPlays weight` to 1
 
 ## knowledge

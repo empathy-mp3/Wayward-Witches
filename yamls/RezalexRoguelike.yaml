@@ -25,7 +25,7 @@ A Link to the Past:
   item_pool: normal
   item_functionality: expert #change to hard then normal
   enemy_health: expert #change to hard then normal
-  enemy_damage: chaos #change to shuffled then default
+  enemy_damage: shuffled #change to default
   progressive: 'on'
   swordless: 'false'
   dungeon_counters: 'on'
