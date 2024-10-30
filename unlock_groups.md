@@ -306,9 +306,7 @@ Sylsko (TUNC): Hero Relic - SP
 ## mana
 hecate.mp3 (TUNC): "MP Offering": 2
 Sylsko (TUNC): Hero Relic - MP
-Sylsko (TS): Max Sand: 3
 Sylsko (TS): Max Aura: 3
-Caesius (TS): "Max Sand": 4
 Maxor: Magic Upgrade (1/2)
 Rezalex: Magic Upgrade (1/2)
 Toto (SotM): remove `Argent Adept`, `Dark Conductor Argent Adept`, `Prime Wardens Argent Adept`, and `Xtreme Prime Wardens Argent Adept` from `exclude_from_pool`
@@ -320,6 +318,7 @@ Sylsko (TS): Jewerly Box
 Sylsko (Ender Lilies): Chain of Sorcery: 3
 Roguinater (MC): Shulker Box:1
 Toto (HK): decrease `RandomCharmCosts` by 20: 6
+Toto (DS3): change `no_equip_load` to `true`
 
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
@@ -458,7 +457,6 @@ Rezalex: reduce `item_functionality` difficulty: 2
 Toto (StS): "Relic" [Not from pool]: 3
 Toto (SotM): remove `Cypher`, `First Response Cypher`, and `Cypher Swarming Protocol` from `exclude_from_pool`
 Toto (DS3): change `auto_equip` and `lock_equip` to `false`
-Toto (DS3): change `no_equip_load` to `true`
 
 ## amnesty
 
@@ -469,6 +467,8 @@ Roguinater (V6): increase `DeathLinkAmnesty`: 6
 
 Caesius (Marble Blast): "Time Travel (-10s)": 3
 Caesius (Marble Blast): "Time Travel (-5s)": 10
+Sylsko (TS): Max Sand: 3
+Caesius (TS): "Max Sand": 4
 
 ## ammo
 Roguinater (Peggle Deluxe): set `shuffle_starting_balls` to `false`
