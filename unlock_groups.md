@@ -76,6 +76,7 @@ Toto (HK): change `RandomizeFocus` to `false`
 Toto (DS3): "Estus Shard"
 Toto (DS3): "Undead Bone Shard"
 Connor (UT): "ITEM": 1
+BennyRogue (RL): Vampire Runes
 
 ## fearless
 Alex230: Disable Atmosfear Mod
@@ -133,6 +134,8 @@ hecate.mp3 (TUNC): "Muffling Bell": 1
 Sylsko (TUNC): Muffling Bell
 Caesius (Emerald): change `blind_trainers` to `true`
 Slipomatic_SM: change `morph_placement` to `early`
+BennyRogue (Witness): change `puzzle_skip_amount` to `random-high`
+BennyRogue (Witness): increase `shuffle_dog: puzzle_skip` weight to 6
 
 ## traps
 hecate.mp3 (Noita): change `bad_effects: 'true'` to 2
@@ -148,6 +151,7 @@ Roguinater (Meritous): set `include_evolution_traps` to `false`
 Roguinater (MC): decrease `bee_traps` count by varying amounts: 3
 Rezalex: reduce `beemizer_trap_chance` to `random-low`
 Toto (TS): decrease `trap_chance` by 20: 4
+BennyRogue (Witness): change `trap_percentage` to `random-low`
 
 ## link
 
@@ -178,6 +182,13 @@ Roguinater (Meritous): reduce `goal` difficulty: 5
 Roguinater (MC): reduce `advancement_goal` by 5: 3
 Toto (HK): make `Goal` more reasonable: 4
 Toto (TS): reduce `dad_percent: false` weight to 1
+BennyRogue (Witness): decrease `victory_condition: elevator` weight to 3
+BennyRogue (Witness): increase `victory_condition: mountain_box_short` weight to 5
+BennyRogue (Witness): decrease `victory_condition: mountain_box_long` weight to 4
+BennyRogue (Witness): decrease `victory_condition: panel_hunt` weight to 3
+BennyRogue (Witness): change `panel_hunt_total` to `random-low`
+BennyRogue (Witness): change `panel_hunt_required_percentage` to `random-low`
+BennyRogue (Witness): change `panel_hunt_discourage_same_area_factor` to `random-low`
 
 ## boss
 hecate.mp3 (Noita): increase `bosses_as_checks no_bosses` to 4
@@ -215,6 +226,10 @@ Roguinater (MC): set `shuffle_structures` to `true`
 Roguinater (V6): make "Doing Things the Hard Way" and "Edge Games" less important locations: 2
 Roguinater (Peggle Nights): set `art_contest_pack` to `false`
 Slipomatic_SM: change `area_randomization` to `off`
+BennyRogue (Witness): decrease `shuffle_vault_boxes: 'true'` weight to 2
+BennyRogue (Witness): increase `shuffle_vault_boxes: 'false'` weight to 7
+BennyRogue (RL): change `architect` to `early`
+BennyRogue (RL): change `chests_per_zone` to `random-low`
 
 ## macguffins
 hecate.mp3 (Noita): change `extra_orbs` to `random-high`
@@ -227,6 +242,8 @@ Roguinater (MC): reduce `egg_shards_required` by varying amounts: 3
 Roguinater (MC): increase `egg_shards_available` by varying amounts: 3
 Roguinater (Peggle Deluxe): decrease `certificates_required` by 2: 5
 Toto (SotM): change `required_scions` to 40, and in `filler_weights`, change `Scion min` to 20
+BennyRogue (Witness): change `mountain_lasers` to `random-low`
+BennyRogue (Witness): change `challenge_lasers` to `random-high`
 
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
@@ -246,6 +263,10 @@ Roguinater (Meritous): Crystal Summoner
 Toto (TS): reduce `shop_multiplier` to 1
 Toto (HK): halve `CostSanityHybridChance`: 2
 Toto (DS3): change `reduce_harmless_enemies` to `false`
+BennyRogue (RL): increase `gold_gain_multiplier` weight: 2
+BennyRogue (RL): change `vendors` to `early`
+BennyRogue (RL): decrease `disable_charon: 'false'` weight to 7
+BennyRogue (RL): increase `disable_charon: 'true'` weight to 5
 
 ## defense
 hecate.mp3 (TUNC): "DEF Offering": 2
@@ -267,6 +288,7 @@ Caesius (TS): "Eternal Crown"
 Roguinater (MC): Progressive Armor:2
 Maxor: Progressive Armor: 1
 Rezalex: Progressive Armor: 2
+BennyRogue (RL): Armor Up
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
@@ -293,6 +315,8 @@ Toto (DS3): "Twinkling Titanite x2"
 Toto (DS3): "Titanite Scale x2"
 Toto (DS3): "Titanite Slab"
 Toto (TS): improve `damage_rando` weights: 5
+BennyRogue (RL): Crit Chance Up
+BennyRogue (RL): Crit Damage Up
 
 ## stamina
 hecate.mp3 (TUNC): "SP Offering": 2
@@ -305,6 +329,7 @@ Sylsko (TS): Max Aura: 3
 Maxor: Magic Upgrade (1/2)
 Rezalex: Magic Upgrade (1/2)
 Toto (SotM): remove `Argent Adept`, `Dark Conductor Argent Adept`, `Prime Wardens Argent Adept`, and `Xtreme Prime Wardens Argent Adept` from `exclude_from_pool`
+BennyRogue (RL): Siphon Runes
 
 ## slots
 hecate.mp3 (TUNC): "Card Slot": 1
@@ -314,6 +339,7 @@ Sylsko (Ender Lilies): Chain of Sorcery: 3
 Roguinater (MC): Shulker Box:1
 Toto (HK): decrease `RandomCharmCosts` by 20: 6
 Toto (DS3): change `no_equip_load` to `true`
+BennyRogue (RL): Equip Up
 
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
@@ -390,6 +416,8 @@ Rezalex: Progressive Sword: 1
 Toto (DS3): change `no_weapon_requirements` to `true`
 Toto (SotM): remove `Benchmark` and `Benchmark Supply & Demand` from `exclude_from_pool`
 Toto (HK): change `RandomizeNail` to `false`
+BennyRogue (RL): Sky Blueprints
+BennyRogue (RL): Dragon Blueprints
 
 ## starting
 Connor (UT): change `starting_area` to easier areas: 3
@@ -457,6 +485,7 @@ Toto (DS3): change `auto_equip` and `lock_equip` to `false`
 
 Sylsko (C64): increase `death_link_amnesty` by varying amounts: 3
 Roguinater (V6): increase `DeathLinkAmnesty`: 6
+BennyRogue (Witness): increase `death_link_amnesty` by 1: 4
 
 ## time
 
@@ -512,3 +541,5 @@ progressive `Slate` knowledge: 2
 progressive `Basalt` knowledge: 2
 progressive `Dragon Scale` knowledge: 1
 Toto (SotM): remove `The Scholar` and `The Scholar of the Infinite` from `exclude_from_pool`
+BennyRogue (Witness): change `hint_amount` to `random-high`
+BennyRogue (Witness): increase `area_hint_percentage` range by 20: 2

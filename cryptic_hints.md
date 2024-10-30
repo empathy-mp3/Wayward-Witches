@@ -41,6 +41,7 @@
 - *your great strength marks you amongst us.* (Toto (HK): change `RandomizeFocus` to `false`)
 - *this shard offers hope, however shattered.* (Toto (DS3): "Estus Shard")
 - *a fleeting wish left behind at the moment of death.* (Sylsko (Ender Lilies): Priestess' Wish)
+- *recover through death of your enemies.* (BennyRogue (RL): Vampire Runes)
 
 ## fearless
 - *rain and darkness.* (Alex230: Disable Atmosfear Mod)
@@ -73,6 +74,7 @@
 - *become light on your feet.* (Sylsko (TUNC): Muffling Bell)
 - *the twisting vines will no longer be unknowable.* (hecate.mp3 (OW): reduce `randomize_dark_bramble_layout: 'true'` chance)
 - *you can't see me, my time is now!* (Caesius (Emerald): change `blind_trainers` to `true`)
+- *the canine holds a gift.* (BennyRogue (Witness): increase `shuffle_dog: puzzle_skip` weight to 6)
 
 ## traps
 
@@ -82,6 +84,7 @@
 - *one of GladOS's favorite weapons.* (Connor (TS): lower `trap_chance` by 25)
 - *fool!* (hecate.mp3 (TUNC): change `fool_traps: onslaught` to 0)
 - *around you, all your foes grow stronger.* (Roguinater (Meritous): set `include_evolution_traps` to `false`)
+- *constantly slowed........* (BennyRogue (Witness): change `trap_percentage` to `random-low`)
 
 ## link
 - *we already have enough shared suffering in this async!* (remove `LTTPTrapLink` `item_link`)
@@ -100,6 +103,8 @@
 - *be allowed entry with the elite.* (DiStegRogue (RB): lower `elite_four_badges_condition` range)
 - *benevolence.* (Sylsko (Ender Lilies): change `goal` to easier goal)
 - *return the seal.* (Roguinater (Meritous): reduce `goal` difficulty)
+- *you no longer must complete the pillars.* (BennyRogue (Witness): decrease `victory_condition: elevator` weight to 3)
+- *seek fewer squares.* (BennyRogue (Witness): change `panel_hunt_required_percentage` to `random-low`)
 
 ## boss
 - *the dragon egg will remain whole.* (hecate.mp3 (Noita): increase `bosses_as_checks no_bosses` to 4)
@@ -120,6 +125,8 @@
 - *i'd prefer the easy way, thanks.* (Roguinater (V6): make "Doing Things the Hard Way" and "Edge Games" less important locations)
 - *i thought we were done climbing towers!* (hecate.mp3 (Noita): reduce `path option: main_world` to 1)
 - *you hear a crumbling sound, as a passageway becomes blocked. you'll have to take the harder path.* (hecate.mp3 (DO2): "Stability")
+- *nope, not doing that. that looks awful.* (BennyRogue (Witness): increase `shuffle_vault_boxes: 'false'` weight to 7)
+- *you know where not to go if everything's the same!* (BennyRogue (RL): change `architect` to `early`)
 
 ## macguffins
 - *won't require all 33 anymore!* (hecate.mp3 (Noita): change `extra_orbs` to `random-high`)
@@ -135,6 +142,7 @@
 - *nope, too expensive.* (Sylsko (Astalon): lower `cost_multiplier`)
 - *find more cash in your travels.* (Sylsko (Astalon): Amulet of Sol)
 - *brainrot residue* (Sylsko (Ender Lilies): Furious Blight x800)
+- *hey, don't take my money! i needed that!* (BennyRogue (RL): increase `disable_charon: 'true'` weight to 5)
 
 ## defense
 - *yup, it's absolutely so broken.* (Connor (UT): "temy armor")
@@ -158,6 +166,7 @@
 - *attune to a true memory of yourself, instead of a pale retelling.* (Sylsko (TUNC): Hero Relic - ATT)
 - *a fragment of the legendary slabs.* (Toto (DS3): "Titanite Shard x2" x 3)
 - *perhaps a little too nerfed.* (Caesius (TS): make `damage_rando` better)
+- *strike with deadly efficiency.* (BennyRogue (RL): Crit Chance Up)
 
 ## stamina
 - *a relic found in the swamp.* (Sylsko (TUNC): Hero Relic - SP)
@@ -166,6 +175,7 @@
 - *a blue mushroom.* (hecate.mp3 (TUNC): "MP Offering")
 - *it's like that one Edward Eager book (kind of).* (Maxor: Magic Upgrade (1/2))
 - *a one-of-a-kind spellcaster.* (Toto (SotM): remove `Argent Adept`, `Dark Conductor Argent Adept`, `Prime Wardens Argent Adept`, and `Xtreme Prime Wardens Argent Adept` from `exclude_from_pool`)
+- *absorb the magic left after death.* (BennyRogue (RL): Siphon Runes)
 
 ## slots
 - *a box full of rocks, food, and lumber.* (Roguinater (MC): Shulker Box)
@@ -221,6 +231,7 @@
 - *a little weapon.* (Caesius (OOT): change `shuffle_kokiri_sword` to `false`)
 - *have three spheres.* (Caesius (TS): "Star of Lachiem")
 - *wield weapons beyond your capability.* (Toto (DS3): change `no_weapon_requirements` to `true`)
+- *a bright red sword.* (BennyRogue (RL): Dragon Blueprints)
 
 ## starting
 - *i sure love immediately having to deal with wizards!* (Connor (UT): change `starting_area` to easier areas)
@@ -265,6 +276,7 @@
 ## amnesty
 - *only the fifth one counts. actually, the tenth. actually, the twentieth.* (Sylsko (C64): increase `death_link_amnesty` by varying amounts)
 - *spikes aren't so bad...* (Roguinater (V6): increase `DeathLinkAmnesty`)
+- *whoops, i forgot the star.* (BennyRogue (Witness): increase `death_link_amnesty` by 1)
 
 ## time
 - *for some reason, they decided to add these to a mod of this game, but they add instead of subtracting. like, why? there's no visual indication that it should be like that, and yet, they just added it! for fun! why?* (Caesius (Marble Blast): "Time Travel (-5s)")
@@ -280,9 +292,12 @@
 
 ## copy
 - *a simple enchantment can remove all material costs.* (ChromaNyan: "Infinity Book")
+- *no way i'm doing this with only eight hearts.* (Maxor: reduce `item_pool` difficulty)
 
 ## enemy damage
 - *it certainly doesn't mix well with ice!* (Caesius (OOT): halve `damage_multiplier`)
 
 ## knowledge
 - *there's something to be learned in the cold.* (progressive `Snow` knowledge)
+- *the recordings hold the secret.* (BennyRogue (Witness): change `hint_amount` to `random-high`)
+- *breadth as opposed to depth.* (BennyRogue (Witness): increase `area_hint_percentage` range by 20)

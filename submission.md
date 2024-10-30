@@ -617,3 +617,31 @@ Filler
 - "Ether"
 - "Sand Vial"
 - "Berry Pick-Mi-Up"
+
+## BennyRogue
+
+Origin: Any
+
+Witness
+
+Filler:
+Speed Boost
+
+Rogue Legacy
+
+Unique Items:
+Sky Blueprints
+Dragon Blueprints
+Vampire Runes
+Siphon Runes
+
+
+Duplicate items:
+Armor Up
+Equip Up
+Crit Chance Up
+Crit Damage Up
+
+
+Filler:
+1000 Gold
