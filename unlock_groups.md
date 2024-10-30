@@ -148,19 +148,14 @@ Roguinater (Meritous): set `include_evolution_traps` to `false`
 Roguinater (MC): decrease `bee_traps` count by varying amounts: 3
 Rezalex: reduce `beemizer_trap_chance` to `random-low`
 Toto (TS): decrease `trap_chance` by 20: 4
-Toto (HK): remove `HollowKnightTrapLink` `item_link`
-Toto (TS): remove `TimespinnerTrapLink` `item_link`
-Caesius (TS): remove `TimespinnerTrapLink` `item_link`
-Caesius (MC): remove `MinecraftTrapLink` `item_link`
-ChromaNyan: remove `MinecraftTrapLink` `item_link`
-Connor (TS): remove `TimespinnerTrapLink` `item_link`
-Connor (HK): remove `HollowKnightTrapLink` `item_link`
-DiStegRogue (LTTP): remove `LTTPTrapLink` `item_link`
-hecate.mp3 (TUNC): remove `TunicTrapLink` `item_link`
-Maxor: remove `LTTPTrapLink` `item_link`
-Rezalex: remove `LTTPTrapLink` `item_link`
-Roguinater (MC): remove `MinecraftTrapLink` `item_link`
-Sylsko (TUNC): remove `TunicTrapLink` `item_link`
+
+## link
+
+remove `HollowKnightTrapLink` `item_link`
+remove `TimespinnerTrapLink` `item_link`
+remove `MinecraftTrapLink` `item_link`
+remove `LTTPTrapLink` `item_link`
+remove `TunicTrapLink` `item_link`
 
 ## goal
 hecate.mp3 (Noita): reduce `peaceful_ending` to 1
