@@ -89,10 +89,10 @@ Outer Wilds:
   split_translator:
     'false': 2
     'true': 1
-  enable_hn1_mod: 'true'
-  enable_outsider_mod: 'true'
-  enable_ac_mod: 'true'
-  enable_hn2_mod: 'true'
+  enable_hn1_mod: 'false'
+  enable_outsider_mod: 'false'
+  enable_ac_mod: 'false'
+  enable_hn2_mod: 'false'
   enable_fq_mod: 'false'
   
 
