@@ -360,8 +360,6 @@ Slipomatic_SM: Reserve Tank: 1
 Rezalex: Bug Catching Net
 Rezalex: Bottle: 2
 Rezalex: Magic Powder
-+1 life: 50
-+2 life: 10
 
 ## progression balancing
 Alex230: increase `progression_balancing` by 10: 5
@@ -539,7 +537,12 @@ progressive `Snow` knowledge: 2
 progressive `Rabbit Foot` knowledge: 2
 progressive `Slate` knowledge: 2
 progressive `Basalt` knowledge: 2
-progressive `Dragon Scale` knowledge: 1
+`Dragon Scale` knowledge: 1
 Toto (SotM): remove `The Scholar` and `The Scholar of the Infinite` from `exclude_from_pool`
 BennyRogue (Witness): change `hint_amount` to `random-high`
 BennyRogue (Witness): increase `area_hint_percentage` range by 20: 2
+
+## defy death
+
++1 life: 50
++2 life: 10
