@@ -521,23 +521,22 @@ Toto (SotM): in `filler_weights`, change `VillainCardPlays weight` to 0 and `Vil
 
 -3% hint cost: 16
 -5% hint cost: 10
-progressive `Spruce Branch` knowledge: 2
-progressive `Cinders` knowledge: 2
-progressive `Iron` knowledge: 2
-progressive `Void` knowledge: 2
-progressive `Lilypad` knowledge: 2
-progressive `Stardust` knowledge: 2
-progressive `Strawberry` knowledge: 2
-progressive `Eel` knowledge: 2
-progressive `Incense` knowledge: 2
-progressive `Chalk` knowledge: 2
-progressive `Clay` knowledge: 2
-progressive `Limestone` knowledge: 2
-progressive `Snow` knowledge: 2
-progressive `Rabbit Foot` knowledge: 2
-progressive `Slate` knowledge: 2
-progressive `Basalt` knowledge: 2
-`Dragon Scale` knowledge: 1
+add `Spruce Branch` to `start_hints`
+add `Cinders` to `start_hints`
+add `Iron` to `start_hints`
+add `Void` to `start_hints`
+add `Lilypad` to `start_hints`
+add `Stardust` to `start_hints`
+add `Strawberry` to `start_hints`
+add `Eel` to `start_hints`
+add `Incense` to `start_hints`
+add `Chalk` to `start_hints`
+add `Clay` to `start_hints`
+add `Limestone` to `start_hints`
+add `Snow` to `start_hints`
+add `Rabbit Foot` to `start_hints`
+add `Slate` to `start_hints`
+add `Basalt` to `start_hints`
 Toto (SotM): remove `The Scholar` and `The Scholar of the Infinite` from `exclude_from_pool`
 BennyRogue (Witness): change `hint_amount` to `random-high`
 BennyRogue (Witness): increase `area_hint_percentage` range by 20: 2

@@ -117,3 +117,7 @@ the entirety of the async will be within this discord server: https://discord.gg
 
 i said it'd take a while, but the second roguelike async is open for yaml submissions! all of it will be on a different discord server, including yaml submissions.
 *with death comes a reset, but we learn and grow stronger over time. inevitably we will win, but it's only a matter of Time...*
+
+## the cauldron
+
+welcome to **the cauldron!** here, there will be a list of all *spells* (permanent upgrades) we can *cast* (spend resources on). most of these upgrades unlock *multiple* things, but they will all have cryptic hints relating to one specific item. we'll be spending the varied items we find inside the multiworld on these upgrades. while this is a skill tree, i'll just be listing every item you can currently purchase, and how many things it directly opens up. nothing in the skill tree requires multiple other entries at once, or can be opened up by one of multiple. also, if you can guess a cryptic hint, it'll be a little cheaper. please keep all cauldron discussion in #item-discussion, so i can see what things people want to get in one place.

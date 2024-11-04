@@ -297,11 +297,10 @@
 - *it certainly doesn't mix well with ice!* (Caesius (OOT): halve `damage_multiplier`)
 
 ## knowledge
-- *there's something to be learned in the cold.* (progressive `Snow` knowledge)
+- *there's something to be learned in the cold.* (add `Snow` to `start_hints`)
 - *the recordings hold the secret.* (BennyRogue (Witness): change `hint_amount` to `random-high`)
 - *breadth as opposed to depth.* (BennyRogue (Witness): increase `area_hint_percentage` range by 20)
-- *understand the workings of a powerful reagent.* (`Dragon Scale` knowledge)
-- *a glittering essence.* (progressive `Stardust` knowledge)
+- *a glittering essence.* (add `Stardust` to `start_hints`)
 
 ## defy death
 
