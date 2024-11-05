@@ -23,6 +23,7 @@ Connor (SquareMusic): "Phoenix": 1
 Caesius (OOT): "Goron Tunic"
 Roguinater (Peggle Deluxe): Lord Cinderbottom
 Roguinater (Peggle Nights): Lord Cinderbottom
+Toto (DS3): disable `Angel Pigrim`, `Fire Witch`, and `Judicator` replacing `Basic` in `random_enemy_preset`
 
 ## explosion
 hecate.mp3 (UK): "Rocket Launcher - S.R.S. Cannon": 1
@@ -73,8 +74,6 @@ Sylsko (Astalon): change `fast_blood_chalice` to `true`
 Sylsko (Ender Lilies): Priestess' Wish: 3
 Caesius (Emerald): "Super Potion": 5
 Toto (HK): change `RandomizeFocus` to `false`
-Toto (DS3): "Estus Shard"
-Toto (DS3): "Undead Bone Shard"
 Connor (UT): "ITEM": 1
 BennyRogue (RL): Vampire Runes
 
@@ -102,7 +101,6 @@ Sylsko (Ender Lilies): change `minibosses_chapter` to `false`
 Sylsko (Ender Lilies): reduce `start_chapter` by 2: 2
 Sylsko (Ender Lilies): reduce `max_chapter` by varying amounts: 2
 Caesius (MC): reduce `combat_difficulty` by one level: 2
-Roguinater (MC): set `include_hard_advancements` to `false`
 Slipomatic_SM: change `max_difficulty` to `easy`
 Toto (StS): reduce `ascension` value: 6
 Toto (SotM): remove `Starlight`, `Starlight Genesis`, `Nightlore Council Starlight`, and `Starlight Area-51` from `exclude_from_pool`
@@ -113,6 +111,7 @@ Alex230: Allow Using Automap
 Sylsko (Astalon): change `start_with_qol` to `true`
 Roguinater (Meritous): Ethereal Monocle
 Slipomatic_SM: X-Ray Scope
+Toto (DS3): disable `Jailer` replacing `Basic` in `random_enemy_preset`
 
 ## speed
 hecate.mp3 (DO2): "Loot & Scoot":2
@@ -205,6 +204,9 @@ Caesius (MC): remove a boss from `required_bosses`: 2
 Caesius (TS): change `boss_rando` to `scaled`
 Toto (StS): reduce `final_act: true` weight: 2
 Toto (DS3): change `simple_early_bosses` to `true`
+Toto (DS3): disable `Bosses` replacing `Basic` in `random_enemy_preset`
+Toto (DS3): disable `Bosses` replacing `Miniboss` in `random_enemy_preset`
+Toto (DS3): disable `Minibosses` replacing `Basic` in `random_enemy_preset`
 
 ## key
 hecate.mp3 (DO2): change `caves_of_carnage_key_count`, `black_mines_key_count`, `flooded_depths_key_count`, and `burning_dark_key_count` to random-high
@@ -285,7 +287,7 @@ Caesius (OOT): "Double Defense"
 Caesius (OOT): "Nayrus Love"
 Caesius (TS): "Eternal Coat"
 Caesius (TS): "Eternal Crown"
-Roguinater (MC): Progressive Armor:2
+Roguinater (MC): Progressive Armor: 1
 Maxor: Progressive Armor: 1
 Rezalex: Progressive Armor: 2
 BennyRogue (RL): Armor Up
@@ -308,12 +310,6 @@ Caesius (MC): "Sharpness III Book"
 Caesius (TS): make `damage_rando` better: 2
 Toto (SotM): in `filler_weights`, improve `HeroDamageDealt` and `VillainDamageTaken`
 Toto (HK): "Pale_Ore"
-Toto (DS3): "Titanite Shard x2" x 3
-Toto (DS3): "Large Titanite Shard x2" x 2
-Toto (DS3): "Titanite Chunk x2"
-Toto (DS3): "Twinkling Titanite x2"
-Toto (DS3): "Titanite Scale x2"
-Toto (DS3): "Titanite Slab"
 Toto (TS): improve `damage_rando` weights: 5
 BennyRogue (RL): Crit Chance Up
 BennyRogue (RL): Crit Damage Up
@@ -435,6 +431,8 @@ Connor (SquareMusic): "Ifrit": 1
 Connor (SquareMusic): "Bahamut": 1
 DiStegRogue (Emerald): change `wild_encounter_blacklist` to `[]`
 DiStegRogue (LTTP): Bug Catching Net
+Toto (DS3): disable `Darkwraith`, `Grave Warden`, and `Lycanthrope` replacing `Basic` in `random_enemy_preset`
+Toto (DS3): disable `Monstrosity of Sin` and `Pus of Man` replacing `Basic` in `random_enemy_preset`
 
 ## god
 Connor (SquareMusic): "Odin": 1
@@ -453,6 +451,7 @@ Sylsko (TS): reduce `EnemyRando` difficulty: 2
 Sylsko (C64): change `badeline_chaser_frequency` to varying amounts: 3
 Sylsko (Ender Lilies): set `starting_spirit: any_sub_spirit` to 0
 Toto (SotM): decrease `death_link: individual` weight to 1
+Toto (DS3): disable several Knights replacing `Basic` in `random_enemy_preset`
 
 ## robot
 Connor (SquareMusic): "Alexander": 1

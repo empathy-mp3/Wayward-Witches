@@ -427,7 +427,7 @@ Origin: Shadow Realm (Or tundra if needed, my username is Freezinater after all)
 
 Minecraft
 Duplicate Items:
-- Progressive Armor:2
+- Progressive Armor:1
 - 4 Diamond Ore:3
 - Shulker Box:1
 Filler:
@@ -574,17 +574,6 @@ Filler
 - "Villain Toughness 1"
 
 Dark Souls III
-
-Duplicate
-
-- "Titanite Shard x2" x 3
-- "Large Titanite Shard" x 6
-- "Titanite Chunk" x 6
-- "Twinkling Titanite" x 6
-- "Titanite Scale" x 6
-- "Titanite Slab"
-- "Estus Shard"
-- "Undead Bone Shard"
 
 Filler
 

@@ -170,8 +170,7 @@ Dark Souls III:
   accessibility: minimal
   death_link: true
   enable_dlc: true
-  auto_equip: &equip
-    true # true -> false
+  auto_equip: &equip true # true -> false
   lock_equip: *equip
   no_equip_load: false # false -> true
   no_weapon_requirements: false # false -> true
@@ -188,6 +187,31 @@ Dark Souls III:
   reduce_harmless_enemies: true # true -> false
   random_enemy_preset:
     RemoveSource: Ancient Wyvern; Ancient Wyvern Mob; Bridge Darkeater Midir; Darkeater Midir; King of the Storm
+    Boss:
+      - Weight: 100
+        Pool: default
+    Miniboss:
+      - Weight: 80
+        Pool: default
+      - Weight: 20 # 20 -> 0
+        Pool: Bosses
+    Basic:
+      - Weight: 60
+        Pool: default
+      - Weight: 5 # 5 -> 0
+        Pool: Minibosses
+      - Weight: 2 # 2 -> 0
+        Pool: Bosses
+      - Weight: 10 # 10 -> 0
+        Pool: Black Knight; Cathedral Knight; Red-Eyed Lothric Knight; Millwood Knight; Ringed Knight; Pontiff Knight; Silver Knight; Winged Knight
+      - Weight: 10 # 10 -> 0
+        Pool: Darkwraith; Grave Warden; Lycanthrope
+      - Weight: 6 # 6 -> 0
+        Pool: Jailer
+      - Weight: 2 # 2 -> 0
+        Pool: Angel Pilgrim; Fire Witch; Judicator
+      - Weight: 5 # 5 -> 0
+        Pool: Monstrosity of Sin; Pus of Man
   exclude_locations:
     - Small Crystal Lizards
     - "SL: White Hair Talisman - ruins main lower, in lava"

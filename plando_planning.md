@@ -222,7 +222,6 @@ Toto (TS): increase `hp_cap`
 
 hecate.mp3 (TUNC): "Potion Flask"
 Sylsko (TUNC): Hero Relic - POTION
-Toto (DS3): "Undead Bone Shard"
 
 ## healing  II
 
@@ -269,10 +268,6 @@ Caesius (Emerald): "Super Potion"
 
 ## healing VII
 
-*this shard offers hope, however shattered.* 
-(referring to Toto (DS3): "Estus Shard")
-
-Toto (DS3): "Estus Shard"
 hecate.mp3 (DO2): "Second Wind"
 Caesius (Emerald): "Super Potion"
 
@@ -377,7 +372,6 @@ Toto (StS): reduce `ascension` value
 
 Toto (StS): reduce `ascension` value
 hecate.mp3 (DO2): change `legendary_part_locations` to false
-Roguinater (MC): set `include_hard_advancements` to `false`
 Slipomatic_SM: change `max_difficulty` to `easy`
 
 ## challenge VIII
@@ -405,6 +399,7 @@ Slipomatic_SM: X-Ray Scope
 
 Roguinater (Meritous): Ethereal Monocle
 Alex230: Allow Using Automap
+Toto (DS3): disable `Jailer` replacing `Basic` in `random_enemy_preset`
 
 ## speed I
 
@@ -729,6 +724,7 @@ hecate.mp3 (UK): reduce `boss_rewards: extended` to 1
 Connor (TS): change `boss_rando` to `scaled`
 DiStegRogue (LTTP): make `boss_shuffle` easier
 Caesius (MC): remove a boss from `required_bosses`
+Toto (DS3): disable `Minibosses` replacing `Basic` in `random_enemy_preset`
 
 ## boss III
 
@@ -738,6 +734,7 @@ Caesius (MC): remove a boss from `required_bosses`
 Sylsko (TUNC): add `Rooted Ziggurat Lower - Hexagon Blue` to `exclude_locations`
 hecate.mp3 (Noita): decrease `bosses_as_checks all_bosses` to 1
 Caesius (MC): remove a boss from `required_bosses`
+Toto (DS3): disable `Bosses` replacing `Basic` in `random_enemy_preset`
 
 ## boss IV
 
@@ -757,6 +754,7 @@ Caesius (TS): change `boss_rando` to `scaled`
 Toto (DS3): change `simple_early_bosses` to `true`
 hecate.mp3 (UK): reduce `boss_rewards: standard` to 2
 Sylsko (TS): reduce `boss_rando` difficulty
+Toto (DS3): disable `Bosses` replacing `Miniboss` in `random_enemy_preset`
 
 ## key I
 
@@ -877,7 +875,6 @@ Roguinater (MC): set `shuffle_structures` to `true`
 - *the same weapon, but it seems different this time.* (ChromaNyan: "Sharpness III Book")
 - *the crown of the ruler of this land.* (Sylsko (TS): Empire Crown)
 - *attune to a true memory of yourself, instead of a pale retelling.* (Sylsko (TUNC): Hero Relic - ATT)
-- *a fragment of the legendary slabs.* (Toto (DS3): "Titanite Shard x2" x 3)
 - *perhaps a little too nerfed.* (Caesius (TS): make `damage_rando` better)
 - *strike with deadly efficiency.* (BennyRogue (RL): Crit Chance Up)
 
@@ -1089,7 +1086,7 @@ Caesius (OOT): "Double Defense"
 Caesius (OOT): "Nayrus Love"
 Caesius (TS): "Eternal Coat"
 Caesius (TS): "Eternal Crown"
-Roguinater (MC): Progressive Armor:2
+Roguinater (MC): Progressive Armor: 1
 Maxor: Progressive Armor: 1
 Rezalex: Progressive Armor: 2
 BennyRogue (RL): Armor Up
@@ -1112,12 +1109,6 @@ Caesius (MC): "Sharpness III Book"
 Caesius (TS): make `damage_rando` better: 2
 Toto (SotM): in `filler_weights`, improve `HeroDamageDealt` and `VillainDamageTaken`
 Toto (HK): "Pale_Ore"
-Toto (DS3): "Titanite Shard x2" x 3
-Toto (DS3): "Large Titanite Shard x2" x 2
-Toto (DS3): "Titanite Chunk x2"
-Toto (DS3): "Twinkling Titanite x2"
-Toto (DS3): "Titanite Scale x2"
-Toto (DS3): "Titanite Slab"
 Toto (TS): improve `damage_rando` weights: 5
 BennyRogue (RL): Crit Chance Up
 BennyRogue (RL): Crit Damage Up
@@ -1241,6 +1232,8 @@ Connor (SquareMusic): "Ifrit": 1
 Connor (SquareMusic): "Bahamut": 1
 DiStegRogue (Emerald): change `wild_encounter_blacklist` to `[]`
 DiStegRogue (LTTP): Bug Catching Net
+Toto (DS3): disable `Darkwraith`, `Grave Warden`, and `Lycanthrope` replacing `Basic` in `random_enemy_preset`
+Toto (DS3): disable `Monstrosity of Sin` and `Pus of Man` replacing `Basic` in `random_enemy_preset`
 
 ## god
 Connor (SquareMusic): "Odin": 1
@@ -1259,6 +1252,7 @@ Sylsko (TS): reduce `EnemyRando` difficulty: 2
 Sylsko (C64): change `badeline_chaser_frequency` to varying amounts: 3
 Sylsko (Ender Lilies): set `starting_spirit: any_sub_spirit` to 0
 Toto (SotM): decrease `death_link: individual` weight to 1
+Toto (DS3): disable several Knights replacing `Basic` in `random_enemy_preset`
 
 ## robot
 Connor (SquareMusic): "Alexander": 1

@@ -39,7 +39,6 @@
 - *a button that is either white or yellow.* (Connor (UT): "ITEM": 1)
 - *ok, and now, they're going to protect...* (Caesius (Emerald): "Super Potion")
 - *your great strength marks you amongst us.* (Toto (HK): change `RandomizeFocus` to `false`)
-- *this shard offers hope, however shattered.* (Toto (DS3): "Estus Shard")
 - *a fleeting wish left behind at the moment of death.* (Sylsko (Ender Lilies): Priestess' Wish)
 - *recover through death of your enemies.* (BennyRogue (RL): Vampire Runes)
 
@@ -164,7 +163,6 @@
 - *the same weapon, but it seems different this time.* (ChromaNyan: "Sharpness III Book")
 - *the crown of the ruler of this land.* (Sylsko (TS): Empire Crown)
 - *attune to a true memory of yourself, instead of a pale retelling.* (Sylsko (TUNC): Hero Relic - ATT)
-- *a fragment of the legendary slabs.* (Toto (DS3): "Titanite Shard x2" x 3)
 - *perhaps a little too nerfed.* (Caesius (TS): make `damage_rando` better)
 - *strike with deadly efficiency.* (BennyRogue (RL): Crit Chance Up)
 
