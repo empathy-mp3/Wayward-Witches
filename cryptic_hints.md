@@ -98,7 +98,7 @@
 - *world has been restored* (hecate.mp3 (Noita): reduce `peaceful_ending` to 1)
 - *fight them individually, instead of all at once.* (Connor (Godhome): change `victory_condition` to `boss_rush`)
 - *a child is fated to slay their parent: a tale as old as time.* (Connor (TS): change `dad_percent` to `true`)
-- *arbalistic!* (ChromaNyan: reduce `advancement_goal` by 10)
+- *arbalistic!* (ChromaNyan (MC): reduce `advancement_goal` by 10)
 - *be allowed entry with the elite.* (DiStegRogue (RB): lower `elite_four_badges_condition` range)
 - *benevolence.* (Sylsko (Ender Lilies): change `goal` to easier goal)
 - *return the seal.* (Roguinater (Meritous): reduce `goal` difficulty)
@@ -160,7 +160,7 @@
 
 ## attack
 - *offer this memento and share a delusion of power.* (hecate.mp3 (TUNC): "ATT Offering")
-- *the same weapon, but it seems different this time.* (ChromaNyan: "Sharpness III Book")
+- *the same weapon, but it seems different this time.* (ChromaNyan (MC): "Sharpness III Book")
 - *the crown of the ruler of this land.* (Sylsko (TS): Empire Crown)
 - *attune to a true memory of yourself, instead of a pale retelling.* (Sylsko (TUNC): Hero Relic - ATT)
 - *perhaps a little too nerfed.* (Caesius (TS): make `damage_rando` better)
@@ -182,7 +182,7 @@
 - *oops! all 6s* (Toto (HK): decrease `RandomCharmCosts` by 20)
 
 ## food
-- *we're having pig for dinner tonight!* (ChromaNyan: "16 Porkchops": 1)
+- *we're having pig for dinner tonight!* (ChromaNyan (MC): "16 Porkchops": 1)
 
 ## second chance
 - *should you hold it in your left hand, something magical may happen.* (hecate.mp3 (DO2): change `pay_to_win_count`, `tailor_for_success_count`, and `last_stand_count` to random-high)
@@ -288,7 +288,7 @@
 - *why are they wearing a rain coat and holding an umbrella? it wouldn't be necessary!* (Roguinater (Peggle Deluxe): Tula)
 
 ## copy
-- *a simple enchantment can remove all material costs.* (ChromaNyan: "Infinity Book")
+- *a simple enchantment can remove all material costs.* (ChromaNyan (MC): "Infinity Book")
 - *no way i'm doing this with only eight hearts.* (Maxor: reduce `item_pool` difficulty)
 
 ## enemy damage

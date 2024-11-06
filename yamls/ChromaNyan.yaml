@@ -2,7 +2,9 @@
 
 description: so we back in the mine
 
-game: Minecraft
+game:
+  Minecraft: 1
+  Manual_SuperCatTales_ChromaNyan: 1
 requires:
   version: 0.5.0
 
@@ -25,3 +27,7 @@ Minecraft:
         - Bee Trap
       replacement_item: Bee Trap
       link_replacement: true
+Manual_SuperCatTales_ChromaNyan:
+  progression_balancing: 0 # change to 20, then 40, then 60
+  filler_traps: random-high # change to random, then random-low
+  death_link: 'true'

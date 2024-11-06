@@ -351,7 +351,7 @@ Toto (StS): reduce `ascension` value
 (referring to DiStegRogue (OOT): make `mq_dungeons_mode` easier)
 
 DiStegRogue (OOT): make `mq_dungeons_mode` easier
-ChromaNyan: reduce `combat_difficulty` by one level
+ChromaNyan (MC): reduce `combat_difficulty` by one level
 Sylsko (Ender Lilies): reduce `start_chapter` by 2
 Toto (SotM): remove `Starlight`, `Starlight Genesis`, `Nightlore Council Starlight`, and `Starlight Area-51` from `exclude_from_pool`
 
@@ -362,7 +362,7 @@ Toto (SotM): remove `Starlight`, `Starlight Genesis`, `Nightlore Council Starlig
 
 hecate.mp3 (Noita): increase `orbs_as_checks no_orbs` to 4
 Alex230: Skill Level 3
-ChromaNyan: reduce `combat_difficulty` by one level
+ChromaNyan (MC): reduce `combat_difficulty` by one level
 Toto (StS): reduce `ascension` value
 
 ## challenge VII
@@ -526,7 +526,7 @@ Toto (TS): decrease `trap_chance` by 20
 
 Connor (TS): lower `trap_chance` by 25
 hecate.mp3 (Noita): change `bad_effects: 'false'` to 10
-ChromaNyan: reduce `bee_traps` by 50
+ChromaNyan (MC): reduce `bee_traps` by 50
 Toto (TS): decrease `trap_chance` by 20
 
 ## traps V
@@ -536,7 +536,7 @@ Toto (TS): decrease `trap_chance` by 20
 
 hecate.mp3 (TUNC): change `fool_traps: onslaught` to 0
 Connor (SquareMusic): lower `filler_traps` by varied amounts
-ChromaNyan: reduce `bee_traps` by 50
+ChromaNyan (MC): reduce `bee_traps` by 50
 Toto (TS): decrease `trap_chance` by 20
 
 ## traps VI
@@ -620,7 +620,7 @@ BennyRogue (Witness): change `panel_hunt_total` to `random-low`
 (referring to hecate.mp3 (Noita): reduce `peaceful_ending` to 1)
 
 hecate.mp3 (Noita): reduce `peaceful_ending` to 1
-ChromaNyan: reduce `advancement_goal` by 10
+ChromaNyan (MC): reduce `advancement_goal` by 10
 Roguinater (Meritous): reduce `goal` difficulty
 Toto (TS): reduce `dad_percent: false` weight to 1
 
@@ -648,9 +648,9 @@ BennyRogue (Witness): change `panel_hunt_discourage_same_area_factor` to `random
 ## goal VI
 
 *arbalistic!*
-(referring to ChromaNyan: reduce `advancement_goal` by 10)
+(referring to ChromaNyan (MC): reduce `advancement_goal` by 10)
 
-ChromaNyan: reduce `advancement_goal` by 10
+ChromaNyan (MC): reduce `advancement_goal` by 10
 hecate.mp3 (DO2): reduce `goal: craft all legendary cards` to 1
 DiStegRogue (RB): lower `elite_four_key_items_condition` range
 BennyRogue (Witness): decrease `victory_condition: mountain_box_long` weight to 4
@@ -872,7 +872,7 @@ Roguinater (MC): set `shuffle_structures` to `true`
 
 ## attack
 - *offer this memento and share a delusion of power.* (hecate.mp3 (TUNC): "ATT Offering")
-- *the same weapon, but it seems different this time.* (ChromaNyan: "Sharpness III Book")
+- *the same weapon, but it seems different this time.* (ChromaNyan (MC): "Sharpness III Book")
 - *the crown of the ruler of this land.* (Sylsko (TS): Empire Crown)
 - *attune to a true memory of yourself, instead of a pale retelling.* (Sylsko (TUNC): Hero Relic - ATT)
 - *perhaps a little too nerfed.* (Caesius (TS): make `damage_rando` better)
@@ -894,7 +894,7 @@ Roguinater (MC): set `shuffle_structures` to `true`
 - *oops! all 6s* (Toto (HK): decrease `RandomCharmCosts` by 20)
 
 ## food
-- *we're having pig for dinner tonight!* (ChromaNyan: "16 Porkchops": 1)
+- *we're having pig for dinner tonight!* (ChromaNyan (MC): "16 Porkchops": 1)
 
 ## second chance
 - *should you hold it in your left hand, something magical may happen.* (hecate.mp3 (DO2): change `pay_to_win_count`, `tailor_for_success_count`, and `last_stand_count` to random-high)
@@ -1001,7 +1001,7 @@ Roguinater (MC): set `shuffle_structures` to `true`
 - *why are they wearing a rain coat and holding an umbrella? it wouldn't be necessary!* (Roguinater (Peggle Deluxe): Tula)
 
 ## copy
-- *a simple enchantment can remove all material costs.* (ChromaNyan: "Infinity Book")
+- *a simple enchantment can remove all material costs.* (ChromaNyan (MC): "Infinity Book")
 - *no way i'm doing this with only eight hearts.* (Maxor: reduce `item_pool` difficulty)
 
 ## enemy damage
@@ -1034,7 +1034,7 @@ Roguinater (MC): set `shuffle_structures` to `true`
 
 ## macguffins
 hecate.mp3 (Noita): change `extra_orbs` to `random-high`
-ChromaNyan: reduce `egg_shards_required` by varied amounts: 2
+ChromaNyan (MC): reduce `egg_shards_required` by varied amounts: 2
 Sylsko (C64): reduce `total_strawberries` by 10: 2
 Sylsko (C64): reduce `strawberries_required_percentage` by varying amounts: 3
 Caesius (Marble Blast): change `goal` to `'30 levels'`
@@ -1049,7 +1049,7 @@ BennyRogue (Witness): change `challenge_lasers` to `random-high`
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
 hecate.mp3 (UK): "Revolver - Marksman": 1
-ChromaNyan: "4 Diamond Ore": 2
+ChromaNyan (MC): "4 Diamond Ore": 2
 Sylsko (TUNC): Money x255: 2
 Sylsko (Astalon): lower `cost_multiplier`: 3
 Sylsko (Astalon): Amulet of Sol
@@ -1101,7 +1101,7 @@ Caesius (OOT): lower `deadly_bonks`: 3
 ## attack
 hecate.mp3 (TUNC): "ATT Offering": 2
 Connor (TS): change `damage_rando` to `mostlybuffs`
-ChromaNyan: "Sharpness III Book"
+ChromaNyan (MC): "Sharpness III Book"
 Sylsko (TUNC): Hero Relic - ATT
 Sylsko (TS): Empire Crown
 Sylsko (TS): make `damage_rando` better: 2
@@ -1128,7 +1128,7 @@ BennyRogue (RL): Siphon Runes
 
 ## slots
 hecate.mp3 (TUNC): "Card Slot": 1
-ChromaNyan: "Shulker Box": 2
+ChromaNyan (MC): "Shulker Box": 2
 Sylsko (TS): Jewerly Box
 Sylsko (Ender Lilies): Chain of Sorcery: 3
 Roguinater (MC): Shulker Box:1
@@ -1138,7 +1138,7 @@ BennyRogue (RL): Equip Up
 
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
-ChromaNyan: "16 Porkchops": 1
+ChromaNyan (MC): "16 Porkchops": 1
 Caesius (MC): "16 Porkchops": 2
 
 ## second chance
@@ -1259,7 +1259,7 @@ Connor (SquareMusic): "Alexander": 1
 Toto (SotM): remove `Terminus`, `Ministry of Strategic Science Terminus`, and `Terminus 2199` from `exclude_from_pool`
 
 ## luck
-ChromaNyan: "Looting III Book"
+ChromaNyan (MC): "Looting III Book"
 DiStegRogue (Emerald): change `guaranteed_catch` to true
 Caesius (MC): "Looting III Book"
 
@@ -1304,7 +1304,7 @@ Toto (SotM): remove `"Ra: Setting Sun"` from `exclude_from_pool`
 
 ## copy
 Maxor: reduce `item_pool` difficulty: 2
-ChromaNyan: "Infinity Book"
+ChromaNyan (MC): "Infinity Book"
 Caesius (MC): "Infinity Book"
 Roguinater (Peggle Nights): Jimmy Lightning
 Roguinater (Peggle Deluxe): Jimmy Lightning

@@ -192,6 +192,19 @@ filler:
 "32 Arrows"
 "4 Emeralds"
 
+Super Cat Tales (manual):
+unique items:
+"Coconut"
+"Mr. Cloud"
+"Golden Bat"
+"Ghost"
+
+duplicate items:
+"Single-Use Golden Cat": 2
+
+filler:
+"Rusted Bell"
+
 ## DiStegRogue
 
 Origin: Any/No Preference
@@ -676,3 +689,339 @@ Progressive Shield Weapon: 1
 
 Filler:
 Scroll of Acquirement
+
+## Panda_Rogue
+
+Origin: Under the ocean
+
+Minecraft
+Duplicate Items:
+- Progressive Armor:1
+- 4 Diamond Ore:3
+- Shulker Box:1
+
+
+Filler:
+50 XP
+32 Arrows
+4 Emeralds
+
+## DragoRogue2
+
+Origin: Moon
+
+Earthbound: https://github.com/PinkSwitch/Archipelago/releases/
+number of yaml changes: 6
+
+unique items: 
+N/A
+
+duplicate items:
+"Progressive Bat": 3
+"Progressive Gun": 3
+"Progressive Fry Pan": 5
+
+
+Filler:
+"Teddy Bear"
+"Repel Superwich"
+"Big Bottle Rocket"
+
+
+Factorio:
+number of yaml changes: 16
+
+unique items: 
+N/A
+
+duplicate items:
+N/A
+
+Filler:
+"progressive-physical-projectile-damage"
+"progressive-follower-robot-count"
+"progressive-worker-robots-speed"
+
+
+Pokemon Red and Blue:
+number of yaml changes: 7
+
+unique items: 
+N/A
+
+duplicate items:
+"Master Ball": 10
+
+
+filler:
+"Super Repel"
+"Full Restore"
+"Full Heal"
+"Ultra Ball"
+
+## superfid
+
+origin: Cavern
+
+DLCQuest:
+number of yaml changes: 7
+unique items:
+Pause Menu Pack
+Night Map Pack
+Checkpoint Pack
+
+filler:
+Loading Screen
+Parallax Pack
+Particles Pack
+Removed Ads Pack
+Sexy Outifts Pack
+Top Hat Pack
+
+
+
+Timespinner:
+number of yaml changes: 13
+unique items:
+"Galaxy Earrings"
+"Shattered Orb"
+"Radiant Orb"
+"Eternal Coat"
+"Eternal Crown"
+
+filler:
+"Empress Cake"
+"Royal Casserole"
+
+
+
+A Link to the Past:
+number of yaml changes: 15
+unique items:
+"Magic Upgrade (1/2)"
+
+duplicate items:
+"Progressive Mail":1
+"Progressive Sword":1
+"Bottle":1
+"Boss Heart Container":1
+
+filler:
+"Rupees (50)"
+"Bombs (10)"
+"Arrows (10)"
+
+
+
+Celeste 64:
+number of yaml changes: 10
+filler:
+"Raspberry"
+
+
+
+Pseudoregalia https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/tag/0.7.2:
+number of yaml changes: 3
+unique items:
+"Indignation"
+"Martial Prowess"
+
+duplicate items:
+"Health Piece":8
+"Good Graces":2
+
+filler: # According to the wiki, there are only so many of these in the pool normally. It is listed as a filler by AP however, I will list how many I get when releasing a single Pseudoregalia file
+"Clear Mind":3
+"Pilgrimage":1
+"Empathy":2
+"Professionalism":1
+"Aerial Finesse":1
+
+
+
+Secret of Evermore:
+number of yaml changes: 18
+unique items:
+"Bazooka"
+"30 Cryo Blast"
+
+filler:
+"500 Moniez"
+"Ingredients" #Item group for Alchemy ingredients, if this does not work use the below filler items instead
+"4 Dry Ice"
+"3 Meteorite"
+"Mud Pepper"
+
+## MiroRogue
+
+origin: any
+
+A Hat in Time:
+18 Yaml Changes
+2 Unique items:
+"Badge Pin": 1
+"No Bonk Badge": 1
+
+Filler:
+"25 Pons"
+
+
+DLCQuest:
+17 Yaml Changes
+3 Unique items:
+"Checkpoint Pack": 1
+"Increased HP Pack": 1
+"Health Bar Pack": 1
+
+Filler:
+"Animation Pack": 1
+"Audio Pack": 1
+"Sexy Outfits Pack": 1
+"Parallax Pack": 1
+"Top Hat Pack": 1
+"Pet Pack": 1
+
+
+Pokemon Emerald:
+16 Yaml Changes
+1 Unique items:
+"Exp. Share": 1
+
+3 Dupicate items:
+"Max Revive": 1
+"Max Ether": 1
+"Full Restore": 1
+
+Filler:
+"Great Ball"
+"Super Repel"
+"Super Potion"
+"Revive"
+"Ether"
+
+
+Hollow Knight:
+13 Yaml Changes
+5 Unique items:
+"Shaman_Stone": 1
+"Fragile_Strength": 1
+"Hiveblood": 1
+"Lifeblood_Heart": 1
+"Spell_Twister": 1
+
+2 Dupicate items:
+"Charm_Notch": 1
+"Full_Mask": 1
+
+Filler:
+"Geo_Rock-Default"
+
+
+Minecraft:
+13 Yaml Changes
+3 Unique items:
+"Sharpness III Book": 1
+"Looting III Book": 1
+"Infinity Book": 1
+
+4 Dupicate items:
+"Progressive Armor": 1
+"16 Porkchops": 1
+"4 Diamond Ore": 1
+"Shulker Box": 1
+
+Filler:
+"50 XP"
+"32 Arrows"
+"4 Emeralds"
+"8 Gold Ore"
+
+
+Timespinner:
+14 Yaml Changes
+4 Unique items:
+"Galaxy Earrings": 1
+"Eternal Coat": 1
+"Eternal Crown": 1
+"Star of Lachiem": 1
+
+2 Dupicate items:
+"Max HP": 1
+"Max Aura": 1
+
+Filler:
+"Berry Pick-Mi-Up"
+"Antidote"
+"Potion"
+"Sand Vial"
+"Ether"
+
+## DeathclawShadow
+
+Origin: Cavern
+
+Celeste 64
+10 Yaml Changes
+
+Filler:
+Raspberry
+
+
+Ocarina of Time:
+8 Yaml Changes
+
+Unique Items:
+Biggoron Sword
+Double Defence
+Nayrus Love
+Farores Wind
+Bottles: 1
+
+Filler:
+Rupees (50)
+
+
+Timespinner:
+12 yaml Changes
+
+Unique Items:
+Shattered Orb
+Radiant Orb
+Star of Lachiem
+
+Duplicate Items:
+Eternal Coat: 1
+Eternal Crown: 1
+
+Filler Items:
+Rotten Tail
+
+
+Super Mario 64:
+Yaml Changes 10
+
+Filler Items:
+1 up Mushroom
+
+## HPfunman
+
+Origin: Cavern (Under the Ocean also works)
+
+Kingdom Hearts:
+Unique Items:
+Dodge Roll
+Leaf Bracer
+Second Chance
+Cosmic Arts
+
+Duplicate Items:
+Progressive Cure (plando 1 out of 3)
+Progressive Aero (plando 3 out of 3)
+
+Filler:
+Elixir (don't give more than 99 lol)
+
+Slay the Spire:
+Duplicate Items:
+Boss Relic (plando 2 out of 2)
+Rare Card Draw (plando 2 out of 2)

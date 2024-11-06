@@ -106,7 +106,7 @@ hecate.mp3 (DO2): reduce `legendary_card_location_count` to 0
 Connor (Godhome): change `exclude_p5` to `true`
 Connor (Godhome): change `include_bindings` to `false`
 Connor (Godhome): change `include_radiant_difficulty` to `false`
-ChromaNyan: reduce `combat_difficulty` by one level: 2
+ChromaNyan (MC): reduce `combat_difficulty` by one level: 2
 DiStegRogue (OOT): make `mq_dungeons_mode` easier: 2
 Sylsko (Ender Lilies): change `minibosses_chapter` to `false`
 Sylsko (Ender Lilies): reduce `start_chapter` by 2: 2
@@ -159,7 +159,7 @@ hecate.mp3 (OW): reduce `trap_chance`: 3
 hecate.mp3 (TUNC): change `fool_traps: onslaught` to 0
 Connor (SquareMusic): lower `filler_traps` by varied amounts: 3
 Connor (TS): lower `trap_chance` by 25: 3
-ChromaNyan: reduce `bee_traps` by 50: 2
+ChromaNyan (MC): reduce `bee_traps` by 50: 2
 Caesius (MC): change `bee_traps` to `random-low`
 Roguinater (Meritous): set `include_evolution_traps` to `false`
 Roguinater (MC): decrease `bee_traps` count by varying amounts: 3
@@ -186,7 +186,7 @@ Connor (Godhome): change `victory_condition` to `boss_rush`
 Connor (Godhome): lower `number_of_bosses` to `random-range-20-30`
 Connor (HK): change `Goal` to easier goals: 4
 Connor (TS): change `dad_percent` to `true`
-ChromaNyan: reduce `advancement_goal` by 10: 2
+ChromaNyan (MC): reduce `advancement_goal` by 10: 2
 DiStegRogue (RB): lower `elite_four_badges_condition` range: 2
 DiStegRogue (RB): lower `elite_four_key_items_condition` range: 2
 DiStegRogue (Emerald): change `goal` to easier options: 2
@@ -252,7 +252,7 @@ BennyRogue (RL): change `chests_per_zone` to `random-low`
 
 ## macguffins
 hecate.mp3 (Noita): change `extra_orbs` to `random-high`
-ChromaNyan: reduce `egg_shards_required` by varied amounts: 2
+ChromaNyan (MC): reduce `egg_shards_required` by varied amounts: 2
 Sylsko (C64): reduce `total_strawberries` by 10: 2
 Sylsko (C64): reduce `strawberries_required_percentage` by varying amounts: 3
 Caesius (Marble Blast): change `goal` to `'30 levels'`
@@ -268,7 +268,7 @@ BroneyTowers (SM): increase `minor_qty` by 20: 4
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
 hecate.mp3 (UK): "Revolver - Marksman": 1
-ChromaNyan: "4 Diamond Ore": 2
+ChromaNyan (MC): "4 Diamond Ore": 2
 Sylsko (TUNC): Money x255: 2
 Sylsko (Astalon): lower `cost_multiplier`: 3
 Sylsko (Astalon): Amulet of Sol
@@ -321,7 +321,7 @@ Caesius (OOT): lower `deadly_bonks`: 3
 ## attack
 hecate.mp3 (TUNC): "ATT Offering": 2
 Connor (TS): change `damage_rando` to `mostlybuffs`
-ChromaNyan: "Sharpness III Book"
+ChromaNyan (MC): "Sharpness III Book"
 Sylsko (TUNC): Hero Relic - ATT
 Sylsko (TS): Empire Crown
 Sylsko (TS): make `damage_rando` better: 2
@@ -348,7 +348,7 @@ BennyRogue (RL): Siphon Runes
 
 ## slots
 hecate.mp3 (TUNC): "Card Slot": 1
-ChromaNyan: "Shulker Box": 2
+ChromaNyan (MC): "Shulker Box": 2
 Sylsko (TS): Jewerly Box
 Sylsko (Ender Lilies): Chain of Sorcery: 3
 Roguinater (MC): Shulker Box:1
@@ -358,7 +358,7 @@ BennyRogue (RL): Equip Up
 
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
-ChromaNyan: "16 Porkchops": 1
+ChromaNyan (MC): "16 Porkchops": 1
 Caesius (MC): "16 Porkchops": 2
 
 ## second chance
@@ -483,7 +483,7 @@ Connor (SquareMusic): "Alexander": 1
 Toto (SotM): remove `Terminus`, `Ministry of Strategic Science Terminus`, and `Terminus 2199` from `exclude_from_pool`
 
 ## luck
-ChromaNyan: "Looting III Book"
+ChromaNyan (MC): "Looting III Book"
 DiStegRogue (Emerald): change `guaranteed_catch` to true
 Caesius (MC): "Looting III Book"
 
@@ -529,7 +529,7 @@ Toto (SotM): remove `"Ra: Setting Sun"` from `exclude_from_pool`
 
 ## copy
 Maxor: reduce `item_pool` difficulty: 2
-ChromaNyan: "Infinity Book"
+ChromaNyan (MC): "Infinity Book"
 Caesius (MC): "Infinity Book"
 Roguinater (Peggle Nights): Jimmy Lightning
 Roguinater (Peggle Deluxe): Jimmy Lightning
@@ -570,3 +570,225 @@ BennyRogue (Witness): increase `area_hint_percentage` range by 20: 2
 
 +1 life: 50
 +2 life: 10
+
+ChromaNyan (Super Cat Tales): "Coconut"
+ChromaNyan (Super Cat Tales): "Mr. Cloud"
+ChromaNyan (Super Cat Tales): "Golden Bat"
+ChromaNyan (Super Cat Tales): "Ghost"
+ChromaNyan (Super Cat Tales): "Single-Use Golden Cat": 2
+ChromaNyan (Super Cat Tales): increase `progression_balancing` by 20: 3
+ChromaNyan (Super Cat Tales): reduce likelihood of `filler_traps`: 2
+Panda_Rogue: Progressive Armor:1
+Panda_Rogue: 4 Diamond Ore:3
+Panda_Rogue: Shulker Box:1
+Panda_Rogue: reduce `advancement_goal` by 5: 3
+Panda_Rogue: reduce `egg_shards_required`: 3
+Panda_Rogue: increase `egg_shards_available`: 3
+Panda_Rogue: change `shuffle_structures` to `true`
+Panda_Rogue: reduce `combat_difficulty`: 2
+Panda_Rogue: reduce `bee_traps`: 3
+DragoRogue2 (Earthbound): "Progressive Bat": 3
+DragoRogue2 (Earthbound): "Progressive Gun": 3
+DragoRogue2 (Earthbound): "Progressive Fry Pan": 5
+DragoRogue2 (Earthbound): reduce `sanctuaries_required` by 1: 2
+DragoRogue2 (Earthbound): change `monkey_caves_mode` to `solved`
+DragoRogue2 (Earthbound): increase `exp_modifier` by 80: 2
+DragoRogue2 (Earthbound): increase `rare_filler_weight` by 8
+DragoRogue2 (Factorio): reduce `max_science_pack`: 3
+DragoRogue2 (Factorio): reduce `min_tech_cost`: 3
+DragoRogue2 (Factorio): increase `free_samples` amount: 2
+DragoRogue2 (Factorio): increase `recipe_time`: 2
+DragoRogue2 (Factorio): decrease `recipe_ingredients_offset`: 3
+DragoRogue2 (Factorio): increase `world_gen: starting area` by 0.4
+DragoRogue2 (Factorio): decrease `artillery_traps` by 5: 5
+DragoRogue2 (Red & Blue): make `door_shuffle` more reasonable: 3
+DragoRogue2 (Red & Blue): increase `exp_modifier`: 2
+DragoRogue2 (Red & Blue): increase `minimum_catch_rate`: 2
+DragoRogue2 (Red & Blue): "Master Ball": 10
+superfid (DLCQ): Pause Menu Pack
+superfid (DLCQ): Night Map Pack
+superfid (DLCQ): Checkpoint Pack
+superfid (DLCQ): increase `progression_balancing` by 10: 6
+superfid (DLCQ): change `permanent_coins` to true
+superfid (TS): "Galaxy Earrings"
+superfid (TS): "Shattered Orb"
+superfid (TS): "Radiant Orb"
+superfid (TS): "Eternal Coat"
+superfid (TS): "Eternal Crown"
+superfid (TS): change `start_with_jewelry_box` to `true`
+superfid (TS): limit `boss_rando` to only `off` or `scaled`
+superfid (TS): buff `damage_rando`: 2
+superfid (TS): increase `hp_cap` lower bound: 3
+superfid (TS): increase `extra_earrings_xp` lower bound: 2
+superfid (TS): change `shop_multiplier` to 0
+superfid (TS): change `fixed_drop_rate` to 100
+superfid (TS): increase `dad_percent: true` weight
+superfid (TS): decrease `trap_chance` lower bound
+superfid (LTTP): "Magic Upgrade (1/2)"
+superfid (LTTP): "Progressive Mail":1
+superfid (LTTP): "Progressive Sword":1
+superfid (LTTP): "Bottle":1
+superfid (LTTP): "Boss Heart Container":1
+superfid (LTTP): increase `goal: pedestal` and `goal: mercenary` weights: 2
+superfid (LTTP): decrease `crystals_needed_for_gt` and `crystals_needed_for_ganon` upper bound
+superfid (LTTP): change `small_key_shuffle` to `start_with`
+superfid (LTTP): decrease `item_pool` difficulty: 2
+superfid (LTTP): change `item_functionality` to `easy`
+superfid (LTTP): decrease `enemy_health`: 2
+superfid (LTTP): change `swordless` to `false`
+superfid (LTTP): change `enemy_shuffle` to `false`
+superfid (LTTP): reduce `shop_price_modifier` upper bound: 2
+superfid (LTTP): change `bombless_start` to `false`
+superfid (LTTP): change `beemizer_total_chance` to 0
+superfid (C64): number of yaml changes: 10
+superfid (C64): increase `death_link_amnesty`: 4
+superfid (C64): change `logic_difficulty` to `standard`
+superfid (C64): change `total_strawberries` to `random`
+superfid (C64): lower `strawberries_requires_percentage`: 2
+superfid (C64): change `badeline_chaser_frequency` to be better: 2
+superfid (Pseudoregalia): "Indignation"
+superfid (Pseudoregalia): "Martial Prowess"
+superfid (Pseudoregalia): "Health Piece":8
+superfid (Pseudoregalia): "Good Graces":2
+superfid (Pseudoregalia): make `logic_level` weights easier: 2
+superfid (Pseudoregalia): change `obscure_logic` to `false`
+superfid (Secret of Evermore): "Bazooka"
+superfid (Secret of Evermore): "30 Cryo Blast"
+superfid (Secret of Evermore): change `difficulty` weights to exclude `hard`
+superfid (Secret of Evermore): lower `frequired_fragments` and `available_fragments` upper bounds: 2
+superfid (Secret of Evermore): increase `money_modifier`: 3
+superfid (Secret of Evermore): increase `exp_modifier`: 3
+superfid (Secret of Evermore): change `sequence_breaks` to `on`
+superfid (Secret of Evermore): change `out_of_bounds` to `on`
+superfid (Secret of Evermore): change `fix_cheats` to `false`
+superfid (Secret of Evermore): change `fix_infinite_ammo` to `false`
+superfid (Secret of Evermore): change `fix_atlas_glitch` to `false`
+superfid (Secret of Evermore): change `fix_wings_glitch` to `false`
+superfid (Secret of Evermore): change `short_boss_rush` to `true`
+superfid (Secret of Evermore): change `turdo_mode` to `false`
+superfid (Secret of Evermore): change `trap_count` to 0
+MiroRogue (AHiT): "Badge Pin": 1
+MiroRogue (AHiT): "No Bonk Badge": 1
+MiroRogue (AHiT): change `EndGoal: rush_hour` weight to 2
+MiroRogue (AHiT): change `seal_the_deal` weight to 0
+MiroRogue (AHiT): decrease `LogicDifficulty`: 3
+MiroRogue (AHiT): make `CTRLogic` more reasonable: 3
+MiroRogue (AHiT): decrease `PonCost` (complex trigger): 2
+MiroRogue (AHiT): decrease `ChapterCost` (complex trigger): 2
+MiroRogue (AHiT): reduce `DLC` (complex trigger): 3
+MiroRogue (AHiT): reduce `TrapChance`: 2
+MiroRogue (AHiT): set `StartWithCompassBadge` to `true`
+MiroRogue (DLCQ): "Checkpoint Pack": 1
+MiroRogue (DLCQ): "Increased HP Pack": 1
+MiroRogue (DLCQ): "Health Bar Pack": 1
+MiroRogue (DLCQ): increase `progression_balancing` by 33: 3
+MiroRogue (DLCQ): change `ending_choice` to `any`
+MiroRogue (DLCQ): change `double_jump_glitch` to `none`
+MiroRogue (DLCQ): change `time_is_money` to `required`
+MiroRogue (DLCQ): add various important Packs to `start_hints`: 10
+MiroRogue (Emerald): "Exp. Share": 1
+MiroRogue (Emerald): "Max Revive": 1
+MiroRogue (Emerald): "Max Ether": 1
+MiroRogue (Emerald): "Full Restore": 1
+MiroRogue (Emerald): remove weights of difficult `goal` settings: 3
+MiroRogue (Emerald): change `dexsanity` to `false`
+MiroRogue (Emerald): change `trainersanity` to `false`
+MiroRogue (Emerald): make more sections `require_flash`: 2
+MiroRogue (Emerald): change `legendary_hunt_count` to `random-low`
+MiroRogue (Emerald): add `_Legendaries` to `trainer_party_blacklist`
+MiroRogue (Emerald): change `force_fully_evolved` to `random-high`
+MiroRogue (Emerald): add `Wonder Guard: 1` to `ability_blacklist`
+MiroRogue (Emerald): increase `exp_modifier` by 100: 2
+MiroRogue (Emerald): increase `match_trainer_levels_bonus` by 5: 3
+MiroRogue (HK): "Shaman_Stone": 1
+MiroRogue (HK): "Fragile_Strength": 1
+MiroRogue (HK): "Hiveblood": 1
+MiroRogue (HK): "Lifeblood_Heart": 1
+MiroRogue (HK): "Spell_Twister": 1
+MiroRogue (HK): change `RandomizeFocus` to `false`
+MiroRogue (HK): change `RandomizeNail` to `false`
+MiroRogue (HK): decrease `AnnoyingChecks` (complex trigger): 2
+MiroRogue (HK): decrease `SkipDifficulty` (complex trigger): 3
+MiroRogue (HK): decrease `GoalDifficulty` (complex trigger): 2
+MiroRogue (HK): decrease `Costs` (complex trigger): 2
+MiroRogue (HK): decrease `SplitCrystalHeart: true`, `SplitMothwingCloak: true`, and `SplitMantisClaw: true` weights to 5
+MiroRogue (HK): "Charm_Notch": 1
+MiroRogue (HK): "Full_Mask": 1
+MiroRogue (MC): "Sharpness III Book": 1
+MiroRogue (MC): "Looting III Book": 1
+MiroRogue (MC): "Infinity Book": 1
+MiroRogue (MC): "Progressive Armor": 1
+MiroRogue (MC): "16 Porkchops": 1
+MiroRogue (MC): "4 Diamond Ore": 1
+MiroRogue (MC): "Shulker Box": 1
+MiroRogue (MC): decrease `advancement_goal` by 20: 3
+MiroRogue (MC): make `required_bosses` easier: 3
+MiroRogue (MC): change `shuffle_structures` to `true`
+MiroRogue (MC): reduce `combat_difficulty`: 2
+MiroRogue (MC): change `include_postgame_achievements` to `false`
+MiroRogue (MC): decrease `bee_traps`: 2
+MiroRogue (MC): change `send_defeated_mobs` to `false`
+MiroRogue (TS): "Galaxy Earrings": 1
+MiroRogue (TS): "Eternal Coat": 1
+MiroRogue (TS): "Eternal Crown": 1
+MiroRogue (TS): "Star of Lachiem": 1
+MiroRogue (TS): "Max HP": 1
+MiroRogue (TS): "Max Aura": 1
+MiroRogue (TS): change `start_with_jewelry_box` and `start_with_meyef` to `false`
+MiroRogue (TS): change `eye_spy` to `false` and `quick_seed` to `true`
+MiroRogue (TS): change `gyre_archives`, `cantoran`, and `enter_sandman` to `false` (i think?)
+MiroRogue (TS): increase `hp_cap`: 3
+MiroRogue (TS): change `boss_healing` to `true`
+MiroRogue (TS): decrease `shop_multiplier` by 1: 2
+MiroRogue (TS): increase `dad_percent` chance: 2
+MiroRogue (TS): reduce `trap_chance`: 2
+DeathclawShadow (C64): increase `death_link_amnesty`: 3
+DeathclawShadow (C64): reduce `total_strawberries`: 7
+DeathclawShadow (OOT): Biggoron Sword
+DeathclawShadow (OOT): Double Defence
+DeathclawShadow (OOT): Nayrus Love
+DeathclawShadow (OOT): Farores Wind
+DeathclawShadow (OOT): Bottles: 1
+DeathclawShadow (OOT): decrease `ganon_bosskey_tokens` by 20: 2
+DeathclawShadow (OOT): decrease `ganon_bosskey_hearts` by 4: 2
+DeathclawShadow (OOT): halve `damage_multiplier`: 2
+DeathclawShadow (OOT): halve `deadly_bonks`: 2
+DeathclawShadow (TS): Shattered Orb
+DeathclawShadow (TS): Radiant Orb
+DeathclawShadow (TS): Star of Lachiem
+DeathclawShadow (TS): Eternal Coat: 1
+DeathclawShadow (TS): Eternal Crown: 1
+DeathclawShadow (TS): improve `damage_rando`: 3
+DeathclawShadow (TS): increase `hp_cap`: 3
+DeathclawShadow (TS): change `start_with_jewelry_box` to `true`
+DeathclawShadow (TS): change `eye_spy` to `false`
+DeathclawShadow (TS): make `boss_rando` easier: 2
+DeathclawShadow (TS): reduce `trap_chance`: 2
+DeathclawShadow (SM64): increase `progression_balancing` by 20: 5
+DeathclawShadow (SM64): set `area_rando: courses_and_secrets` weight to 0
+DeathclawShadow (SM64): change `buddy_checks` to `false`
+DeathclawShadow (SM64): decrease `stars_to_finish`: 2
+DeathclawShadow (SM64): change `completion_type` to `last_bowser_stage`
+HPfunman (Kingdom Hearts): Dodge Roll
+HPfunman (Kingdom Hearts): Leaf Bracer
+HPfunman (Kingdom Hearts): Second Chance
+HPfunman (Kingdom Hearts): Cosmic Arts
+HPfunman (Kingdom Hearts): Progressive Cure (plando 1 out of 3)
+HPfunman (Kingdom Hearts): Progressive Aero (plando 3 out of 3)
+HPfunman (Kingdom Hearts): change `goal` to `postcards`
+HPfunman (Kingdom Hearts): reduce `required_postcards` by 5
+HPfunman (Kingdom Hearts): change `atlantica` to `false`
+HPfunman (Kingdom Hearts): change `hundred_acre_wood` to `false`
+HPfunman (Kingdom Hearts): change `cups` to `false`
+HPfunman (Kingdom Hearts): change `puppies` to `triplets`
+HPfunman (Kingdom Hearts): double `exp_modifier`: 2
+HPfunman (Kingdom Hearts): change `extra_shard_abilities` to `true`
+HPfunman (Kingdom Hearts): change `keyblade_min_str` to 14
+HPfunman (Kingdom Hearts): change `keyblade_max_mp` to 5
+HPfunman (Kingdom Hearts): change `keyblade_min_mp` to 3
+HPfunman (StS): Boss Relic (plando 2 out of 2)
+HPfunman (StS): Rare Card Draw (plando 2 out of 2)
+HPfunman (StS): increase `progression_balancing`: 2
+HPfunman (StS): change `character` to easier characters: 2
+HPfunman (StS): decrease `ascension` by 2: 5
+HPfunman (StS): change `final_act` to `false`
