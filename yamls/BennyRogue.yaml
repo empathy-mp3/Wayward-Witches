@@ -46,7 +46,7 @@ The Witness:
   area_hint_percentage: random-range-20-40 # change to random-range-40-60, then random-range-60-80
   laser_hints: 'false'
   early_caves: 'off'
-  elevators_come_to_you: 'false
+  elevators_come_to_you: 'false'
   death_link: 'true'
   death_link_amnesty: 1 # Change to 2, 3, 4, then 5
   shuffle_dog:

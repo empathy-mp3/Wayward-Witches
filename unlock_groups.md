@@ -16,6 +16,13 @@ Toto (SotM): remove `"Parse: Fugue State"` from `exclude_from_pool`
 Toto (SotM): remove `Urban Warfare Expatriette`, `Siege Breaker Bunker`, and `Nitro Boost Absolute Zero` from `exclude_from_pool`
 Toto (HK): change `RemoveSpellUpgrades` to `false`
 Toto (DS3): change `no_spell_requirements` to `true`
+BroneyTowers (Angband): Progressive Ranged Weapon: 1
+BroneyTowers (SMMR): Plasma Beam
+BroneyTowers (SMMR): Spazer Beam
+BroneyTowers (SM): Plasma Beam
+BroneyTowers (SM): Spazer Beam
+BroneyTowers (SM): change `fun_combat` to `false`
+BroneyTowers (SM): change `nerfed_charge` to `true`
 
 ## fire
 hecate.mp3 (UK): "Rocket Launcher - Firestarter": 1
@@ -32,6 +39,8 @@ hecate.mp3 (UK): "Shotgun - Core Eject": 1
 Sylsko (TUNC): Firecracker x5: 2
 Roguinater (Peggle Deluxe): Splork
 Roguinater (Peggle Nights): Splork
+BroneyTowers (SMMR): Power Bomb: 2
+BroneyTowers (SM): Power Bomb: 2
 
 ## vitality
 hecate.mp3 (Noita): "Extra Max HP": 4
@@ -60,6 +69,7 @@ Toto (HK): "Full_Mask" [Not from pool]
 Toto (HK): "Full_Mask" [Not from pool]
 Toto (TS): increase `hp_cap`: 5
 Toto (SotM): in `filler_weights`, change `HeroHp variant` to `pos`
+BroneyTowers (SM): increase `energy_qty` frequency: 3
 
 ## healing
 hecate.mp3 (DO2): "Second Wind": 2
@@ -76,6 +86,7 @@ Caesius (Emerald): "Super Potion": 5
 Toto (HK): change `RandomizeFocus` to `false`
 Connor (UT): "ITEM": 1
 BennyRogue (RL): Vampire Runes
+BroneyTowers (SMMR): change `buffed_drops` to `true`
 
 ## fearless
 Alex230: Disable Atmosfear Mod
@@ -112,6 +123,7 @@ Sylsko (Astalon): change `start_with_qol` to `true`
 Roguinater (Meritous): Ethereal Monocle
 Slipomatic_SM: X-Ray Scope
 Toto (DS3): disable `Jailer` replacing `Basic` in `random_enemy_preset`
+BroneyTowers (SMMR): change `mark_map_stations` to `true`
 
 ## speed
 hecate.mp3 (DO2): "Loot & Scoot":2
@@ -125,6 +137,9 @@ Toto (HK): "Sprintmaster" and `PlandoCharmCosts: {"Sprintmaster": 0}`
 Toto (SotM): remove `Freedom Six Tachyon` from `exclude_from_pool`
 Toto (TS): change `quick_seed: false` weight to 1
 Toto (HK): change `ExtraPlatforms` to `true`
+BroneyTowers (SMMR): change `wall_jump` to `vanilla`
+BroneyTowers (SM): change `fun_movement` to `false`
+BroneyTowers (SM): lower `tourian` amount: 2
 
 ## stealth
 hecate.mp3 (DO2): "Sneak":3
@@ -207,6 +222,7 @@ Toto (DS3): change `simple_early_bosses` to `true`
 Toto (DS3): disable `Bosses` replacing `Basic` in `random_enemy_preset`
 Toto (DS3): disable `Bosses` replacing `Miniboss` in `random_enemy_preset`
 Toto (DS3): disable `Minibosses` replacing `Basic` in `random_enemy_preset`
+BroneyTowers (SMMR): decrease `mother_brain`: 2
 
 ## key
 hecate.mp3 (DO2): change `caves_of_carnage_key_count`, `black_mines_key_count`, `flooded_depths_key_count`, and `burning_dark_key_count` to random-high
@@ -215,6 +231,7 @@ Sylsko (Astalon): change `open_early_doors` to `true`
 Connor (UT): decrease `key_pieces` by varied amounts: 2
 Roguinater (V6): decrease `DoorCost` by 1: 2
 Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}: 3
+BroneyTowers (SM): change `door_colors_rando` to `false`
 
 ## breath
 hecate.mp3 (DO2): change `revelation_count`, `aquata_breather_count`, and `eureka_count` to random-high
@@ -246,6 +263,7 @@ Roguinater (Peggle Deluxe): decrease `certificates_required` by 2: 5
 Toto (SotM): change `required_scions` to 40, and in `filler_weights`, change `Scion min` to 20
 BennyRogue (Witness): change `mountain_lasers` to `random-low`
 BennyRogue (Witness): change `challenge_lasers` to `random-high`
+BroneyTowers (SM): increase `minor_qty` by 20: 4
 
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
@@ -291,6 +309,7 @@ Roguinater (MC): Progressive Armor: 1
 Maxor: Progressive Armor: 1
 Rezalex: Progressive Armor: 2
 BennyRogue (RL): Armor Up
+BroneyTowers (Angband): Progressive Shield Weapon: 1
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
@@ -362,6 +381,9 @@ Alex230: increase `progression_balancing` by 10: 5
 Connor (SquareMusic): increase `progression_balancing` by varied amounts: 3
 Connor (UT): increase `progression_balancing` by 20: 2
 Roguinater (Meritous): increase `progression_balancing` by 15: 3
+BroneyTowers (SMMR): increase `progression_balancing` by 10: 5
+BroneyTowers (SM): increase `progression_balancing` by 25: 2
+BroneyTowers (Angband): increase `progression_balancing` by 10: 5
 
 ## choice
 Alex230: Free Choice of Map
@@ -412,11 +434,14 @@ Toto (SotM): remove `Benchmark` and `Benchmark Supply & Demand` from `exclude_fr
 Toto (HK): change `RandomizeNail` to `false`
 BennyRogue (RL): Sky Blueprints
 BennyRogue (RL): Dragon Blueprints
+BroneyTowers (Angband): Progressive Polearm Weapon: 1
+BroneyTowers (Angband): increase `star_acquire_percent` by 10: 4
 
 ## starting
 Connor (UT): change `starting_area` to easier areas: 3
 Toto (SotM): increase `starting_items`
 Toto (SotM): in `filler_weights`, change `StartHandSize variant` to `both` and `specificity` to 1
+BroneyTowers (SMMR): change `randomized_start` to `false`
 
 ## revenge
 Connor (Godhome): "Grubsong": 1
@@ -477,6 +502,7 @@ Rezalex: reduce `item_functionality` difficulty: 2
 Toto (StS): "Relic" [Not from pool]: 3
 Toto (SotM): remove `Cypher`, `First Response Cypher`, and `Cypher Swarming Protocol` from `exclude_from_pool`
 Toto (DS3): change `auto_equip` and `lock_equip` to `false`
+BroneyTowers (Angband): Progressive Ring Artifact: 4
 
 ## amnesty
 

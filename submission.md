@@ -634,3 +634,45 @@ Crit Damage Up
 
 Filler:
 1000 Gold
+
+## BroneyTowers
+
+Origin: Cavern
+
+Super Metroid:
+15 yaml changes (specified in file)
+
+Unique Items:
+Plasma Beam
+Spazer Beam
+
+Duplicate Items:
+Power Bomb: 2
+
+Filler:
+Missile
+
+Super Metroid Map Rando:
+12 yaml changes (specified in file)
+
+Unique Items:
+Plasma Beam
+Spazer Beam
+
+Duplicate Items:
+Power Bomb: 2
+
+Filler:
+Missile
+
+Manual_Angband425_Broney:
+9 yaml changes (specified in file)
+
+Duplicate Items:
+Progressive Ring Artifact: 4
+Progressive Polearm Weapon: 1
+Progressive Ranged Weapon: 1
+Progressive Shield Weapon: 1
+
+Filler:
+Scroll of Acquirement
