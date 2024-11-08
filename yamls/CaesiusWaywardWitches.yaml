@@ -416,7 +416,7 @@ Minecraft: # 5 yaml change upgrades
   include_unreasonable_advancements: 'false'
   include_postgame_advancements: 'false'
   bee_traps: random-high # Change to random-low
-  send_defeated_mobs: 'false'
+  send_defeated_mobs: 'true'
   death_link: 'true'
   item_links:
     - name: MinecraftTrapLink

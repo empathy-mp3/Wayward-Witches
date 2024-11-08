@@ -972,10 +972,10 @@ Ocarina of Time:
 
 Unique Items:
 Biggoron Sword
-Double Defence
+Double Defense
 Nayrus Love
 Farores Wind
-Bottles: 1
+Bottle: 1
 
 Filler:
 Rupees (50)
