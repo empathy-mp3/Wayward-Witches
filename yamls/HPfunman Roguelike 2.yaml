@@ -123,6 +123,4 @@ Slay the Spire:
   character: spire_take_the_wheel # change to random, then ironclad
   ascension: 20 # change to 18, then 16, then 14, then 12, then 10 (aka 5 "lower ascension by 2" unlocks available)
   final_act: 'true' # change to false
-  downfall: 'false'
-
-
+  death_link: 100 # change to 50, then 25, then 10

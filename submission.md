@@ -1025,3 +1025,669 @@ Slay the Spire:
 Duplicate Items:
 Boss Relic (plando 2 out of 2)
 Rare Card Draw (plando 2 out of 2)
+
+## CrystalOOT
+
+Origin: Moon
+
+Ocarina of Time:
+
+Unique Items:
+
+Biggoron Sowrd
+Double Defense
+Farore's Wind
+Nayru's Love
+
+Duplicate Items:
+
+Slingshot: 1
+Bow: 1
+Bottle: 2
+Huge Rupee
+Heart Container: 2
+
+## Brynatron
+
+Origin: Marsh, Mountain, or Cavern
+
+Hollow Knight:
+12 Upgrades
+
+Unique Items:
+Great Slash
+Nailmaster's Glory
+Hiveblood
+
+Duplicate Items:
+Fragile Heart
+Fragile Greed
+
+Terraria:
+10 Upgrades
+
+Unique Items:
+Rod of Discord
+Cobalt Shield
+Lava Charm
+Black Belt
+
+Stardew Valley
+12 Upgrades
+
+## SansEmeraldRL
+
+Origin: Under the Ocean or Mountain
+
+Emerald:
+9 Upgrades
+
+Unique Items (I think, the game can handle getting multiple of them but there's no point):
+"HM02 Fly"
+"Leftovers"
+"Exp. Share"
+
+Filler items
+"Max Revive"
+
+## Grimore
+
+Origin Preference: Cavern, Mountain, Any
+
+A Hat in Time:
+Total Items (Including YAML): 12 + 2 + 2 = 16
+
+Duplicates:
+"Badge Pin":2
+
+Solo:
+Fast Hatter Badge
+No Bonk Badge
+
+Filler:
+25 Pons
+
+Noita:
+Total Items (Including YAML): 5 + 1 + 10 = 16
+Solo:
+Tinker with Wands Everywhere Perk
+
+Duplicates:
+"Wand (Tier 4)":2
+"Wand (Tier 5)":2
+"Wand (Tier 6)":2
+"Extra Max HP":4
+
+Filler:
+"Gold (200)"
+"Potion"
+"Powder Pouch"
+
+Timespinner:
+Total Items (Including YAML): 13 + 3 + 3 = 19
+Uniques:
+Empire Crown
+Eternal Coat
+Galaxy Earrings
+
+Duplicate Items:
+Max Aura: 3
+
+Filler:
+Berry Pick-Mi-Up
+Ether
+
+Minecraft:
+Total Items (Including YAML): 12
+N/A
+
+Sonic Adventure DX:
+Total Items (Including YAML): 16
+Targeted APWorld Version: 0.8.8
+
+## TzufRougelike
+
+Origin: Any
+
+Hollow Knight:
+
+Unique items:
+"Fragile_Strength": 1
+"Shaman_Stone": 1
+"Quick_Slash": 1
+"Mark of Pride": 1
+"Quick_Focus": 1
+
+Duplicate items:
+"Charm_Notch": 1
+"Full_Mask": 1
+
+
+Super Metroid:
+
+Unique items:
+
+"Spazer_Beam": 1 (Once Door Rando is off)
+"Plasma_Beam": 1 (Once door rando is off)
+
+
+Duplicate items:
+"Power_Bomb": 2
+"Reserve_Tank": 1
+"Energy_Tank": 2
+
+
+Ocarina Of Time:
+
+Unique Items:
+"Biggoron Sword": 1
+"Double Defense": 1
+"Farores Wind": 1
+
+
+Duplicate items:
+"Boss Heart Container": 3
+"Hylian Shield": 1
+"Bottle with Red Potion": 1
+
+
+A Link To the Past:
+
+Unique Items:
+"Blue Mail": 1
+"Red Mail": 1 (after normal item pool)
+"Bug Net": 1
+
+
+Duplicate Items:
+"Boss Heart Container": 3
+"Bottle (Red Potion)": 1
+"Progressive Shield Upgrade": 1 (2 after normal item pool)
+
+## jf-rogue
+
+Origin: Any
+
+Rogue Legacy
+
+Yaml Changes enclosed
+
+Duplicate Items: (Useful)
+- "Crit Damage Up": 5
+- "Crit Chance Up": 5
+
+Unique Items: (Useful)
+- "Blood Blueprints"
+- "Slayer Blueprints"
+- "Vault Runes"
+- "Haste Rules"
+- "Death Defiance"
+- "Potion Efficiency Up"
+
+Filler Items:
+- "1000 Gold"
+- "3000 Gold"
+- "5000 Gold"
+
+---
+
+Timespinner
+
+Duplicate Items:
+- "Max Sand": 4
+- "Max HP": 4
+
+Unique Items:
+- "Princess Dress"
+- "Galaxy Earrings"
+- "Eternal Crown"
+- "Star of Lachiem"
+
+Filler Items:
+- "Lachiemi Sun"
+- "Spaghetti"
+- "Berry Pick-Mi-Up"
+
+---
+
+A Hat in Time
+
+Yaml Changes enclosed
+
+Duplicate Items:
+- "Yarn": 6
+
+Unique Items:
+- "No Bonk Badge": 1
+- "Hookshot Badge": 1
+
+Filler Items:
+"25 Pons"
+
+---
+
+Hollow Knight:
+
+Yaml Changes enclosed
+
+5 Unique items:
+"Shaman_Stone": 1
+"Fragile_Strength": 1
+"Dashmaster": 1
+"Lifeblood_Heart": 1
+"Sprintmaster": 1
+
+2 Duplicate items:
+- "Charm_Notch": 3
+- "Mask_Shard": 3
+
+Filler:
+"Soul_Refill"
+
+---
+
+Muse Dash
+
+Yaml Changes enclosed
+
+Unique items:
+??? Songs, but they will be relatively random
+
+1 Duplicate items:
+- "Music Sheet": 5
+
+Filler:
+"Extra Life"
+"Great to Perfect (10 Pack)"
+"Miss to Great (5 Pack)"
+
+## JoyTheBard
+
+Origin Preference Order: Moon, Shadow Realm, Under the Ocean, Cavern, Tundra, Mountain, Marsh, Hell
+DLC Quest
+YAML Changes: 8
+Unique Items
+"Checkpoint Pack"
+"Health Bar Pack"
+"Increased HP Pack"
+ 
+Filler
+"Animation Pack"
+"Audio Pack"
+"Parallax Pack"
+"Particles Pack"
+"Remove Ads Pack"
+"Sexy Outfits Pack"
+"Top Hat Pack"
+
+Outer Wilds
+YAML Upgrades: 13
+Duplicate Items
+Oxygen Capacity Upgrade: 2
+Fuel Capacity Upgrade: 2
+Boost Duration Upgrade: 2
+
+Filler
+"Marshmallow"
+"Jetpack Fuel Refill"
+"Oxygen Refill"
+
+Super Mario 64
+YAML Upgrades: 18
+Unique Items
+"Dive"
+"Kick"
+
+Filler
+1Up Mushroom
+The Witness
+YAML Upgrades: 17
+Duplicate Items
+Puzzle Skip: 3
+Filler
+Speed Boost
+
+## sheen
+
+Origin: Moon, Cavern, Tundra
+BBS:
+9 yaml changes
+
+9 unique upgrades
+EXP Walker
+Second Chance
+Once More
+High Jump
+Leaf Bracer
+Zack D-Link
+Peter Pan D-Link
+Experiment 626 D-Link
+Pete D-Link
+
+
+2 duplicate upgrades:
+HP Increase x2
+
+
+filler:
+Magic Haste
+Attack Haste
+
+
+Factorio:
+18 yaml changes
+
+0 unique upgrades
+
+2 duplicate upgrades:
+progressive-processing x1
+progressive-science-pack x1
+
+
+filler:
+progressive-physical-projectile-damage
+progressive-research-speed
+
+
+SMMR:
+4 yaml changes
+
+13 unique upgrades:
+Morph 
+Varia
+Gravity
+SpeedBooster
+SpaceJump
+HiJump
+WallJump
+ScrewAttack
+Plasma
+Wave
+Ice
+Spazer
+Charge
+
+
+3 duplicate upgrades:
+PowerBomb x1
+ETank x2
+
+
+Filler:
+Missile
+
+## SunCat
+
+origin: shadow realm, moon, tundra, any
+
+Timespinner:
+13 yaml changes
+Unique items:
+"Silence Ring": 1
+"Galaxy Earrings": 1
+"Eternal Crown": 1
+"Eternal Coat": 1
+
+Duplicates:
+"Chaos Horn": 2 # small buff
+
+Filler:
+"Mind Refresh"
+"Sand Vial"
+"Antidote"
+
+
+Celeste 64:
+12 yaml changes
+Filler:
+"Raspberry"
+
+
+Risk of Rain 2:
+11 yaml changes
+Filler:
+"Item Scrap, White"
+
+
+Muse Dash
+14 yaml changes
+Filler:
+"Extra Life"
+"Great to Perfect (10 Pack)"
+"Miss to Great (5 Pack)"
+
+
+VVVVVV
+10 yaml changes
+Filler:
+Trinket 13
+Trinket 14
+Trinket 15
+Trinket 16
+Trinket 17
+Trinket 18
+Trinket 19
+Trinket 20
+
+Pokemon Emerald
+10 yaml changes
+Unique Items:
+"HM02 Fly": 1
+
+Duplicates:
+"Leftovers": 2
+
+Filler:
+"Rare Candy"
+
+## Jake13Snake
+
+origin: any
+
+Adventure:
+unique items:
+"Left Difficulty Switch"
+"Right Difficulty Switch"
+"Slow Yorgle"
+"Slow Grundle"
+"Slow Rhindle"
+
+filler:
+"Freeincarnate"
+"Nothing"
+
+
+DOOM 1993:
+unique items:
+"Chainsaw"
+"Shotgun"
+"Chaingun"
+"Rocket launcher"
+"Plasma gun"
+"BFG9000"
+"Backpack"
+
+filler:
+"Medikit"
+"Armor"
+"Box of bullets"
+"Box of shotgun shells"
+"Box of rockets"
+"Energy cell pack"
+"Partial invisibility"
+
+
+Link's Awakening DX:
+unique items:
+"Boomerang"
+
+duplicate items:
+"Heart Container":8
+
+filler:
+"20 Rupees"
+
+For the LADX apworld, replace the one in lib/worlds; don't put it in custom_worlds.
+
+## Ravanan
+
+Origin: Moon
+Super Metroid
+11 YAML Changes
+
+Unique Items:
+"Hi-Jump Boots"
+"Spazer"
+
+
+Duplicate Items:
+"Super Missile": 1
+"Power Bomb": 1
+"Energy Tank": 1
+
+## RogueFore772
+
+Origin: Marsh, or Any
+A Hat in Time:
+18 Yaml Changes
+2 Unique items:
+"Badge Pin": 1
+"No Bonk Badge": 1
+
+Filler:
+"25 Pons"
+
+TUNIC:
+11 Yaml Changes
+9 unique items:
+"Gun": 1
+"Shield": 1
+"Bone Card": 1
+"Muffling Bell": 1
+"Hero Relic - ATT"
+"Hero Relic - DEF"
+"Hero Relic - HP"
+"Hero Relic - POTION"
+"Hero Relic - SP"
+
+Filler:
+"HP Berry x2"
+"Lure"
+"MP Berry x2"
+
+Muse Dash:
+20 Yaml changes
+Filler:
+"Extra Life"
+"Great to Perfect (10 Pack)"
+"Miss to Great (5 Pack)"
+
+VVVVVV
+14 Yaml changes
+Filler
+Trinket 13
+Trinket 14
+Trinket 15
+Trinket 16
+Trinket 17
+Trinket 18
+Trinket 19
+Trinket 20
+
+## RndGuy
+
+Origin: marsh, any
+
+celeste 64
+14 yaml changes
+
+Filler:
+"Raspberry"
+
+
+Blasphemous
+13 yaml upgrades
+
+Duplicate items:
+"Life Upgrade": 3
+
+
+Filler:
+"Tears of Atonement (250)"
+
+
+Muse Dash
+12 yaml upgrades
+
+Filler:
+"Extra Life"
+"Great To Perfect (10 Pack)"
+"Miss To Great (5 Pack)"
+
+extra life is useless for this yaml despite what it sounds like as it only protects from hp deaths, not deaths triggered from not meeting accuracy criteria (silvers) which is likely going to be the only source of deaths
+
+Hollow Knight
+13 yaml upgrades
+
+Unique items:
+"Hiveblood"
+"Sprintmaster"
+"Dashmaster"
+"Fragile_Strength"
+
+
+Filler:
+"Geo_Rock-Default"
+
+
+Witness
+16 upgrades
+
+Filler:
+"Speed Boost"
+
+## rhythm.ET2
+
+Origin: 🌙 Moon
+
+Mario Party: https://github.com/Umbrew-Foxiroe/Archipelago-Manuals/releases/tag/v1.02-MarioPartySeries (will send update when its out)
+Unique Items x10:
+Mario Party 1 4P Minigames
+Mario Party 2 4P Minigames
+Mario Party 3 4P Minigames
+Mario Party 4 4P Minigames
+Mario Party 5 4P Minigames
+Mario Party 6 4P Minigames
+Mario Party 7 4P Minigames
+Mario Party 8 4P Minigames
+Mario Party 3 Duel Minigames
+Mario Party 7 Duel Minigames
+
+Filler/Trap: N/A
+
+Dome Keeper: https://github.com/Arrcival/ArchipelagoDK/releases/tag/v0.7.1 (must rename to dome_keeper.apworld)
+6 yaml changes
+Duplicate items x14
+Jetpack upgrade: 2
+Drill upgrade: 4
+Fruit duration: 2
+Repellent delay: 2
+Repellent overcharge: 1
+Artillery mortar: 2
+Artillery air gun: 1
+
+Filler:
+Extra cobalt
+
+Trap: (Unsure how functional it is, never seen it exist normally, dunno if you're using traps this time)
+Wave start
+
+Mindustry: https://github.com/JohnMahglass/Archipelago-Mindustry/releases/tag/v0.3.0
+10 yaml changes, I don't know the item pool well enough to provide items.
+Filler/Trap: N/A
+
+Sonic Adventure DX: https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/tag/v0.8.8
+10 yaml changes
+
+Filler: 10 Rings
+Trap: Spring Trap

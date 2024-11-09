@@ -65,7 +65,7 @@ Rogue Legacy:
   chests_per_zone: random # change to random-low
   vendors: normal # change to early
   architect: anywhere # change to early
-  architect_fee: random_low
+  architect_fee: random-low
 
   disable_charon:
     'false': 9 # change to 7

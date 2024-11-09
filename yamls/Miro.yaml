@@ -1,10 +1,10 @@
 game:                 # go to line (Ctrl+G):
   A Hat in Time: 3    # line 14
-  DLCQuest: 5         # line 174
+  DLCQuest: 6         # line 174
   Pokemon Emerald: 2  # line 233
   Hollow Knight: 5    # line 358
-  Minecraft: 1        # line 592
-  Timespinner: 9      # line 607
+  Minecraft: 1        # line 588
+  Timespinner: 9      # line 603
 name: MiroRogue
 description: Miro combined yaml for Rougelike Async
 requires:
@@ -277,18 +277,16 @@ Pokemon Emerald:
     'false': 50
     'true': 30
   item_pool_type: random
-  require_itemfinder:
+  require_itemfinder: &5-1
     'false': 50
     'true': 10
-  elite_four_requirement:
+  elite_four_requirement: &badgesgyms
     badges: 25
     gyms: 10
   elite_four_count:
     '8': 25
     random-high: 25
-  norman_requirement:
-    badges: 25
-    gyms: 10
+  norman_requirement: *badgesgyms
   norman_count:
     '4': 25
     random-low: 25
@@ -333,22 +331,28 @@ Pokemon Emerald:
   turbo_a: true
   receive_item_messages: progression
   remote_items: true
-  music:
-    'false': 25
-    'true': 5
-  fanfares:
-    'false': 25
-    'true': 5
+  music: *5-1
+  fanfares: *5-1
   death_link: true
   start_inventory:
     HM02 Fly: 1
   triggers:
     - option_category: Pokemon Emerald
       option_name: trainersanity
-      option_result: false
+      option_result: 'false'
       options:
         Pokemon Emerald:
           blind_trainers: true
+    - option_category: Pokemon Emerald
+      option_name: dexsanity
+      option_result: 'true'
+      options:
+        Pokemon Emerald:
+          wild_pokemon:
+            match_base_stats: 1
+            match_type: 1
+            match_base_stats_and_type: 1
+            completely_random: 1
 
 Hollow Knight:
   RandomizeFocus:
@@ -373,14 +377,14 @@ Hollow Knight:
   RandomizeSkills: &1-50
     'false': 1
     'true': 50
-  RandomizeSwim:
-    'false': 25
-    'true': 50
+  RandomizeSwim: *1-2
   RandomizeKeys: *1-50
   RandomizeVesselFragments: *1-50
   RandomizeGeoChests: *1-50
   RandomizeJunkPitChests: random
-  RandomizeRancidEggs: random
+  RandomizeRancidEggs: 
+    'false': 50
+    'true': 50
   RandomizeRelics:
     'false': 10
     'true': 50
@@ -395,9 +399,7 @@ Hollow Knight:
     'false': 50
     'true': 25
   RandomizeJournalEntries: *1-10
-  RandomizeGeoRocks: &5-1
-    'false': 50
-    'true': 10
+  RandomizeGeoRocks: *5-1
   RandomizeBossGeo: *1-10
   RandomizeSoulTotems: *5-1
   RandomizeLoreTablets: *5-1
@@ -565,19 +567,19 @@ Hollow Knight:
           RandomCharmCosts: 50
     - option_category: Hollow Knight
       option_name: RandomizeRancidEggs
-      option_result: false
+      option_result: 'false'
       options:
         Hollow Knight:
           CostSanityEggWeight: '0'
     - option_category: Hollow Knight
       option_name: RandomizeGrubs
-      option_result: false
+      option_result: 'false'
       options:
         Hollow Knight:
           CostSanityGrubWeight: '0'
     - option_category: Hollow Knight
       option_name: RandomizeBossEssence
-      option_result: false
+      option_result: 'false'
       options:
         Hollow Knight:
           CostSanityEssenceWeight: '0'
@@ -637,16 +639,10 @@ Timespinner:
   death_link: true
   progression_balancing: 1
   accessibility: random
-  downloadable_items:
-    'false': 25
-    'true': 50
-  specific_keycards:
-    'false': 25
-    'true': 50
+  downloadable_items: *2-5
+  specific_keycards: *1-2
   inverted: random
-  lore_checks:
-    'false': 25
-    'true': 50
+  lore_checks: *2-5
   shop_fill:
     default: 25
     randomized: 50
@@ -659,12 +655,8 @@ Timespinner:
     randomized: 25
   drop_rate_category: random
   loot_tier_distro: random
-  show_bestiary:
-    'false': 25
-    'true': 50
-  show_drops:
-    'false': 25
-    'true': 50
+  show_bestiary: *1-2
+  show_drops: *1-2
   rising_tides:
     'false': 20
     'true': 50
@@ -678,7 +670,7 @@ Timespinner:
       option_result: false
       options:
         Timespinner:
-          unchained_keys: true
+          unchained_keys: 'true'
     - option_category: Timespinner
       option_name: boss_healing
       option_result: true

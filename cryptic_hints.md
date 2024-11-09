@@ -131,7 +131,7 @@
 - *won't require all 33 anymore!* (hecate.mp3 (Noita): change `extra_orbs` to `random-high`)
 - *you don't have to bring her so many fruits!* (Sylsko (C64): reduce `strawberries_required_percentage` by varying amounts)
 - *normally (outside of the context of the randomizer) you can only get this a few ways. a simple mechanism does the trick, though.* (Roguinater (MC): reduce `egg_shards_required` by varying amounts)
-- *The Institure's calling, and they've expressed their approval.* (Roguinater (Peggle Deluxe): decrease `certificates_required` by 2)
+- *The Institute's calling, and they've expressed their approval.* (Roguinater (Peggle Deluxe): decrease `certificates_required` by 2)
 
 ## price
 - *need any change?* (hecate.mp3 (UK): "Revolver - Marksman")
