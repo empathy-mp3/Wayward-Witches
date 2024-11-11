@@ -1034,7 +1034,7 @@ Ocarina of Time:
 
 Unique Items:
 
-Biggoron Sowrd
+Biggoron Sword
 Double Defense
 Farore's Wind
 Nayru's Love

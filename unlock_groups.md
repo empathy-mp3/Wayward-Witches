@@ -795,7 +795,7 @@ HPfunman (Kingdom Hearts): change `extra_shard_abilities` to `true`
 HPfunman (Kingdom Hearts): change `keyblade_min_str` to 14
 HPfunman (StS): change `character` to easier characters: 2
 HPfunman (StS): lower `death_link` percentage: 3
-CrystalOOT: Biggoron Sowrd
+CrystalOOT: Biggoron Sword
 CrystalOOT: Double Defense
 CrystalOOT: Farore's Wind
 CrystalOOT: Nayru's Love
