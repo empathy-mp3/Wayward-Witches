@@ -1055,13 +1055,13 @@ Hollow Knight:
 12 Upgrades
 
 Unique Items:
-Great Slash
-Nailmaster's Glory
+Great_Slash
+Nailmaster's_Glory
 Hiveblood
 
 Duplicate Items:
-Fragile Heart
-Fragile Greed
+Fragile_Heart
+Fragile_Greed
 
 Terraria:
 10 Upgrades

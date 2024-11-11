@@ -804,11 +804,11 @@ CrystalOOT: Bow: 1
 CrystalOOT: Bottle: 2
 CrystalOOT: Huge Rupee
 CrystalOOT: Heart Container: 2
-Brynatron (HK): Great Slash
-Brynatron (HK): Nailmaster's Glory
+Brynatron (HK): Great_Slash
+Brynatron (HK): Nailmaster's_Glory
 Brynatron (HK): Hiveblood
-Brynatron (HK): Fragile Heart
-Brynatron (HK): Fragile Greed
+Brynatron (HK): Fragile_Heart
+Brynatron (HK): Fragile_Greed
 Brynatron (HK): change `DarkRooms` to `false`
 Brynatron (HK): change `ComplexSkips` to `false`
 Brynatron (HK): change `DifficultSkips` to `false`
