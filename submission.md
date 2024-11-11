@@ -173,7 +173,7 @@ Filler Items:
 
 ## ChromaNyan
 
-origin: moon (secondary preference: shadow realm)
+origin: moon (secondary preference: shadow realm. tertiary preference: hell. if all three of those are full i have a slight bias for cavern if it needs people, otherwise put me anywhere)
 
 Minecraft:
 unique items:
@@ -648,7 +648,7 @@ Crit Damage Up
 Filler:
 1000 Gold
 
-## BroneyTowers
+## Broney
 
 Origin: Cavern
 
@@ -956,7 +956,7 @@ Filler:
 "Sand Vial"
 "Ether"
 
-## DeathclawShadow
+## DeathclawCavern
 
 Origin: Cavern
 
@@ -1365,8 +1365,10 @@ Experiment 626 D-Link
 Pete D-Link
 
 
+
 2 duplicate upgrades:
 HP Increase x2
+
 
 
 filler:
@@ -1374,14 +1376,13 @@ Magic Haste
 Attack Haste
 
 
+
 Factorio:
-18 yaml changes
+20yaml changes
 
 0 unique upgrades
 
-2 duplicate upgrades:
-progressive-processing x1
-progressive-science-pack x1
+0 duplicate upgrades:
 
 
 filler:
@@ -1389,29 +1390,19 @@ progressive-physical-projectile-damage
 progressive-research-speed
 
 
+
 SMMR:
-4 yaml changes
+11 yaml changes
 
-13 unique upgrades:
-Morph 
-Varia
-Gravity
-SpeedBooster
-SpaceJump
-HiJump
-WallJump
-ScrewAttack
-Plasma
-Wave
-Ice
+2 unique upgrades:
 Spazer
-Charge
+Wave
 
 
-3 duplicate upgrades:
-PowerBomb x1
-ETank x2
-
+duplicate upgrades:
+PowerBomb x2
+ETank x3
+Super x2
 
 Filler:
 Missile
@@ -1663,7 +1654,7 @@ Mario Party 8 4P Minigames
 Mario Party 3 Duel Minigames
 Mario Party 7 Duel Minigames
 
-Filler/Trap: N/A
+Filler: "Coin"
 
 Dome Keeper: https://github.com/Arrcival/ArchipelagoDK/releases/tag/v0.7.1 (must rename to dome_keeper.apworld)
 6 yaml changes
@@ -1676,18 +1667,13 @@ Repellent overcharge: 1
 Artillery mortar: 2
 Artillery air gun: 1
 
-Filler:
-Extra cobalt
-
-Trap: (Unsure how functional it is, never seen it exist normally, dunno if you're using traps this time)
-Wave start
+Filler: Extra cobalt
 
 Mindustry: https://github.com/JohnMahglass/Archipelago-Mindustry/releases/tag/v0.3.0
 10 yaml changes, I don't know the item pool well enough to provide items.
-Filler/Trap: N/A
+Filler: "A fistful of nothing..."
 
 Sonic Adventure DX: https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/tag/v0.8.8
 10 yaml changes
 
 Filler: 10 Rings
-Trap: Spring Trap

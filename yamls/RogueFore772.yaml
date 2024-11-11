@@ -3,7 +3,7 @@ game:                 # go to line (Ctrl+G):
   TUNIC: 4            # line 170
   Muse Dash: 2        # line 208
   VVVVVV: 4           # line 293
-name: RogueFore772
+name: Fore772
 description: Fore772 yaml for Roguelike Async
 
 A Hat in Time:
@@ -297,3 +297,29 @@ VVVVVV:
   area_rando: 'true'
   area_cost: 'true'
   death_link: 'true'
+
+triggers:
+  - option_category: null
+    option_name: game
+    option_result: A Hat in Time
+    options:
+      null:
+        name: ARogueinTime772
+  - option_category: null
+    option_name: game
+    option_result: Tunic
+    options:
+      null:
+        name: Rogue772nic
+  - option_category: null
+    option_name: game
+    option_result: Muse Dash
+    options:
+      null:
+        name: DashingRogue772
+  - option_category: null
+    option_name: game
+    option_result: VVVVVV
+    options:
+      null:
+        name: RRRRRRogue772

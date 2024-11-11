@@ -16,13 +16,13 @@ Toto (SotM): remove `"Parse: Fugue State"` from `exclude_from_pool`
 Toto (SotM): remove `Urban Warfare Expatriette`, `Siege Breaker Bunker`, and `Nitro Boost Absolute Zero` from `exclude_from_pool`
 Toto (HK): change `RemoveSpellUpgrades` to `false`
 Toto (DS3): change `no_spell_requirements` to `true`
-BroneyTowers (Angband): Progressive Ranged Weapon: 1
-BroneyTowers (SMMR): Plasma Beam
-BroneyTowers (SMMR): Spazer Beam
-BroneyTowers (SM): Plasma Beam
-BroneyTowers (SM): Spazer Beam
-BroneyTowers (SM): change `fun_combat` to `false`
-BroneyTowers (SM): change `nerfed_charge` to `true`
+Broney (Angband): Progressive Ranged Weapon: 1
+Broney (SMMR): Plasma Beam
+Broney (SMMR): Spazer Beam
+Broney (SM): Plasma Beam
+Broney (SM): Spazer Beam
+Broney (SM): change `fun_combat` to `false`
+Broney (SM): change `nerfed_charge` to `true`
 MiroRogue (HK): "Shaman_Stone": 1
 DragoRogue2 (Earthbound): "Progressive Gun": 3
 
@@ -41,8 +41,8 @@ hecate.mp3 (UK): "Shotgun - Core Eject": 1
 Sylsko (TUNC): Firecracker x5: 2
 Roguinater (Peggle Deluxe): Splork
 Roguinater (Peggle Nights): Splork
-BroneyTowers (SMMR): Power Bomb: 2
-BroneyTowers (SM): Power Bomb: 2
+Broney (SMMR): Power Bomb: 2
+Broney (SM): Power Bomb: 2
 
 ## vitality
 hecate.mp3 (Noita): "Extra Max HP": 4
@@ -72,11 +72,11 @@ Toto (HK): "Full_Mask" [Not from pool]
 MiroRogue (HK): "Full_Mask": 1
 Toto (TS): increase `hp_cap`: 5
 Toto (SotM): in `filler_weights`, change `HeroHp variant` to `pos`
-BroneyTowers (SM): increase `energy_qty` frequency: 3
+Broney (SM): increase `energy_qty` frequency: 3
 superfid (TS): increase `hp_cap` lower bound: 3
 MiroRogue (DLCQ): "Increased HP Pack": 1
 MiroRogue (TS): increase `hp_cap`: 3
-DeathclawShadow (TS): increase `hp_cap`: 3
+DeathclawCavern (TS): increase `hp_cap`: 3
 MiroRogue (TS): "Max HP": 1
 MiroRogue (HK): "Lifeblood_Heart": 1
 MiroRogue (DLCQ): "Health Bar Pack": 1
@@ -98,7 +98,7 @@ Caesius (Emerald): "Super Potion": 5
 Toto (HK): change `RandomizeFocus` to `false`
 Connor (UT): "ITEM": 1
 BennyRogue (RL): Vampire Runes
-BroneyTowers (SMMR): change `buffed_drops` to `true`
+Broney (SMMR): change `buffed_drops` to `true`
 MiroRogue (HK): change `RandomizeFocus` to `false`
 MiroRogue (TS): change `boss_healing` to `true`
 MiroRogue (Emerald): "Full Restore": 1
@@ -143,7 +143,7 @@ Sylsko (Astalon): change `start_with_qol` to `true`
 Roguinater (Meritous): Ethereal Monocle
 Slipomatic_SM: X-Ray Scope
 Toto (DS3): disable `Jailer` replacing `Basic` in `random_enemy_preset`
-BroneyTowers (SMMR): change `mark_map_stations` to `true`
+Broney (SMMR): change `mark_map_stations` to `true`
 
 ## speed
 hecate.mp3 (DO2): "Loot & Scoot":2
@@ -157,9 +157,9 @@ Toto (HK): "Sprintmaster" and `PlandoCharmCosts: {"Sprintmaster": 0}`
 Toto (SotM): remove `Freedom Six Tachyon` from `exclude_from_pool`
 Toto (TS): change `quick_seed: false` weight to 1
 Toto (HK): change `ExtraPlatforms` to `true`
-BroneyTowers (SMMR): change `wall_jump` to `vanilla`
-BroneyTowers (SM): change `fun_movement` to `false`
-BroneyTowers (SM): lower `tourian` amount: 2
+Broney (SMMR): change `wall_jump` to `vanilla`
+Broney (SM): change `fun_movement` to `false`
+Broney (SM): lower `tourian` amount: 2
 
 ## stealth
 hecate.mp3 (DO2): "Sneak":3
@@ -173,7 +173,7 @@ BennyRogue (Witness): increase `shuffle_dog: puzzle_skip` weight to 6
 
 ## logic
 
-MiroRogue (HK): decrease `SkipDifficulty` (complex trigger): 3
+MiroRogue (HK): decrease `SkipDifficulty` (trigger): 3
 superfid (C64): change `logic_difficulty` to `standard`
 MiroRogue (aHiT): decrease `LogicDifficulty`: 3
 MiroRogue (aHiT): make `CTRLogic` more reasonable: 3
@@ -200,7 +200,7 @@ superfid (TS): decrease `trap_chance` lower bound
 superfid (Secret of Evermore): change `trap_count` to 0
 MiroRogue (aHiT): reduce `TrapChance`: 2
 MiroRogue (TS): reduce `trap_chance`: 2
-DeathclawShadow (TS): reduce `trap_chance`: 2
+DeathclawCavern (TS): reduce `trap_chance`: 2
 MiroRogue (MC): decrease `bee_traps`: 2
 DragoRogue2 (Factorio): decrease `artillery_traps` by 5: 5
 Panda_Rogue: reduce `bee_traps`: 3
@@ -267,9 +267,9 @@ Toto (DS3): change `simple_early_bosses` to `true`
 Toto (DS3): disable `Bosses` replacing `Basic` in `random_enemy_preset`
 Toto (DS3): disable `Bosses` replacing `Miniboss` in `random_enemy_preset`
 Toto (DS3): disable `Minibosses` replacing `Basic` in `random_enemy_preset`
-BroneyTowers (SMMR): decrease `mother_brain`: 2
+Broney (SMMR): decrease `mother_brain`: 2
 HPfunman (StS): change `final_act` to `false`
-DeathclawShadow (TS): make `boss_rando` easier: 2
+DeathclawCavern (TS): make `boss_rando` easier: 2
 MiroRogue (MC): make `required_bosses` easier: 3
 
 ## key
@@ -277,9 +277,9 @@ hecate.mp3 (DO2): change `caves_of_carnage_key_count`, `black_mines_key_count`, 
 Sylsko (Astalon): change `start_with_ascendant_key` to `true`
 Sylsko (Astalon): change `open_early_doors` to `true`
 Connor (UT): decrease `key_pieces` by varied amounts: 2
-Roguinater (V6): decrease `DoorCost` by 1: 2
+Roguinater (VVVVVV): decrease `DoorCost` by 1: 2
 Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}: 3
-BroneyTowers (SM): change `door_colors_rando` to `false`
+Broney (SM): change `door_colors_rando` to `false`
 
 ## breath
 hecate.mp3 (DO2): change `revelation_count`, `aquata_breather_count`, and `eureka_count` to random-high
@@ -290,7 +290,7 @@ hecate.mp3 (Noita): reduce `path option: main_world` to 1
 hecate.mp3 (DO2): "Stability": 3
 Sylsko (C64): add `Badeline Cassette Strawberry` to `exclude_locations`
 Roguinater (MC): set `shuffle_structures` to `true`
-Roguinater (V6): make "Doing Things the Hard Way" and "Edge Games" less important locations: 2
+Roguinater (VVVVVV): make "Doing Things the Hard Way" and "Edge Games" less important locations: 2
 Roguinater (Peggle Nights): set `art_contest_pack` to `false`
 Slipomatic_SM: change `area_randomization` to `off`
 BennyRogue (Witness): decrease `shuffle_vault_boxes: 'true'` weight to 2
@@ -314,13 +314,13 @@ Roguinater (Peggle Deluxe): decrease `certificates_required` by 2: 5
 Toto (SotM): change `required_scions` to 40, and in `filler_weights`, change `Scion min` to 20
 BennyRogue (Witness): change `mountain_lasers` to `random-low`
 BennyRogue (Witness): change `challenge_lasers` to `random-high`
-BroneyTowers (SM): increase `minor_qty` by 20: 4
+Broney (SM): increase `minor_qty` by 20: 4
 Panda_Rogue: reduce `egg_shards_required`: 3
 Panda_Rogue: increase `egg_shards_available`: 3
-DeathclawShadow (C64): reduce `total_strawberries`: 7
+DeathclawCavern (C64): reduce `total_strawberries`: 7
 superfid (C64): change `total_strawberries` to `random`
 superfid (C64): lower `strawberries_requires_percentage`: 2
-DeathclawShadow (SM64): decrease `stars_to_finish`: 2
+DeathclawCavern (SM64): decrease `stars_to_finish`: 2
 
 ## price
 hecate.mp3 (Noita): reduce `shop_price: full_price` to 0
@@ -352,8 +352,8 @@ Panda_Rogue: 4 Diamond Ore:3
 DragoRogue2 (Factorio): reduce `min_tech_cost`: 3
 superfid (DLCQ): change `permanent_coins` to true
 superfid (Secret of Evermore): increase `money_modifier`: 3
-MiroRogue (aHiT): decrease `PonCost` (complex trigger): 2
-MiroRogue (HK): decrease `Costs` (complex trigger): 2
+MiroRogue (aHiT): decrease `PonCost` (trigger): 2
+MiroRogue (HK): decrease `Costs` (trigger): 2
 
 ## defense
 hecate.mp3 (TUNC): "DEF Offering": 2
@@ -376,17 +376,17 @@ Roguinater (MC): Progressive Armor: 1
 Maxor: Progressive Armor: 1
 Rezalex: Progressive Armor: 2
 BennyRogue (RL): Armor Up
-BroneyTowers (Angband): Progressive Shield Weapon: 1
+Broney (Angband): Progressive Shield Weapon: 1
 superfid (TS): "Eternal Coat"
 superfid (TS): "Eternal Crown"
 MiroRogue (TS): "Eternal Coat": 1
 MiroRogue (TS): "Eternal Crown": 1
 MiroRogue (MC): "Progressive Armor": 1
 Panda_Rogue: Progressive Armor:1
-DeathclawShadow (OOT): Double Defense
-DeathclawShadow (OOT): Nayrus Love
-DeathclawShadow (TS): Eternal Coat: 1
-DeathclawShadow (TS): Eternal Crown: 1
+DeathclawCavern (OOT): Double Defense
+DeathclawCavern (OOT): Nayrus Love
+DeathclawCavern (TS): Eternal Coat: 1
+DeathclawCavern (TS): Eternal Crown: 1
 
 ## careful movement
 hecate.mp3 (OW): "Velocity Matcher": 1
@@ -394,7 +394,7 @@ hecate.mp3 (OW): "Autopilot": 1
 hecate.mp3 (TUNC): "Bone Card": 1
 DiStegRogue (OOT): lower `deadly_bonks` amount: 2
 Caesius (OOT): lower `deadly_bonks`: 3
-DeathclawShadow (OOT): halve `deadly_bonks`: 2
+DeathclawCavern (OOT): halve `deadly_bonks`: 2
 HPfunman (Kingdom Hearts): Dodge Roll
 MiroRogue (aHiT): "No Bonk Badge": 1
 
@@ -413,7 +413,7 @@ Toto (TS): improve `damage_rando` weights: 5
 BennyRogue (RL): Crit Chance Up
 BennyRogue (RL): Crit Damage Up
 superfid (TS): buff `damage_rando`: 2
-DeathclawShadow (TS): improve `damage_rando`: 3
+DeathclawCavern (TS): improve `damage_rando`: 3
 MiroRogue (MC): "Sharpness III Book": 1
 
 ## stamina
@@ -468,7 +468,7 @@ Rezalex: Bug Catching Net
 Rezalex: Bottle: 2
 Rezalex: Magic Powder
 MiroRogue (Emerald): "Max Revive": 1
-DeathclawShadow (OOT): Bottle: 1
+DeathclawCavern (OOT): Bottle: 1
 superfid (LTTP): "Bottle":1
 HPfunman (Kingdom Hearts): Second Chance
 
@@ -477,14 +477,14 @@ Alex230: increase `progression_balancing` by 10: 5
 Connor (SquareMusic): increase `progression_balancing` by varied amounts: 3
 Connor (UT): increase `progression_balancing` by 20: 2
 Roguinater (Meritous): increase `progression_balancing` by 15: 3
-BroneyTowers (SMMR): increase `progression_balancing` by 10: 5
-BroneyTowers (SM): increase `progression_balancing` by 25: 2
-BroneyTowers (Angband): increase `progression_balancing` by 10: 5
+Broney (SMMR): increase `progression_balancing` by 10: 5
+Broney (SM): increase `progression_balancing` by 25: 2
+Broney (Angband): increase `progression_balancing` by 10: 5
 HPfunman (StS): increase `progression_balancing`: 2
 MiroRogue (DLCQ): increase `progression_balancing` by 33: 3
 superfid (DLCQ): increase `progression_balancing` by 10: 6
 ChromaNyan (Super Cat Tales): increase `progression_balancing` by 20: 3
-DeathclawShadow (SM64): increase `progression_balancing` by 20: 5
+DeathclawCavern (SM64): increase `progression_balancing` by 20: 5
 
 ## choice
 Alex230: Free Choice of Map
@@ -545,11 +545,11 @@ Toto (SotM): remove `Benchmark` and `Benchmark Supply & Demand` from `exclude_fr
 Toto (HK): change `RandomizeNail` to `false`
 BennyRogue (RL): Sky Blueprints
 BennyRogue (RL): Dragon Blueprints
-BroneyTowers (Angband): Progressive Polearm Weapon: 1
-BroneyTowers (Angband): increase `star_acquire_percent` by 10: 4
+Broney (Angband): Progressive Polearm Weapon: 1
+Broney (Angband): increase `star_acquire_percent` by 10: 4
 MiroRogue (TS): "Star of Lachiem": 1
-DeathclawShadow (TS): Star of Lachiem
-DeathclawShadow (OOT): Biggoron Sword
+DeathclawCavern (TS): Star of Lachiem
+DeathclawCavern (OOT): Biggoron Sword
 MiroRogue (HK): "Fragile_Strength": 1
 superfid (LTTP): change `swordless` to `false`
 superfid (LTTP): "Progressive Sword":1
@@ -561,7 +561,7 @@ DragoRogue2 (Earthbound): "Progressive Fry Pan": 5
 Connor (UT): change `starting_area` to easier areas: 3
 Toto (SotM): increase `starting_items`
 Toto (SotM): in `filler_weights`, change `StartHandSize variant` to `both` and `specificity` to 1
-BroneyTowers (SMMR): change `randomized_start` to `false`
+Broney (SMMR): change `randomized_start` to `false`
 DragoRogue2 (Factorio): increase `world_gen: starting area` by 0.4
 
 ## revenge
@@ -629,16 +629,16 @@ Rezalex: reduce `item_functionality` difficulty: 2
 Toto (StS): "Relic" [Not from pool]: 3
 Toto (SotM): remove `Cypher`, `First Response Cypher`, and `Cypher Swarming Protocol` from `exclude_from_pool`
 Toto (DS3): change `auto_equip` and `lock_equip` to `false`
-BroneyTowers (Angband): Progressive Ring Artifact: 4
+Broney (Angband): Progressive Ring Artifact: 4
 superfid (LTTP): change `item_functionality` to `easy`
 HPfunman (StS): Boss Relic (plando 2 out of 2)
 
 ## amnesty
 
 Sylsko (C64): increase `death_link_amnesty` by varying amounts: 3
-Roguinater (V6): increase `DeathLinkAmnesty`: 6
+Roguinater (VVVVVV): increase `DeathLinkAmnesty`: 6
 BennyRogue (Witness): increase `death_link_amnesty` by 1: 4
-DeathclawShadow (C64): increase `death_link_amnesty`: 3
+DeathclawCavern (C64): increase `death_link_amnesty`: 3
 superfid (C64): increase `death_link_amnesty`: 4
 
 ## time
@@ -676,7 +676,7 @@ DiStegRogue (LTTP): change `enemy_damage` to `default`
 DiStegRogue (OOT): lower `damage_multiplier` amount: 2
 Rezalex: change `enemy_damage` to `default`
 Toto (SotM): in `filler_weights`, change `VillainCardPlays weight` to 0 and `VillainStartCardPlays weight` to 1
-DeathclawShadow (OOT): halve `damage_multiplier`: 2
+DeathclawCavern (OOT): halve `damage_multiplier`: 2
 
 ## knowledge
 
@@ -750,8 +750,8 @@ superfid (Secret of Evermore): change `short_boss_rush` to `true`
 superfid (Secret of Evermore): change `turdo_mode` to `false`
 MiroRogue (aHiT): change `EndGoal: rush_hour` weight to 2
 MiroRogue (aHiT): change `seal_the_deal` weight to 0
-MiroRogue (aHiT): decrease `ChapterCost` (complex trigger): 2
-MiroRogue (aHiT): reduce `DLC` (complex trigger): 3
+MiroRogue (aHiT): decrease `ChapterCost` (trigger): 2
+MiroRogue (aHiT): reduce `DLC` (trigger): 3
 MiroRogue (aHiT): set `StartWithCompassBadge` to `true`
 MiroRogue (DLCQ): "Checkpoint Pack": 1
 MiroRogue (DLCQ): change `ending_choice` to `any`
@@ -765,23 +765,23 @@ MiroRogue (Emerald): change `force_fully_evolved` to `random-high`
 MiroRogue (Emerald): add `Wonder Guard: 1` to `ability_blacklist`
 MiroRogue (Emerald): increase `match_trainer_levels_bonus` by 5: 3
 MiroRogue (HK): "Spell_Twister": 1
-MiroRogue (HK): decrease `AnnoyingChecks` (complex trigger): 2
-MiroRogue (HK): decrease `GoalDifficulty` (complex trigger): 2
+MiroRogue (HK): decrease `AnnoyingChecks` (trigger): 2
+MiroRogue (HK): decrease `GoalDifficulty` (trigger): 2
 MiroRogue (HK): decrease `SplitCrystalHeart: true`, `SplitMothwingCloak: true`, and `SplitMantisClaw: true` weights to 5
 MiroRogue (MC): change `send_defeated_mobs` to `false`
 MiroRogue (TS): change `start_with_jewelry_box` and `start_with_meyef` to `false`
 MiroRogue (TS): change `eye_spy` to `false` and `quick_seed` to `true`
 MiroRogue (TS): change `gyre_archives`, `cantoran`, and `enter_sandman` to `false` (i think?)
-DeathclawShadow (OOT): Farores Wind
-DeathclawShadow (OOT): decrease `ganon_bosskey_tokens` by 20: 2
-DeathclawShadow (OOT): decrease `ganon_bosskey_hearts` by 4: 2
-DeathclawShadow (TS): Shattered Orb
-DeathclawShadow (TS): Radiant Orb
-DeathclawShadow (TS): change `start_with_jewelry_box` to `true`
-DeathclawShadow (TS): change `eye_spy` to `false`
-DeathclawShadow (SM64): set `area_rando: courses_and_secrets` weight to 0
-DeathclawShadow (SM64): change `buddy_checks` to `false`
-DeathclawShadow (SM64): change `completion_type` to `last_bowser_stage`
+DeathclawCavern (OOT): Farores Wind
+DeathclawCavern (OOT): decrease `ganon_bosskey_tokens` by 20: 2
+DeathclawCavern (OOT): decrease `ganon_bosskey_hearts` by 4: 2
+DeathclawCavern (TS): Shattered Orb
+DeathclawCavern (TS): Radiant Orb
+DeathclawCavern (TS): change `start_with_jewelry_box` to `true`
+DeathclawCavern (TS): change `eye_spy` to `false`
+DeathclawCavern (SM64): set `area_rando: courses_and_secrets` weight to 0
+DeathclawCavern (SM64): change `buddy_checks` to `false`
+DeathclawCavern (SM64): change `completion_type` to `last_bowser_stage`
 HPfunman (Kingdom Hearts): Leaf Bracer
 HPfunman (Kingdom Hearts): Cosmic Arts
 HPfunman (Kingdom Hearts): Progressive Cure (plando 1 out of 3)
@@ -818,10 +818,10 @@ Brynatron (HK): change `MaximumGeoPrice` to `random-middle`
 Brynatron (HK): change `MinimumEssencePrice` to `random-middle`
 Brynatron (HK): change `MaximumCharmPrice` to `random-middle`
 Brynatron (HK): decrease `RandomCharmCosts`: 2
-Brynatron (Terraria): Rod of Discord
-Brynatron (Terraria): Cobalt Shield
-Brynatron (Terraria): Lava Charm
-Brynatron (Terraria): Black Belt
+Brynatron (Terraria): Reward: Rod of Discord
+Brynatron (Terraria): Reward: Cobalt Shield
+Brynatron (Terraria): Reward: Lava Charm
+Brynatron (Terraria): Reward: Black Belt
 Brynatron (Terraria): change `fill_extra_checks_with` to `useful_items`
 Brynatron (Terraria): add `Real Estate Agent` to `exclude_locations`
 Brynatron (Terraria): add `Funkytown` to `exclude_locations`
@@ -1006,394 +1006,262 @@ jf-rogue (Muse Dash): change `song_difficulty_max: 11` weight to 0
 jf-rogue (Muse Dash): change `grade_needed: pinks` weight to 0
 jf-rogue (Muse Dash): change `trap_count_percentage: random-low` weight to 0
 jf-rogue (Muse Dash): change `trap_count_percentage: random-middle` weight to 0
-
-## JoyTheBard
-
-Origin Preference Order: Moon, Shadow Realm, Under the Ocean, Cavern, Tundra, Mountain, Marsh, Hell
-DLC Quest
-YAML Changes: 8
-Unique Items
-"Checkpoint Pack"
-"Health Bar Pack"
-"Increased HP Pack"
- 
-Filler
-"Animation Pack"
-"Audio Pack"
-"Parallax Pack"
-"Particles Pack"
-"Remove Ads Pack"
-"Sexy Outfits Pack"
-"Top Hat Pack"
-
-Outer Wilds
-YAML Upgrades: 13
-Duplicate Items
-Oxygen Capacity Upgrade: 2
-Fuel Capacity Upgrade: 2
-Boost Duration Upgrade: 2
-
-Filler
-"Marshmallow"
-"Jetpack Fuel Refill"
-"Oxygen Refill"
-
-Super Mario 64
-YAML Upgrades: 18
-Unique Items
-"Dive"
-"Kick"
-
-Filler
-1Up Mushroom
-The Witness
-YAML Upgrades: 17
-Duplicate Items
-Puzzle Skip: 3
-Filler
-Speed Boost
-
-## sheen
-
-Origin: Moon, Cavern, Tundra
-BBS:
-9 yaml changes
-
-9 unique upgrades
-EXP Walker
-Second Chance
-Once More
-High Jump
-Leaf Bracer
-Zack D-Link
-Peter Pan D-Link
-Experiment 626 D-Link
-Pete D-Link
-
-
-2 duplicate upgrades:
-HP Increase x2
-
-
-filler:
-Magic Haste
-Attack Haste
-
-
-Factorio:
-18 yaml changes
-
-0 unique upgrades
-
-2 duplicate upgrades:
-progressive-processing x1
-progressive-science-pack x1
-
-
-filler:
-progressive-physical-projectile-damage
-progressive-research-speed
-
-
-SMMR:
-4 yaml changes
-
-13 unique upgrades:
-Morph 
-Varia
-Gravity
-SpeedBooster
-SpaceJump
-HiJump
-WallJump
-ScrewAttack
-Plasma
-Wave
-Ice
-Spazer
-Charge
-
-
-3 duplicate upgrades:
-PowerBomb x1
-ETank x2
-
-
-Filler:
-Missile
-
-## SunCat
-
-origin: shadow realm, moon, tundra, any
-
-Timespinner:
-13 yaml changes
-Unique items:
-"Silence Ring": 1
-"Galaxy Earrings": 1
-"Eternal Crown": 1
-"Eternal Coat": 1
-
-Duplicates:
-"Chaos Horn": 2 # small buff
-
-Filler:
-"Mind Refresh"
-"Sand Vial"
-"Antidote"
-
-
-Celeste 64:
-12 yaml changes
-Filler:
-"Raspberry"
-
-
-Risk of Rain 2:
-11 yaml changes
-Filler:
-"Item Scrap, White"
-
-
-Muse Dash
-14 yaml changes
-Filler:
-"Extra Life"
-"Great to Perfect (10 Pack)"
-"Miss to Great (5 Pack)"
-
-
-VVVVVV
-10 yaml changes
-Filler:
-Trinket 13
-Trinket 14
-Trinket 15
-Trinket 16
-Trinket 17
-Trinket 18
-Trinket 19
-Trinket 20
-
-Pokemon Emerald
-10 yaml changes
-Unique Items:
-"HM02 Fly": 1
-
-Duplicates:
-"Leftovers": 2
-
-Filler:
-"Rare Candy"
-
-## Jake13Snake
-
-origin: any
-
-Adventure:
-unique items:
-"Left Difficulty Switch"
-"Right Difficulty Switch"
-"Slow Yorgle"
-"Slow Grundle"
-"Slow Rhindle"
-
-filler:
-"Freeincarnate"
-"Nothing"
-
-
-DOOM 1993:
-unique items:
-"Chainsaw"
-"Shotgun"
-"Chaingun"
-"Rocket launcher"
-"Plasma gun"
-"BFG9000"
-"Backpack"
-
-filler:
-"Medikit"
-"Armor"
-"Box of bullets"
-"Box of shotgun shells"
-"Box of rockets"
-"Energy cell pack"
-"Partial invisibility"
-
-
-Link's Awakening DX:
-unique items:
-"Boomerang"
-
-duplicate items:
-"Heart Container":8
-
-filler:
-"20 Rupees"
-
-For the LADX apworld, replace the one in lib/worlds; don't put it in custom_worlds.
-
-## Ravanan
-
-Origin: Moon
-Super Metroid
-11 YAML Changes
-
-Unique Items:
-"Hi-Jump Boots"
-"Spazer"
-
-
-Duplicate Items:
-"Super Missile": 1
-"Power Bomb": 1
-"Energy Tank": 1
-
-## RogueFore772
-
-Origin: Marsh, or Any
-A Hat in Time:
-18 Yaml Changes
-2 Unique items:
-"Badge Pin": 1
-"No Bonk Badge": 1
-
-Filler:
-"25 Pons"
-
-TUNIC:
-11 Yaml Changes
-9 unique items:
-"Gun": 1
-"Shield": 1
-"Bone Card": 1
-"Muffling Bell": 1
-"Hero Relic - ATT"
-"Hero Relic - DEF"
-"Hero Relic - HP"
-"Hero Relic - POTION"
-"Hero Relic - SP"
-
-Filler:
-"HP Berry x2"
-"Lure"
-"MP Berry x2"
-
-Muse Dash:
-20 Yaml changes
-Filler:
-"Extra Life"
-"Great to Perfect (10 Pack)"
-"Miss to Great (5 Pack)"
-
-VVVVVV
-14 Yaml changes
-Filler
-Trinket 13
-Trinket 14
-Trinket 15
-Trinket 16
-Trinket 17
-Trinket 18
-Trinket 19
-Trinket 20
-
-## RndGuy
-
-Origin: marsh, any
-
-celeste 64
-14 yaml changes
-
-Filler:
-"Raspberry"
-
-
-Blasphemous
-13 yaml upgrades
-
-Duplicate items:
-"Life Upgrade": 3
-
-
-Filler:
-"Tears of Atonement (250)"
-
-
-Muse Dash
-12 yaml upgrades
-
-Filler:
-"Extra Life"
-"Great To Perfect (10 Pack)"
-"Miss To Great (5 Pack)"
-
-extra life is useless for this yaml despite what it sounds like as it only protects from hp deaths, not deaths triggered from not meeting accuracy criteria (silvers) which is likely going to be the only source of deaths
-
-Hollow Knight
-13 yaml upgrades
-
-Unique items:
-"Hiveblood"
-"Sprintmaster"
-"Dashmaster"
-"Fragile_Strength"
-
-
-Filler:
-"Geo_Rock-Default"
-
-
-Witness
-16 upgrades
-
-Filler:
-"Speed Boost"
-
-## rhythm.ET2
-
-Origin: 🌙 Moon
-
-Mario Party: https://github.com/Umbrew-Foxiroe/Archipelago-Manuals/releases/tag/v1.02-MarioPartySeries (will send update when its out)
-Unique Items x10:
-Mario Party 1 4P Minigames
-Mario Party 2 4P Minigames
-Mario Party 3 4P Minigames
-Mario Party 4 4P Minigames
-Mario Party 5 4P Minigames
-Mario Party 6 4P Minigames
-Mario Party 7 4P Minigames
-Mario Party 8 4P Minigames
-Mario Party 3 Duel Minigames
-Mario Party 7 Duel Minigames
-
-Filler/Trap: N/A
-
-Dome Keeper: https://github.com/Arrcival/ArchipelagoDK/releases/tag/v0.7.1 (must rename to dome_keeper.apworld)
-6 yaml changes
-Duplicate items x14
-Jetpack upgrade: 2
-Drill upgrade: 4
-Fruit duration: 2
-Repellent delay: 2
-Repellent overcharge: 1
-Artillery mortar: 2
-Artillery air gun: 1
-
-Filler:
-Extra cobalt
-
-Trap: (Unsure how functional it is, never seen it exist normally, dunno if you're using traps this time)
-Wave start
-
-Mindustry: https://github.com/JohnMahglass/Archipelago-Mindustry/releases/tag/v0.3.0
-10 yaml changes, I don't know the item pool well enough to provide items.
-Filler/Trap: N/A
-
-Sonic Adventure DX: https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/tag/v0.8.8
-10 yaml changes
-
-Filler: 10 Rings
-Trap: Spring Trap
+JoyTheBard (DLCQ): "Checkpoint Pack"
+JoyTheBard (DLCQ): "Health Bar Pack"
+JoyTheBard (DLCQ): "Increased HP Pack"
+JoyTheBard (DLCQ): increase `progression_balancing` by 10: 5
+JoyTheBard (DLCQ): change `ending_choice` to `any`
+JoyTheBard (DLCQ): change `double_jump_glitch` to `none`
+JoyTheBard (DLCQ): change `time_is_money` to `required`
+JoyTheBard (OW): Oxygen Capacity Upgrade: 2
+JoyTheBard (OW): Fuel Capacity Upgrade: 2
+JoyTheBard (OW): Boost Duration Upgrade: 2
+JoyTheBard (OW): increase `progression_balancing` by 25: 2
+JoyTheBard (OW): change `song_of_the_nomai` to `song_of_five`
+JoyTheBard (OW): make `spawn` more reasonable: 2
+JoyTheBard (OW): change `randomize_orbits` to `false`
+JoyTheBard (OW): change `randomize_rotations` to `false`
+JoyTheBard (OW): make `randomize_dark_bramble_layout` more reasonable: 3
+JoyTheBard (OW): reduce `trap_chance`: 2
+JoyTheBard (OW): change `split_translator` to `false`
+JoyTheBard (SM64): "Dive"
+JoyTheBard (SM64): "Kick"
+JoyTheBard (SM64): increase `progression_balancing` by 25: 2
+JoyTheBard (SM64): change `area_rando` to `courses_and_secrets_separate`
+JoyTheBard (SM64): change `enable_coin_stars` to `false`
+JoyTheBard (SM64): change all `strict_x_requirements` options to 'true'
+JoyTheBard (SM64): decrease `first_bowser_star_door_cost`: 3
+JoyTheBard (SM64): decrease `basement_star_door_cost`: 3
+JoyTheBard (SM64): decrease `second_floor_star_door_cost`: 3
+JoyTheBard (SM64): decrease `stars_to_finish` by 10: 3
+JoyTheBard (SM64): change `completion_type` to `last_bowser_stage`
+JoyTheBard (Witness): Puzzle Skip: 3
+JoyTheBard (Witness): increase `progression_balancing` by 25: 2
+JoyTheBard (Witness): make `puzzle_randomization` more reasonable: 2
+JoyTheBard (Witness): make `victory_condition` more reasonable: 2
+JoyTheBard (Witness): change `EP_difficulty` to `normal`
+JoyTheBard (Witness): decrease `trap_percentage`: 2
+JoyTheBard (Witness): increase `puzzle_skip_amount`: 3
+JoyTheBard (Witness): increase `hint_amount`: 2
+JoyTheBard (Witness): change `elevators_come_to_you` to `true`
+JoyTheBard (Witness): increase `death_link_amnesty` by 2: 2
+sheen (KH:BBS): EXP Walker
+sheen (KH:BBS): Second Chance
+sheen (KH:BBS): Once More
+sheen (KH:BBS): High Jump
+sheen (KH:BBS): Leaf Bracer
+sheen (KH:BBS): Zack D-Link
+sheen (KH:BBS): Peter Pan D-Link
+sheen (KH:BBS): Experiment 626 D-Link
+sheen (KH:BBS): Pete D-Link
+sheen (KH:BBS): HP Increase: 2
+sheen (KH:BBS): increase `starting_worlds` by 1: 4
+sheen (KH:BBS): increase `exp_multiplier`: 3
+sheen (KH:BBS): increase `keyblade_min_mgc` to 3
+sheen (KH:BBS): increase `keyblade_max_mgc` to 10
+sheen (Factorio): reduce `max_science_pack`: 2
+sheen (Factorio): change `goal` to `rocket`
+sheen (Factorio): change `tech_tree_layout` to `single`
+sheen (Factorio): decrease `min_tech_cost` to 5
+sheen (Factorio): decrease `max_tech_cost` to 500
+sheen (Factorio): change `silo` to `spawn`
+sheen (Factorio): increase `free_samples` by a half stack: 2
+sheen (Factorio): increase `recipe_time`: 2
+sheen (Factorio): reduce `recipe_ingredients_offset` by 1: 3
+sheen (Factorio): change `atomic_rocket_traps` to 0
+sheen (Factorio): add "automation starter pack" group to `starting_items`
+sheen (Factorio): add "starting robots" group to `starting_items`
+sheen (Factorio): add "Spoodertron" group to `starting_items`
+sheen (Factorio): add "Nuclear survival kit" group to `starting_items`
+sheen (Factorio): add "Unlimited Power" group to `starting_items`
+sheen (SMMR): Spazer
+sheen (SMMR): Wave
+sheen (SMMR): PowerBomb: 2
+sheen (SMMR): ETank: 3
+sheen (SMMR): Super: 2
+sheen (SMMR): set `preset` to `medium`
+sheen (SMMR): increase `custom_item_pool: ETank` to 14
+sheen (SMMR): increase `custom_item_pool: PowerBomb` to 14
+sheen (SMMR): increase `custom_item_pool: Super` to 14
+sheen (SMMR): change `doors_mode` to `blue`
+sheen (SMMR): change `supers_double` to `true`
+sheen (SMMR): change `buffed_drops` to `true`
+sheen (SMMR): change `momentum_conservation` to `true`
+sheen (SMMR): change `wall_jump` to `vanilla`
+sheen (SMMR): change `maps_revealed` to `revealed`
+SunCat (TS): "Silence Ring": 1
+SunCat (TS): "Galaxy Earrings": 1
+SunCat (TS): "Eternal Crown": 1
+SunCat (TS): "Eternal Coat": 1
+SunCat (TS): "Chaos Horn": 2
+SunCat (TS): improve `DamageRando`: 3
+SunCat (TS): increase `ExtraEarringsXP` by 6: 4
+SunCat (TS): reduce `ShopMultiplier`: 2
+SunCat (TS): improve `LootTierDistro`: 2
+SunCat (TS): reduce `TrapChance` by 25: 2
+SunCat (C64): increase `death_link_amnesty`: 3
+SunCat (C64): decrease `total_strawberries`: 2
+SunCat (C64): reduce `strawberries_required_percentage` by 10: 9
+SunCat (ROR2): change `start_with_revive` to `true`
+SunCat (ROR2): increase `total_revivals` by 2: 5
+SunCat (ROR2): change `final_stage_death` to `true`
+SunCat (ROR2): reduce `item_pickup_step` by 1: 3
+SunCat (ROR2): reduce `shrine_use_step` to 0
+SunCat (Muse Dash): reduce `music_sheet_win_count_percentage` by 10: 9
+SunCat (Muse Dash): reduce `grade_needed`: 2
+SunCat (Muse Dash): reduce `additional_song_count`: 2
+SunCat (VVVVVV): increase `death_link_amnesty` by 3: 8
+SunCat (VVVVVV): decrease `door_cost`: 2
+SunCat (Emerald): "HM02 Fly": 1
+SunCat (Emerald): "Leftovers": 2
+SunCat (Emerald): add `Wonder Guard` to `ability_blacklist`
+SunCat (Emerald): increase `match_trainer_levels_bonus` (trigger): 10
+Jake13Snake (Adventure): "Left Difficulty Switch"
+Jake13Snake (Adventure): "Right Difficulty Switch"
+Jake13Snake (Adventure): "Slow Yorgle"
+Jake13Snake (Adventure): "Slow Grundle"
+Jake13Snake (Adventure): "Slow Rhindle"
+Jake13Snake (Adventure): increase `freeincarnate_max` to 17
+Jake13Snake (Adventure): decrease `yorgle_speed` to 2
+Jake13Snake (Adventure): decrease `yorgle_min_speed` to 1
+Jake13Snake (Adventure): decrease `grundle_speed` to 2
+Jake13Snake (Adventure): decrease `grundle_min_speed` to 1
+Jake13Snake (Adventure): decrease `rhindle_speed` to 2
+Jake13Snake (Adventure): decrease `rhindle_min_speed` to 1
+Jake13Snake (DOOM 1993): "Chainsaw"
+Jake13Snake (DOOM 1993): "Shotgun"
+Jake13Snake (DOOM 1993): "Chaingun"
+Jake13Snake (DOOM 1993): "Rocket launcher"
+Jake13Snake (DOOM 1993): "Plasma gun"
+Jake13Snake (DOOM 1993): "BFG9000"
+Jake13Snake (DOOM 1993): "Backpack"
+Jake13Snake (DOOM 1993): reduce `difficulty`: 4
+Jake13Snake (DOOM 1993): change `allow_death_logic` to `false`
+Jake13Snake (DOOM 1993): change `pro` to `false`
+Jake13Snake (LADX): "Boomerang"
+Jake13Snake (LADX): "Heart Container":8
+Jake13Snake (LADX): change `rooster` to `true`
+Jake13Snake (LADX): change `trendy_game` to `easy`
+Jake13Snake (LADX): change `hard_mode` to `none`
+Jake13Snake (LADX): change `tarins_gift` to `bush_breaker`
+Jake13Snake (LADX): change `overworld` to `open_mape`
+Jake13Snake (LADX): change `in_game_hints` to `true`
+Ravanan: "Hi-Jump Boots"
+Ravanan: "Spazer"
+Ravanan: "Super Missile": 1
+Ravanan: "Power Bomb": 1
+Ravanan: "Energy Tank": 1
+Ravanan: change `preset` difficulty: 2 [force first one to be near the start and the second one to be near the end of the skill tree]
+Ravanan: change `morph_placement` to `early`
+Ravanan: increase `minor_qty` by 25: 2
+Ravanan: increase `energy_qty`: 2
+Ravanan: change `fun_combat` to `false` [force this to be near the start of the skill tree]
+Ravanan: change `fun_movement` to `false` [force this to be near the start of the skill tree]
+Ravanan: change `fun_suits` to `false` [force this to be near the start of the skill tree]
+Ravanan: change `refill_before_save` to `false` [force this to be near the end of the skill tree]
+ARogueinTime772: 18 Yaml Changes
+ARogueinTime772: 2 Unique items:
+ARogueinTime772: "Badge Pin": 1
+ARogueinTime772: "No Bonk Badge": 1
+ARogueinTime772: decrease `EndGoal: rush_hour` weight to 2
+ARogueinTime772: decrease `EndGoal: seal_the_deal` weight to 0
+ARogueinTime772: decrease `LogicDifficulty`: 3
+ARogueinTime772: make `CTRLogic` more reasonable: 3
+ARogueinTime772: reduce `PonCost` (trigger): 2
+ARogueinTime772: reduce `ChapterCost` (trigger): 2
+ARogueinTime772: make `DLC` more reasonable (trigger): 3
+ARogueinTime772: reduce `TrapChance`: 2
+ARogueinTime772: change `StartWithCompassBadge: false` weight to 0
+Rogue772nic: "Gun": 1
+Rogue772nic: "Shield": 1
+Rogue772nic: "Bone Card": 1
+Rogue772nic: "Muffling Bell": 1
+Rogue772nic: "Hero Relic - ATT"
+Rogue772nic: "Hero Relic - DEF"
+Rogue772nic: "Hero Relic - HP"
+Rogue772nic: "Hero Relic - POTION"
+Rogue772nic: "Hero Relic - SP"
+Rogue772nic: change `keys_behind_bosses: false` weight to 0
+Rogue772nic: change `fool_traps: onslaught` weight to 0
+Rogue772nic: change `lanternless: true` weight to 0
+Rogue772nic: change `maskless: true` weight to 0
+Rogue772nic: change `laurels_zips: true` weight to 0
+Rogue772nic: reduce `ice_grappling` logic difficulty: 2
+Rogue772nic: reduce `ladder_storage` logic difficulty: 3
+Rogue772nic: change `ladder_storage_without_items: true` weight to 0
+DashingRogue772: reduce `additional_song_count`: 2
+DashingRogue772: reduce `music_sheet_win_count_percentage` by 11: 8
+DashingRogue772: increase `song_difficulty_progression`: 5
+DashingRogue772: reduce `grade_needed`: 2
+DashingRogue772: reduce `trap_count_percentage`: 3
+RRRRRRogue772: make "Doing Things the Hard Way" a less important location: 2
+RRRRRRogue772: make "Edge Games" a less important location: 2
+RRRRRRogue772: make "Prize for the Reckless" a less important location: 2
+RRRRRRogue772: reduce `door_cost`: 2
+RRRRRRogue772: increase `death_link_amnesty`: 6
+RndGuy (C64): increase `death_link_amnesty`: 6
+RndGuy (C64): reduce `logic_difficulty: hard` weight: 2
+RndGuy (C64): reduce `strawberries_required_percentage`: 2
+RndGuy (C64): remove harder weights for `badeline_difficulty` (trigger): 4
+RndGuy (Blasphemous): "Life Upgrade": 3
+RndGuy (Blasphemous): reduce `difficulty: hard` weight: 3
+RndGuy (Blasphemous): reduce `skip_long_quests: true` weight: 2
+RndGuy (Blasphemous): change `boots_of_pleading` to `random`
+RndGuy (Blasphemous): change `purified_hand` to `random`
+RndGuy (Blasphemous): remove harder weights for `starting_location`: 2
+RndGuy (Blasphemous): change `reliquary_shuffle` to `random`
+RndGuy (Blasphemous): remove harder weights for `enemy_randomiser_difficulty` (trigger): 3
+RndGuy (Muse Dash): reduce `music_sheet_win_count_percentage`: 4
+RndGuy (Muse Dash): increase `song_difficulty_progression` (trigger): 5
+RndGuy (Muse Dash): decrease `trap_count_percentage`: 3
+RndGuy (Hollow Knight): "Hiveblood"
+RndGuy (Hollow Knight): "Sprintmaster"
+RndGuy (Hollow Knight): "Dashmaster"
+RndGuy (Hollow Knight): "Fragile_Strength"
+RndGuy (Hollow Knight): increase `StartingGeo`: 2
+RndGuy (Hollow Knight): set `RemoveSpellUpgrades` to `false`
+RndGuy (Hollow Knight): reduce `RandomCharmCosts`: 3
+RndGuy (Hollow Knight): reduce `starting_difficulty: high` weight (trigger): 2
+RndGuy (Hollow Knight): remove more difficult skips from `skips_enabled` (trigger): 3
+RndGuy (Hollow Knight): make `shop_costs` more reasonable (trigger): 2
+RndGuy (Witness): reduce `puzzle_randomization: sigma_expert` weight to 5
+RndGuy (Witness): reduce `puzzle_randomization: umbra_variety` weight to 5
+RndGuy (Witness): reduce `panel_hunt_required_percentage`: 2
+RndGuy (Witness): change `shuffle_vault_boxes` to `random`
+RndGuy (Witness): reduce `EP_difficulty`: 2
+RndGuy (Witness): reduce `trap_percentage`: 2
+RndGuy (Witness): increase `puzzle_skip_amount`: 2
+RndGuy (Witness): increase weights of higher `death_link_amnesty` amounts: 5
+rhythm.PartyCube: Mario Party 1 4P Minigames
+rhythm.PartyCube: Mario Party 2 4P Minigames
+rhythm.PartyCube: Mario Party 3 4P Minigames
+rhythm.PartyCube: Mario Party 4 4P Minigames
+rhythm.PartyCube: Mario Party 5 4P Minigames
+rhythm.PartyCube: Mario Party 6 4P Minigames
+rhythm.PartyCube: Mario Party 7 4P Minigames
+rhythm.PartyCube: Mario Party 8 4P Minigames
+rhythm.PartyCube: Mario Party 3 Duel Minigames
+rhythm.PartyCube: Mario Party 7 Duel Minigames
+rhythm.Tsuki: Jetpack upgrade: 2
+rhythm.Tsuki: Drill upgrade: 4
+rhythm.Tsuki: Fruit duration: 2
+rhythm.Tsuki: Repellent delay: 2
+rhythm.Tsuki: Repellent overcharge: 1
+rhythm.Tsuki: Artillery mortar: 2
+rhythm.Tsuki: Artillery air gun: 1
+rhythm.Tsuki: set `keeper` to `engineer`
+rhythm.Tsuki: set `dome: laser` weight to 0
+rhythm.Tsuki: set `dome: sword` weight to 0
+rhythm.Tsuki: set `dome: tesla` weight to 0
+rhythm.Tsuki: set `dome_gadget: shield` weight to 0
+rhythm.Tsuki: set `mining_everything: true` weight to 0
+rhythm.Belius/Terakomari: increase `progression_balancing` by varying amounts: 5
+rhythm.Belius/Terakomari: make `death_link_mode` more reasonable: 2
+rhythm.Belius/Terakomari: make `logistic_distribution` more reasonable: 2
+rhythm.Belius/Terakomari: set `make_early_roadblocks_local` to `true`
+rhythm.SADX: increase `progression_balancing` by varying amounts: 5
+rhythm.SADX: set `goal: levels_and_emerald_hunt` weight to 0
+rhythm.SADX: set `goal: missions_and_emerald_hunt` weight to 0
+rhythm.SADX: set `levels_percentage` to `random-low`
+rhythm.SADX: set `mission_percentage` to `random-low`
+rhythm.SADX: set `guaranteed_level` to `true`

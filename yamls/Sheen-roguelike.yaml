@@ -22,17 +22,18 @@ Kingdom Hearts Birth by Sleep: #9 yaml changes
   keyblade_max_mgc: 6 # 6 -> 10
   realm_of_darkness_early: 'false'
 
-Super Metroid Map Rando: #4 yaml changes
+Super Metroid Map Rando: #11 yaml changes
+  accessibility: minimal
   remote_items: 'true'
   death_link: enable
   preset: hard # hard -> medium
-  item_pool: full #full -> custom
+  item_pool: custom
   custom_item_pool:
-    ETank: 14
+    ETank: 10 #10 -> 14
     Missile: 32
-    PowerBomb: 15
+    PowerBomb: 10 # 10 -> 15
     ReserveTank: 4
-    Super: 19
+    Super: 12 #12 -> 19
   shinespark_tiles: 26
   heated_shinespark_tiles: 29
   shinecharge_leniency_frames: 90
@@ -53,9 +54,9 @@ Super Metroid Map Rando: #4 yaml changes
   ultra_low_qol: 'false'
   quality_of_life: default
   objectives: bosses
-  doors_mode: blue
+  doors_mode: ammo #ammo -> blue
   area_assignment: randomized
-  supers_double: 'false'
+  supers_double: 'false' #false -> true
   mother_brain: vanilla
   escape_enemies_cleared: 'false'
   escape_refill: 'false'
@@ -66,15 +67,15 @@ Super Metroid Map Rando: #4 yaml changes
   item_markers: majors
   item_dots_disappear: 'true'
   all_items_spawn: 'true'
-  buffed_drops: 'true'
+  buffed_drops: 'false' #false -> 'true'
   acid_chozo: 'true'
   fast_elevators: 'true'
   fast_doors: 'true'
   fast_pause_menu: 'true'
   respin: 'false'
   infinite_space_jump: 'false'
-  momentum_conservation: 'false'
-  wall_jump: collectible
+  momentum_conservation: 'false' #false -> true
+  wall_jump: collectible #collectible -> vanilla
   etank_refill: vanilla
   maps_revealed: hidden #hidden -> revealed
   map_layout: wild
@@ -117,7 +118,7 @@ Factorio:
   death_link: 'true'
   energy_link: 'true'
 
-  starting_items: # there are 3 upgrades here: automation starter pack, starting robots, and Spoodertron. They each unlock multiple starting items. They can be unlocked in any order
+  starting_items: # there are 5 upgrades here: automation starter pack, starting robots, Spoodertron, Nuclear survival kit, Unlimited Power. They each unlock multiple starting items. They can be unlocked in any order
     burner-mining-drill: 19
     stone-furnace: 19
 
@@ -139,10 +140,22 @@ Factorio:
     
     ## Spoodertron (4 items)
     # Spidertron: 1
+
+    
+    ## Nuclear survival kit
+    # power-armor-mk2: 1
+    # energy-shield-mk2-equipment: 24
     # personal-laser-defense-equipment: 5
     # exoskeleton-equipment: 3
     # fusion-reactor-equipment: 1 #NOTE: if AP moves to The Space Age, this may need to be renamed
     
+    ## Unlimited Power
+    # nuclear-reactor: 1
+    # uranium-fuel-cell: 300
+    # heat-exchanger: 4
+    # steam-turbine: 8
     
+
+
     
     

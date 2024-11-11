@@ -1,0 +1,415 @@
+name: rhythm.ET2
+description: ["Rhythms YAML for the Sequel to Endless Towers"]
+game:
+  Manual_MarioPartySeries_Rhythm: 4
+  #Manual_RatchetandClank_samervin: 4
+  Dome Keeper: 4
+  Mindustry: 3
+  Sonic Adventure DX: 4
+  #X3
+triggers:
+  - option_category: null
+    option_name: game
+    option_result: Manual_MarioPartySeries_Rhythm
+    options:
+      null:
+        name: rhythm.PartyCube
+  - option_category: null
+    option_name: game
+    option_result: Manual_RatchetandClank_samervin
+    options:
+      null:
+        name: rhythm.Lombax
+  - option_category: null
+    option_name: game
+    option_result: Dome Keeper
+    options:
+      null:
+        name: rhythm.Tsuki
+  - option_category: null
+    option_name: game
+    option_result: Sonic Adventure DX
+    options:
+      null:
+        name: rhythm.SADX
+  - option_category: null
+    option_name: game
+    option_result: X3
+    options:
+      null:
+        name: rhythm.Tsuki
+    # Mindustry slot names: rhythmTerakomari and rhythm.Belius
+Manual_MarioPartySeries_Rhythm:
+  # Game Options
+  progression_balancing: 0
+  accessibility: locations
+  themed_gamepicker:
+    story_combo: 3 #3,4,5,7,8+story
+    duels: 3 #3,5,7,8+story
+    micgames: 3 #6,7
+    n64: 5 #1,2,3
+    gamecube: 5 #4,5,6,7
+    wii: 5 #8+allsanity
+    random: 3 #wildcard, skips triggers
+    allsanity: 1 #every switch turns on
+  triggers:
+    - option_category: Manual_MarioPartySeries_Rhythm
+      option_name: themed_gamepicker
+      option_result: story_combo
+      options:
+        Manual_MarioPartySeries_Rhythm:
+          mario_party_1: false
+          mario_party_2: false
+          mario_party_3: true
+          mario_party_4: true
+          mario_party_5: true
+          mario_party_6: false
+          mario_party_7: true
+          mario_party_8: true
+          minigame_sanity: true
+          story_sanity: true
+          mp7_character_orb_sanity: false
+    - option_category: Manual_MarioPartySeries_Rhythm
+      option_name: themed_gamepicker
+      option_result: duels
+      options:
+        Manual_MarioPartySeries_Rhythm:
+          mario_party_1: false
+          mario_party_2: false
+          mario_party_3: true
+          mario_party_4: false
+          mario_party_5: true
+          mario_party_6: false
+          mario_party_7: true
+          mario_party_8: true
+          minigame_sanity: true
+          story_sanity: true
+          mp7_character_orb_sanity: false
+    - option_category: Manual_MarioPartySeries_Rhythm
+      option_name: themed_gamepicker
+      option_result: micgames
+      options:
+        Manual_MarioPartySeries_Rhythm:
+          mario_party_1: false
+          mario_party_2: false
+          mario_party_3: false
+          mario_party_4: false
+          mario_party_5: false
+          mario_party_6: true
+          mario_party_7: true
+          mario_party_8: false
+          minigame_sanity: true
+    - option_category: Manual_MarioPartySeries_Rhythm
+      option_name: themed_gamepicker
+      option_result: n64
+      options:
+        Manual_MarioPartySeries_Rhythm:
+          mario_party_1: true
+          mario_party_2: true
+          mario_party_3: true
+          mario_party_4: false
+          mario_party_5: false
+          mario_party_6: false
+          mario_party_7: false
+          mario_party_8: false
+          minigame_sanity: true
+          story_sanity: true
+    - option_category: Manual_MarioPartySeries_Rhythm
+      option_name: themed_gamepicker
+      option_result: gamecube
+      options:
+        Manual_MarioPartySeries_Rhythm:
+          mario_party_1: false
+          mario_party_2: false
+          mario_party_3: false
+          mario_party_4: true
+          mario_party_5: true
+          mario_party_6: true
+          mario_party_7: true
+          mario_party_8: false
+          minigame_sanity: true
+    - option_category: Manual_MarioPartySeries_Rhythm
+      option_name: themed_gamepicker
+      option_result: wii
+      options:
+        Manual_MarioPartySeries_Rhythm:
+          mario_party_1: false
+          mario_party_2: false
+          mario_party_3: false
+          mario_party_4: false
+          mario_party_5: false
+          mario_party_6: false
+          mario_party_7: false
+          mario_party_8: true
+          minigame_sanity: true
+          story_sanity: true
+          item_sanity: true
+    - option_category: Manual_MarioPartySeries_Rhythm
+      option_name: themed_gamepicker
+      option_result: allsanity
+      options:
+        Manual_MarioPartySeries_Rhythm:
+          mario_party_1: true
+          mario_party_2: true
+          mario_party_3: true
+          mario_party_4: true
+          mario_party_5: true
+          mario_party_6: true
+          mario_party_7: true
+          mario_party_8: true
+          minigame_sanity: true
+          story_sanity: true
+          mp7_character_orb_sanity: true
+  mario_party_1: random
+  mario_party_2: random
+  mario_party_3: random
+  mario_party_4: random
+  mario_party_5: random
+  mario_party_6: random
+  mario_party_7: random
+  mario_party_8: random
+  mario_party_ds: false # NYI, will request change if implemented.
+  minigame_sanity:
+    # Makes every minigame a check. (Up to roughly 563 extra locations.)
+    'false': 1
+    'true': 9
+  bonus_sanity: true
+  mic_sanity: random
+  story_sanity:
+    # Toggle the story modes of the games.
+    'false': 1
+    'true': 3
+  item_sanity:
+    # Every item obtained is a check. (Roughly 138 locations.)
+    'false': 1
+    'true': 3
+  rare_item_sanity:
+    # Add items that cannot be obtained through the shop or other reliable ways to item_sanity. Does nothing with it off.
+    'false': 1
+    'true': 3
+  mp3_partner_sanity:
+    # Obtaining a partner is a check. Does nothing with MP3 off.
+    'false': 1
+    'true': 9
+  mp7_character_orb_sanity:
+    # Add character specific orbs to itemsanity. Does nothing with it or MP7 off.
+    'false': 9
+    'true': 1
+  death_link: true
+  start_hints: ["Games"]
+Dome Keeper:
+  # Game Options
+  progression_balancing: 0
+  accessibility: locations
+  keeper: random # Upgrade: engineer
+  dome:
+    laser: 3 # Upgrade: Disabled
+    sword: 3 # Upgrade: Disabled
+    artillery: 5
+    tesla: 3 # Upgrade: Disabled
+  dome_gadget:
+    shield: 2 # Upgrade: Disabled
+    orchard: 2
+    repellent: 3
+  map_size:
+    small: 7
+    medium: 5
+    large: 3
+    huge: 1
+  difficulty:
+    normal: 1
+    hard: 1
+    brutal: 1
+    youaskedforit: 1
+  death_link: true
+  drill_upgrades: 10
+  kinetic_spheres: 10
+  colored_layers: true
+  sphere_lifetime: 15
+  extra_cobalt: random
+  mining_everything:
+    'false': 1
+    'true': 9 # Upgrade: Disabled
+  start_location_hints:
+    ["Upgrade Iron 1", "Upgrade Iron 2", "Upgrade Iron 3", "Upgrade Iron 4", "Upgrade Water 1", "Upgrade Water 2", "Upgrade Water 3", "Upgrade Water 4", "Upgrade Iron and Water 1", "Upgrade Iron and Water 2", "Upgrade Iron and Water 3", "Upgrade Iron and Water 4"]
+Mindustry:
+  # Game Options
+  progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
+  accessibility: locations
+  tutorial_skip: true
+  campaign_choice:
+    serpulo_only: 1
+    erekir_only: 1
+    all_planets: 0
+  triggers:
+    - option_category: Mindustry
+      option_name: campaign_choice
+      option_result: serpulo_only
+      options:
+        null:
+          name: rhythm.Belius
+    - option_category: Mindustry
+      option_name: campaign_choice
+      option_result: erekir_only
+      options:
+        null:
+          name: rhythmTerakomari
+  disable_invasions: true
+  faster_production: true
+  death_link: true
+  death_link_mode: death_link_unit # Upgrade x2: change to death_link_core then to death_link_core_russian_roulette
+  military_level_tracking: true
+  randomize_core_units_weapon: false
+  logistic_distribution: early_logistics # Upgrade x2: change to local_early_logistics then starter_logistics
+  make_early_roadblocks_local: false # Upgrade: true
+  amount_of_resources_required: random-range-100-9999
+  core_russian_roulette_chambers: 6
+  start_hints: ["Conduit", "Liquid Junction", "Liquid Router", "Bridge Conduit", "Junction", "Router", "Bridge Conveyor", "Power Node", "Duct Router", "Duct Bridge", "Reinforced Conduit", "Reinforced Liquid Junction", "Reinforced Bridge Conduit", "Reinforced Liquid Router"]
+Sonic Adventure DX:
+  # Game Options
+  progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
+  accessibility: locations
+  death_link: true
+  # General Options
+  goal:
+    levels: 1
+    levels_and_emerald_hunt: 1 # Upgrade: Disabled
+    missions: 1
+    missions_and_emerald_hunt: 1 # Upgrade: Disabled
+  logic_level: hard_logic
+  levels_percentage: random # Upgrade: random-low
+  mission_percentage: random # Upgrade: random-low
+  random_starting_location: true
+  random_starting_location_per_character: true
+  guaranteed_level: false # Upgrade: true
+  entrance_randomizer: true
+  level_entrance_plando: {}
+    # Plando for level entrance. Only works if Entrance Randomizer is enabled.
+    # The level name should be Capitalized with no spaces.
+    # For example, {'Emerald Coast': 'Final Egg'} will place Final Egg behind the Emerald Coast entrance and randomize the rest.
+  send_death_link_chance: random
+  receive_death_link_chance: 100
+  ring_link: true
+  casinopolis_ring_link: true
+  hard_ring_link: true
+  ring_loss: classic
+  # Characters Options
+  playable_sonic: random
+  playable_tails: true
+  playable_knuckles: random
+  playable_amy: random
+  playable_big: random
+  playable_gamma: false
+  # Stage Options
+  sonic_action_stage_missions:
+    none: 1
+    c_b_a: 1
+  tails_action_stage_missions:
+    none: 1
+    c_b_a: 1
+  knuckles_action_stage_missions:
+    none: 1
+    c_b_a: 1
+  amy_action_stage_missions:
+    none: 1
+    c_b_a: 1
+  big_action_stage_missions:
+    none: 1
+    c: 1
+  gamma_action_stage_missions: none
+  # Upgrade Options
+  randomized_sonic_upgrades: random
+  randomized_tails_upgrades: random
+  randomized_knuckles_upgrades: random
+  randomized_amy_upgrades: random
+  randomized_big_upgrades: random
+  randomized_gamma_upgrades: false
+  # Bosses Options
+  boss_checks: random
+  unify_chaos4: true # Determines whether the Chaos 4 fight counts as a single location or three (Sonic, Tails, and Knuckles).
+  unify_chaos6: random # Determines whether the Chaos 6 fight counts as a single location or three (Sonic, Big, and Knuckles).
+  unify_egg_hornet: random # Determines whether the Egg Hornet fight counts as a single location or two (Sonic, Tails).
+  # Extra locations
+  field_emblems_checks: true # Determines whether collecting field emblems grants checks (12 Locations).
+  mission_mode_checks: true # Determines whether completing missions grants checks (60 Locations).
+  auto_start_missions: true
+  mission_blacklist: ['53', '54', '49', '58', '41', '40', '38']
+  sub_level_checks: random # Determines whether beating Twinkle Circuit and Sand Hill grants checks (2 Locations).
+  sub_level_checks_hard: random # Determines whether beating the harder (points-based) Twinkle Circuit and Sand Hill missions grants checks (2 Locations).
+  sky_chase_checks: false
+  sky_chase_checks_hard: false
+  life_sanity: random # Determines whether collecting life capsules grants checks (102 Locations).
+  pinball_life_capsules: false # Determines whether pinball's life capsules grant checks (2 Locations).
+  # Only have life_sanity if I need to enter the stages.
+  triggers:
+    - option_category: Sonic Adventure DX
+      option_name: sonic_action_stage_missions
+      option_result: c_b_a
+      options:
+        Sonic Adventure DX:
+          sonic_life_sanity: true
+    - option_category: Sonic Adventure DX
+      option_name: tails_action_stage_missions
+      option_result: c_b_a
+      options:
+        Sonic Adventure DX:
+          tails_life_sanity: true
+    - option_category: Sonic Adventure DX
+      option_name: knuckles_action_stage_missions
+      option_result: c_b_a
+      options:
+        Sonic Adventure DX:
+          knuckles_life_sanity: true
+    - option_category: Sonic Adventure DX
+      option_name: amy_action_stage_missions
+      option_result: c_b_a
+      options:
+        Sonic Adventure DX:
+          amy_life_sanity: true
+    - option_category: Sonic Adventure DX
+      option_name: big_action_stage_missions
+      option_result: c
+      options:
+        Sonic Adventure DX:
+          big_life_sanity: true
+  sonic_life_sanity: false
+  tails_life_sanity: false
+  knuckles_life_sanity: false
+  amy_life_sanity: false
+  big_life_sanity: false
+  gamma_life_sanity: false
+  # Junk Options
+  junk_fill_percentage: 100
+  trap_fill_percentage: 99
+  ice_trap_weight: none
+  spring_trap_weight: high
+  police_trap_weight: none
+  buyon_trap_weight: none
+  reverse_trap_weight: none
+  gravity_trap_weight: low
+  reverse_trap_duration: 1
+  traps_and_filler_on_adventure_fields: true
+  traps_and_filler_on_boss_fights: false
+  traps_and_filler_on_perfect_chaos_fight: true
+  # Item & Location Options
+  start_inventory:
+    Crystal Ring: 1 # Sonic QOL
+    Rhythm Badge: 1 # Tails QOL
+    Jet Anklet: 1 # Tails QOL
+    Fighting Gloves: 1 # Knuckles QOL
+    Long Hammer: 1 # Amy QOL
+    Warrior Feather: 1 # Amy QOL
+    Power Rod: 1 # Big QOL
+  local_items: ["Train", "Boat", "Raft", "Playable Characters"]
+  exclude_locations:
+    - Sky Chase Act 1 (Sub-Level - Mission B)
+    - Sky Chase Act 1 (Sub-Level - Mission A)
+    - Sky Chase Act 2 (Sub-Level - Mission B)
+    - Sky Chase Act 2 (Sub-Level - Mission A)
+    - Sand Hill (Sub-Level - Mission A)
+    - Chaos 4 Boss Fight
+    - Lost World (Sonic - Mission A)
+    - Lost World (Sonic - Mission B)
+    - Lost World (Sonic - Life Capsule 1)
+    - Lost World (Sonic - Life Capsule 2)
+X3:
