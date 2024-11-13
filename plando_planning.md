@@ -1079,7 +1079,7 @@ Connor (UT): change `prog_armor` to `false`
 DiStegRogue (OOT): Double Defense
 DiStegRogue (LTTP): Progressive Mail: 1
 DiStegRogue (OOT): Hylian Shield: 1
-DiStegRogue (OOT): Nayru's Love
+DiStegRogue (OOT): Nayrus Love
 Sylsko (TUNC): Hero Relic - DEF
 Sylsko (TS): Eternal Coat
 Caesius (OOT): "Double Defense"

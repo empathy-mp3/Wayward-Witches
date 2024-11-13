@@ -3,8 +3,6 @@
 - ???: 120 (probably more)
 - ARogueinTime772: "Badge Pin": 1
 - ARogueinTime772: "No Bonk Badge": 1
-- ARogueinTime772: 18 Yaml Changes
-- ARogueinTime772: 2 Unique items:
 - ARogueinTime772: change `StartWithCompassBadge: false` weight to 0
 - ARogueinTime772: decrease `EndGoal: rush_hour` weight to 2
 - ARogueinTime772: decrease `EndGoal: seal_the_deal` weight to 0
@@ -225,10 +223,10 @@
 - CrystalOOT: Bottle: 2
 - CrystalOOT: Bow: 1
 - CrystalOOT: Double Defense
-- CrystalOOT: Farore's Wind
+- CrystalOOT: Farores Wind
 - CrystalOOT: Heart Container: 2
 - CrystalOOT: Huge Rupee
-- CrystalOOT: Nayru's Love
+- CrystalOOT: Nayrus Love
 - CrystalOOT: Slingshot: 1
 - DashingRogue772: increase `song_difficulty_progression`: 5
 - DashingRogue772: reduce `additional_song_count`: 2
@@ -285,7 +283,7 @@
 - DiStegRogue (OOT): Double Defense
 - DiStegRogue (OOT): Heart Container: 3
 - DiStegRogue (OOT): Hylian Shield: 1
-- DiStegRogue (OOT): Nayru's Love
+- DiStegRogue (OOT): Nayrus Love
 - DiStegRogue (OOT): change `shuffle_bosses` to `limited`
 - DiStegRogue (OOT): lower `damage_multiplier` amount: 2
 - DiStegRogue (OOT): lower `deadly_bonks` amount: 2
@@ -675,7 +673,7 @@
 - SunCat (Emerald): "HM02 Fly": 1
 - SunCat (Emerald): "Leftovers": 2
 - SunCat (Emerald): add `Wonder Guard` to `ability_blacklist`
-- SunCat (Emerald): increase `match_trainer_levels_bonus` (trigger): 10
+- SunCat (Emerald): increase `match_trainer_levels_bonus`: 10
 - SunCat (Muse Dash): reduce `additional_song_count`: 2
 - SunCat (Muse Dash): reduce `grade_needed`: 2
 - SunCat (Muse Dash): reduce `music_sheet_win_count_percentage` by 10: 9

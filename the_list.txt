@@ -221,10 +221,10 @@ CrystalOOT: Biggoron Sword
 CrystalOOT: Bottle: 2
 CrystalOOT: Bow: 1
 CrystalOOT: Double Defense
-CrystalOOT: Farore's Wind
+CrystalOOT: Farores Wind
 CrystalOOT: Heart Container: 2
 CrystalOOT: Huge Rupee
-CrystalOOT: Nayru's Love
+CrystalOOT: Nayrus Love
 CrystalOOT: Slingshot: 1
 DashingRogue772: increase `song_difficulty_progression`: 5
 DashingRogue772: reduce `additional_song_count`: 2
@@ -281,7 +281,7 @@ DiStegRogue (OOT): Bottle with Red Potion: 1
 DiStegRogue (OOT): Double Defense
 DiStegRogue (OOT): Heart Container: 3
 DiStegRogue (OOT): Hylian Shield: 1
-DiStegRogue (OOT): Nayru's Love
+DiStegRogue (OOT): Nayrus Love
 DiStegRogue (OOT): change `shuffle_bosses` to `limited`
 DiStegRogue (OOT): lower `damage_multiplier` amount: 2
 DiStegRogue (OOT): lower `deadly_bonks` amount: 2
@@ -671,7 +671,7 @@ SunCat (C64): reduce `strawberries_required_percentage` by 10: 9
 SunCat (Emerald): "HM02 Fly": 1
 SunCat (Emerald): "Leftovers": 2
 SunCat (Emerald): add `Wonder Guard` to `ability_blacklist`
-SunCat (Emerald): increase `match_trainer_levels_bonus` (trigger): 10
+SunCat (Emerald): increase `match_trainer_levels_bonus`: 10
 SunCat (Muse Dash): reduce `additional_song_count`: 2
 SunCat (Muse Dash): reduce `grade_needed`: 2
 SunCat (Muse Dash): reduce `music_sheet_win_count_percentage` by 10: 9

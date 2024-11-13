@@ -233,7 +233,7 @@ Ocarina of Time:
 Unique Items:
 Biggoron Sword
 Double Defense
-Nayru's Love
+Nayrus Love
 
 Duplicate Items:
 Bottle with Red Potion: 1
@@ -1036,8 +1036,8 @@ Unique Items:
 
 Biggoron Sword
 Double Defense
-Farore's Wind
-Nayru's Love
+Farores Wind
+Nayrus Love
 
 Duplicate Items:
 
@@ -1155,7 +1155,7 @@ Unique items:
 "Fragile_Strength": 1
 "Shaman_Stone": 1
 "Quick_Slash": 1
-"Mark of Pride": 1
+"Mark_of_Pride": 1
 "Quick_Focus": 1
 
 Duplicate items:
