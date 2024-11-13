@@ -1069,7 +1069,7 @@
 - superfid (C64): change `logic_difficulty` to `standard`
 - superfid (C64): change `total_strawberries` to `random`
 - superfid (C64): increase `death_link_amnesty`: 4
-- superfid (C64): lower `strawberries_requires_percentage`: 2
+- superfid (C64): lower `strawberries_required_percentage`: 2
 - superfid (DLCQ): Checkpoint Pack
 - superfid (DLCQ): Night Map Pack
 - superfid (DLCQ): Pause Menu Pack

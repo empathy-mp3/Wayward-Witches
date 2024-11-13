@@ -75,6 +75,7 @@ Ravanan: "Power Bomb": 1
 sheen (SMMR): increase `custom_item_pool: PowerBomb` to 14
 sheen (SMMR): PowerBomb: 2
 Jake13Snake (DOOM 1993): "Rocket launcher"
+superfid (Secret of Evermore): "Bazooka"
 
 ## vitality
 hecate.mp3 (Noita): "Extra Max HP": 4
@@ -500,7 +501,6 @@ JoyTheBard (OW): Oxygen Capacity Upgrade: 2
 hecate.mp3 (Noita): reduce `path option: main_world` to 1
 hecate.mp3 (DO2): "Stability": 3
 Sylsko (C64): add `Badeline Cassette Strawberry` to `exclude_locations`
-Roguinater (MC): set `shuffle_structures` to `true`
 Roguinater (VVVVVV): make "Doing Things the Hard Way" and "Edge Games" less important locations: 2
 Roguinater (Peggle Nights): set `art_contest_pack` to `false`
 BennyRogue (Witness): decrease `shuffle_vault_boxes: 'true'` weight to 2
@@ -541,6 +541,7 @@ MiroRogue (MC): change `shuffle_structures` to `true`
 Panda_Rogue: change `shuffle_structures` to `true`
 TzufRougelike (LTTP): change `entrance_shuffle` to `simple`
 DragoRogue2 (Red & Blue): make `door_shuffle` more reasonable: 3
+Roguinater (MC): set `shuffle_structures` to `true`
 
 ## macguffins
 hecate.mp3 (Noita): change `extra_orbs` to `random-high`
@@ -560,7 +561,7 @@ Panda_Rogue: reduce `egg_shards_required`: 3
 Panda_Rogue: increase `egg_shards_available`: 3
 DeathclawCavern (C64): reduce `total_strawberries`: 7
 superfid (C64): change `total_strawberries` to `random`
-superfid (C64): lower `strawberries_requires_percentage`: 2
+superfid (C64): lower `strawberries_required_percentage`: 2
 DeathclawCavern (SM64): decrease `stars_to_finish`: 2
 TzufRougelike (SM): increase `minor_qty`: 2
 Ravanan: increase `minor_qty` by 25: 2
@@ -950,6 +951,7 @@ Connor (Godhome): "Grubsong": 1
 Connor (SquareMusic): "Shiva": 1
 Sylsko (TUNC): Magic Dagger
 Roguinater (Peggle Nights): set `holiday_2008_pack` to `false`
+superfid (Secret of Evermore): "30 Cryo Blast"
 
 ## beast
 Connor (SquareMusic): "Ifrit": 1
@@ -1151,8 +1153,6 @@ superfid (LTTP): change `enemy_shuffle` to `false`
 superfid (Pseudoregalia): "Indignation"
 superfid (Pseudoregalia): "Martial Prowess"
 superfid (Pseudoregalia): "Good Graces":2
-superfid (Secret of Evermore): "Bazooka"
-superfid (Secret of Evermore): "30 Cryo Blast"
 superfid (Secret of Evermore): change `fix_cheats` to `false`
 superfid (Secret of Evermore): change `fix_atlas_glitch` to `false`
 superfid (Secret of Evermore): change `fix_wings_glitch` to `false`
