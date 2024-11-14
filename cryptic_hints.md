@@ -426,7 +426,12 @@
 - *the recordings hold the secret.* (BennyRogue (Witness): change `hint_amount` to `random-high`)
 - *breadth as opposed to depth.* (BennyRogue (Witness): increase `area_hint_percentage` range by 20)
 - *a glittering essence.* (add `Stardust` to `start_hints`)
-- *a thick fog.* (Hint Cost Increase) [hint by DiStegro!]
+- *a thick fog.* (hint cost decrease) [hint by DiStegro!]
+- *the one that brings it down a notch* (hint cost decrease) [hint by Joy the Bard!]
+- *makes that thing you're looking for easier to find* (hint cost decrease) [hint by Joy the Bard!]
+- *the one that makes it slightly easier to ask questions* (hint cost decrease) [hint by Joy the Bard!]
+- *do your runs even last long enough for this to be useful yet?* (hint cost decrease) [hint by Joy the Bard!]
+- *clint lost the geese* (hint cost decrease) [hint by Joy the Bard!]
 
 ## defy death
 
@@ -436,7 +441,7 @@
 - *a little plush that can be altered by void.* (+1 life, referencing dio's best friend from ror2)
 - *a red amulet, made with a little shadow.* (+1 life, referencing life giving amulet from don't starve)
 - *a golden ring, found in a volcano.* (+1 life, referencing phoenix ring from stardew)
-- *eternity (XII)* (+2 life, referencing an arcana card from hades II)
+- *eternity (12)* (+2 life, referencing an arcana card from hades II)
 - *a candlestick.* (+1 life, referencing the candles in inscryption)
 - *a little doll, infused with gold and vapor.* (+1 life, referencing death protection poppet from the minecraft witchery mod)
 - *a fountain guarded by a serpent.* (+1 life, referencing fountain of youth from don't starve: hamlet)
@@ -452,9 +457,18 @@
 - *a bright green potion.* (+1 life, referencing fairy in a bottle from slay the spire)
 - *a beating heart, made at a price.* (+1 life, referencing telltale heart from don't starve together)
 - *a coffin marked with a skull.* (+1 life, referencing the coffins from spelunky 2)
-- *these are like, all over the skill tree. i've ran out of cryptic hints for them at this point.* (+1 life)
 - *what sisyphus attempted (and was punished for).* (+1 life)
-- *ray gun.* (+1 Life) [hint by DiStegro!]
+- *ray gun.* (+1 life) [hint by DiStegro!]
+- *dunno what it is but Mikey likes it* (+1 life) [hint by Joy the Bard!]
+- *oh baby give me one more chaaaaaaance* (+1 life) [hint by Joy the Bard!]
+- *E G e c d g* (+1 life) [hint by Joy the Bard!]
+- *i get knocked down, but i get up again* (+1 life) [hint by Joy the Bard!]
+- *encore* (+1 life) [hint by Joy the Bard!]
+- *golden bear-shaped trophy* (+1 life) [hint by Joy the Bard!]
+- *[mint] 2nd room countdown panel* (+1 life) [hint by Joy the Bard!]
+- *maybe this time will be different* (+1 life) [hint by Joy the Bard!]
+- *another coin for the machine* (+1 life) [hint by Joy the Bard!]
+- *nobody wants to take the last one* (+1 life) [hint by Joy the Bard!]
 
 ## fragment
 
