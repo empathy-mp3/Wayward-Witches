@@ -432,6 +432,28 @@
 - *the one that makes it slightly easier to ask questions* (hint cost decrease) [hint by Joy the Bard!]
 - *do your runs even last long enough for this to be useful yet?* (hint cost decrease) [hint by Joy the Bard!]
 - *clint lost the geese* (hint cost decrease) [hint by Joy the Bard!]
+- *I can see clearly now, the rain is gone.* (hint cost decrease) [hint by jonfunk!]
+- *Curiosity has it's own reason for existing* (hint cost decrease) [hint by jonfunk!]
+- *A trail of breadcrumbs...* (hint cost decrease) [hint by jonfunk!]
+- *Insider trading* (hint cost decrease) [hint by jonfunk!]
+- *A peek behind the curtain* (hint cost decrease) [hint by jonfunk!]
+- *A gentle nudge from the universe* (hint cost decrease) [hint by jonfunk!]
+- *"The world is full of obvious things which nobody by any chance ever observes."* (hint cost decrease) [hint by jonfunk!]
+- *Silence can speak volumes* (hint cost decrease) [hint by jonfunk!]
+- *fire from heat* (add `Cinders` to `start_hints`)
+- *know where to find the luckiest find.* (add `Rabbit Foot` to `start_hints`)
+- *a thing found in 3 AP games; one is supported, one is unsupported, and one is manual. (while i do think mods can be games, i'm not counting them for this cryptic hint. however, i am counting something else as a game that may be surprising.)* (add `Strawberry` to `start_hints`)
+- *very tasty in sushi.* (add `Eel` to `start_hints`)
+- *it's on a triangle with sand.* (add `Clay` to `start_hints`)
+- *found in deltas.* (add `Basalt` to `start_hints`)
+- *a certain rocket scientist was named after this (yes, not the other way around).* (add `Slate` to `start_hints`)
+- *first it stops the epidemic, then it wreaks havoc upon the world, in very quick succession, but these are still 2 separate actions.* (add `Void` to `start_hints`)
+- *it's in both plants vs zombies and minecraft.* (add `Lilypad` to `start_hints`)
+- *it's pink, then it's processed into gray, then it turns into orange.* (add `Iron` to `start_hints`)
+- *good for making circles and runes.* (add `Chalk` to `start_hints`)
+- *while the others have done well to persist through the winter, this one has fallen to the ground.* (add `Spruce Branch` to `start_hints`)
+- *allegedly, this doesn't always smell bad.* (add `Incense` to `start_hints`)
+- *it's the main source of the first half of its name.* (add `Limestone` to `start_hints`)
 
 ## defy death
 
@@ -449,7 +471,7 @@
 - *a wooden effigy, resembling a certain scientist.* (+1 life, referencing meat effigy from don't starve)
 - *a fake tail.* (+1 life, referencing lizard tail from slay the spire)
 - *a light with wings.* (+1 life, referecing fairies from zelda.)
-- *a potion that amplifies your mana.* (+1 life, referencing permafrost's concoction from terraria calamity mod)
+- *a potion that amplifies your mana (among other things).* (+1 life, referencing permafrost's concoction from terraria calamity mod)
 - *a blue and purple core.* (+1 life, referencing nebulous core from terraria calamity mod)
 - *a green and gold set of armor.* (+1 life, referencing silva armor from terraria calamity mod)
 - *an electric suit of armor.* (+2 life, referencing auric tesla armor from terraria calamity mod)
@@ -457,7 +479,6 @@
 - *a bright green potion.* (+1 life, referencing fairy in a bottle from slay the spire)
 - *a beating heart, made at a price.* (+1 life, referencing telltale heart from don't starve together)
 - *a coffin marked with a skull.* (+1 life, referencing the coffins from spelunky 2)
-- *what sisyphus attempted (and was punished for).* (+1 life)
 - *ray gun.* (+1 life) [hint by DiStegro!]
 - *dunno what it is but Mikey likes it* (+1 life) [hint by Joy the Bard!]
 - *oh baby give me one more chaaaaaaance* (+1 life) [hint by Joy the Bard!]
@@ -469,6 +490,33 @@
 - *maybe this time will be different* (+1 life) [hint by Joy the Bard!]
 - *another coin for the machine* (+1 life) [hint by Joy the Bard!]
 - *nobody wants to take the last one* (+1 life) [hint by Joy the Bard!]
+- *Press X to Respawn* (+1 Life) [hint by jonfunk!]
+- *Summoning: Impure World Reincarnation Jutsu* (+1 Life) [hint by jonfunk!]
+- *Are the mushrooms safe to eat?* (+1 Life) [hint by jonfunk!]
+- *https://www.reddit.com/r/2healthbars/* (+1 Life) [hint by jonfunk!]
+- *The Matrix: Reloaded* (+1 Life) [hint by jonfunk!]
+- *"How many times do I have to kill you, boy"* (+1 Life) [hint by jonfunk!]
+- *"Get busy living, or get busy dying."* (+1 Life) [hint by jonfunk!]
+- *moon, minus 1* (+2 life) [hint sorta adapted from Deathclaw99's hint!]
+- *200 bucks.* (+2 life) [hint adapted from Deathclaw99's hint!]
+- *Biscuit* (+1 Life) [hint by Deathclaw99!]
+- *Raise Dead* (+1 Life) [hint by Deathclaw99!]
+- *Monster Reborn* (+1 Life) [hint by Deathclaw99!]
+- *thrown out from the gates.* (+1 life)
+- *it always happens with those large trucks.* (+1 life)
+- *it's before fourth flare.* (+1 life, referencing phoenix pet's Rekindle ability in hypixel skyblock)
+- *5 less than that one soda.* (+2 life)
+- *a green flame.* (+1 life, referencing [REDACTED])
+- *a stone bed marked with a sigil.* (+1 life, referencing homestuck)
+- *thanatos's vacation* (+2 life)
+- *a gift from the goddess of wisdom.* (+1 life, referencing how a lot of athena boons in hades give you death defiances)
+- *a gift from an extremely moody hero's boyfriend.* (+2 life, referencing patroclus from hades restorting all empty death defiances. in the iliad by homer, achilles (patroclus's boyfriend) is extremely moody. not so much in hades though)
+- *a secret red orb.* (+1 life, referencing ultrakill)
+- *a miracle taught by morne.* (+1 life) [hint adapted from Deathclaw99's hint!]
+- *bought for 12 bones at the café.* (+1 life) [hint adapted from Deathclaw99's hint!]
+- *the most expensive thing at westside goods.* (+1 life)
+- *sold at three shops: in one side of a two-sided place, in a desert, and in a crag.* (+1 life)
+- *a weird substance, but also a feeling. the substance version is more hazardous to use.* (+1 life, referencing DETERMINATION from undertale)
 
 ## fragment
 

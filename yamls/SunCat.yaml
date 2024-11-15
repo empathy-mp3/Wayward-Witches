@@ -21,7 +21,7 @@ Timespinner:
   DownloadableItems: 'true'
   StartWithMeyef: 'true'
   QuickSeed: 'false'
-  SpecificKeycards: 'true'
+  SpecificKeycards: random
   GyreArchives: 'true'
   Cantoran: 'true'
   LoreChecks: 'true'

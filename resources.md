@@ -33,7 +33,7 @@
 *found exclusively under the ocean.*
 
 ### Incense
-*a stick with a sacred, yet awful smell.*
+*a substance with a sacred, distinct smell.*
 *found in tundras or hell.*
 *found closer to home.*
 
