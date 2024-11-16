@@ -48,7 +48,7 @@
 - *a wrapping with ash inside.* (hecate.mp3 (TUNC): "Potion Offering")
 - *bearing this will allow you to appease the Mind.* (Connor (HK): "Hiveblood")
 - *a button that is either white or yellow.* (Connor (UT): "ITEM": 1)
-- *and now, they're going to protect...* (Caesius (Emerald): "Super Potion")
+- *and now, they're going to protect...* (MiroRogue (Emerald): "Full Restore")
 - *your great strength marks you amongst us.* (Toto (HK): change `RandomizeFocus` to `false`)
 - *a fleeting wish left behind at the moment of death.* (Sylsko (Ender Lilies): Priestess' Wish)
 - *recover through death of your enemies.* (BennyRogue (RL): Vampire Runes)
@@ -57,7 +57,7 @@
 
 ## fearless
 - *rain and darkness.* (Alex230: Disable Atmosfear Mod)
-- *this is either enemy rando or unique movement, and somehow, i can't tell which.* (Alex230: Disable Malice Mod)
+- *beckon a bunch of rather odd fellows to your world* (Toto (SotM): remove `The Stranger`, `The Runecarved Stranger`, `The Stranger 1929`, `The Stranger Wasteland Ronin`, and `The Stranger in the Corn` from `exclude_from_pool`) [hint by Joy the Bard!]
 
 ## challenge
 
@@ -75,7 +75,7 @@
 ## sight
 - *a unique sort of brightness.* (Alex230: Brighter Gamma)
 - *invisibility doesn't matter too much.* (Roguinater (Meritous): Ethereal Monocle)
-- *the one that turns off the dark* (Alex230: Brighter Gamma) [hint by Joy the Bard!]
+- *you won't have to go to the tomb quite yet.* (Rogue772nic: change `lanternless: true` weight to 0)
 
 ## speed
 - *grab the treasure and get out of there!* (hecate.mp3 (DO2): "Loot & Scoot")
@@ -92,8 +92,8 @@
 - *the twisting vines will no longer be unknowable.* (hecate.mp3 (OW): reduce `randomize_dark_bramble_layout: 'true'` chance)
 - *you can't see me, my time is now!* (Caesius (Emerald): change `blind_trainers` to `true`)
 - *the canine holds a gift.* (BennyRogue (Witness): increase `shuffle_dog: puzzle_skip` weight to 6)
-- *You know what they say about cool guys and explosions.* (Caesius (Emerald): change `blind_trainers` to `true`) [hint by DiStegro!]
 - *Fishy Amnesia* (JoyTheBard (OW): make `randomize_dark_bramble_layout` more reasonable) [hint by Deathclaw99!]
+- *the one that makes you get on the ball much sooner* (Slipomatic_SM: change `morph_placement` to `early`) [hint by Joy the Bard!]
 
 ## logic
 
@@ -103,7 +103,6 @@
 
 ## traps
 
-- *not the bees!* (Caesius (MC): change `bee_traps` to `random-low`)
 - *a little misstep. the dungeon will take notice.* (hecate.mp3 (DO2): reduce `filler_traps` chance)
 - *this is the worst time to take a nap.* (hecate.mp3 (OW): reduce `trap_chance`)
 - *one of GladOS's favorite weapons.* (Connor (TS): lower `trap_chance` by 25)
@@ -118,6 +117,7 @@
 - *the one that cleans up the time stream a bit* (superfid (TS): decrease `trap_chance` lower bound) [hint by Joy the Bard!]
 - *the one that makes the simulation a bit safer* (BennyRogue (Witness): change `trap_percentage` to `random-low`) [hint by Joy the Bard!]
 - *Bane of Arthropods IV* (superfid (LTTP): change `beemizer_total_chance` to 0) [hint by ChromaNyan!]
+- *the world is dangerous for someone so dapper. this makes it less so* (MiroRogue (aHiT): reduce `TrapChance`) [hint by Joy the Bard!]
 
 ## link
 - *we already have enough shared suffering in this async!* (remove `LTTPTrapLink` `item_link`)
@@ -142,6 +142,8 @@
 - *for some heroes, it's always been about 'good enough'* (MiroRogue (DLCQ): change `ending_choice` to `any`) [hint by Joy the Bard!]
 - *Breakfast* (superfid (TS): increase `dad_percent: true` weight) [hint by Deathclaw99!]
 - *Lonely Friend....* (JoyTheBard (OW): change `song_of_the_nomai` to `song_of_five`) [hint by Deathclaw99!]
+- *something that helps you always know what you need to do* (jf-rogue (aHiT): change `EndGoal: random` weight to 0) [hint by Joy the Bard!]
+- *the one that makes the journey more like a short hike* (BennyRogue (Witness): increase `victory_condition: mountain_box_short` weight to 5) [hint by Joy the Bard!]
 
 ## boss
 - *the dragon egg will remain whole.* (hecate.mp3 (Noita): increase `bosses_as_checks no_bosses` to 4)
@@ -209,11 +211,12 @@
 - *the one that makes them take 'show me the money' literally* (superfid (DLCQ): change `permanent_coins` to true) [hint by Joy the Bard!]
 - *Amazon Prime.* (Caesius (Emerald): change `better_shops` to `true`) [hint by DiStegro!]
 - *a partner for life* (Caesius (MC): "4 Diamond Ore") [hint by DiStegro!]
-- *several partridges and/or pear trees* (Caesius (MC): "8 Gold Ore") [hint by DiStegro!]
 - *Money Amulet* (superfid (Secret of Evermore): increase `money_modifier`) [hint by Deathclaw99!]
 - *No more Money!* (Brynatron (Terraria): change `fill_extra_checks_with` to `useful_items`) [hint by Deathclaw99!]
 - *Kecleon* (superfid (TS): change `shop_multiplier` to 0) [hint by Deathclaw99!]
 - *Loads'a Moneh* (CrystalOOT: Huge Rupee) [hint by Deathclaw99!]
+- *make it RAAAAAAIIIIIIN on a fox* (Sylsko (TUNC): Money x255) [hint by Joy the Bard!]
+- *good thing the king cracked down on price gouging before darkness came* (superfid (LTTP): reduce `shop_price_modifier` upper bound) [hint by Joy the Bard!]
 
 ## defense
 - *yup, it's absolutely so broken.* (Connor (UT): "temy armor")
@@ -222,7 +225,6 @@
 - *very simple and direct. it's doubled.* (DiStegRogue (OOT): Double Defense)
 - *if you want it all, that'll be 24.* (Roguinater (MC): Progressive Armor)
 - *a protective spell.* (Caesius (OOT): "Nayrus Love")
-- *a half-hat.* (Caesius (TS): "Eternal Crown")
 - *mail time! (the other definition of "mail")* (Rezalex: Progressive Armor)
 - *the things you can do with a college degree.* (Connor (UT): "temy armor") [hint by ChromaNyan!]
 - *the one for when the roll isn't quite enough* (Rogue772nic: "Shield") [hint by Joy the Bard!]
@@ -236,9 +238,11 @@
 - *a really nice hat* (Caesius (TS): "Eternal Crown") [hint by DiStegro!]
 - *Magic Cape* (CrystalOOT: Nayrus Love) [hint by Deathclaw99!]
 - *Nanomachines, Son!* (Brynatron (Terraria): Reward: Cobalt Shield) [hint by Deathclaw99!]
+- *heavy is the head adorned by this everlasting item* (Connor (TS): "Eternal Crown") [hint by Joy the Bard!]
+- *something that lets you start with a hardened resolve* (DeathclawCavern (OOT): Double Defense) [hint by Joy the Bard!]
 
 ## careful movement
-- *you might be rolling a little too much.* (Caesius (OOT): lower `deadly_bonks`)
+- *you might be rolling a little too much.* (DiStegRogue (OOT): lower `deadly_bonks` amount)
 - *reduce those vulnerable frames!* (hecate.mp3 (TUNC): "Bone Card")
 - *"hmmmmm, today i will fly into space." <-- clueless* (hecate.mp3 (OW): "Autopilot")
 - *a cure for osteoporosis* (Caesius (OOT): lower `deadly_bonks`) [hint by DiStegro!]
@@ -248,7 +252,7 @@
 - *the same weapon, but it seems different this time.* (ChromaNyan (MC): "Sharpness III Book")
 - *the crown of the ruler of this land.* (Sylsko (TS): Empire Crown)
 - *attune to a true memory of yourself, instead of a pale retelling.* (Sylsko (TUNC): Hero Relic - ATT)
-- *perhaps a little too nerfed.* (Caesius (TS): make `damage_rando` better)
+- *perhaps a little too nerfed.* (Connor (TS): change `damage_rando` to `mostlybuffs`)
 - *strike with deadly efficiency.* (BennyRogue (RL): Crit Chance Up)
 - *one (1) oilstone, one (1) waterstone, one (1) strop* (Caesius (MC): "Sharpness III Book") [hint by DiStegro!]
 - *Fixed Hemisphere* (superfid (TS): buff `damage_rando`) [hint by Deathclaw99!]
@@ -262,6 +266,8 @@
 - *it's like that one Edward Eager book (kind of).* (Maxor: Magic Upgrade (1/2))
 - *a one-of-a-kind spellcaster.* (Toto (SotM): remove `Argent Adept`, `Dark Conductor Argent Adept`, `Prime Wardens Argent Adept`, and `Xtreme Prime Wardens Argent Adept` from `exclude_from_pool`)
 - *absorb the magic left after death.* (BennyRogue (RL): Siphon Runes)
+- *is this the one about the guy who accidentally blesses you instead of cursing you?* (superfid (LTTP): "Magic Upgrade (1/2)") [hint by Joy the Bard!]
+- *your. vibes. are. immaculate!* (Grimore (TS): Max Aura) [hint by Joy the Bard!]
 
 ## slots
 - *a box full of rocks, food, and lumber.* (Roguinater (MC): Shulker Box)
@@ -311,7 +317,6 @@
 ## XP
 - *becoming stronger just by proximity.* (DiStegRogue (Emerald): Exp. Share)
 - *orbs are stronger! no, not those orbs. the other ones.* (Sylsko (TS): Galaxy Earrings)
-- *it looks like a jolly rancher.* (Caesius (Emerald): "Rare Candy")
 - *you won't have to spend as much for your weapon to become as strong as it can.* (Toto (DS3): increase `max_levels_in_10` by 5)
 - *they'll get the hang of fights really quickly.* (DiStegRogue (RB): increase `exp_modifier` by 16)
 - *miracle grow but for prepubescent multiverse saviors* (HPfunman (Kingdom Hearts): double `exp_modifier`) [hint by Joy the Bard!]
@@ -322,13 +327,15 @@
 - *Lucky Egg* (superfid (Secret of Evermore): increase `exp_modifier`) [hint by Deathclaw99!]
 - *Promise Charm* (SansEmeraldRL: increase `exp_modifier`) [hint by Deathclaw99!]
 - *Generation 6* (SansEmeraldRL: "Exp. Share") [hint by Deathclaw99!]
+- *an accessory that's out of this world. slaaaaayyyyyyy* (Connor (TS): "Galaxy Earrings") [hint by Joy the Bard!]
+- *the one that lets you share knowledge with the rest of your team* (DiStegRogue (RB): Exp. All) [hint by Joy the Bard!]
+- *miracle grow but for creatures in the land of colorful towns* (DiStegRogue (RB): increase `exp_modifier` by 16) [hint by Joy the Bard!]
 
 ## melee weapon
 - *you might not be a glass cannon, but your weapon sure is.* (Connor (HK): "Fragile_Strength")
 - *you will no longer have a weakness on your left side.* (Toto (HK): change `RandomizeNail` to `false`)
 - *greater than the greatest sword.* (DiStegRogue (OOT): Biggoron Sword)
-- *a little weapon.* (Caesius (OOT): change `shuffle_kokiri_sword` to `false`)
-- *have three spheres.* (Caesius (TS): "Star of Lachiem")
+- *have three spheres.* (DeathclawCavern (TS): Star of Lachiem)
 - *wield weapons beyond your capability.* (Toto (DS3): change `no_weapon_requirements` to `true`)
 - *a bright red sword.* (BennyRogue (RL): Dragon Blueprints)
 - *the one that unlocks directional independence* (Toto (HK): change `RandomizeNail` to `false`) [hint by Joy the Bard!]
@@ -337,6 +344,8 @@
 - *you put that thing back where you found it or so help me* (Caesius (OOT): change `shuffle_kokiri_sword` to `false`) [hint by DiStegro!]
 - *DX3906: The Best Friend* (Caesius (TS): "Star of Lachiem") [hint by DiStegro!]
 - *200 Times Folded Steel* (CrystalOOT: Biggoron Sword) [hint by Deathclaw99!]
+- *turns out your head is a really important thing to protect* (DragoRogue2 (Earthbound): "Progressive Bat") [hint by Joy the Bard!]
+
 
 ## starting
 - *i sure love immediately having to deal with wizards!* (Connor (UT): change `starting_area` to easier areas)
@@ -358,7 +367,6 @@
 - *he's like captain america and superman, i think.* (Toto (SotM): remove `Legacy`, `America's Greatest Legacy`, `America's Newest Legacy`, and `Freedom Five Legacy` from `exclude_from_pool`)
 
 ## water
-- *now you can swim!* (Caesius (OOT): "Zora Tunic")
 - *here is your scuba suit* (Caesius (OOT): "Zora Tunic") [hint by DiStegro!]
 
 ## army
@@ -387,7 +395,7 @@
 - *a strawberry.* (Toto (StS): "Relic" [Not from pool])
 - *it's basically just wayward compass.* (Roguinater (Meritous): Portable Compass)
 - *the one that kinda helps you climb the tower* (Toto (StS): "Relic" [Not from pool]) [hint by Joy the Bard!]
-- *the one that just makes things work better* (Maxor: reduce `item_functionality` difficulty) [hint by Joy the Bard!]
+- *the one that just makes things work better* (Rezalex: reduce `item_functionality` difficulty) [hint by Joy the Bard!]
 
 ## amnesty
 - *only the fifth one counts. actually, the tenth. actually, the twentieth.* (Sylsko (C64): increase `death_link_amnesty` by varying amounts)
@@ -397,7 +405,7 @@
 - *Don't be too hard on yourself* (superfid (C64): increase `death_link_amnesty`) [hint by Deathclaw99!]
 
 ## time
-- *for some reason, they decided to add these to a mod of this game, but they add instead of subtracting. like, why? there's no visual indication that it should be like that, and yet, they just added it! for fun! why?* (Caesius (Marble Blast): "Time Travel (-5s)")
+- *for some reason, they decided to add these to a mod of this game, but they add it instead of stopping it. like, why? there's no visual indication that it should be like that, and yet, they just added it! why?* (Caesius (Marble Blast): "Time Travel (-5s)")
 - *it adds a little complexity to speedrunning.* (Caesius (Marble Blast): "Time Travel (-5s)")
 - *take a funnel, put it upside down, and put a right side up funnel on top of it.* (Caesius (TS): "Max Sand")
 - *whoa, slow down! we've got plenty of time.* (Sylsko (TS): Max Sand)
@@ -418,7 +426,7 @@
 - *enough stories for a lifetime* (Caesius (MC): "Infinity Book") [hint by DiStegro!]
 
 ## enemy damage
-- *it certainly doesn't mix well with ice!* (Caesius (OOT): halve `damage_multiplier`)
+- *it certainly doesn't mix well with ice!* (DiStegRogue (OOT): lower `damage_multiplier` amount)
 - *take away their fitness centres* (Caesius (OOT): halve `damage_multiplier`) [hint by DiStegro!]
 
 ## knowledge
@@ -523,6 +531,7 @@
 - *Broken Bullet* (superfid (TS): "Shattered Orb") [hint by Deathclaw99!]
 - *Better Delorean* (superfid (Secret of Evermore): lower `frequired_fragments` and `available_fragments` upper bounds) [hint by Deathclaw99!]
 - *Fixed Machine* (JoyTheBard (OW): change `split_translator` to `false`) [hint by Deathclaw99!]
+- *a spherical object that's seen better days* (DeathclawCavern (TS): Shattered Orb) [hint by Joy the Bard!]
 
 ## uncategorized
 - *the one that makes ambulatory explosives tell the truth* (DeathclawCavern (SM64): change `buddy_checks` to `false`) [hint by Joy the Bard!]
@@ -532,7 +541,6 @@
 - *invincibility comes at a cost, and that cost is $1.99.* (ChromaNyan (Super Cat Tales): "Single-Use Golden Cat") [hint by ChromaNyan!]
 - *Arnold Time* (superfid (Secret of Evermore): change `fix_atlas_glitch` to `false`) [hint by Deathclaw99!]
 - *Cheater....* (superfid (Secret of Evermore): change `fix_cheats` to `false`) [hint by Deathclaw99!]
-- *Peaceful Mode* (superfid (Secret of Evermore): change `fix_wings_glitch` to `false`) [hint by Deathclaw99!]
 - *ew Raisins* (superfid (Secret of Evermore): change `turdo_mode` to `false`) [hint by Deathclaw99!]
 - *Shining Sphere* (superfid (TS): "Radiant Orb") [hint by Deathclaw99!]
 - *Looting 3* (superfid (TS): change `fixed_drop_rate` to 100) [hint by Deathclaw99!]
@@ -544,3 +552,6 @@
 - *7/10 too much Water* (SansEmeraldRL: change `remove_roadblocks` to `["Lilycove City Wailmer", "Route 110 Aqua Grunts"]`) [hint by Deathclaw99!]
 - *Icecream* (SansEmeraldRL: change `starters` to `vanilla`) [hint by Deathclaw99!]
 - *Generous Pater* (SansEmeraldRL: increase `norman_count`) [hint by Deathclaw99!]
+- *something to make you more aerobatic* (rhythm.Tsuki: Jetpack upgrade) [hint by Joy the Bard!]
+- *the one that stops you dying whilst you go around flying* (superfid (Secret of Evermore): change `fix_wings_glitch` to `false`) [hint by Joy the Bard!]
+- *those pesky rocks stopped you before, but they will block your path no more* (SansEmeraldRL: change `extra_boulders` to `false`) [hint by Joy the Bard!]
