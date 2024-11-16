@@ -526,6 +526,14 @@
 - *sold at three shops: in one side of a two-sided place, in a desert, and in a crag.* (+1 life)
 - *a weird substance, but also a feeling. the substance version is more hazardous to use.* (+1 life, referencing DETERMINATION from undertale)
 
+## refund
+
+- *alchemy table.* (+1 resource refund)
+- *a mediocre badge you can buy at pianta parlor.* (+1 resource refund)
+- *productivity module.* (+1 resource refund)
+- *you can keep your strawberries!* (+1 resource refund)
+- *the snow won't be going away this time.* (+1 resource refund)
+
 ## fragment
 
 - *Broken Bullet* (superfid (TS): "Shattered Orb") [hint by Deathclaw99!]

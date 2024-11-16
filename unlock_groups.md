@@ -1120,6 +1120,10 @@ JoyTheBard (Witness): increase `hint_amount`: 2
 +1 life: 50
 +2 life: 10
 
+## refund
+
++1 resource refund: 5
+
 ## fragment
 
 HPfunman (Kingdom Hearts): change `extra_shard_abilities` to `true`
