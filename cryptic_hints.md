@@ -26,7 +26,7 @@
 ## vitality
 
 - *a relic from a fortress.* (Sylsko (TUNC): Hero Relic - HP)
-- *a glass object, completely full.* (Caesius (OOT): "Heart Container")
+- *a glass object, completely full.* (TzufRougelike (OOT): "Heart Container")
 - *a brown tablet with a red symbol on it.* (hecate.mp3 (Noita): "Extra Max HP")
 - *a living core.* (Connor (HK): "Lifeblood_Heart")
 - *a blue magic stone.* (Sylsko (Ender Lilies): Amulet Gem)
@@ -108,9 +108,9 @@
 - *one of GladOS's favorite weapons.* (Connor (TS): lower `trap_chance` by 25)
 - *fool!* (hecate.mp3 (TUNC): change `fool_traps: onslaught` to 0)
 - *around you, all your foes grow stronger.* (Roguinater (Meritous): set `include_evolution_traps` to `false`)
-- *constantly slowed........* (BennyRogue (Witness): change `trap_percentage` to `random-low`)
+- *constantly slowed........* (JoyTheBard (Witness): decrease `trap_percentage`)
 - *Dangit Feldspar!* (JoyTheBard (OW): reduce `trap_chance`) [hint by Deathclaw99!]
-- *Psychic Shockwave* (superfid (TS): decrease `trap_chance` lower bound) [hint by Deathclaw99!]
+- *Psychic Shockwave* (SunCat (TS): reduce `TrapChance` by 25) [hint by Deathclaw99!]
 - *Jinzo* (superfid (Secret of Evermore): change `trap_count` to 0) [hint by Deathclaw99!]
 - *colony collapse disorder* (Caesius (MC): change `bee_traps` to `random-low`) [hint by DiStegro!]
 - *actually, i hate jazz.* (Roguinater (MC): decrease `bee_traps` count by varying amounts) [hint by ChromaNyan!]
@@ -127,7 +127,7 @@
 - *chaos, chaos!* (remove `TimespinnerTrapLink` `item_link`)
 
 ## goal
-- *prepare thyself!* (hecate.mp3 (UK): reduce `goal: P_1` to 1)
+- *prepare yourself!* (hecate.mp3 (UK): reduce `goal: P_1` to 1)
 - *a visitor?* (hecate.mp3 (UK): reduce `goal: P_2` to 1)
 - *world has been restored* (hecate.mp3 (Noita): reduce `peaceful_ending` to 1)
 - *fight them individually, instead of all at once.* (Connor (Godhome): change `victory_condition` to `boss_rush`)
@@ -167,14 +167,13 @@
 - *Hold your Breath!* (JoyTheBard (OW): Oxygen Capacity Upgrade) [hint by Deathclaw99!]
 
 ## dangerous areas
-- *i'd prefer the easy way, thanks.* (Roguinater (V6): make "Doing Things the Hard Way" and "Edge Games" less important locations)
+- *i'd prefer the easy way, thanks.* (Roguinater (VVVVVV): make "Doing Things the Hard Way" and "Edge Games" less important locations)
 - *i thought we were done climbing towers!* (hecate.mp3 (Noita): reduce `path option: main_world` to 1)
 - *you hear a crumbling sound, as a passageway becomes blocked. you'll have to take the harder path.* (hecate.mp3 (DO2): "Stability")
 - *nope, not doing that. that looks awful.* (BennyRogue (Witness): increase `shuffle_vault_boxes: 'false'` weight to 7)
 - *you know where not to go if everything's the same!* (BennyRogue (RL): change `architect` to `early`)
 - *live to tell the tale.* (Brynatron (Terraria): add `Dead Men Tell No Tales` to `exclude_locations`) [hint by ChromaNyan!]
 - *Corruption flourishes* (Brynatron (Terraria): add `And Good Riddance!` to `exclude_locations`) [hint by Deathclaw99!]
-- *Mimics not allowed* (Brynatron (Terraria): add `Dead Men Tell No Tales` to `exclude_locations`) [hint by Deathclaw99!]
 - *All Star* (Brynatron (Terraria): add `Funkytown` to `exclude_locations`) [hint by Deathclaw99!]
 - *Ew Sticky* (Brynatron (Terraria): add `Gelatin World Tour` to `exclude_locations`) [hint by Deathclaw99!]
 - *Magic Mush* (Brynatron (Terraria): add `It Can Talk?!` to `exclude_locations`) [hint by Deathclaw99!]
@@ -219,19 +218,18 @@
 - *good thing the king cracked down on price gouging before darkness came* (superfid (LTTP): reduce `shop_price_modifier` upper bound) [hint by Joy the Bard!]
 
 ## defense
-- *yup, it's absolutely so broken.* (Connor (UT): "temy armor")
 - *a little figurine! i think it's you.* (hecate.mp3 (TUNC): "DEF Offering")
 - *so used to not having it, but it's prominently displayed in basically all art for this game.* (hecate.mp3 (TUNC): "Shield")
 - *very simple and direct. it's doubled.* (DiStegRogue (OOT): Double Defense)
 - *if you want it all, that'll be 24.* (Roguinater (MC): Progressive Armor)
 - *a protective spell.* (Caesius (OOT): "Nayrus Love")
-- *mail time! (the other definition of "mail")* (Rezalex: Progressive Armor)
+- *mail time! (the other definition of "mail")* (Rezalex: Progressive Mail)
 - *the things you can do with a college degree.* (Connor (UT): "temy armor") [hint by ChromaNyan!]
 - *the one for when the roll isn't quite enough* (Rogue772nic: "Shield") [hint by Joy the Bard!]
 - *another brick wall* (Caesius (OOT): "Double Defense") [hint by DiStegro!]
-- *Advancement made: Suit Up* (Rezalex: Progressive Armor) [hint by ChromaNyan!]
+- *Advancement made: Suit Up* (Rezalex: Progressive Mail) [hint by ChromaNyan!]
 - *Iron Flesh* (CrystalOOT: Double Defense) [hint by Deathclaw99!]
-- *wisdom's security* (Caesius (OOT): "Nayrus Love") [hint by DiStegro!]
+- *wisdom's security* (DeathclawCavern (OOT): Nayrus Love) [hint by DiStegro!]
 - *Permanent Vest* (superfid (TS): "Eternal Coat") [hint by Deathclaw99!]
 - *Forevermore Headwear* (superfid (TS): "Eternal Crown") [hint by Deathclaw99!]
 - *a really nice jacket* (Caesius (TS): "Eternal Coat") [hint by DiStegro!]
@@ -276,7 +274,7 @@
 - *oops! all 6s* (Toto (HK): decrease `RandomCharmCosts` by 20)
 
 ## food
-- *we're having pig for dinner tonight!* (ChromaNyan (MC): "16 Porkchops": 1)
+- *we're having pig for dinner tonight!* (ChromaNyan (MC): "16 Porkchops")
 
 ## second chance
 - *should you hold it in your left hand, something magical may happen.* (hecate.mp3 (DO2): change `pay_to_win_count`, `tailor_for_success_count`, and `last_stand_count` to random-high)
@@ -299,7 +297,6 @@
 
 ## choice
 - *you may choose from three, and another three.* (Toto (StS): "Card Draw" x 2 [Not from pool])
-- *if fatal...* (Toto (StS): "Rare Card Draw" [Not from pool])
 - *unleash your orbs.* (Toto (StS): "Card Draw" x 2 [Not from pool])
 - *several shivs should do the trick.* (Toto (StS): "Card Draw" x 2 [Not from pool])
 - *do the math, multiplying everything by 3. if you do the math wrong, you could die very easily.* (Toto (StS): "Rare Card Draw" [Not from pool])
@@ -332,8 +329,6 @@
 - *miracle grow but for creatures in the land of colorful towns* (DiStegRogue (RB): increase `exp_modifier` by 16) [hint by Joy the Bard!]
 
 ## melee weapon
-- *you might not be a glass cannon, but your weapon sure is.* (Connor (HK): "Fragile_Strength")
-- *you will no longer have a weakness on your left side.* (Toto (HK): change `RandomizeNail` to `false`)
 - *greater than the greatest sword.* (DiStegRogue (OOT): Biggoron Sword)
 - *have three spheres.* (DeathclawCavern (TS): Star of Lachiem)
 - *wield weapons beyond your capability.* (Toto (DS3): change `no_weapon_requirements` to `true`)
@@ -399,7 +394,7 @@
 
 ## amnesty
 - *only the fifth one counts. actually, the tenth. actually, the twentieth.* (Sylsko (C64): increase `death_link_amnesty` by varying amounts)
-- *spikes aren't so bad...* (Roguinater (V6): increase `DeathLinkAmnesty`)
+- *spikes aren't so bad...* (Roguinater (VVVVVV): increase `DeathLinkAmnesty`)
 - *whoops, i forgot the star.* (BennyRogue (Witness): increase `death_link_amnesty` by 1)
 - *how many more second chances do you need!?* (RndGuy (C64): increase `death_link_amnesty`) [hint by Joy the Bard!]
 - *Don't be too hard on yourself* (superfid (C64): increase `death_link_amnesty`) [hint by Deathclaw99!]

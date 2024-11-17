@@ -1220,7 +1220,7 @@ Unique Items: (Useful)
 - "Blood Blueprints"
 - "Slayer Blueprints"
 - "Vault Runes"
-- "Haste Rules"
+- "Haste Runes"
 - "Death Defiance"
 - "Potion Efficiency Up"
 

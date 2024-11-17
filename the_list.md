@@ -155,7 +155,7 @@
 - Caesius (TS): "Star of Lachiem"
 - Caesius (TS): change `boss_rando` to `scaled`
 - Caesius (TS): make `damage_rando` better: 2
-- ChromaNyan (MC): "16 Porkchops": 1
+- ChromaNyan (MC): "16 Porkchops"
 - ChromaNyan (MC): "4 Diamond Ore": 2
 - ChromaNyan (MC): "Infinity Book"
 - ChromaNyan (MC): "Looting III Book"
@@ -560,7 +560,7 @@
 - Rezalex: Bug Catching Net
 - Rezalex: Magic Powder
 - Rezalex: Magic Upgrade (1/2)
-- Rezalex: Progressive Armor: 2
+- Rezalex: Progressive Mail: 2
 - Rezalex: Progressive Sword: 1
 - Rezalex: change `enemy_damage` to `default`
 - Rezalex: reduce `beemizer_trap_chance` to `random-low`
@@ -834,7 +834,7 @@
 - TzufRougelike (LTTP): change `shop_price_modifier` to 50
 - TzufRougelike (LTTP): decrease `beemizer_total_chance` by 25: 2
 - TzufRougelike (OOT): "Biggoron Sword": 1
-- TzufRougelike (OOT): "Boss Heart Container": 3
+- TzufRougelike (OOT): "Heart Container": 3
 - TzufRougelike (OOT): "Bottle with Red Potion": 1
 - TzufRougelike (OOT): "Double Defense": 1
 - TzufRougelike (OOT): "Farores Wind": 1
@@ -951,7 +951,7 @@
 - jf-rogue (RL): "Crit Chance Up": 5
 - jf-rogue (RL): "Crit Damage Up": 5
 - jf-rogue (RL): "Death Defiance"
-- jf-rogue (RL): "Haste Rules"
+- jf-rogue (RL): "Haste Runes"
 - jf-rogue (RL): "Potion Efficiency Up"
 - jf-rogue (RL): "Slayer Blueprints"
 - jf-rogue (RL): "Vault Runes"

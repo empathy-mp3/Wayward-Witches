@@ -125,7 +125,7 @@ JoyTheBard (DLCQ): "Health Bar Pack"
 superfid (LTTP): "Boss Heart Container":1
 CrystalOOT: Heart Container: 2
 Brynatron (HK): Fragile_Heart
-TzufRougelike (OOT): "Boss Heart Container": 3
+TzufRougelike (OOT): "Heart Container": 3
 TzufRougelike (LTTP): "Boss Heart Container": 3
 jf-rogue (HK): "Lifeblood_Heart": 1
 Jake13Snake (LADX): "Heart Container":8
@@ -283,7 +283,7 @@ Ravanan: "Hi-Jump Boots"
 sheen (SMMR): change `momentum_conservation` to `true`
 Ravanan: change `fun_movement` to `false` [force this to be near the start of the skill tree]
 Grimore (aHiT): Fast Hatter Badge
-jf-rogue (RL): "Haste Rules"
+jf-rogue (RL): "Haste Runes"
 sheen (Factorio): add "Spoodertron" group to `starting_items`
 
 ## stealth
@@ -664,7 +664,7 @@ Caesius (TS): "Eternal Coat"
 Caesius (TS): "Eternal Crown"
 Roguinater (MC): Progressive Armor: 1
 Maxor: Progressive Armor: 1
-Rezalex: Progressive Armor: 2
+Rezalex: Progressive Mail: 2
 BennyRogue (RL): Armor Up
 Broney (Angband): Progressive Shield Weapon: 1
 superfid (TS): "Eternal Coat"
@@ -789,7 +789,7 @@ Jake13Snake (DOOM 1993): "Backpack"
 
 ## food
 hecate.mp3 (DO2): change `tactical_approach_count`, `pork_chop_power_count`, and `dungeon_lackey_count` to random-high
-ChromaNyan (MC): "16 Porkchops": 1
+ChromaNyan (MC): "16 Porkchops"
 Caesius (MC): "16 Porkchops": 2
 MiroRogue (MC): "16 Porkchops": 1
 
