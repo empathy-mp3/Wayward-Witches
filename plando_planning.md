@@ -746,7 +746,7 @@ sheen (SMMR): change `wall_jump` to `vanilla`
 RndGuy (Hollow Knight): "Dashmaster"
 Toto (TS): change `quick_seed: false` weight to 1
 
-## speed IV
+## speed IV [force this to be near the start of the skill tree]
 
 *a little charm with wings (at least, if it doesn't have wings, it should!)*
 (Sylsko (Astalon): Icarus Emblem)
@@ -756,7 +756,7 @@ Jake13Snake (Adventure): decrease `yorgle_speed` to 2
 hecate.mp3 (DO2): "Quickstep"
 RndGuy (Hollow Knight): "Sprintmaster"
 Sylsko (C64): reduce `badeline_chaser_speed` by varying amounts
-Ravanan: change `fun_movement` to `false` [force this to be near the start of the skill tree]
+Ravanan: change `fun_movement` to `false`
 Toto (HK): "Sprintmaster"
 Toto (HK): set `PlandoCharmCosts: {"Sprintmaster": 0}`
 
@@ -3100,10 +3100,6 @@ MiroRogue (Emerald): add `_Legendaries` to `trainer_party_blacklist`
 Connor (SquareMusic): "Leviathan"
 Caesius (OOT): "Zora Tunic"
 
-
-## army
-
-
 ## army I
 
 *bowser jr. looks a little different nowadays...*
@@ -3188,11 +3184,6 @@ DragoRogue2 (Red & Blue): "Master Ball"
 ChromaNyan (MC): "Looting III Book"
 DragoRogue2 (Red & Blue): "Master Ball"
 DragoRogue2 (Red & Blue): "Master Ball"
-
-
-
-## travel
-
 
 ## travel I
 
@@ -4516,14 +4507,14 @@ sheen (KH:BBS): Pete D-Link
 jf-rogue (aHiT): "Yarn"
 SunCat (TS): "Silence Ring"
 
-## uncategorized XX
+## uncategorized XX [force this to be near the end of the skill tree]
 
 *the one that stops you dying whilst you go around flying*
 (superfid (Secret of Evermore): change `fix_wings_glitch` to `false`) [hint by Joy the Bard!]
 
 superfid (Secret of Evermore): change `fix_wings_glitch` to `false`
 DragoRogue2 (Factorio): decrease `recipe_ingredients_offset`
-jf-rogue (RL): change `new_game_plus: new_game_plus` weight to 0 [force this to be near the end of the skill tree]
+jf-rogue (RL): change `new_game_plus: new_game_plus` weight to 0
 ARogueinTime772: make `DLC` more reasonable (trigger)
 Brynatron (SDV): change `bundle_randomization` to `remixed`
 DashingRogue772: reduce `additional_song_count`
