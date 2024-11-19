@@ -4223,6 +4223,7 @@ MiroRogue (HK): decrease `SplitCrystalHeart: true`, `SplitMothwingCloak: true`, 
 DeathclawCavern (TS): Shattered Orb
 HPfunman (Kingdom Hearts): change `extra_shard_abilities` to `true`
 jf-rogue (HK): change `SplitMothwingCloak: true` weight to 0
+superfid (TS): "Shattered Orb"
 
 ## uncategorized I
 

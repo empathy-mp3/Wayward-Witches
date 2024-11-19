@@ -2,6 +2,6 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
   "game": "cauldron",
   "creator": "mp3",
-  "filler_item_name": "you probably shouldnt be seeing this",
+  "filler_item_name": ":/",
   "death_link": false
 }

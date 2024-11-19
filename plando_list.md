@@ -70,7 +70,7 @@ progressive I-2: TzufRougelike (SM): Spazer Beam
 ranged weapon VIII-1: CrystalOOT: Slingshot
 ranged weapon VIII-2: hecate.mp3 (Noita): "Wand (Tier 6)"
 ranged weapon VIII-3: Broney (SM): Plasma Beam
-ranged weapon VIII-5: Jake13Snake (LADX): "Boomerang"
+ranged weapon VIII-4: Jake13Snake (LADX): "Boomerang"
 (not a location but remember that TzufRougelike (SM): Charge Beam or TzufRougelike (SM): Spazer Beam can be here)
 
 ## fire I
@@ -1197,6 +1197,7 @@ copy III-1: Caesius (MC): "Infinity Book"
 ## fragment III
 
 fragment III-1: DeathclawCavern (TS): Shattered Orb
+fragment III-2: superfid (TS): "Shattered Orb"
 
 ## uncategorized I
 

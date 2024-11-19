@@ -128,14 +128,6 @@
             ],
             "progression": true,
             "count": 0
-        },
-        {
-            "name": "Discarded Penny",
-            "category": [
-                "items"
-            ],
-            "progression": true,
-            "count": 0
         }
     ]
 }
