@@ -121,6 +121,18 @@ Factorio:
         frequency: 1.2
         richness: 6
         size: 0.6
+      starting_area_moisture:
+        frequency: 1
+        richness: 1
+        size: 1
+      nauvis_cliff:
+        frequency: 1
+        richness: 1
+        size: 1
+      water:
+        frequency: 1.2
+        richness: 1.2
+        size: 1.2
     cliff_settings:
       cliff_elevation_0: 10
       cliff_elevation_interval: 40
@@ -153,8 +165,6 @@ Factorio:
       control-setting:moisture:frequency:multiplier: 1
     seed: null
     starting_area: 0.6  # Change to 1
-    terrain_segmentation: 0.5
-    water: 1.7
   progressive: on
   teleport_traps: 0
   grenade_traps: 20
@@ -203,7 +213,7 @@ Pokemon Red and Blue:
     'on': 1
     'off': 4
   prizesanity: random
-  trainersanity: true
+  trainersanity: full
   dexsanity: random
   randomize_pokedex: randomize
   require_pokedex: true

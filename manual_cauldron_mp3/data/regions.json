@@ -18,6 +18,22 @@
             "explosion III",
             "explosion IV",
             "explosion V",
+            "vitality I",
+            "vitality II",
+            "vitality III",
+            "vitality IV",
+            "vitality V",
+            "vitality VI",
+            "vitality VII",
+            "vitality VIII",
+            "vitality IX",
+            "vitality X",
+            "vitality XI",
+            "vitality XII",
+            "vitality XIII",
+            "vitality XIV",
+            "vitality XV",
+            "vitality XVI",
             "healing I",
             "healing II",
             "healing III",
@@ -50,6 +66,13 @@
             "speed V",
             "speed VI",
             "speed VII",
+            "stealth I",
+            "stealth II",
+            "stealth III",
+            "stealth IV",
+            "stealth V",
+            "stealth VI",
+            "stealth VII",
             "key I",
             "key II",
             "key III",
@@ -542,6 +565,27 @@
         "requires": ""
     },
     "speed VII": {
+        "requires": ""
+    },
+    "stealth I": {
+        "requires": ""
+    },
+    "stealth II": {
+        "requires": ""
+    },
+    "stealth III": {
+        "requires": ""
+    },
+    "stealth IV": {
+        "requires": ""
+    },
+    "stealth V": {
+        "requires": ""
+    },
+    "stealth VI": {
+        "requires": ""
+    },
+    "stealth VII": {
         "requires": ""
     },
     "key I": {

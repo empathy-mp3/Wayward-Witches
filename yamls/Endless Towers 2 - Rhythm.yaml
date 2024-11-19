@@ -1,23 +1,23 @@
 name: rhythm.ET2
 description: ["Rhythms YAML for the Sequel to Endless Towers"]
 game:
-  Manual_RatchetandClankUYA_Rhythm: 7
+  Manual_RatchetAndClankUYA_Rhythm: 7
   Dome Keeper: 6
   Mindustry: 5
   Sonic Adventure DX: 6
-  Sonic Adventure 2: 5
-  Kingdom Hearts Birth By Sleep: 6
+  Sonic Adventure 2 Battle: 5
+  Kingdom Hearts Birth by Sleep: 6
   
 triggers:
   - option_category: null
     option_name: game
-    option_result: Sonic Adventure 2
+    option_result: Sonic Adventure 2 Battle
     options:
       null:
         name: rhythm.SA2B
   - option_category: null
     option_name: game
-    option_result: Manual_RatchetandClankUYA_Rhythm
+    option_result: Manual_RatchetAndClankUYA_Rhythm
     options:
       null:
         name: rhythm.ClankUYA
@@ -292,7 +292,7 @@ Sonic Adventure DX:
     - Lost World (Sonic - Mission B)
     - Lost World (Sonic - Life Capsule 1)
     - Lost World (Sonic - Life Capsule 2)
-Manual_RatchetandClankUYA_Rhythm:
+Manual_RatchetAndClankUYA_Rhythm:
   progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
   accessibility: locations
   start_inventory: {Map-O-Matic: 1}
