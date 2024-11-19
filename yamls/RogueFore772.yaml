@@ -307,7 +307,7 @@ triggers:
         name: ARogueinTime772
   - option_category: null
     option_name: game
-    option_result: Tunic
+    option_result: TUNIC
     options:
       null:
         name: Rogue772nic

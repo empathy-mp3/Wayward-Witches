@@ -135,6 +135,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Eastern Palace - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYour quarry slumbers behind sentinels of stone."
             at: kakariko_tavern_fisherman
@@ -149,6 +150,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Desert Palace - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYour prey lurks amidst the shifting sands."
             at: kakariko_tavern_fisherman
@@ -163,6 +165,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Tower of Hera - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYour mark sits at the pinnacle of the realm."
             at: kakariko_tavern_fisherman
@@ -177,6 +180,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Palace of Darkness - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYou must kill the one upon the pitch black throne."
             at: kakariko_tavern_fisherman
@@ -191,6 +195,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Swamp Palace - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYour target is in need of a plumber."
             at: kakariko_tavern_fisherman
@@ -205,6 +210,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Skull Woods - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYour nemesis lies within the skull of a long dead beast."
             at: kakariko_tavern_fisherman
@@ -219,6 +225,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Thieves' Town - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYour mark schemes within a den of evil."
             at: kakariko_tavern_fisherman
@@ -233,6 +240,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Ice Palace - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYour enemy sleeps beneath the frozen depths."
             at: kakariko_tavern_fisherman
@@ -247,6 +255,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Misery Mire - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYour target watches from a viscid lair."
             at: kakariko_tavern_fisherman
@@ -261,6 +270,7 @@ A Link to the Past:
           - item:
               Triforce Piece: 1
             location: Turtle Rock - Boss
+            world: false
         plando_texts:
           - text: "hey @\nYour quarry rests within a beast of stone."
             at: kakariko_tavern_fisherman
