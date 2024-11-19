@@ -22,12 +22,6 @@ Minecraft:
   bee_traps: 50 # Upgrades: Change to 50 > 40 > 20 > 0
   send_defeated_mobs: false
   death_link: true
-  item_links:
-    - name: MinecraftTrapLink
-      item_pool: 
-        - Bee Trap
-      replacement_item: Bee Trap
-      link_replacement: true
 VVVVVV:
   progression_balancing: 50
   accessibility: full

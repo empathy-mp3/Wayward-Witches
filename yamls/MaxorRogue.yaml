@@ -74,9 +74,3 @@ A Link to the Past:
   bombless_start: false
   misery_mire_medallion: random
   turtle_rock_medallion: random
-  item_links:
-    - name: LTTPTrapLink
-      item_pool: 
-        - Bee Trap
-      replacement_item: Bee Trap
-      link_replacement: true

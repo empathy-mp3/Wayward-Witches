@@ -245,9 +245,3 @@ TUNIC:
   ice_grappling: 'off'
   ladder_storage: 'off'
   ladder_storage_without_items: 'false'
-  item_links:
-    - name: TunicTrapLink
-      item_pool: 
-        - Fool Trap
-      replacement_item: Fool Trap
-      link_replacement: true

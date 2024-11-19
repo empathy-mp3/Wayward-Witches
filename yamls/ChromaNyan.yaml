@@ -21,12 +21,6 @@ Minecraft:
   combat_difficulty: hard # change to normal, then easy
   bee_traps: 100 # change to 50, then 0
   death_link: 'true'
-  item_links:
-    - name: MinecraftTrapLink
-      item_pool: 
-        - Bee Trap
-      replacement_item: Bee Trap
-      link_replacement: true
 Manual_SuperCatTales_ChromaNyan:
   progression_balancing: 0 # change to 20, then 40, then 60
   filler_traps: random-high # change to random, then random-low

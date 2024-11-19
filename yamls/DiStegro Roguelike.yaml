@@ -549,9 +549,3 @@ A Link to the Past:
   music: false
   reduceflashing: true
   triforcehud: normal
-  item_links:
-    - name: LTTPTrapLink
-      item_pool: 
-        - Bee Trap
-      replacement_item: Bee Trap
-      link_replacement: true
