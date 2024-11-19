@@ -1209,10 +1209,14 @@ uncategorized I-3: HPfunman (Kingdom Hearts): Progressive Cure
 
 uncategorized II-1: sheen (KH:BBS): Leaf Bracer
 uncategorized II-2: jf-rogue (RL): "Slayer Blueprints"
+uncategorized II-3: rhythm.Ventus/Terra/Aqua: Rhythm Mixer
+uncategorized II-4: rhythm.Ventus/Terra/Aqua: Critical Impact
 
 ## uncategorized III
 
 uncategorized III-1: superfid (Pseudoregalia): "Martial Prowess"
+uncategorized III-2: rhythm.ClankUYA: Nano-Pak
+uncategorized III-3: rhythm.Ventus/Terra/Aqua: Rockbreaker
 
 ## uncategorized IV
 
@@ -1220,6 +1224,7 @@ uncategorized IV-1: rhythm.Tsuki: Artillery mortar
 uncategorized IV-2: sheen (KH:BBS): Zack D-Link
 uncategorized IV-3: sheen (KH:BBS): Experiment 626 D-Link
 uncategorized IV-4: jf-rogue (aHiT): "Yarn"
+uncategorized IV-5: rhythm.Ventus/Terra/Aqua: HP Boost
 
 ## uncategorized V
 
@@ -1228,7 +1233,7 @@ uncategorized V-2: ChromaNyan (Super Cat Tales): "Mr. Cloud"
 uncategorized V-3: superfid (Pseudoregalia): "Good Graces"
 uncategorized V-4: superfid (Pseudoregalia): "Indignation"
 uncategorized V-5: rhythm.Tsuki: Drill upgrade
-uncategorized V-6: rhythm.PartyCube: Mario Party 6 4P Minigames
+uncategorized V-6: rhythm.ClankUYA: Charge Boots
 
 ## uncategorized VI
 
@@ -1237,28 +1242,34 @@ uncategorized VI-2: HPfunman (Kingdom Hearts): Progressive Aero
 uncategorized VI-3: rhythm.Tsuki: Artillery mortar
 uncategorized VI-4: HPfunman (Kingdom Hearts): Progressive Aero
 uncategorized VI-5: jf-rogue (aHiT): "Yarn"
+uncategorized VI-6: rhythm.Ventus/Terra/Aqua: Diamond Dust
+uncategorized VI-7: rhythm.Ventus/Terra/Aqua: High Jump
 
 ## uncategorized VII
 
 uncategorized VII-1: jf-rogue (aHiT): "Yarn"
 uncategorized VII-2: ChromaNyan (Super Cat Tales): "Golden Bat"
 uncategorized VII-3: ChromaNyan (Super Cat Tales): "Ghost"
+uncategorized VII-4: rhythm.Ventus/Terra/Aqua: Dark Impulse
 
 ## uncategorized VIII
 
 uncategorized VIII-1: rhythm.Tsuki: Fruit duration
+uncategorized VIII-2: rhythm.SADX: Eggman - Laser Blaster
+uncategorized VIII-3: rhythm.Ventus/Terra/Aqua: Cyclone
 
 ## uncategorized IX
 
 uncategorized IX-1: superfid (TS): "Radiant Orb"
 uncategorized IX-2: rhythm.Tsuki: Drill upgrade
-uncategorized IX-3: rhythm.PartyCube: Mario Party 7 Duel Minigames
-uncategorized IX-4: rhythm.PartyCube: Mario Party 2 4P Minigames
+uncategorized IX-3: rhythm.SADX: Knuckles - Mystic Melody
+uncategorized IX-4: rhythm.ClankUYA: Aegis Mark V Armor
+uncategorized IX-5: rhythm.SADX: Eggman - Protective Armor
 
 ## uncategorized X
 
 uncategorized X-1: jf-rogue (aHiT): "Yarn"
-uncategorized X-2: rhythm.PartyCube: Mario Party 3 4P Minigames
+uncategorized X-2: rhythm.SADX: Tails - Laser Blaster
 uncategorized X-3: rhythm.Tsuki: Jetpack upgrade
 uncategorized X-4: HPfunman (Kingdom Hearts): Leaf Bracer
 
@@ -1267,6 +1278,8 @@ uncategorized X-4: HPfunman (Kingdom Hearts): Leaf Bracer
 uncategorized XI-1: jf-rogue (aHiT): "Hookshot Badge"
 uncategorized XI-2: HPfunman (Kingdom Hearts): Progressive Aero
 uncategorized XI-3: sheen (KH:BBS): Once More
+uncategorized XI-4: rhythm.ClankUYA: Infernox Armor
+uncategorized XI-5: rhythm.Ventus/Terra/Aqua: Firestorm
 
 ## uncategorized XII
 
@@ -1275,42 +1288,49 @@ uncategorized XII-2: rhythm.Tsuki: Repellent overcharge
 uncategorized XII-3: SunCat (TS): "Chaos Horn"
 uncategorized XII-4: superfid (Pseudoregalia): "Good Graces"
 uncategorized XII-5: ChromaNyan (Super Cat Tales): "Single-Use Golden Cat"
+uncategorized XII-6: rhythm.Ventus/Terra/Aqua: HP Boost
+uncategorized XII-7: rhythm.SADX: Shadow - Mystic Melody
 
 ## uncategorized XIII
 
 uncategorized XIII-1: Brynatron (Terraria): Reward: Lava Charm
 uncategorized XIII-2: jf-rogue (RL): "Vault Runes"
-uncategorized XIII-3: rhythm.PartyCube: Mario Party 7 4P Minigames
+uncategorized XIII-3: rhythm.Ventus/Terra/Aqua: Spellweaver
+uncategorized XIII-4: rhythm.SADX: Shadow - Air Shoes
 
 ## uncategorized XIV
 
 uncategorized XIV-1: jf-rogue (TS): "Princess Dress"
-uncategorized XIV-2: rhythm.PartyCube: Mario Party 4 4P Minigames
+uncategorized XIV-2: rhythm.SADX: Sonic - Mystic Melody
 uncategorized XIV-3: rhythm.Tsuki: Fruit duration
 uncategorized XIV-4: SunCat (TS): "Chaos Horn"
+uncategorized XIV-5: rhythm.SADX: Rouge - Treasure Scope
 
 ## uncategorized XV
 
 uncategorized XV-1: sheen (KH:BBS): Peter Pan D-Link
 uncategorized XV-2: rhythm.Tsuki: Drill upgrade
+uncategorized XV-3: rhythm.Ventus/Terra/Aqua: Frozen Fortune
+uncategorized XV-4: rhythm.ClankUYA: Gadgetron PDU
 
 ## uncategorized XVI
 
 uncategorized XVI-1: jf-rogue (aHiT): "Yarn"
 uncategorized XVI-2: rhythm.Tsuki: Drill upgrade
 uncategorized XVI-3: superfid (DLCQ): Night Map Pack
-uncategorized XVI-4: rhythm.PartyCube: Mario Party 3 Duel Minigames
+uncategorized XVI-4: rhythm.Ventus/Terra/Aqua: Ghost Drive
+uncategorized XVI-5: rhythm.Ventus/Terra/Aqua: Bladecharge
 
 ## uncategorized XVII
 
-uncategorized XVII-1: rhythm.PartyCube: Mario Party 8 4P Minigames
+uncategorized XVII-1: rhythm.Ventus/Terra/Aqua: Wingblade
 uncategorized XVII-2: DeathclawCavern (TS): Radiant Orb
-uncategorized XVII-3: rhythm.PartyCube: Mario Party 1 4P Minigames
+uncategorized XVII-3: rhythm.Ventus/Terra/Aqua: Doubleflight
 
 ## uncategorized XVIII
 
 uncategorized XVIII-1: rhythm.Tsuki: Repellent delay
-uncategorized XVIII-2: rhythm.PartyCube: Mario Party 5 4P Minigames
+uncategorized XVIII-2: rhythm.Ventus/Terra/Aqua: HP Boost
 uncategorized XVIII-3: MiroRogue (Emerald): "Max Ether"
 
 ## uncategorized XIX
@@ -1319,7 +1339,12 @@ uncategorized XIX-1: rhythm.Tsuki: Jetpack upgrade
 uncategorized XIX-2: sheen (KH:BBS): Pete D-Link
 uncategorized XIX-3: jf-rogue (aHiT): "Yarn"
 uncategorized XIX-4: SunCat (TS): "Silence Ring"
+uncategorized XIX-5: rhythm.Ventus/Terra/Aqua: HP Boost
+uncategorized XIX-6: rhythm.Ventus/Terra/Aqua: Fever Pitch
+uncategorized XIX-7: rhythm.SADX: Rouge - Mystic Melody
 
 ## uncategorized XX
 
 uncategorized XX-1: TzufRougelike (LTTP): "Bug Net"
+uncategorized XX-2: rhythm.SADX: Eggman - Jet Engine
+uncategorized XX-3: rhythm.Ventus/Terra/Aqua: Sky Climber

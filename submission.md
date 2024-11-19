@@ -1641,22 +1641,26 @@ Filler:
 
 Origin: 🌙 Moon
 
-Mario Party: https://github.com/Umbrew-Foxiroe/Archipelago-Manuals/releases/tag/v1.02-MarioPartySeries (will send update when its out)
-Unique Items x10:
-Mario Party 1 4P Minigames
-Mario Party 2 4P Minigames
-Mario Party 3 4P Minigames
-Mario Party 4 4P Minigames
-Mario Party 5 4P Minigames
-Mario Party 6 4P Minigames
-Mario Party 7 4P Minigames
-Mario Party 8 4P Minigames
-Mario Party 3 Duel Minigames
-Mario Party 7 Duel Minigames
+Slot Names:
+RAC3: rhythm.ClankUYA
+SA2B: rhythm.SA2B
+SADX: rhythm.SADX
+Dome Keeper: rhythm.Tsuki
+Mindustry: rhythmTerakomari (erekir) or rhythm.Belius (serpulo)
+KHBBS: rhythm.Ventus or rhythm.Terra or rhythm.Aqua
 
-Filler: "Coin"
+Ratchet & Clank: Up Your Arsenal:
+5 yaml changes
+5 Unique Items
+Charge Boots
+Aegis Mark V Armor
+Infernox Armor
+Gadgetron PDU
+Nano-Pak
 
-Dome Keeper: https://github.com/Arrcival/ArchipelagoDK/releases/tag/v0.7.1 (must rename to dome_keeper.apworld)
+Filler: Look, plumber's crack! (Filler item named after one of the funniest cutscenes in the series IMO lol.)
+
+Dome Keeper:
 6 yaml changes
 Duplicate items x14
 Jetpack upgrade: 2
@@ -1667,13 +1671,57 @@ Repellent overcharge: 1
 Artillery mortar: 2
 Artillery air gun: 1
 
-Filler: Extra cobalt
+Filler:
+Extra cobalt
 
-Mindustry: https://github.com/JohnMahglass/Archipelago-Mindustry/releases/tag/v0.3.0
+Mindustry:
 10 yaml changes, I don't know the item pool well enough to provide items.
-Filler: "A fistful of nothing..."
+Filler: A fistful of nothing...
 
-Sonic Adventure DX: https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/tag/v0.8.8
+Sonic Adventure DX:
 10 yaml changes
 
 Filler: 10 Rings
+
+Sonic Adventure 2 Battle:
+9 yaml changes (8 in main settings, 1 in White Chaos Emerald plando block)
+
+11 Unique Items (I know skips around these, don't worry. The ones above the mechs mainly allow me to go for less risky strategies. And for Eggman, he's only played in Cannon's Core and Boss Rush in my YAML, so Jet Engine is not relevant since you can skip it in CC.)
+Shadow - Air Shoes
+Shadow - Mystic Melody
+Rouge - Treasure Scope
+Rouge - Mystic Melody
+Knuckles - Sunglasses
+Knuckles - Mystic Melody
+Sonic - Mystic Melody
+Eggman - Protective Armor
+Eggman - Jet Engine
+Eggman - Laser Blaster
+Tails - Laser Blaster
+
+Filler: Dragon
+
+Birth by Sleep:
+2 Yaml Upgrades
+16 Unique Items (Most of them are Command Styles for combat)
+High Jump
+Doubleflight
+Critical Impact
+Spellweaver
+Fever Pitch
+Firestorm
+Diamond Dust
+Cyclone
+Bladecharge
+Sky Climber
+Rockbreaker
+Ghost Drive
+Rhythm Mixer
+Dark Impulse
+Wingblade
+Frozen Fortune
+
+4 Duplicate Items
+HP Boost: 4
+
+Filler: Megalixir

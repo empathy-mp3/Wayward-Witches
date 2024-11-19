@@ -4239,6 +4239,8 @@ HPfunman (Kingdom Hearts): Progressive Cure
 DragoRogue2 (Factorio): decrease `recipe_ingredients_offset`
 ARogueinTime772: make `DLC` more reasonable (trigger)
 SunCat (ROR2): reduce `item_pickup_step` by 1
+rhythm.SADX: reduce `black_market_unlock_costs`
+rhythm.SADX: make `White Chaos Emerald` not forced to be on `Black Market - 64` location
 
 ## uncategorized II
 
@@ -4254,6 +4256,8 @@ Jake13Snake (Adventure): increase `freeincarnate_max` to 17
 sheen (Factorio): reduce `max_science_pack`
 DeathclawCavern (TS): change `start_with_jewelry_box` to `true`
 jf-rogue (RL): "Slayer Blueprints"
+rhythm.Ventus/Terra/Aqua: Rhythm Mixer
+rhythm.Ventus/Terra/Aqua: Critical Impact
 
 ## uncategorized III
 
@@ -4269,6 +4273,8 @@ Jake13Snake (LADX): change `tarins_gift` to `bush_breaker`
 DragoRogue2 (Factorio): increase `free_samples` amount
 MiroRogue (HK): decrease `AnnoyingChecks` (trigger)
 superfid (Pseudoregalia): "Martial Prowess"
+rhythm.ClankUYA: Nano-Pak
+rhythm.Ventus/Terra/Aqua: Rockbreaker
 
 ## uncategorized IV
 
@@ -4284,6 +4290,8 @@ HPfunman (Kingdom Hearts): change `hundred_acre_wood` to `false`
 sheen (KH:BBS): Experiment 626 D-Link
 jf-rogue (aHiT): "Yarn"
 jf-rogue (RL): change `new_game_plus: new_game_plus_2` weight to 0
+rhythm.Ventus/Terra/Aqua: HP Boost
+rhythm.ClankUYA: increase `progression_balancing` by varying amounts
 
 ## uncategorized V
 
@@ -4297,8 +4305,9 @@ superfid (Pseudoregalia): "Good Graces"
 superfid (Pseudoregalia): "Indignation"
 HPfunman (Kingdom Hearts): change `cups` to `false`
 rhythm.Tsuki: Drill upgrade
-rhythm.PartyCube: Mario Party 6 4P Minigames
 RndGuy (Blasphemous): change `purified_hand` to `random`
+rhythm.SADX: change `number_of_level_gates` to 0
+rhythm.ClankUYA: Charge Boots
 
 ## uncategorized VI
 
@@ -4314,6 +4323,8 @@ rhythm.Tsuki: Artillery mortar
 sheen (SMMR): change `maps_revealed` to `revealed`
 HPfunman (Kingdom Hearts): Progressive Aero
 jf-rogue (aHiT): "Yarn"
+rhythm.Ventus/Terra/Aqua: Diamond Dust
+rhythm.Ventus/Terra/Aqua: High Jump
 
 ## uncategorized VII
 
@@ -4329,6 +4340,8 @@ ChromaNyan (Super Cat Tales): "Ghost"
 jf-rogue (aHiT): change `TasksanityCheckCount: 18` weight to 0
 Brynatron (SDV): change `building_progression` to `progressive_very_cheap`
 sheen (Factorio): reduce `recipe_ingredients_offset` by 1
+rhythm.Ventus/Terra/Aqua: Dark Impulse
+rhythm.SADX: change `confusion_trap_weight` to `none`
 
 ## uncategorized VIII
 
@@ -4344,6 +4357,8 @@ rhythm.SADX: set `guaranteed_level` to `true`
 rhythm.Belius/Terakomari: make `logistic_distribution` more reasonable
 Grimore (MC): set `structure_compasses` to `true`
 rhythm.Tsuki: Fruit duration
+rhythm.SADX: Eggman - Laser Blaster
+rhythm.Ventus/Terra/Aqua: Cyclone
 
 ## uncategorized IX
 
@@ -4353,12 +4368,13 @@ rhythm.Tsuki: Fruit duration
 superfid (TS): "Radiant Orb"
 rhythm.SADX: set `mission_percentage` to `random-low`
 rhythm.Tsuki: Drill upgrade
-rhythm.PartyCube: Mario Party 7 Duel Minigames
 MiroRogue (Emerald): add `Wonder Guard: 1` to `ability_blacklist`
-rhythm.PartyCube: Mario Party 2 4P Minigames
 sheen (Factorio): reduce `max_science_pack`
 RndGuy (Blasphemous): reduce `skip_long_quests: true` weight
 JoyTheBard (Witness): change `elevators_come_to_you` to `true`
+rhythm.SADX: Knuckles - Mystic Melody
+rhythm.ClankUYA: Aegis Mark V Armor
+rhythm.SADX: Eggman - Protective Armor
 
 ## uncategorized X
 
@@ -4370,10 +4386,11 @@ jf-rogue (aHiT): "Yarn"
 RndGuy (Blasphemous): change `reliquary_shuffle` to `random`
 TzufRougelike (OOT): change `open_kakariko` to `open`
 HPfunman (Kingdom Hearts): change `atlantica` to `false`
-rhythm.PartyCube: Mario Party 3 4P Minigames
 DragoRogue2 (Earthbound): increase `rare_filler_weight` by 8
 rhythm.Tsuki: Jetpack upgrade
 HPfunman (Kingdom Hearts): Leaf Bracer
+rhythm.ClankUYA: increase `progression_balancing` by varying amounts
+rhythm.SADX: Tails - Laser Blaster
 
 ## uncategorized XI
 
@@ -4389,6 +4406,9 @@ HPfunman (Kingdom Hearts): Progressive Aero
 Brynatron (SDV): change `special_order_locations` to `board_qi_very_short`
 jf-rogue (Muse Dash): change `additional_song_count: 50` weight to 0
 sheen (KH:BBS): Once More
+rhythm.ClankUYA: Infernox Armor
+rhythm.SADX: set `goal: boss_rush_chaos_emerald_hunt` to `disabled`
+rhythm.Ventus/Terra/Aqua: Firestorm
 
 ## uncategorized XII
 
@@ -4404,6 +4424,9 @@ sheen (SMMR): set `preset` to `medium`
 rhythm.Tsuki: set `mining_everything: true` weight to 0
 superfid (Pseudoregalia): "Good Graces"
 ChromaNyan (Super Cat Tales): "Single-Use Golden Cat"
+rhythm.Ventus/Terra/Aqua: HP Boost
+rhythm.SADX: change `reverse_trap_weight` to `none`
+rhythm.SADX: Shadow - Mystic Melody
 
 ## uncategorized XIII
 
@@ -4418,7 +4441,9 @@ MiroRogue (HK): decrease `AnnoyingChecks` (trigger)
 DragoRogue2 (Factorio): increase `free_samples` amount
 MiroRogue (TS): change `gyre_archives`, `cantoran`, and `enter_sandman` to `false` (i think?)
 jf-rogue (RL): "Vault Runes"
-rhythm.PartyCube: Mario Party 7 4P Minigames
+rhythm.SADX: change `ring_loss` to `classic`
+rhythm.Ventus/Terra/Aqua: Spellweaver
+rhythm.SADX: Shadow - Air Shoes
 
 ## uncategorized XIV
 
@@ -4429,11 +4454,13 @@ SansEmeraldRL: change `extra_boulders` to `false`
 jf-rogue (TS): "Princess Dress"
 Grimore (SADX): change `ring_loss` to be more reasonable
 Grimore (aHiT): set `trig_remove_DeadlyDWBonuses` (trigger) to `yes`
-rhythm.PartyCube: Mario Party 4 4P Minigames
 MiroRogue (aHiT): reduce `DLC` (trigger)
 rhythm.Tsuki: Fruit duration
 SunCat (TS): "Chaos Horn"
 jf-rogue (RL): change `number_of_children: 1` weight to 0
+rhythm.ClankUYA: increase `progression_balancing` by varying amounts
+rhythm.SADX: Sonic - Mystic Melody
+rhythm.SADX: Rouge - Treasure Scope
 
 ## uncategorized XV
 
@@ -4449,6 +4476,9 @@ ChromaNyan (Super Cat Tales): "Coconut"
 TzufRougelike (SM): change `morph_placement` to `early`
 rhythm.SADX: set `levels_percentage` to `random-low`
 rhythm.Tsuki: Drill upgrade
+rhythm.Ventus/Terra/Aqua: Frozen Fortune
+rhythm.SADX: change `pong_trap_weight` to `none`
+rhythm.ClankUYA: Gadgetron PDU
 
 ## uncategorized XVI
 
@@ -4462,8 +4492,10 @@ rhythm.Tsuki: Drill upgrade
 superfid (DLCQ): Night Map Pack
 SunCat (Muse Dash): reduce `additional_song_count`
 rhythm.Belius/Terakomari: make `logistic_distribution` more reasonable
-rhythm.PartyCube: Mario Party 3 Duel Minigames
 MiroRogue (aHiT): reduce `DLC` (trigger)
+rhythm.ClankUYA: increase `progression_balancing` by varying amounts
+rhythm.Ventus/Terra/Aqua: Ghost Drive
+rhythm.Ventus/Terra/Aqua: Bladecharge
 
 ## uncategorized XVII
 
@@ -4471,14 +4503,15 @@ MiroRogue (aHiT): reduce `DLC` (trigger)
 (SansEmeraldRL: change `starters` to `vanilla`) [hint by Deathclaw99!]
 
 SansEmeraldRL: change `starters` to `vanilla`
-rhythm.PartyCube: Mario Party 8 4P Minigames
 superfid (LTTP): decrease `crystals_needed_for_gt` and `crystals_needed_for_ganon` upper bound
 ARogueinTime772: make `DLC` more reasonable (trigger)
 SunCat (Emerald): add `Wonder Guard` to `ability_blacklist`
 jf-rogue (TS): change `GyreArchives: true` weight to 0
 RndGuy (Blasphemous): reduce `skip_long_quests: true` weight
 DeathclawCavern (TS): Radiant Orb
-rhythm.PartyCube: Mario Party 1 4P Minigames
+rhythm.Ventus/Terra/Aqua: Wingblade
+rhythm.SADX: reduce `black_market_unlock_costs`
+rhythm.Ventus/Terra/Aqua: Doubleflight
 
 ## uncategorized XVIII
 
@@ -4490,9 +4523,11 @@ SunCat (ROR2): reduce `item_pickup_step` by 1
 sheen (Factorio): increase `free_samples` by a half stack
 rhythm.Tsuki: Repellent delay
 MiroRogue (aHiT): set `StartWithCompassBadge` to `true`
-rhythm.PartyCube: Mario Party 5 4P Minigames
 MiroRogue (Emerald): "Max Ether"
 SunCat (ROR2): reduce `shrine_use_step` to 0
+rhythm.Ventus/Terra/Aqua: change `command_board` to `false`
+rhythm.Ventus/Terra/Aqua: HP Boost
+rhythm.ClankUYA: increase `progression_balancing` by varying amounts
 
 ## uncategorized XIX
 
@@ -4507,6 +4542,9 @@ rhythm.Tsuki: set `dome: tesla` weight to 0
 sheen (KH:BBS): Pete D-Link
 jf-rogue (aHiT): "Yarn"
 SunCat (TS): "Silence Ring"
+rhythm.Ventus/Terra/Aqua: HP Boost
+rhythm.Ventus/Terra/Aqua: Fever Pitch
+rhythm.SADX: Rouge - Mystic Melody
 
 ## uncategorized XX [force this to be near the end of the skill tree]
 
@@ -4521,3 +4559,6 @@ Brynatron (SDV): change `bundle_randomization` to `remixed`
 DashingRogue772: reduce `additional_song_count`
 DragoRogue2 (Earthbound): change `monkey_caves_mode` to `solved`
 TzufRougelike (LTTP): "Bug Net"
+rhythm.SADX: Eggman - Jet Engine
+rhythm.Ventus/Terra/Aqua: change `mirage_arena` to `false`
+rhythm.Ventus/Terra/Aqua: Sky Climber

@@ -1250,16 +1250,6 @@ RndGuy (Blasphemous): reduce `skip_long_quests: true` weight: 2
 RndGuy (Blasphemous): change `boots_of_pleading` to `random`
 RndGuy (Blasphemous): change `purified_hand` to `random`
 RndGuy (Blasphemous): change `reliquary_shuffle` to `random`
-rhythm.PartyCube: Mario Party 1 4P Minigames
-rhythm.PartyCube: Mario Party 2 4P Minigames
-rhythm.PartyCube: Mario Party 3 4P Minigames
-rhythm.PartyCube: Mario Party 4 4P Minigames
-rhythm.PartyCube: Mario Party 5 4P Minigames
-rhythm.PartyCube: Mario Party 6 4P Minigames
-rhythm.PartyCube: Mario Party 7 4P Minigames
-rhythm.PartyCube: Mario Party 8 4P Minigames
-rhythm.PartyCube: Mario Party 3 Duel Minigames
-rhythm.PartyCube: Mario Party 7 Duel Minigames
 rhythm.Tsuki: Jetpack upgrade: 2
 rhythm.Tsuki: Drill upgrade: 4
 rhythm.Tsuki: Fruit duration: 2
@@ -1275,3 +1265,47 @@ rhythm.Belius/Terakomari: set `make_early_roadblocks_local` to `true`
 rhythm.SADX: set `levels_percentage` to `random-low`
 rhythm.SADX: set `mission_percentage` to `random-low`
 rhythm.SADX: set `guaranteed_level` to `true`
+rhythm.ClankUYA: Charge Boots
+rhythm.ClankUYA: Aegis Mark V Armor
+rhythm.ClankUYA: Infernox Armor
+rhythm.ClankUYA: Gadgetron PDU
+rhythm.ClankUYA: Nano-Pak
+rhythm.ClankUYA: increase `progression_balancing` by varying amounts: 5
+rhythm.Ventus/Terra/Aqua: High Jump
+rhythm.Ventus/Terra/Aqua: Doubleflight
+rhythm.Ventus/Terra/Aqua: Critical Impact
+rhythm.Ventus/Terra/Aqua: Spellweaver
+rhythm.Ventus/Terra/Aqua: Fever Pitch
+rhythm.Ventus/Terra/Aqua: Firestorm
+rhythm.Ventus/Terra/Aqua: Diamond Dust
+rhythm.Ventus/Terra/Aqua: Cyclone
+rhythm.Ventus/Terra/Aqua: Bladecharge
+rhythm.Ventus/Terra/Aqua: Sky Climber
+rhythm.Ventus/Terra/Aqua: Rockbreaker
+rhythm.Ventus/Terra/Aqua: Ghost Drive
+rhythm.Ventus/Terra/Aqua: Rhythm Mixer
+rhythm.Ventus/Terra/Aqua: Dark Impulse
+rhythm.Ventus/Terra/Aqua: Wingblade
+rhythm.Ventus/Terra/Aqua: Frozen Fortune
+rhythm.Ventus/Terra/Aqua: HP Boost: 4
+rhythm.Ventus/Terra/Aqua: change `mirage_arena` to `false`
+rhythm.Ventus/Terra/Aqua: change `command_board` to `false`
+rhythm.SADX: Shadow - Air Shoes
+rhythm.SADX: Shadow - Mystic Melody
+rhythm.SADX: Rouge - Treasure Scope
+rhythm.SADX: Rouge - Mystic Melody
+rhythm.SADX: Knuckles - Sunglasses
+rhythm.SADX: Knuckles - Mystic Melody
+rhythm.SADX: Sonic - Mystic Melody
+rhythm.SADX: Eggman - Protective Armor
+rhythm.SADX: Eggman - Jet Engine
+rhythm.SADX: Eggman - Laser Blaster
+rhythm.SADX: Tails - Laser Blaster
+rhythm.SADX: set `goal: boss_rush_chaos_emerald_hunt` to `disabled`
+rhythm.SADX: change `number_of_level_gates` to 0
+rhythm.SADX: reduce `black_market_unlock_costs`: 2
+rhythm.SADX: change `confusion_trap_weight` to `none`
+rhythm.SADX: change `reverse_trap_weight` to `none`
+rhythm.SADX: change `pong_trap_weight` to `none`
+rhythm.SADX: change `ring_loss` to `classic`
+rhythm.SADX: make `White Chaos Emerald` not forced to be on `Black Market - 64` location
