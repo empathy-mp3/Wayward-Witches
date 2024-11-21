@@ -2,3 +2,209 @@
 game: Manual_cauldron_mp3
 Manual_cauldron_mp3:
   progression_balancing: 0
+  plando_items:
+    - items:
+        Spruce Branch: 43
+      world:
+        - Sylsko
+        - Slipomatic_SM
+        - sheen
+        - jf-rogue
+      force: false
+    - items:
+        Cinders: 43
+      world:
+        - hecate.mp3
+        - Alex230
+        - ChromaNyan
+        - Ravanan
+      force: false
+    - items:
+        Iron: 44
+      world:
+        - Broney
+        - superfid
+        - DeathclawCavern
+        - HPfunman
+        - Grimore
+      force: false
+    - items:
+        Void: 43
+      world:
+        - Caesius   
+        - Rouginater
+        - Toto
+        - SunCat
+      force: false
+    - items:
+        Lilypad: 43
+      world:
+        - Rezalex
+        - Brynatron
+        - RougeFore772
+        - ARogueinTime772
+        - Rogue772nic
+        - DashingRogue772
+        - RRRRRRogue772
+        - RndGuy
+      force: false
+    - items:
+        Stardust: 44
+      world:
+        - Connor
+        - DragoRogue2
+        - CrystalOOT
+        - JoyTheBard
+        - rhythm.ET2
+        - rhythm.ClankUYA
+        - rhythm.SA2B
+        - rhythm.SADX
+        - rhythm.Tsuki
+        - rhythmTerakomari
+        - rhythm.Belius
+        - rhythm.Ventus
+        - rhythm.Terra
+        - rhythm.Aqua
+      force: false
+    - items:
+        Strawberry: 43
+      world:
+        - DiStegRogue
+        - BennyRogue
+        - TzufRougelike
+        - Jake13Snake
+      force: false
+    - items:
+        Eel: 43
+      world:
+        - Maxor
+        - Panda_Rogue
+        - SansEmeraldRL
+        - MiroRogue
+      force: false
+    - items:
+        Incense: 43
+      world:
+        - hecate.mp3
+        - Alex230
+        - ChromaNyan
+        - Ravanan
+        - Sylsko
+        - Slipomatic_SM
+        - sheen
+        - jf-rogue
+      force: false
+    - items:
+        Chalk: 44
+      world:
+        - Connor
+        - DragoRogue2
+        - CrystalOOT
+        - JoyTheBard
+        - rhythm.ET2
+        - rhythm.ClankUYA
+        - rhythm.SA2B
+        - rhythm.SADX
+        - rhythm.Tsuki
+        - rhythmTerakomari
+        - rhythm.Belius
+        - rhythm.Ventus
+        - rhythm.Terra
+        - rhythm.Aqua
+        - Broney
+        - superfid
+        - DeathclawCavern
+        - HPfunman
+        - Grimore
+      force: false
+    - items:
+        Clay: 43
+      world:
+        - Maxor
+        - Panda_Rogue
+        - SansEmeraldRL
+        - MiroRogue
+        - Rezalex
+        - Brynatron
+        - RougeFore772
+        - ARogueinTime772
+        - Rogue772nic
+        - DashingRogue772
+        - RRRRRRogue772
+        - RndGuy
+      force: false
+    - items:
+        Limestone: 43
+      world:
+        - Rezalex
+        - Brynatron
+        - RougeFore772
+        - ARogueinTime772
+        - Rogue772nic
+        - DashingRogue772
+        - RRRRRRogue772
+        - RndGuy
+        - Caesius   
+        - Rouginater
+        - Toto
+        - SunCat
+      force: false
+    - items:
+        Snow: 43
+      world:
+        - Sylsko
+        - Slipomatic_SM
+        - sheen
+        - jf-rogue
+        - DiStegRogue
+        - BennyRogue
+        - TzufRougelike
+        - Jake13Snake
+      force: false
+    - items:
+        Rabbit Foot: 43
+      world:
+        - Caesius   
+        - Rouginater
+        - Toto
+        - SunCat
+        - Connor
+        - DragoRogue2
+        - CrystalOOT
+        - JoyTheBard
+        - rhythm.ET2
+        - rhythm.ClankUYA
+        - rhythm.SA2B
+        - rhythm.SADX
+        - rhythm.Tsuki
+        - rhythmTerakomari
+        - rhythm.Belius
+        - rhythm.Ventus
+        - rhythm.Terra
+        - rhythm.Aqua
+      force: false
+    - items:
+        Slate: 43
+      world:
+        - DiStegRogue
+        - BennyRogue
+        - TzufRougelike
+        - Jake13Snake
+        - Broney
+        - superfid
+        - DeathclawCavern
+        - HPfunman
+        - Grimore
+      force: false
+    - items:
+        Basalt: 43
+      world:
+        - Maxor
+        - Panda_Rogue
+        - SansEmeraldRL
+        - MiroRogue
+        - hecate.mp3
+        - Alex230
+        - ChromaNyan
+        - Ravanan
+      force: false

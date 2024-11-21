@@ -191,6 +191,16 @@ Outer Wilds:
   enable_ac_mod: 'false'
   enable_hn2_mod: 'false'
   enable_fq_mod: 'false'
+      
+  item_links:
+    - name: OuterWildsTrapLink
+      item_pool:
+        - Nap Trap
+        - Audio Trap
+        - Ship Damage Trap
+      replacement_item: "Nap Trap"
+      link_replacement: true
+      
   plando_items:
     - item: "Boost Duration Upgrade"
       location: speed II-1
@@ -757,3 +767,10 @@ TUNIC:
         - electricity I-2
       world: The Cauldron
       force: true
+      
+  item_links:
+    - name: TUNICTrapLink
+      item_pool:
+        - Fool Trap
+      replacement_item: "Fool Trap"
+      link_replacement: true

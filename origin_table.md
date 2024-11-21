@@ -17,7 +17,7 @@
 | Panda_Rogue     |     |        |      |        |              |       |      |          | 1               | under the ocean   |
 | DragoRogue2     |     |        |      |        |              |       | 1    |          |                 | moon              |
 | superfid        |     |        |      | 1      |              |       |      |          |                 | cavern            |
-| MiroRogue       | 1   |        |      |        |              |       |      |          |                 | tundra            |
+| MiroRogue       | 1   |        |      |        |              |       |      |          |                 | under the ocean   |
 | DeathclawCavern |     |        |      | 1      |              |       |      |          |                 | cavern            |
 | HPfunman        |     |        |      | 1      |              |       |      |          | 2               | cavern            |
 | CrystalOOT      |     |        |      |        |              |       | 1    |          |                 | moon              |

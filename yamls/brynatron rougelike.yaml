@@ -100,8 +100,19 @@ Hollow Knight:
   SplitMothwingCloak: true
   SplitMantisClaw: true
   
-  local_items:
-    [Grub, Mimic_Grub]
+  # local_items:
+  #   [Grub, Mimic_Grub]
+  # # ^^^^^^ re-add this when you remove trap link
+  item_links:
+    - name: HollowKnightTrapLink
+      item_pool:
+        - Grub
+        - Mimic_Grub
+      replacement_item: "Mimic_Grub"
+      link_replacement: true
+      local_items:
+        - Mimic_Grub
+        - Grub
  
 Terraria:
   plando_items: [{"item": "Reward: Cobalt Shield", "location": "defense XVIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Rod of Discord", "location": "travel III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Black Belt", "location": "uncategorized XII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Lava Charm", "location": "uncategorized XIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Reward: Coins": 5}, "locations": [vitality XV-3, healing III-3, price XII-1, melee weapon IX-2, melee weapon X-2], "world": "The Cauldron", "force": true, "from_pool": true}]

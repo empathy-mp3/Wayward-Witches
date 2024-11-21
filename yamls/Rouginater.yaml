@@ -28,7 +28,7 @@ VVVVVV:
   progression_balancing: 50
   accessibility: full
   priority_locations: # Upgrades: Hard Way and Edge Games as priority > normal location > excluded location
-    - Doing Things the hard way
+    - Doing things the hard way
     - Edge Games
   MusicRandomizer:
     'false': 25

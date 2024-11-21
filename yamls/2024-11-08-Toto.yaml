@@ -275,6 +275,17 @@ Hollow Knight:
   CostSanity: on
   CostSanityHybridChance: 100 # 100 -> 50 -> 25
   CostSanityGeoWeight: 4
+  item_links:
+    - name: HollowKnightTrapLink
+      item_pool:
+        - Grub
+        - Mimic_Grub
+      replacement_item: "Mimic_Grub"
+      link_replacement: true
+      local_items:
+        - Mimic_Grub
+        - Grub
+
 Timespinner:
   plando_items: [{"items": {"Potion": 22, "Ether": 22, "Sand Vial": 22, "Berry Pick-Mi-Up": 22}, "locations": [vitality III-8, vitality VIII-1, speed IV-4, attack III-2, choice I-1, choice I-2, choice I-3, choice I-4, choice I-5, choice I-6, choice II-1, choice II-2, choice II-4, choice III-1, choice III-2, choice III-3, choice III-4, choice III-5, choice IV-1, utility II-1, utility III-1, utility V-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   death_link: true
@@ -354,3 +365,13 @@ Timespinner:
     - Chaos Trap
     - Neurotoxin Trap
     - Bee Trap
+  item_links:
+    - name: TimespinnerTrapLink
+      item_pool:
+        - Bee Trap
+        - Chaos Trap
+        - Meteor Sparrow Trap
+        - Neurotoxin Trap
+        - Poison Trap
+      replacement_item: "Meteor Sparrow Trap"
+      link_replacement: true

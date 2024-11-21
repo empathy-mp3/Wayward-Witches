@@ -176,6 +176,15 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
   enable_ac_mod: 'false'
   enable_hn2_mod: 'false'
   enable_fq_mod: 'false'
+      
+  item_links:
+    - name: OuterWildsTrapLink
+      item_pool:
+        - Nap Trap
+        - Audio Trap
+        - Ship Damage Trap
+      replacement_item: "Nap Trap"
+      link_replacement: true
 
 Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and 128
   plando_items:
@@ -328,3 +337,13 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
   death_link: 'true'
   death_link_amnesty: 0 # -> 2 -> 4
   shuffle_dog: random_item
+
+      
+  item_links:
+    - name: WitnessTrapLink
+      item_pool:
+        - Slowness
+        - Power Surge
+        - Bonk
+      replacement_item: "Bonk"
+      link_replacement: true

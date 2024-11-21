@@ -110,7 +110,17 @@ Hollow Knight:
   MaximumEssencePrice: '1400'
   MaximumCharmPrice: '40'
   MaximumEggPrice: '10'
-  local_items: [Mimics, LifebloodCocoons, SoulTotems, JournalEntries, LoreTablets, Maps]
+  local_items: [LifebloodCocoons, SoulTotems, JournalEntries, LoreTablets, Maps]
+  item_links:
+    - name: HollowKnightTrapLink
+      item_pool:
+        - Grub
+        - Mimic_Grub
+      replacement_item: "Mimic_Grub"
+      link_replacement: true
+      local_items:
+        - Mimic_Grub # re-add "Mimics" to local_items when removed
+        - Grub 
 
   # these will be changed by upgrades and may affect the items just above
   StartingGeo: '0' # random-range-0-1000, random-range-0-3000
@@ -514,6 +524,21 @@ Muse Dash:
             '0': 50
             '8': 50
             '9': 50
+  item_links:
+    - name: MuseDashTrapLink
+      item_pool:
+        - Background Freeze Trap
+        - Bad Apple Trap
+        - Chromatic Aberration Trap
+        - Error SFX Trap
+        - Focus Line Trap
+        - Gray Scale Trap
+        - Nyaa SFX Trap
+        - Pixelate Trap
+        - Ripple Trap
+        - Vignette Trap
+      replacement_item: "Bad Apple Trap"
+      link_replacement: true
 
 
 The Witness:
@@ -577,3 +602,11 @@ The Witness:
     '4': 0 # fourth upgrade: reduce '0' by 10 (to 10) and increase '4' to 40
     '5': 0 # fifth upgrade: reduce '0' by 10 (to 0) and increase '5' to 50
 
+  item_links:
+    - name: WitnessTrapLink
+      item_pool:
+        - Slowness
+        - Power Surge
+        - Bonk
+      replacement_item: "Bonk"
+      link_replacement: true

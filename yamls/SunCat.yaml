@@ -54,6 +54,16 @@ Timespinner:
   EyeSpy: random
   Inverted: random
   UnchainedKeys: random
+  item_links:
+    - name: TimespinnerTrapLink
+      item_pool:
+        - Bee Trap
+        - Chaos Trap
+        - Meteor Sparrow Trap
+        - Neurotoxin Trap
+        - Poison Trap
+      replacement_item: "Meteor Sparrow Trap"
+      link_replacement: true
 
 Celeste 64:
   plando_items: [{"items": {"Raspberry": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -178,6 +188,22 @@ Muse Dash:
   - Vignette Trap
   trap_count_percentage: '35'
   start_inventory: {}
+
+  item_links:
+    - name: MuseDashTrapLink
+      item_pool:
+        - Background Freeze Trap
+        - Bad Apple Trap
+        - Chromatic Aberration Trap
+        - Error SFX Trap
+        - Focus Line Trap
+        - Gray Scale Trap
+        - Nyaa SFX Trap
+        - Pixelate Trap
+        - Ripple Trap
+        - Vignette Trap
+      replacement_item: "Bad Apple Trap"
+      link_replacement: true
 
 VVVVVV:
   plando_items: [{"items": {"Trinket 13": 9, "Trinket 14": 9, "Trinket 15": 9, "Trinket 16": 9, "Trinket 17": 9, "Trinket 18": 9, "Trinket 19": 9, "Trinket 20": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]

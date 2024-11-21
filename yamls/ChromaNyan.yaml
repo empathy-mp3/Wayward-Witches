@@ -22,6 +22,13 @@ Minecraft:
   combat_difficulty: hard # change to normal, then easy
   bee_traps: 100 # change to 50, then 0
   death_link: 'true'
+      
+  item_links:
+    - name: MinecraftTrapLink
+      item_pool:
+        - Bee Trap
+      replacement_item: "Bee Trap"
+      link_replacement: true
 Manual_SuperCatTales_ChromaNyan:
   plando_items: [{"item": "Single-Use Golden Cat", "location": "uncategorized V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Mr. Cloud", "location": "uncategorized V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Golden Bat", "location": "uncategorized VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Ghost", "location": "uncategorized VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Single-Use Golden Cat", "location": "uncategorized XII-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rusted Bell": 8}, "locations": [price IX-1, price XIII-1, attack II-1, slots I-2, slots II-3, food I-1, luck II-5, copy I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0 # change to 20, then 40, then 60

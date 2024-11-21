@@ -207,6 +207,16 @@ Timespinner:
   trap_chance: 90 # Upgrade to random-range-0-90
   traps:
     ['Meteor Sparrow Trap', 'Poison Trap', 'Chaos Trap', 'Neurotoxin Trap', 'Bee Trap']
+  item_links:
+    - name: TimespinnerTrapLink
+      item_pool:
+        - Bee Trap
+        - Chaos Trap
+        - Meteor Sparrow Trap
+        - Neurotoxin Trap
+        - Poison Trap
+      replacement_item: "Meteor Sparrow Trap"
+      link_replacement: true
 # Number of upgrades: 15
 A Link to the Past:
 # Trigger block adding mercenary mode (1 Triforce piece needed to goal put on a random boss
@@ -1008,6 +1018,13 @@ A Link to the Past:
   allow_collect: true
   heartbeep: quarter
   triforcehud: normal
+      
+  item_links:
+    - name: LTTPTrapLink
+      item_pool:
+        - Bee Trap
+      replacement_item: "Bee Trap"
+      link_replacement: true
 # Number of upgrades: 10
 Celeste 64:
   plando_items:

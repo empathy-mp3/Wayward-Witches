@@ -203,6 +203,12 @@ TUNIC:
   ladder_storage_without_items:
     'false': 10
     'true': 40 # remove this line
+  item_links:
+    - name: TUNICTrapLink
+      item_pool:
+        - Fool Trap
+      replacement_item: "Fool Trap"
+      link_replacement: true
 
 Muse Dash:
   starting_song_count: '5'
@@ -287,6 +293,22 @@ Muse Dash:
             '0': 50
             '6': 50
             '7': 50
+
+  item_links:
+    - name: MuseDashTrapLink
+      item_pool:
+        - Background Freeze Trap
+        - Bad Apple Trap
+        - Chromatic Aberration Trap
+        - Error SFX Trap
+        - Focus Line Trap
+        - Gray Scale Trap
+        - Nyaa SFX Trap
+        - Pixelate Trap
+        - Ripple Trap
+        - Vignette Trap
+      replacement_item: "Bad Apple Trap"
+      link_replacement: true
 
 VVVVVV:
   priority_locations: # Upgrades: Hard Way, Edge Games, and Reckless as priority > normal location > excluded location
