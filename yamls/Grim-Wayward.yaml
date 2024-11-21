@@ -7,6 +7,7 @@ game:
    Timespinner: 2
 description: In the wet, in the dark, you may one day find the divine.
 A Hat in Time: # YAML Edits: 12
+  plando_items: [{"item": "Fast Hatter Badge", "location": "speed I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "No Bonk Badge", "location": "careful movement II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Badge Pin", "location": "slots IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Badge Pin", "location": "slots IV-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"25 Pons": 16}, "locations": [ranged weapon I-7, ranged weapon II-6, ranged weapon III-5, ranged weapon IV-5, ranged weapon V-7, ranged weapon VI-4, ranged weapon VII-3, vitality IV-4, vitality XIV-5, vitality XV-4, defense V-2, attack I-2, mana V-2, mana V-3, mana VI-1, XP VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
@@ -70,6 +71,7 @@ A Hat in Time: # YAML Edits: 12
   - Seal the Deal - All Clear
   - Seal the Deal - Main Objective
 Minecraft: # Note: Done. YAML Edits: 12
+  plando_items: [{"items": {"Rotten Flesh": 20, "50 XP": 20, "32 Arrows": 20, "4 Emeralds": 20}, "locations": [ranged weapon I-7, ranged weapon II-6, ranged weapon III-5, ranged weapon IV-5, ranged weapon V-7, ranged weapon VI-4, ranged weapon VII-3, vitality IV-4, vitality XIV-5, vitality XV-4, speed I-3, defense V-2, careful movement II-2, attack I-2, mana V-2, mana V-3, mana VI-1, slots IV-2, slots IV-5, XP VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: full
   advancement_goal: '80' # Item: Reduce to 60/40/30
@@ -82,6 +84,7 @@ Minecraft: # Note: Done. YAML Edits: 12
   send_defeated_mobs: 'true' # Item: set to false
   death_link: 'true'
 Noita: # Note: Finalised. YAML Edits: 5. 
+  plando_items: [{"item": "Wand (Tier 4)", "location": "ranged weapon I-7", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 5)", "location": "ranged weapon II-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 4)", "location": "ranged weapon III-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 6)", "location": "ranged weapon IV-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Tinker with Wands Everywhere Perk", "location": "ranged weapon V-7", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 5)", "location": "ranged weapon VI-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 6)", "location": "ranged weapon VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Extra Max HP", "location": "vitality IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Extra Max HP", "location": "vitality XIV-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Extra Max HP", "location": "vitality XV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Gold (200)": 10, "Potion": 10, "Powder Pouch": 10}, "locations": [speed I-3, defense V-2, careful movement II-2, attack I-2, mana V-2, mana V-3, mana VI-1, slots IV-2, slots IV-5, XP VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
@@ -112,6 +115,7 @@ Noita: # Note: Finalised. YAML Edits: 5.
     50_percent_off: 2
     25_percent_off: 2
 Sonic Adventure DX: # Note: Finalised. Edit count: 16.
+  plando_items: [{"items": {"10 Rings": 20}, "locations": [ranged weapon I-7, ranged weapon II-6, ranged weapon III-5, ranged weapon IV-5, ranged weapon V-7, ranged weapon VI-4, ranged weapon VII-3, vitality IV-4, vitality XIV-5, vitality XV-4, speed I-3, defense V-2, careful movement II-2, attack I-2, mana V-2, mana V-3, mana VI-1, slots IV-2, slots IV-5, XP VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
@@ -204,6 +208,7 @@ Sonic Adventure DX: # Note: Finalised. Edit count: 16.
     amy: 25
     gamma: 25
 Timespinner: # Edit count: 13
+  plando_items: [{"item": "Eternal Coat", "location": "defense V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Empire Crown", "location": "attack I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Aura", "location": "mana V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Aura", "location": "mana V-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Aura", "location": "mana VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Galaxy Earrings", "location": "XP VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Berry Pick-Mi-Up": 14, "Ether": 14}, "locations": [ranged weapon I-7, ranged weapon II-6, ranged weapon III-5, ranged weapon IV-5, ranged weapon V-7, ranged weapon VI-4, ranged weapon VII-3, vitality IV-4, vitality XIV-5, vitality XV-4, speed I-3, careful movement II-2, slots IV-2, slots IV-5], "world": "The Cauldron", "force": true, "from_pool": true}]
   death_link: 'true'
   progression_balancing: '50'
   accessibility: full

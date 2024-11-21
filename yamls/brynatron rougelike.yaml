@@ -9,6 +9,7 @@ requires:
   version: 0.5.1
   
 Hollow Knight:
+  plando_items: [{"item": "Fragile_Heart", "location": "vitality XV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hiveblood", "location": "healing III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Greed", "location": "price XII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Nailmaster's_Glory", "location": "melee weapon IX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Great_Slash", "location": "melee weapon X-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 4}, "locations": [defense XVIII-1, travel III-1, uncategorized XII-1, uncategorized XIII-1], "world": "The Cauldron", "force": true, "from_pool": true}]
 # 12 UPGRADES
   progression_balancing: 0
   accessibility: full
@@ -103,6 +104,7 @@ Hollow Knight:
     [Grub, Mimic_Grub]
  
 Terraria:
+  plando_items: [{"item": "Reward: Cobalt Shield", "location": "defense XVIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Rod of Discord", "location": "travel III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Black Belt", "location": "uncategorized XII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Lava Charm", "location": "uncategorized XIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Reward: Coins": 5}, "locations": [vitality XV-3, healing III-3, price XII-1, melee weapon IX-2, melee weapon X-2], "world": "The Cauldron", "force": true, "from_pool": true}]
 # 10 UPGRADES
   progression_balancing: 0
   accessibility: full
@@ -122,6 +124,7 @@ Terraria:
     [] # Can be upgraded to include: Real Estate Agent, Funkytown, Gelatin World Tour, Lucky Break, It Can Talk?!, Dead Men Tell No Tales, Watch Your Step!, The Great Slime Mitosis, And Good Riddance!
 
 Stardew Valley:
+  plando_items: [{"items": {"Joja Cola": 9}, "locations": [vitality XV-3, healing III-3, price XII-1, defense XVIII-1, melee weapon IX-2, melee weapon X-2, travel III-1, uncategorized XII-1, uncategorized XIII-1], "world": "The Cauldron", "force": true, "from_pool": true}]
 # 12 UPGRADES
   goal:
     community_center: 1

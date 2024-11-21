@@ -27,6 +27,56 @@ DLCQuest:
   exclude_locations:
   - Not Exactly Noble # Unavoidable death for a single check
   plando_items: # Makes sure to make temporary spikes scout-/avoidable
+    - item: Checkpoint Pack
+      location: rest I-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Pause Menu Pack
+      location: rest II-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Night Map Pack
+      location: uncategorized XVI-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Loading Screen: 24
+        Parallax Pack: 24
+        Particles Pack: 24
+        Removed Ads Pack: 24
+        Sexy Outfits Pack: 24
+        Top Hat Pack: 24
+      locations:
+        - explosion V-1
+        - vitality I-5
+        - vitality II-4
+        - vitality III-5
+        - vitality IV-5
+        - vitality VII-4
+        - vitality VIII-5
+        - vitality XIV-6
+        - vitality XV-5
+        - vitality XVI-6
+        - defense IX-2
+        - defense XIII-1
+        - defense XIV-1
+        - mana V-1
+        - second chance III-2
+        - XP VII-1
+        - melee weapon V-2
+        - ice II-1
+        - fragment III-2
+        - uncategorized III-1
+        - uncategorized V-3
+        - uncategorized V-4
+        - uncategorized IX-1
+        - uncategorized XII-4
+      world: The Cauldron
+      force: true
+      from_pool: true
     - items:
         Temporary Spike: true
       locations:
@@ -66,6 +116,61 @@ DLCQuest:
       force: true
 # Number of upgrades: 13
 Timespinner:
+  plando_items:
+    - item: Eternal Coat
+      location: defense XIII-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Eternal Crown
+      location: defense XIV-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Galaxy Earrings
+      location: XP VII-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Shattered Orb
+      location: fragment III-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Radiant Orb
+      location: uncategorized IX-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Empress Cake: 22
+        Royal Casserole: 22
+      locations:
+        - explosion V-1
+        - vitality I-5
+        - vitality II-4
+        - vitality III-5
+        - vitality IV-5
+        - vitality VII-4
+        - vitality VIII-5
+        - vitality XIV-6
+        - vitality XV-5
+        - vitality XVI-6
+        - defense IX-2
+        - mana V-1
+        - second chance III-2
+        - rest I-2
+        - rest II-2
+        - melee weapon V-2
+        - ice II-1
+        - uncategorized III-1
+        - uncategorized V-3
+        - uncategorized V-4
+        - uncategorized XII-4
+        - uncategorized XVI-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   death_link: true
   start_with_jewelry_box: false # Upgrade to true
   downloadable_items: random
@@ -132,6 +237,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Eastern Palace - Boss
@@ -147,6 +307,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Desert Palace - Boss
@@ -162,6 +377,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Tower of Hera - Boss
@@ -177,6 +447,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Palace of Darkness - Boss
@@ -192,6 +517,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Swamp Palace - Boss
@@ -207,6 +587,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Skull Woods - Boss
@@ -222,6 +657,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Thieves' Town - Boss
@@ -237,6 +727,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Ice Palace - Boss
@@ -252,6 +797,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Misery Mire - Boss
@@ -267,6 +867,61 @@ A Link to the Past:
     options:
       A Link to the Past:
         plando_items:
+          - item: Boss Heart Container
+            location: vitality II-4
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Mail
+            location: defense IX-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Magic Upgrade (1/2)
+            location: mana V-1
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Bottle
+            location: second chance III-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - item: Progressive Sword
+            location: melee weapon V-2
+            world: The Cauldron
+            force: true
+            from_pool: true
+          - items:
+              Rupees (50): 22
+              Bombs (10): 22
+              Arrows (10): 22
+            locations:
+              - explosion V-1
+              - vitality I-5
+              - vitality III-5
+              - vitality IV-5
+              - vitality VII-4
+              - vitality VIII-5
+              - vitality XIV-6
+              - vitality XV-5
+              - vitality XVI-6
+              - defense XIII-1
+              - defense XIV-1
+              - rest I-2
+              - rest II-2
+              - XP VII-1
+              - ice II-1
+              - fragment III-2
+              - uncategorized III-1
+              - uncategorized V-3
+              - uncategorized V-4
+              - uncategorized IX-1
+              - uncategorized XII-4
+              - uncategorized XVI-3
+            world: The Cauldron
+            force: true
+            from_pool: true
           - item:
               Triforce Piece: 1
             location: Turtle Rock - Boss
@@ -355,6 +1010,40 @@ A Link to the Past:
   triforcehud: normal
 # Number of upgrades: 10
 Celeste 64:
+  plando_items:
+    - items:
+        Raspberry: 27
+      locations:
+        - explosion V-1
+        - vitality I-5
+        - vitality II-4
+        - vitality III-5
+        - vitality IV-5
+        - vitality VII-4
+        - vitality VIII-5
+        - vitality XIV-6
+        - vitality XV-5
+        - vitality XVI-6
+        - defense IX-2
+        - defense XIII-1
+        - defense XIV-1
+        - mana V-1
+        - second chance III-2
+        - rest I-2
+        - rest II-2
+        - XP VII-1
+        - melee weapon V-2
+        - ice II-1
+        - fragment III-2
+        - uncategorized III-1
+        - uncategorized V-3
+        - uncategorized V-4
+        - uncategorized IX-1
+        - uncategorized XII-4
+        - uncategorized XVI-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   death_link: true
   death_link_amnesty: 5 # Upgrade to 10, then 15, then 20, then 30
   logic_difficulty: random # Upgrade to standard
@@ -369,6 +1058,92 @@ Celeste 64:
   badeline_chaser_speed: random
 # Number of upgrades: 3
 Pseudoregalia:
+  plando_items:
+    - item: Health Piece
+      location: vitality I-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Health Piece
+      location: vitality III-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Health Piece
+      location: vitality IV-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Health Piece
+      location: vitality VII-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Health Piece
+      location: vitality VIII-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Health Piece
+      location: vitality XIV-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Health Piece
+      location: vitality XV-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Health Piece
+      location: vitality XVI-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Martial Prowess
+      location: uncategorized III-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Good Graces
+      location: uncategorized V-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Indignation
+      location: uncategorized V-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Good Graces
+      location: uncategorized XII-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Clear Mind: 15
+        Pilgrimage: 15
+        Empathy: 15
+        Professionalism: 15
+        Aerial Finesse: 15
+      locations:
+        - explosion V-1
+        - vitality II-4
+        - defense IX-2
+        - defense XIII-1
+        - defense XIV-1
+        - mana V-1
+        - second chance III-2
+        - rest I-2
+        - rest II-2
+        - XP VII-1
+        - melee weapon V-2
+        - ice II-1
+        - fragment III-2
+        - uncategorized IX-1
+        - uncategorized XVI-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   logic_level: # Remove expert from choices, then change to normal guaranteed
     normal: 50
     hard: 50
@@ -380,6 +1155,51 @@ Pseudoregalia:
   death_link: true
 # Number of upgrades: 18
 Secret of Evermore:
+  plando_items:
+    - item: Bazooka
+      location: explosion V-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: 30 Cryo Blast
+      location: ice II-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        500 Moniez: 25
+        4 Dry Ice: 25
+        3 Meteorite: 25
+        Mud Pepper: 25
+      locations:
+        - vitality I-5
+        - vitality II-4
+        - vitality III-5
+        - vitality IV-5
+        - vitality VII-4
+        - vitality VIII-5
+        - vitality XIV-6
+        - vitality XV-5
+        - vitality XVI-6
+        - defense IX-2
+        - defense XIII-1
+        - defense XIV-1
+        - mana V-1
+        - second chance III-2
+        - rest I-2
+        - rest II-2
+        - XP VII-1
+        - melee weapon V-2
+        - fragment III-2
+        - uncategorized III-1
+        - uncategorized V-3
+        - uncategorized V-4
+        - uncategorized IX-1
+        - uncategorized XII-4
+        - uncategorized XVI-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   difficulty: random # Upgrade to exclude hard
   energy_core: random
   required_fragments: random # Upgrade to random-range-1-50, then random-range-1-25. Do the same for available_fragments

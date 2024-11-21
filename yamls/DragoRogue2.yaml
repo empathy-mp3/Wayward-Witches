@@ -6,6 +6,7 @@ game:
   Pokemon Red and Blue: 1
 
 EarthBound:
+  plando_items: [{"item": "Progressive Gun", "location": "ranged weapon I-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Gun", "location": "ranged weapon IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Gun", "location": "ranged weapon VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Bat", "location": "melee weapon I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Bat", "location": "melee weapon III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon VIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon IX-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Bat", "location": "melee weapon XI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Teddy Bear": 10, "Repel Superwich": 10, "Big Bottle Rocket": 10}, "locations": [luck I-1, luck I-2, luck I-3, luck I-4, luck I-5, luck I-6, luck II-3, luck II-4, luck II-6, luck II-7], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: minimal
   giygas_required: true
@@ -41,6 +42,7 @@ EarthBound:
   death_link_mode: mortal_mercy
 
 Factorio:
+  plando_items: [{"items": {"progressive-physical-projectile-damage": 21, "progressive-follower-robot-count": 21, "progressive-worker-robots-speed": 21}, "locations": [ranged weapon I-5, ranged weapon IV-4, ranged weapon VI-2, melee weapon I-2, melee weapon II-3, melee weapon III-1, melee weapon IV-3, melee weapon VII-2, melee weapon VIII-2, melee weapon IX-3, melee weapon XI-1, luck I-1, luck I-2, luck I-3, luck I-4, luck I-5, luck I-6, luck II-3, luck II-4, luck II-6, luck II-7], "world": "The Cauldron", "force": true, "from_pool": true}]
   # Game Options
   progression_balancing: 0
   accessibility: minimal
@@ -183,6 +185,7 @@ Factorio:
     - Grenade Trap
 
 Pokemon Red and Blue:
+  plando_items: [{"item": "Master Ball", "location": "luck I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Master Ball", "location": "luck I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Master Ball", "location": "luck I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Master Ball", "location": "luck I-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Master Ball", "location": "luck I-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Master Ball", "location": "luck I-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Master Ball", "location": "luck II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Master Ball", "location": "luck II-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Master Ball", "location": "luck II-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Master Ball", "location": "luck II-7", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Super Repel": 11, "Full Restore": 11, "Full Heal": 11, "Ultra Ball": 11}, "locations": [ranged weapon I-5, ranged weapon IV-4, ranged weapon VI-2, melee weapon I-2, melee weapon II-3, melee weapon III-1, melee weapon IV-3, melee weapon VII-2, melee weapon VIII-2, melee weapon IX-3, melee weapon XI-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   # Game Options
   progression_balancing: 1
   accessibility: minimal

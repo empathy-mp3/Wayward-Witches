@@ -16,11 +16,11 @@ Toto (SotM): remove `"Parse: Fugue State"` from `exclude_from_pool`
 Toto (SotM): remove `Urban Warfare Expatriette`, `Siege Breaker Bunker`, and `Nitro Boost Absolute Zero` from `exclude_from_pool`
 Toto (HK): change `RemoveSpellUpgrades` to `false`
 Toto (DS3): change `no_spell_requirements` to `true`
-Broney (Angband): Progressive Ranged Weapon: 1
+Broney (Angband): Progressive Ranged Weapon Artifact: 1
 Broney (SMMR): Plasma Beam
-Broney (SMMR): Spazer Beam
-Broney (SM): Plasma Beam
-Broney (SM): Spazer Beam
+Broney (SMMR): Spazer
+Broney (SM): Plasma
+Broney (SM): Spazer
 Broney (SM): change `fun_combat` to `false`
 Broney (SM): change `nerfed_charge` to `true`
 MiroRogue (HK): "Shaman_Stone": 1
@@ -33,7 +33,7 @@ Rogue772nic: "Gun": 1
 Grimore (Noita): "Wand (Tier 4)":2
 Grimore (Noita): "Wand (Tier 5)":2
 Grimore (Noita): "Wand (Tier 6)":2
-TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}: 3
+TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}: 3
 Ravanan: "Super Missile": 1
 Ravanan: "Spazer"
 sheen (SMMR): Spazer
@@ -66,7 +66,7 @@ hecate.mp3 (UK): "Shotgun - Core Eject": 1
 Sylsko (TUNC): Firecracker x5: 2
 Roguinater (Peggle Deluxe): Splork
 Roguinater (Peggle Nights): Splork
-Broney (SMMR): Power Bomb: 2
+Broney (SMMR): PowerBomb: 2
 Broney (SM): Power Bomb: 2
 superfid (LTTP): change `bombless_start` to `false`
 TzufRougelike (SM): "Power Bomb": 2
@@ -475,7 +475,7 @@ Sylsko (Astalon): change `start_with_ascendant_key` to `true`
 Sylsko (Astalon): change `open_early_doors` to `true`
 Connor (UT): decrease `key_pieces` by varied amounts: 2
 Roguinater (VVVVVV): decrease `DoorCost` by 1: 2
-Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}: 3
+Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}: 3
 Broney (SM): change `door_colors_rando` to `false`
 superfid (LTTP): change `small_key_shuffle` to `start_with`
 DeathclawCavern (OOT): decrease `ganon_bosskey_tokens` by 20: 2
@@ -643,7 +643,7 @@ Brynatron (SDV): change `profit_margin` to `random-range-middle-100-400`
 jf-rogue (RL): change `vendors: normal` weight to 0
 jf-rogue (RL): change `gold_gain_multiplier: half` weight to 0
 Brynatron (Terraria): change `fill_extra_checks_with` to `useful_items`
-CrystalOOT: Huge Rupee
+CrystalOOT: Rupees (200)
 
 ## defense
 hecate.mp3 (TUNC): "DEF Offering": 2
@@ -663,10 +663,10 @@ Caesius (OOT): "Nayrus Love"
 Caesius (TS): "Eternal Coat"
 Caesius (TS): "Eternal Crown"
 Roguinater (MC): Progressive Armor: 1
-Maxor: Progressive Armor: 1
+Maxor: Progressive Mail: 1
 Rezalex: Progressive Mail: 2
 BennyRogue (RL): Armor Up
-Broney (Angband): Progressive Shield Weapon: 1
+Broney (Angband): Progressive Shield Artifact: 1
 superfid (TS): "Eternal Coat"
 superfid (TS): "Eternal Crown"
 MiroRogue (TS): "Eternal Coat": 1
@@ -912,7 +912,7 @@ Toto (SotM): remove `Benchmark` and `Benchmark Supply & Demand` from `exclude_fr
 Toto (HK): change `RandomizeNail` to `false`
 BennyRogue (RL): Sky Blueprints
 BennyRogue (RL): Dragon Blueprints
-Broney (Angband): Progressive Polearm Weapon: 1
+Broney (Angband): Progressive Polearm Weapon Artifact: 1
 Broney (Angband): increase `star_acquire_percent` by 10: 4
 MiroRogue (TS): "Star of Lachiem": 1
 DeathclawCavern (TS): Star of Lachiem
@@ -1202,7 +1202,7 @@ Grimore (SADX): change `ring_loss` to be more reasonable: 2
 TzufRougelike (HK): change `RandomizeNail` to `false`
 TzufRougelike (SM): change `morph_placement` to `early`
 TzufRougelike (OOT): change `open_kakariko` to `open`
-TzufRougelike (LTTP): "Bug Net": 1
+TzufRougelike (LTTP): "Bug Catching Net": 1
 jf-rogue (RL): "Slayer Blueprints"
 jf-rogue (RL): "Vault Runes"
 jf-rogue (RL): change `new_game_plus: new_game_plus` weight to 0 [force this to be near the end of the skill tree]
@@ -1290,22 +1290,22 @@ rhythm.Ventus/Terra/Aqua: Frozen Fortune
 rhythm.Ventus/Terra/Aqua: HP Boost: 4
 rhythm.Ventus/Terra/Aqua: change `mirage_arena` to `false`
 rhythm.Ventus/Terra/Aqua: change `command_board` to `false`
-rhythm.SADX: Shadow - Air Shoes
-rhythm.SADX: Shadow - Mystic Melody
-rhythm.SADX: Rouge - Treasure Scope
-rhythm.SADX: Rouge - Mystic Melody
-rhythm.SADX: Knuckles - Sunglasses
-rhythm.SADX: Knuckles - Mystic Melody
-rhythm.SADX: Sonic - Mystic Melody
-rhythm.SADX: Eggman - Protective Armor
-rhythm.SADX: Eggman - Jet Engine
-rhythm.SADX: Eggman - Laser Blaster
-rhythm.SADX: Tails - Laser Blaster
-rhythm.SADX: set `goal: boss_rush_chaos_emerald_hunt` to `disabled`
-rhythm.SADX: change `number_of_level_gates` to 0
-rhythm.SADX: reduce `black_market_unlock_costs`: 2
-rhythm.SADX: change `confusion_trap_weight` to `none`
-rhythm.SADX: change `reverse_trap_weight` to `none`
-rhythm.SADX: change `pong_trap_weight` to `none`
-rhythm.SADX: change `ring_loss` to `classic`
-rhythm.SADX: make `White Chaos Emerald` not forced to be on `Black Market - 64` location
+rhythm.SA2B: Shadow - Air Shoes
+rhythm.SA2B: Shadow - Mystic Melody
+rhythm.SA2B: Rouge - Treasure Scope
+rhythm.SA2B: Rouge - Mystic Melody
+rhythm.SA2B: Knuckles - Sunglasses
+rhythm.SA2B: Knuckles - Mystic Melody
+rhythm.SA2B: Sonic - Mystic Melody
+rhythm.SA2B: Eggman - Protective Armor
+rhythm.SA2B: Eggman - Jet Engine
+rhythm.SA2B: Eggman - Laser Blaster
+rhythm.SA2B: Tails - Laser Blaster
+rhythm.SA2B: set `goal: boss_rush_chaos_emerald_hunt` to `disabled`
+rhythm.SA2B: change `number_of_level_gates` to 0
+rhythm.SA2B: reduce `black_market_unlock_costs`: 2
+rhythm.SA2B: change `confusion_trap_weight` to `none`
+rhythm.SA2B: change `reverse_trap_weight` to `none`
+rhythm.SA2B: change `pong_trap_weight` to `none`
+rhythm.SA2B: change `ring_loss` to `classic`
+rhythm.SA2B: make `White Chaos Emerald` not forced to be on `Black Market - 64` location

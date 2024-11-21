@@ -8,6 +8,7 @@ game:
 requires:
   version: 0.5.1
 Slay the Spire:
+  plando_items: [{"item": "Card Draw", "location": "choice I-1", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice I-2", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice I-3", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice I-4", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice I-5", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice I-6", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice II-1", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice II-2", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Rare Card Draw", "location": "choice II-4", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice III-1", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice III-2", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice III-3", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Card Draw", "location": "choice III-4", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Rare Card Draw", "location": "choice III-5", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Rare Card Draw", "location": "choice IV-1", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Relic", "location": "utility II-1", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Relic", "location": "utility III-1", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Relic", "location": "utility V-1", "world": "The Cauldron", "force": true, "from_pool": false}, {"items": {"Card Draw": 4, "Relic": 4}, "locations": [vitality III-8, vitality VIII-1, speed IV-4, attack III-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: minimal
   character: THE_PACKMASTER
@@ -17,6 +18,7 @@ Slay the Spire:
     true: 4 # 4 -> 1 -> 0
   death_link: 10
 Sentinels of the Multiverse:
+  plando_items: [{"items": {"Hero Toughness 1": 22, "Villain Fragility 1": 22}, "locations": [vitality III-8, vitality VIII-1, speed IV-4, attack III-2, choice I-1, choice I-2, choice I-3, choice I-4, choice I-5, choice I-6, choice II-1, choice II-2, choice II-4, choice III-1, choice III-2, choice III-3, choice III-4, choice III-5, choice IV-1, utility II-1, utility III-1, utility V-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: minimal
   enabled_sets:
@@ -166,6 +168,7 @@ Sentinels of the Multiverse:
     individual: 4 # 4 -> 1
     team: 2
 Dark Souls III:
+  plando_items: [{"items": {"Fading Soul": 22, "Soul of a Deserted Corpse": 22, "Large Soul of a Deserted Corpse": 22, "Soul of an Unknown Traveler": 22}, "locations": [vitality III-8, vitality VIII-1, speed IV-4, attack III-2, choice I-1, choice I-2, choice I-3, choice I-4, choice I-5, choice I-6, choice II-1, choice II-2, choice II-4, choice III-1, choice III-2, choice III-3, choice III-4, choice III-5, choice IV-1, utility II-1, utility III-1, utility V-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: minimal
   death_link: true
@@ -220,6 +223,7 @@ Dark Souls III:
   excluded_location_behavior: allow_useful
   missable_location_behavior: allow_useful
 Hollow Knight:
+  plando_items: [{"item": "Full_Mask", "location": "vitality III-8", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Full_Mask", "location": "vitality VIII-1", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Sprintmaster", "location": "speed IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Pale_Ore", "location": "attack III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 18}, "locations": [choice I-1, choice I-2, choice I-3, choice I-4, choice I-5, choice I-6, choice II-1, choice II-2, choice II-4, choice III-1, choice III-2, choice III-3, choice III-4, choice III-5, choice IV-1, utility II-1, utility III-1, utility V-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: minimal
   RandomizeFocus: true # true -> false
@@ -272,6 +276,7 @@ Hollow Knight:
   CostSanityHybridChance: 100 # 100 -> 50 -> 25
   CostSanityGeoWeight: 4
 Timespinner:
+  plando_items: [{"items": {"Potion": 22, "Ether": 22, "Sand Vial": 22, "Berry Pick-Mi-Up": 22}, "locations": [vitality III-8, vitality VIII-1, speed IV-4, attack III-2, choice I-1, choice I-2, choice I-3, choice I-4, choice I-5, choice I-6, choice II-1, choice II-2, choice II-4, choice III-1, choice III-2, choice III-3, choice III-4, choice III-5, choice IV-1, utility II-1, utility III-1, utility V-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   death_link: true
   progression_balancing: 0
   accessibility: minimal

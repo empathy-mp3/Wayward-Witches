@@ -3,7 +3,7 @@
 ranged weapon I-1: hecate.mp3 (Noita): "Wand (Tier 5)"
 ranged weapon I-2: hecate.mp3 (UK): "Revolver - Sharpshooter"
 ranged weapon I-3: Connor (Godhome): "Flukenest"
-ranged weapon I-4: Broney (SMMR): Plasma Beam
+ranged weapon I-4: Broney (SMMR): Plasma
 ranged weapon I-5: DragoRogue2 (Earthbound): "Progressive Gun"
 ranged weapon I-6: Jake13Snake (DOOM 1993): "Plasma gun"
 ranged weapon I-7: Grimore (Noita): "Wand (Tier 4)"
@@ -14,7 +14,7 @@ ranged weapon I-8: TzufRougelike (HK): "Shaman_Stone"
 ranged weapon II-1: Connor (HK): "Shaman_Stone"
 ranged weapon II-2: hecate.mp3 (Noita): "Wand (Tier 4)"
 ranged weapon II-3: Sylsko (TUNC): Magic Wand
-ranged weapon II-4: Broney (SMMR): Spazer Beam
+ranged weapon II-4: Broney (SMMR): Spazer
 ranged weapon II-5: rhythm.Tsuki: Artillery air gun
 ranged weapon II-6: Grimore (Noita): "Wand (Tier 5)"
 ranged weapon II-7: jf-rogue (HK): "Shaman_Stone"
@@ -23,7 +23,7 @@ ranged weapon II-7: jf-rogue (HK): "Shaman_Stone"
 
 ranged weapon III-1: hecate.mp3 (UK): "Shotgun - Sawed-On"
 ranged weapon III-2: Sylsko (TUNC): Gun
-ranged weapon III-3: Broney (Angband): Progressive Ranged Weapon
+ranged weapon III-3: Broney (Angband): Progressive Ranged Weapon Artifact
 ranged weapon III-4: Jake13Snake (DOOM 1993): "Shotgun"
 ranged weapon III-5: Grimore (Noita): "Wand (Tier 4)"
 ranged weapon III-6: sheen (SMMR): Spazer
@@ -32,7 +32,7 @@ ranged weapon III-6: sheen (SMMR): Spazer
 
 ranged weapon IV-1: hecate.mp3 (TUNC): "Gun"
 ranged weapon IV-2: Sylsko (Ender Lilies): Last Rites
-ranged weapon IV-3: Broney (SM): Spazer Beam
+ranged weapon IV-3: Broney (SM): Spazer
 ranged weapon IV-4: DragoRogue2 (Earthbound): "Progressive Gun"
 ranged weapon IV-5: Grimore (Noita): "Wand (Tier 6)"
 ranged weapon IV-6: Ravanan: "Super Missile"
@@ -63,7 +63,7 @@ ranged weapon VII-1: CrystalOOT: Bow
 ranged weapon VII-2: hecate.mp3 (Noita): "Wand (Tier 5)"
 ranged weapon VII-3: Grimore (Noita): "Wand (Tier 6)"
 ranged weapon VII-4: sheen (SMMR): Super
-progressive I-2: TzufRougelike (SM): Spazer Beam
+progressive I-2: TzufRougelike (SM): Spazer
 
 ## ranged weapon VIII
 
@@ -71,7 +71,7 @@ ranged weapon VIII-1: CrystalOOT: Slingshot
 ranged weapon VIII-2: hecate.mp3 (Noita): "Wand (Tier 6)"
 ranged weapon VIII-3: Broney (SM): Plasma Beam
 ranged weapon VIII-4: Jake13Snake (LADX): "Boomerang"
-(not a location but remember that TzufRougelike (SM): Charge Beam or TzufRougelike (SM): Spazer Beam can be here)
+(not a location but remember that TzufRougelike (SM): Charge Beam or TzufRougelike (SM): Spazer can be here)
 
 ## fire I
 
@@ -90,7 +90,7 @@ fire III-2: Roguinater (Peggle Nights): Lord Cinderbottom
 ## explosion I
 
 explosion I-1: hecate.mp3 (UK): "Rocket Launcher - S.R.S. Cannon"
-explosion I-2: Broney (SMMR): Power Bomb
+explosion I-2: Broney (SMMR): PowerBomb
 
 ## explosion II
 
@@ -103,7 +103,7 @@ explosion II-4: TzufRougelike (SM): "Power Bomb"
 
 explosion III-1: Roguinater (Peggle Nights): Splork
 explosion III-2: hecate.mp3 (UK): "Railcannon - Malicious"
-explosion III-3: Broney (SMMR): Power Bomb
+explosion III-3: Broney (SMMR): PowerBomb
 explosion III-4: Ravanan: "Power Bomb"
 explosion III-5: sheen (SMMR): PowerBomb
 
@@ -449,11 +449,11 @@ progressive II-1: Slipomatic_SM: Charge Beam
 
 ## key III
 
-progressive II-2: Slipomatic_SM: Spazer Beam
+progressive II-2: Slipomatic_SM: Spazer
 
 ## key IV
 
-(not a location but remember that Slipomatic_SM: Charge Beam or Slipomatic_SM: Spazer Beam can be here)
+(not a location but remember that Slipomatic_SM: Charge Beam or Slipomatic_SM: Spazer can be here)
 
 ## breath I
 
@@ -540,7 +540,7 @@ price XIII-2: Sylsko (Ender Lilies): Stagnant Blight x800
 
 ## price XV
 
-price XV-1: CrystalOOT: Huge Rupee
+price XV-1: CrystalOOT: Rupees (200)
 
 ## price XVI
 
@@ -567,7 +567,7 @@ defense III-2: TzufRougelike (OOT): "Double Defense"
 
 defense IV-1: Roguinater (MC): Progressive Armor
 defense IV-2: Connor (TS): "Eternal Coat"
-defense IV-3: Maxor: Progressive Armor
+defense IV-3: Maxor: Progressive Mail
 
 ## defense V
 
@@ -610,7 +610,7 @@ defense XI-2: DeathclawCavern (TS): Eternal Coat
 
 defense XII-1: DeathclawCavern (OOT): Nayrus Love
 defense XII-2: MiroRogue (TS): "Eternal Crown"
-defense XII-3: Broney (Angband): Progressive Shield Weapon
+defense XII-3: Broney (Angband): Progressive Shield Artifact
 
 ## defense XIII
 
@@ -988,7 +988,7 @@ melee weapon III-2: BennyRogue (RL): Sky Blueprints
 melee weapon IV-1: BennyRogue (RL): Dragon Blueprints
 melee weapon IV-2: Jake13Snake (DOOM 1993): "Chainsaw"
 melee weapon IV-3: DragoRogue2 (Earthbound): "Progressive Fry Pan"
-melee weapon IV-4: Broney (Angband): Progressive Polearm Weapon
+melee weapon IV-4: Broney (Angband): Progressive Polearm Weapon Artifact
 
 ## melee weapon V
 
@@ -1345,6 +1345,6 @@ uncategorized XIX-7: rhythm.SADX: Rouge - Mystic Melody
 
 ## uncategorized XX
 
-uncategorized XX-1: TzufRougelike (LTTP): "Bug Net"
+uncategorized XX-1: TzufRougelike (LTTP): "Bug Catching Net"
 uncategorized XX-2: rhythm.SADX: Eggman - Jet Engine
 uncategorized XX-3: rhythm.Ventus/Terra/Aqua: Sky Climber

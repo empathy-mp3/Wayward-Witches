@@ -5,6 +5,7 @@ game:
   Links Awakening DX: 3
 description: Jake13Snake game for Wayward Witches async
 Adventure:
+  plando_items: [{"item": "Right Difficulty Switch", "location": "challenge I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Left Difficulty Switch", "location": "challenge III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Slow Yorgle", "location": "speed I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Slow Grundle", "location": "speed II-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Slow Rhindle", "location": "speed V-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Freeincarnate": 16, "nothing": 16}, "locations": [ranged weapon I-6, ranged weapon III-4, ranged weapon V-4, ranged weapon VIII-4, explosion IV-1, vitality I-3, vitality IV-3, vitality VI-4, vitality VIII-4, vitality X-4, vitality XII-4, vitality XIV-4, vitality XV-2, slots I-3, melee weapon IV-2, uncategorized VI-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 50
   accessibility: minimal
   dragon_slay_check: true
@@ -24,6 +25,7 @@ Adventure:
 
 
 DOOM 1993:
+  plando_items: [{"item": "Plasma gun", "location": "ranged weapon I-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shotgun", "location": "ranged weapon III-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaingun", "location": "ranged weapon V-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Rocket launcher", "location": "explosion IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Backpack", "location": "slots I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chainsaw", "location": "melee weapon IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "BFG9000", "location": "uncategorized VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Medikit": 14, "Armor": 14, "Box of bullets": 14, "Box of shotgun shells": 14, "Box of rockets": 14, "Energy cell pack": 14, "Partial invisibility": 14}, "locations": [ranged weapon VIII-4, vitality I-3, vitality IV-3, vitality VI-4, vitality VIII-4, vitality X-4, vitality XII-4, vitality XIV-4, vitality XV-2, challenge I-1, challenge III-1, speed I-2, speed II-4, speed V-3], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 50
   accessibility: minimal
   goal: complete_boss_levels
@@ -65,6 +67,7 @@ DOOM 1993:
 
 
 Links Awakening DX:
+  plando_items: [{"item": "Boomerang", "location": "ranged weapon VIII-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality VI-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality VIII-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality X-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality XII-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality XIV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality XV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"20 Rupees": 12}, "locations": [ranged weapon I-6, ranged weapon III-4, ranged weapon V-4, explosion IV-1, challenge I-1, challenge III-1, speed I-2, speed II-4, speed V-3, slots I-3, melee weapon IV-2, uncategorized VI-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 50
   accessibility: minimal
   logic: hard

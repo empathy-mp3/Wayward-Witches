@@ -213,7 +213,7 @@
 - *Money Amulet* (superfid (Secret of Evermore): increase `money_modifier`) [hint by Deathclaw99!]
 - *No more Money!* (Brynatron (Terraria): change `fill_extra_checks_with` to `useful_items`) [hint by Deathclaw99!]
 - *Kecleon* (superfid (TS): change `shop_multiplier` to 0) [hint by Deathclaw99!]
-- *Loads'a Moneh* (CrystalOOT: Huge Rupee) [hint by Deathclaw99!]
+- *Loads'a Moneh* (CrystalOOT: Rupees (200)) [hint by Deathclaw99!]
 - *make it RAAAAAAIIIIIIN on a fox* (Sylsko (TUNC): Money x255) [hint by Joy the Bard!]
 - *good thing the king cracked down on price gouging before darkness came* (superfid (LTTP): reduce `shop_price_modifier` upper bound) [hint by Joy the Bard!]
 

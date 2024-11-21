@@ -2,7 +2,7 @@ name: rhythm.ET2
 description: ["Rhythms YAML for the Sequel to Endless Towers"]
 game:
   Manual_RatchetAndClankUYA_Rhythm: 7
-  Dome Keeper: 6
+  Dome Keeper: 0
   Mindustry: 5
   Sonic Adventure DX: 6
   Sonic Adventure 2 Battle: 5
@@ -36,6 +36,118 @@ triggers:
     # Mindustry slot names: rhythmTerakomari and rhythm.Belius
     # KHBBS slot names: rhythm.Ventus and rhythm.Terra and rhythm.Aqua
 Dome Keeper:
+  plando_items:
+    - item: Artillery air gun
+      location: ranged weapon II-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Repellent delay
+      location: uncategorized I-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Artillery mortar
+      location: uncategorized IV-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Drill upgrade
+      location: uncategorized V-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Artillery mortar
+      location: uncategorized VI-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Fruit duration
+      location: uncategorized VIII-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Drill upgrade
+      location: uncategorized IX-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Jetpack upgrade
+      location: uncategorized X-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Repellent overcharge
+      location: uncategorized XII-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Fruit duration
+      location: uncategorized XIV-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Drill upgrade
+      location: uncategorized XV-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Drill upgrade
+      location: uncategorized XVI-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Repellent delay
+      location: uncategorized XVIII-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Jetpack upgrade
+      location: uncategorized XIX-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Extra cobalt: 35
+      locations:
+        - uncategorized II-3
+        - uncategorized II-4
+        - uncategorized III-2
+        - uncategorized III-3
+        - uncategorized IV-5
+        - uncategorized V-6
+        - uncategorized VI-6
+        - uncategorized VI-7
+        - uncategorized VII-4
+        - uncategorized VIII-2
+        - uncategorized VIII-3
+        - uncategorized IX-3
+        - uncategorized IX-4
+        - uncategorized IX-5
+        - uncategorized X-2
+        - uncategorized XI-4
+        - uncategorized XI-5
+        - uncategorized XII-6
+        - uncategorized XII-7
+        - uncategorized XIII-3
+        - uncategorized XIII-4
+        - uncategorized XIV-2
+        - uncategorized XIV-5
+        - uncategorized XV-3
+        - uncategorized XV-4
+        - uncategorized XVI-4
+        - uncategorized XVI-5
+        - uncategorized XVII-1
+        - uncategorized XVII-3
+        - uncategorized XVIII-2
+        - uncategorized XIX-5
+        - uncategorized XIX-6
+        - uncategorized XIX-7
+        - uncategorized XX-2
+        - uncategorized XX-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   # Game Options
   progression_balancing: 0
   accessibility: locations
@@ -91,6 +203,62 @@ Dome Keeper:
     # I see these anyway when I load the game... It's not an info advantage, just sharing the info with the lobby.
     ["Upgrade Iron 1", "Upgrade Iron 2", "Upgrade Iron 3", "Upgrade Iron 4", "Upgrade Water 1", "Upgrade Water 2", "Upgrade Water 3", "Upgrade Water 4", "Upgrade Iron and Water 1", "Upgrade Iron and Water 2", "Upgrade Iron and Water 3", "Upgrade Iron and Water 4"]
 Mindustry:
+  plando_items:
+    - items:
+        A fistful of nothing...: 49
+      locations:
+        - ranged weapon II-5
+        - uncategorized I-2
+        - uncategorized II-3
+        - uncategorized II-4
+        - uncategorized III-2
+        - uncategorized III-3
+        - uncategorized IV-1
+        - uncategorized IV-5
+        - uncategorized V-5
+        - uncategorized V-6
+        - uncategorized VI-3
+        - uncategorized VI-6
+        - uncategorized VI-7
+        - uncategorized VII-4
+        - uncategorized VIII-1
+        - uncategorized VIII-2
+        - uncategorized VIII-3
+        - uncategorized IX-2
+        - uncategorized IX-3
+        - uncategorized IX-4
+        - uncategorized IX-5
+        - uncategorized X-2
+        - uncategorized X-3
+        - uncategorized XI-4
+        - uncategorized XI-5
+        - uncategorized XII-2
+        - uncategorized XII-6
+        - uncategorized XII-7
+        - uncategorized XIII-3
+        - uncategorized XIII-4
+        - uncategorized XIV-2
+        - uncategorized XIV-3
+        - uncategorized XIV-5
+        - uncategorized XV-2
+        - uncategorized XV-3
+        - uncategorized XV-4
+        - uncategorized XVI-2
+        - uncategorized XVI-4
+        - uncategorized XVI-5
+        - uncategorized XVII-1
+        - uncategorized XVII-3
+        - uncategorized XVIII-1
+        - uncategorized XVIII-2
+        - uncategorized XIX-1
+        - uncategorized XIX-5
+        - uncategorized XIX-6
+        - uncategorized XIX-7
+        - uncategorized XX-2
+        - uncategorized XX-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   # Game Options
   progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
   accessibility: locations
@@ -135,6 +303,62 @@ Mindustry:
   start_hints: ["Conduit", "Liquid Junction", "Liquid Router", "Bridge Conduit", "Junction", "Router", "Bridge Conveyor", "Power Node", "Duct Router", "Duct Bridge", "Reinforced Conduit", "Reinforced Liquid Junction", "Reinforced Bridge Conduit", "Reinforced Liquid Router"]
     # Start hinting the early logistics stuff.
 Sonic Adventure DX:
+  plando_items:
+    - items:
+        10 Rings: 49
+      locations:
+        - ranged weapon II-5
+        - uncategorized I-2
+        - uncategorized II-3
+        - uncategorized II-4
+        - uncategorized III-2
+        - uncategorized III-3
+        - uncategorized IV-1
+        - uncategorized IV-5
+        - uncategorized V-5
+        - uncategorized V-6
+        - uncategorized VI-3
+        - uncategorized VI-6
+        - uncategorized VI-7
+        - uncategorized VII-4
+        - uncategorized VIII-1
+        - uncategorized VIII-2
+        - uncategorized VIII-3
+        - uncategorized IX-2
+        - uncategorized IX-3
+        - uncategorized IX-4
+        - uncategorized IX-5
+        - uncategorized X-2
+        - uncategorized X-3
+        - uncategorized XI-4
+        - uncategorized XI-5
+        - uncategorized XII-2
+        - uncategorized XII-6
+        - uncategorized XII-7
+        - uncategorized XIII-3
+        - uncategorized XIII-4
+        - uncategorized XIV-2
+        - uncategorized XIV-3
+        - uncategorized XIV-5
+        - uncategorized XV-2
+        - uncategorized XV-3
+        - uncategorized XV-4
+        - uncategorized XVI-2
+        - uncategorized XVI-4
+        - uncategorized XVI-5
+        - uncategorized XVII-1
+        - uncategorized XVII-3
+        - uncategorized XVIII-1
+        - uncategorized XVIII-2
+        - uncategorized XIX-1
+        - uncategorized XIX-5
+        - uncategorized XIX-6
+        - uncategorized XIX-7
+        - uncategorized XX-2
+        - uncategorized XX-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   # Game Options
   progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
   accessibility: locations
@@ -293,6 +517,82 @@ Sonic Adventure DX:
     - Lost World (Sonic - Life Capsule 1)
     - Lost World (Sonic - Life Capsule 2)
 Manual_RatchetAndClankUYA_Rhythm:
+  plando_items:
+    - item: Nano-Pak
+      location: uncategorized III-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Charge Boots
+      location: uncategorized V-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Aegis Mark V Armor
+      location: uncategorized IX-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Infernox Armor
+      location: uncategorized XI-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Gadgetron PDU
+      location: uncategorized XV-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        "Look, plumber's crack!": 44
+      locations:
+        - ranged weapon II-5
+        - uncategorized I-2
+        - uncategorized II-3
+        - uncategorized II-4
+        - uncategorized III-3
+        - uncategorized IV-1
+        - uncategorized IV-5
+        - uncategorized V-5
+        - uncategorized VI-3
+        - uncategorized VI-6
+        - uncategorized VI-7
+        - uncategorized VII-4
+        - uncategorized VIII-1
+        - uncategorized VIII-2
+        - uncategorized VIII-3
+        - uncategorized IX-2
+        - uncategorized IX-3
+        - uncategorized IX-5
+        - uncategorized X-2
+        - uncategorized X-3
+        - uncategorized XI-5
+        - uncategorized XII-2
+        - uncategorized XII-6
+        - uncategorized XII-7
+        - uncategorized XIII-3
+        - uncategorized XIII-4
+        - uncategorized XIV-2
+        - uncategorized XIV-3
+        - uncategorized XIV-5
+        - uncategorized XV-2
+        - uncategorized XV-3
+        - uncategorized XVI-2
+        - uncategorized XVI-4
+        - uncategorized XVI-5
+        - uncategorized XVII-1
+        - uncategorized XVII-3
+        - uncategorized XVIII-1
+        - uncategorized XVIII-2
+        - uncategorized XIX-1
+        - uncategorized XIX-5
+        - uncategorized XIX-6
+        - uncategorized XIX-7
+        - uncategorized XX-2
+        - uncategorized XX-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
   accessibility: locations
   start_inventory: {Map-O-Matic: 1}
@@ -518,6 +818,101 @@ Sonic Adventure 2 Battle:
     #- Tails - Booster
     #- Eggman - Jet Engine
   plando_items: # Plando is required so I am making use of it. It must be inside the game's settings.
+    - item: Eggman - Laser Blaster
+      location: uncategorized VIII-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Knuckles - Mystic Melody
+      location: uncategorized IX-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Eggman - Protective Armor
+      location: uncategorized IX-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Tails - Laser Blaster
+      location: uncategorized X-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Shadow - Mystic Melody
+      location: uncategorized XII-7
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Shadow - Air Shoes
+      location: uncategorized XIII-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Sonic - Mystic Melody
+      location: uncategorized XIV-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Rouge - Treasure Scope
+      location: uncategorized XIV-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Rouge - Mystic Melody
+      location: uncategorized XIX-7
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Eggman - Jet Engine
+      location: uncategorized XX-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Dragon: 39
+      locations:
+        - ranged weapon II-5
+        - uncategorized I-2
+        - uncategorized II-3
+        - uncategorized II-4
+        - uncategorized III-2
+        - uncategorized III-3
+        - uncategorized IV-1
+        - uncategorized IV-5
+        - uncategorized V-5
+        - uncategorized V-6
+        - uncategorized VI-3
+        - uncategorized VI-6
+        - uncategorized VI-7
+        - uncategorized VII-4
+        - uncategorized VIII-1
+        - uncategorized VIII-3
+        - uncategorized IX-2
+        - uncategorized IX-4
+        - uncategorized X-3
+        - uncategorized XI-4
+        - uncategorized XI-5
+        - uncategorized XII-2
+        - uncategorized XII-6
+        - uncategorized XIII-3
+        - uncategorized XIV-3
+        - uncategorized XV-2
+        - uncategorized XV-3
+        - uncategorized XV-4
+        - uncategorized XVI-2
+        - uncategorized XVI-4
+        - uncategorized XVI-5
+        - uncategorized XVII-1
+        - uncategorized XVII-3
+        - uncategorized XVIII-1
+        - uncategorized XVIII-2
+        - uncategorized XIX-1
+        - uncategorized XIX-5
+        - uncategorized XIX-6
+        - uncategorized XX-3
+      world: The Cauldron
+      force: true
+      from_pool: true
     - item: Blue Chaos Emerald # Ensure I play Cannon's Core.
       location: Cannon's Core - Gold Beetle
     - item: White Chaos Emerald # Upgrade: Swap White Chaos Emerald plando block to commented out plando block below.
@@ -959,6 +1354,142 @@ Sonic Adventure 2 Battle:
     - White Jungle - Upgrade
     - Wild Canyon - Upgrade
 Kingdom Hearts Birth by Sleep:
+  plando_items:
+    - item: Rhythm Mixer
+      location: uncategorized II-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Critical Impact
+      location: uncategorized II-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Rockbreaker
+      location: uncategorized III-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: HP Boost
+      location: uncategorized IV-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Diamond Dust
+      location: uncategorized VI-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: High Jump
+      location: uncategorized VI-7
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Dark Impulse
+      location: uncategorized VII-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Cyclone
+      location: uncategorized VIII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Firestorm
+      location: uncategorized XI-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: HP Boost
+      location: uncategorized XII-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Spellweaver
+      location: uncategorized XIII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Frozen Fortune
+      location: uncategorized XV-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Ghost Drive
+      location: uncategorized XVI-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Bladecharge
+      location: uncategorized XVI-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Wingblade
+      location: uncategorized XVII-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Doubleflight
+      location: uncategorized XVII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: HP Boost
+      location: uncategorized XVIII-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: HP Boost
+      location: uncategorized XIX-5
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Fever Pitch
+      location: uncategorized XIX-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Sky Climber
+      location: uncategorized XX-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Megalixir: 29
+      locations:
+        - ranged weapon II-5
+        - uncategorized I-2
+        - uncategorized III-2
+        - uncategorized IV-1
+        - uncategorized V-5
+        - uncategorized V-6
+        - uncategorized VI-3
+        - uncategorized VIII-1
+        - uncategorized VIII-2
+        - uncategorized IX-2
+        - uncategorized IX-3
+        - uncategorized IX-4
+        - uncategorized IX-5
+        - uncategorized X-2
+        - uncategorized X-3
+        - uncategorized XI-4
+        - uncategorized XII-2
+        - uncategorized XII-7
+        - uncategorized XIII-4
+        - uncategorized XIV-2
+        - uncategorized XIV-3
+        - uncategorized XIV-5
+        - uncategorized XV-2
+        - uncategorized XV-4
+        - uncategorized XVI-2
+        - uncategorized XVIII-1
+        - uncategorized XIX-1
+        - uncategorized XIX-7
+        - uncategorized XX-2
+      world: The Cauldron
+      force: true
+      from_pool: true
   triggers:
     - option_category: Kingdom Hearts Birth by Sleep
       option_name: character

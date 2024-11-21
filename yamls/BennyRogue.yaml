@@ -4,6 +4,7 @@ game:
   Rogue Legacy: 3
 
 The Witness:
+  plando_items: [{"items": {"Speed Boost": 8}, "locations": [healing VIII-1, defense II-2, attack VI-1, attack VI-2, mana IV-1, slots II-5, melee weapon III-2, melee weapon IV-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   puzzle_randomization: none
   victory_condition:
     elevator: 8 # change to 3
@@ -54,6 +55,7 @@ The Witness:
     random_item: 10 
 
 Rogue Legacy:
+  plando_items: [{"item": "Vampire Runes", "location": "healing VIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Armor Up", "location": "defense II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Crit Chance Up", "location": "attack VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Crit Damage Up", "location": "attack VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Siphon Runes", "location": "mana IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Equip Up", "location": "slots II-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Sky Blueprints", "location": "melee weapon III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Dragon Blueprints", "location": "melee weapon IV-1", "world": "The Cauldron", "force": true, "from_pool": true}]
   starting_gender: random
   starting_class: random
 

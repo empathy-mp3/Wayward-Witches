@@ -24,6 +24,43 @@ DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
   exclude_locations:
   - Not Exactly Noble # Unavoidable death for a single check
   plando_items: # Makes sure to make temporary spikes scout-/avoidable
+    - item: Health Bar Pack
+      location: vitality I-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Increased HP Pack
+      location: vitality IX-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Checkpoint Pack
+      location: rest II-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Animation Pack: 11
+        Audio Pack: 11
+        Parallax Pack: 11
+        Particles Pack: 11
+        Sexy Outfits Pack: 11
+        Top Hat Pack: 11
+      locations:
+        - speed V-2
+        - speed V-4
+        - speed VI-1
+        - speed VII-1
+        - speed VII-3
+        - stealth I-2
+        - stealth II-3
+        - stealth V-2
+        - breath I-1
+        - breath II-1
+        - melee weapon V-3
+      world: The Cauldron
+      force: true
+      from_pool: true
     - items:
         Temporary Spike: true
       locations:
@@ -63,6 +100,53 @@ DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
       force: true
 
 Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
+  plando_items:
+    - item: Fuel Capacity Upgrade
+      location: speed V-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Boost Duration Upgrade
+      location: speed VI-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Fuel Capacity Upgrade
+      location: speed VII-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Boost Duration Upgrade
+      location: speed VII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Oxygen Capacity Upgrade
+      location: breath I-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Oxygen Capacity Upgrade
+      location: breath II-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Marshmallow: 8
+        Jetpack Fuel Refill: 8
+        Oxygen Refill: 8
+      locations:
+        - vitality I-4
+        - vitality IX-4
+        - speed V-2
+        - stealth I-2
+        - stealth II-3
+        - stealth V-2
+        - rest II-1
+        - melee weapon V-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   progression_balancing: 0 # -> 25 -> 50
   accessibility: full
   goal: song_of_the_nomai # -> song_of_five
@@ -94,6 +178,35 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
   enable_fq_mod: 'false'
 
 Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and 128
+  plando_items:
+    - item: Dive
+      location: speed V-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Kick
+      location: melee weapon V-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        1Up Mushroom: 12
+      locations:
+        - vitality I-4
+        - vitality IX-4
+        - speed V-4
+        - speed VI-1
+        - speed VII-1
+        - speed VII-3
+        - stealth I-2
+        - stealth II-3
+        - stealth V-2
+        - breath I-1
+        - breath II-1
+        - rest II-1
+      world: The Cauldron
+      force: true
+      from_pool: true
   progression_balancing: 0 # -> 25 -> 50
   accessibility: full
   area_rando: courses_and_secrets # -> courses_and_secrets_separate
@@ -128,6 +241,39 @@ Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and
   completion_type: all_bowser_stages # -> last_bowser_stage
 
 The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 183
+  plando_items:
+    - item: Puzzle Skip
+      location: stealth I-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Puzzle Skip
+      location: stealth II-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Puzzle Skip
+      location: stealth V-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Speed Boost: 11
+      locations:
+        - vitality I-4
+        - vitality IX-4
+        - speed V-2
+        - speed V-4
+        - speed VI-1
+        - speed VII-1
+        - speed VII-3
+        - breath I-1
+        - breath II-1
+        - rest II-1
+        - melee weapon V-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   progression_balancing: 0 # -> 25 -> 50
   accessibility: full
   puzzle_randomization:

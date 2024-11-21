@@ -11,6 +11,7 @@ requires:
   version: 0.5.1
 
 Pokemon Red and Blue:
+  plando_items: [{"item": "Exp. All", "location": "XP XIV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Thunder Badge", "location": "travel III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "HM02 Fly", "location": "travel IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Poke Ball": 18, "Great Ball": 18}, "locations": [vitality III-2, vitality IV-2, vitality VII-1, vitality VIII-2, vitality IX-1, vitality XIII-2, defense III-1, defense XIII-2, defense XIV-2, defense XVI-2, second chance V-1, second chance VI-2, XP I-1, melee weapon I-1, melee weapon VI-1, melee weapon VIII-1, beast I-3, travel I-3], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: full
   game_version: red
@@ -135,6 +136,7 @@ Pokemon Red and Blue:
   death_link: true
   
 Pokemon Emerald:
+  plando_items: [{"item": "Exp. Share", "location": "XP I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "HM02 Fly", "location": "travel I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Poke Ball": 19, "Great Ball": 19}, "locations": [vitality III-2, vitality IV-2, vitality VII-1, vitality VIII-2, vitality IX-1, vitality XIII-2, defense III-1, defense XIII-2, defense XIV-2, defense XVI-2, second chance V-1, second chance VI-2, XP XIV-1, melee weapon I-1, melee weapon VI-1, melee weapon VIII-1, beast I-3, travel III-2, travel IV-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: full
   
@@ -239,6 +241,7 @@ Pokemon Emerald:
   easter_egg: EMERALD SECRET
   
 Ocarina of Time:
+  plando_items: [{"item": "Heart Container", "location": "vitality III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality VII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality VIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Double Defense", "location": "defense III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Nayrus Love", "location": "defense XIV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hylian Shield", "location": "defense XVI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle with Red Potion", "location": "second chance VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Biggoron Sword", "location": "melee weapon I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Bombs (5)": 13, "Recovery Heart": 13, "Rupee (1)": 13}, "locations": [vitality IV-2, vitality IX-1, vitality XIII-2, defense XIII-2, second chance V-1, XP I-1, XP XIV-1, melee weapon VI-1, melee weapon VIII-1, beast I-3, travel I-3, travel III-2, travel IV-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   # Game Options
   progression_balancing: 0
   accessibility: full
@@ -449,6 +452,7 @@ triggers:
           - "Triforce Piece"
   
 A Link to the Past:
+  plando_items: [{"item": "Boss Heart Container", "location": "vitality IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Heart Container", "location": "vitality IX-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Heart Container", "location": "vitality XIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Mail", "location": "defense XIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle", "location": "second chance V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Sword", "location": "melee weapon VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Sword", "location": "melee weapon VIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bug Catching Net", "location": "beast I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rupees (20)": 13, "Bombs (10)": 13}, "locations": [vitality III-2, vitality VII-1, vitality VIII-2, defense III-1, defense XIV-2, defense XVI-2, second chance VI-2, XP I-1, XP XIV-1, melee weapon I-1, travel I-3, travel III-2, travel IV-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: full
   goal:

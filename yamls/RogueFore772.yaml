@@ -7,6 +7,7 @@ name: Fore772
 description: Fore772 yaml for Roguelike Async
 
 A Hat in Time:
+  plando_items: [{"item": "No Bonk Badge", "location": "careful movement III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Badge Pin", "location": "slots IV-3", "world": "The Cauldron", "force": true, "from_pool": true}]
   EndGoal:
     finale: 10
     rush_hour: 50         # change to 2
@@ -166,6 +167,7 @@ A Hat in Time:
           EnableDLC2: *2-1
 
 TUNIC:
+  plando_items: [{"item": "Gun", "location": "ranged weapon VI-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - HP", "location": "vitality XII-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - POTION", "location": "healing X-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Muffling Bell", "location": "stealth II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shield", "location": "defense VIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - DEF", "location": "defense XVIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bone Card", "location": "careful movement III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - ATT", "location": "attack II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - SP", "location": "stamina I-4", "world": "The Cauldron", "force": true, "from_pool": true}]
   keys_behind_bosses:
     'false': 10
     'true': 40 # remove this line

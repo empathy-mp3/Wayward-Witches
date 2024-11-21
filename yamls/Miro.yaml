@@ -11,6 +11,50 @@ requires:
   plando: items
 
 A Hat in Time:
+  plando_items:
+    - item: No Bonk Badge
+      location: careful movement I-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Badge Pin
+      location: slots I-7
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        25 Pons: 27
+      locations:
+        - ranged weapon V-3
+        - ranged weapon VI-6
+        - vitality III-6
+        - vitality VI-6
+        - vitality VI-8
+        - vitality VIII-6
+        - vitality XII-6
+        - healing V-1
+        - healing VIII-3
+        - price VI-2
+        - defense X-2
+        - defense XII-2
+        - defense XVII-2
+        - attack IV-2
+        - attack IV-3
+        - mana VI-2
+        - slots I-4
+        - slots III-2
+        - food I-4
+        - second chance II-1
+        - rest II-3
+        - XP II-2
+        - XP V-1
+        - melee weapon IX-4
+        - luck II-2
+        - copy II-1
+        - uncategorized XVIII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   EndGoal:
     finale: 10
     rush_hour: 50         # change to 2
@@ -191,6 +235,58 @@ DLCQuest:
   permanent_coins: random
   start_inventory: {Pause Menu Pack: 1, Day One Patch Pack: 1}
   plando_items:
+    - item: Health Bar Pack
+      location: vitality III-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Increased HP Pack
+      location: vitality XII-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Checkpoint Pack
+      location: rest II-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Animation Pack: 26
+        Audio Pack: 26
+        Sexy Outfits Pack: 26
+        Parallax Pack: 26
+        Top Hat Pack: 26
+        Pet Pack: 26
+      locations:
+        - ranged weapon V-3
+        - ranged weapon VI-6
+        - vitality VI-6
+        - vitality VI-8
+        - vitality VIII-6
+        - healing V-1
+        - healing VIII-3
+        - price VI-2
+        - defense X-2
+        - defense XII-2
+        - defense XVII-2
+        - careful movement I-1
+        - attack IV-2
+        - attack IV-3
+        - mana VI-2
+        - slots I-4
+        - slots I-7
+        - slots III-2
+        - food I-4
+        - second chance II-1
+        - XP II-2
+        - XP V-1
+        - melee weapon IX-4
+        - luck II-2
+        - copy II-1
+        - uncategorized XVIII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
     - items:
         Temporary Spike: true
       locations:
@@ -230,6 +326,62 @@ DLCQuest:
       force: true
 
 Pokemon Emerald:
+  plando_items:
+    - item: Full Restore
+      location: healing V-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Max Revive
+      location: second chance II-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Exp. Share
+      location: XP V-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Max Ether
+      location: uncategorized XVIII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Great Ball: 25
+        Super Repel: 25
+        Super Potion: 25
+        Revive: 25
+        Ether: 25
+      locations:
+        - ranged weapon V-3
+        - ranged weapon VI-6
+        - vitality III-6
+        - vitality VI-6
+        - vitality VI-8
+        - vitality VIII-6
+        - vitality XII-6
+        - healing VIII-3
+        - price VI-2
+        - defense X-2
+        - defense XII-2
+        - defense XVII-2
+        - careful movement I-1
+        - attack IV-2
+        - attack IV-3
+        - mana VI-2
+        - slots I-4
+        - slots I-7
+        - slots III-2
+        - food I-4
+        - rest II-3
+        - XP II-2
+        - melee weapon IX-4
+        - luck II-2
+        - copy II-1
+      world: The Cauldron
+      force: true
+      from_pool: true
   goal:           # remove steven, then champion, then legendary_hunt
     steven: 50
     champion: 25
@@ -355,6 +507,70 @@ Pokemon Emerald:
             completely_random: 1
 
 Hollow Knight:
+  plando_items:
+    - item: Shaman_Stone
+      location: ranged weapon V-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Spell_Twister
+      location: ranged weapon VI-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Lifeblood_Heart
+      location: vitality VI-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Full_Mask
+      location: vitality VI-8
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Hiveblood
+      location: healing VIII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Fragile_Strength
+      location: attack IV-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Charm_Notch
+      location: slots III-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Geo_Rock-Default: 22
+      locations:
+        - vitality III-6
+        - vitality VIII-6
+        - vitality XII-6
+        - healing V-1
+        - price VI-2
+        - defense X-2
+        - defense XII-2
+        - defense XVII-2
+        - careful movement I-1
+        - attack IV-3
+        - mana VI-2
+        - slots I-4
+        - slots I-7
+        - food I-4
+        - second chance II-1
+        - rest II-3
+        - XP II-2
+        - XP V-1
+        - melee weapon IX-4
+        - luck II-2
+        - copy II-1
+        - uncategorized XVIII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   RandomizeFocus:
     'false': 25
     'true': 50          # remove this line (or change to 0)
@@ -585,6 +801,73 @@ Hollow Knight:
           CostSanityEssenceWeight: '0'
 
 Minecraft:
+  plando_items:
+    - item: 4 Diamond Ore
+      location: price VI-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Progressive Armor
+      location: defense XVII-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Sharpness III Book
+      location: attack IV-3
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Shulker Box
+      location: slots I-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: 16 Porkchops
+      location: food I-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Looting III Book
+      location: luck II-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Infinity Book
+      location: copy II-1
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        50 XP: 22
+        32 Arrows: 22
+        4 Emeralds: 22
+        8 Gold Ore: 22
+      locations:
+        - ranged weapon V-3
+        - ranged weapon VI-6
+        - vitality III-6
+        - vitality VI-6
+        - vitality VI-8
+        - vitality VIII-6
+        - vitality XII-6
+        - healing V-1
+        - healing VIII-3
+        - defense X-2
+        - defense XII-2
+        - careful movement I-1
+        - attack IV-2
+        - mana VI-2
+        - slots I-7
+        - slots III-2
+        - second chance II-1
+        - rest II-3
+        - XP II-2
+        - XP V-1
+        - melee weapon IX-4
+        - uncategorized XVIII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   advancement_goal: 80      # change to 60, then to 40, then to 20
   required_bosses: both     #change to ender_dragon, then to wither, then to none
   shuffle_structures:
@@ -600,6 +883,70 @@ Minecraft:
   death_link: true
 
 Timespinner:
+  plando_items:
+    - item: Max HP
+      location: vitality VIII-6
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Eternal Coat
+      location: defense X-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Eternal Crown
+      location: defense XII-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Max Aura
+      location: mana VI-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Galaxy Earrings
+      location: XP II-2
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - item: Star of Lachiem
+      location: melee weapon IX-4
+      world: The Cauldron
+      force: true
+      from_pool: true
+    - items:
+        Berry Pick-Mi-Up: 23
+        Antidote: 23
+        Potion: 23
+        Sand Vial: 23
+        Ether: 23
+      locations:
+        - ranged weapon V-3
+        - ranged weapon VI-6
+        - vitality III-6
+        - vitality VI-6
+        - vitality VI-8
+        - vitality XII-6
+        - healing V-1
+        - healing VIII-3
+        - price VI-2
+        - defense XVII-2
+        - careful movement I-1
+        - attack IV-2
+        - attack IV-3
+        - slots I-4
+        - slots I-7
+        - slots III-2
+        - food I-4
+        - second chance II-1
+        - rest II-3
+        - XP V-1
+        - luck II-2
+        - copy II-1
+        - uncategorized XVIII-3
+      world: The Cauldron
+      force: true
+      from_pool: true
   start_with_jewelry_box: &convenience false # change to true
   eye_spy:
     'false': 50

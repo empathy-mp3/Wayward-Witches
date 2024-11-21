@@ -7,6 +7,7 @@ game:
   Undertale: 2
   Hollow Knight: 2
 Manual_Godhome_Eszenn:
+  plando_items: [{"item": "Flukenest", "location": "ranged weapon I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood Heart", "location": "vitality V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood Core", "location": "vitality X-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hiveblood", "location": "healing VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fury of the Fallen", "location": "low HP I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Grubsong", "location": "revenge I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"The Urge to Keep Fighting": 23}, "locations": [ranged weapon II-1, fire I-2, vitality IV-1, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing IV-1, speed VII-6, defense IV-2, defense VII-1, defense XIX-1, attack II-2, electricity I-3, XP XIII-1, melee weapon X-4, ice II-2, beast I-1, beast I-2, god I-1, water I-1, army II-1, robot I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing:
     0: 50
   victory_condition:
@@ -22,6 +23,7 @@ Manual_Godhome_Eszenn:
   include_radiant_difficulty:
     'true': 50 #start true change to false
 Manual_SquareMusic_Connor:
+  plando_items: [{"item": "Phoenix", "location": "fire I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Ramuh", "location": "electricity I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shiva", "location": "ice II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Ifrit", "location": "beast I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bahamut", "location": "beast I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Odin", "location": "god I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Leviathan", "location": "water I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Knights of the Round", "location": "army II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Alexander", "location": "robot I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Hi-Potion": 20}, "locations": [ranged weapon I-3, ranged weapon II-1, vitality IV-1, vitality V-2, vitality X-2, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing IV-1, healing VII-3, speed VII-6, defense IV-2, defense VII-1, defense XIX-1, attack II-2, low HP I-1, XP XIII-1, melee weapon X-4, revenge I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing:
     0: 1 # Start at 0 then change to 15 then change to 30 then change to 50
   filler_traps:
@@ -29,6 +31,7 @@ Manual_SquareMusic_Connor:
   death_link:
     'true': 10
 Timespinner:
+  plando_items: [{"item": "Eternal Coat", "location": "defense IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Eternal Crown", "location": "defense XIX-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Galaxy Earrings", "location": "XP XIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Berry Pick-Mi-Up": 26}, "locations": [ranged weapon I-3, ranged weapon II-1, fire I-2, vitality IV-1, vitality V-2, vitality X-2, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing IV-1, healing VII-3, speed VII-6, defense VII-1, attack II-2, electricity I-3, low HP I-1, melee weapon X-4, revenge I-1, ice II-2, beast I-1, beast I-2, god I-1, water I-1, army II-1, robot I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   death_link: 'true'
   progression_balancing: '0'
   accessibility: full
@@ -70,6 +73,7 @@ Timespinner:
   - Neurotoxin Trap
   - Poison Trap
 Undertale:
+  plando_items: [{"item": "ITEM", "location": "healing IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "temy armor", "location": "defense VII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Temmie Flakes": 27, "100G": 27}, "locations": [ranged weapon I-3, ranged weapon II-1, fire I-2, vitality IV-1, vitality V-2, vitality X-2, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing VII-3, speed VII-6, defense IV-2, defense XIX-1, attack II-2, electricity I-3, low HP I-1, XP XIII-1, melee weapon X-4, revenge I-1, ice II-2, beast I-1, beast I-2, god I-1, water I-1, army II-1, robot I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '0' #change to 20 then to 40
   accessibility: full
   route_required: pacifist
@@ -85,6 +89,7 @@ Undertale:
   prog_weapons: 'true'
   rando_item_button: 'true' 
 Hollow Knight:
+  plando_items: [{"item": "Shaman_Stone", "location": "ranged weapon II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood_Heart", "location": "vitality IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood_Core", "location": "vitality XII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Heart", "location": "vitality XVI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Focus", "location": "healing I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hiveblood", "location": "healing III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Quick_Slash", "location": "speed VII-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Strength", "location": "attack II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Mark_of_Pride", "location": "melee weapon X-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 20}, "locations": [ranged weapon I-3, fire I-2, vitality V-2, vitality X-2, healing IV-1, healing VII-3, defense IV-2, defense VII-1, defense XIX-1, electricity I-3, low HP I-1, XP XIII-1, revenge I-1, ice II-2, beast I-1, beast I-2, god I-1, water I-1, army II-1, robot I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '0'
   accessibility: minimal
   RandomizeFocus: 'true'

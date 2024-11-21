@@ -53,15 +53,15 @@
 - BennyRogue (Witness): increase `shuffle_dog: puzzle_skip` weight to 6
 - BennyRogue (Witness): increase `shuffle_vault_boxes: 'false'` weight to 7
 - BennyRogue (Witness): increase `victory_condition: mountain_box_short` weight to 5
-- Broney (Angband): Progressive Polearm Weapon: 1
-- Broney (Angband): Progressive Ranged Weapon: 1
+- Broney (Angband): Progressive Polearm Weapon Artifact: 1
+- Broney (Angband): Progressive Ranged Weapon Artifact: 1
 - Broney (Angband): Progressive Ring Artifact: 4
-- Broney (Angband): Progressive Shield Weapon: 1
+- Broney (Angband): Progressive Shield Artifact: 1
 - Broney (Angband): increase `progression_balancing` by 10: 5
 - Broney (Angband): increase `star_acquire_percent` by 10: 4
 - Broney (SM): Plasma Beam
 - Broney (SM): Power Bomb: 2
-- Broney (SM): Spazer Beam
+- Broney (SM): Spazer
 - Broney (SM): change `door_colors_rando` to `false`
 - Broney (SM): change `fun_combat` to `false`
 - Broney (SM): change `fun_movement` to `false`
@@ -70,9 +70,9 @@
 - Broney (SM): increase `minor_qty` by 20: 4
 - Broney (SM): increase `progression_balancing` by 25: 2
 - Broney (SM): lower `tourian` amount: 2
-- Broney (SMMR): Plasma Beam
-- Broney (SMMR): Power Bomb: 2
-- Broney (SMMR): Spazer Beam
+- Broney (SMMR): Plasma
+- Broney (SMMR): PowerBomb: 2
+- Broney (SMMR): Spazer
 - Broney (SMMR): change `buffed_drops` to `true`
 - Broney (SMMR): change `mark_map_stations` to `true`
 - Broney (SMMR): change `randomized_start` to `false`
@@ -225,7 +225,7 @@
 - CrystalOOT: Double Defense
 - CrystalOOT: Farores Wind
 - CrystalOOT: Heart Container: 2
-- CrystalOOT: Huge Rupee
+- CrystalOOT: Rupees (200)
 - CrystalOOT: Nayrus Love
 - CrystalOOT: Slingshot: 1
 - DashingRogue772: increase `song_difficulty_progression`: 5
@@ -448,7 +448,7 @@
 - Maxor: Bottle : 3
 - Maxor: Bug Catching Net
 - Maxor: Magic Upgrade (1/2)
-- Maxor: Progressive Armor: 1
+- Maxor: Progressive Mail: 1
 - Maxor: Progressive Sword: 2
 - Maxor: reduce `enemy_health`: 2
 - Maxor: reduce `item_functionality` difficulty: 2
@@ -666,7 +666,7 @@
 - Slipomatic_SM: change `area_randomization` to `off`
 - Slipomatic_SM: change `max_difficulty` to `easy`
 - Slipomatic_SM: change `morph_placement` to `early`
-- Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}: 3
+- Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}: 3
 - SunCat (C64): decrease `total_strawberries`: 2
 - SunCat (C64): increase `death_link_amnesty`: 3
 - SunCat (C64): reduce `strawberries_required_percentage` by 10: 9
@@ -824,7 +824,7 @@
 - TzufRougelike (LTTP): "Blue Mail": 1
 - TzufRougelike (LTTP): "Boss Heart Container": 3
 - TzufRougelike (LTTP): "Bottle (Red Potion)": 1
-- TzufRougelike (LTTP): "Bug Net": 1
+- TzufRougelike (LTTP): "Bug Catching Net": 1
 - TzufRougelike (LTTP): "Progressive Shield Upgrade": 1 (2 after normal item pool)
 - TzufRougelike (LTTP): "Red Mail": 1 (after normal item pool)
 - TzufRougelike (LTTP): change `bombless_start` to `false`
@@ -853,7 +853,7 @@
 - TzufRougelike (SM): change `max_difficulty` to `easy`
 - TzufRougelike (SM): change `morph_placement` to `early`
 - TzufRougelike (SM): increase `minor_qty`: 2
-- TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}: 3
+- TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}: 3
 - hecate.mp3 (DO2): "Loot & Scoot":2
 - hecate.mp3 (DO2): "Quickstep":2
 - hecate.mp3 (DO2): "Second Wind": 2

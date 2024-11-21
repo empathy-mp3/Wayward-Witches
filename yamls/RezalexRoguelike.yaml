@@ -3,6 +3,7 @@ name: Rezalex
 description: Wayward Witches async ALTTP
 game: A Link to the Past
 A Link to the Past:
+  plando_items: [{"item": "Boss Heart Container", "location": "vitality VI-7", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Heart Container", "location": "vitality VIII-8", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Mail", "location": "defense VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Mail", "location": "defense X-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Magic Upgrade (1/2)", "location": "mana II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bug Catching Net", "location": "second chance IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle", "location": "second chance IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Magic Powder", "location": "second chance VI-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle", "location": "second chance VI-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Sword", "location": "melee weapon VII-4", "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 50
   accessibility: items
   goal: crystals

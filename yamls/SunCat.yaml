@@ -10,6 +10,7 @@ game:
 
 
 Timespinner:
+  plando_items: [{"item": "Eternal Crown", "location": "defense IX-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Eternal Coat", "location": "defense XIX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Galaxy Earrings", "location": "XP III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XIV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Silence Ring", "location": "uncategorized XIX-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Mind Refresh": 3, "Sand Vial": 3, "Antidote": 3}, "locations": [healing IV-4, healing VI-1, travel II-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   DamageRando: mostlynerfs #change to 'balanced' > 'mostlybuffs' > 'allbuffs'
   ExtraEarringsXP: '0' #increase by 6, 4 times
   ShopMultiplier: random-range-1-5 #change to 'random-range-low-1-5' > '0'
@@ -55,6 +56,7 @@ Timespinner:
   UnchainedKeys: random
 
 Celeste 64:
+  plando_items: [{"items": {"Raspberry": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   death_link_amnesty: '5' # change to '10' > '20' > '30'
   total_strawberries: random-range-high-5-46 # change to 'random-range-5-46' > 'random-range-low-5-46'
   strawberries_required_percentage: '100' # reduce by 10, 9 times
@@ -97,6 +99,7 @@ Celeste 64:
             Air Dash: 1
 
 Risk of Rain 2:
+  plando_items: [{"items": {"Item Scrap, White": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   start_with_revive: 'false' #change to true
   total_revivals: '0' #increase by 2, 5 times
   final_stage_death: 'false' # change to 'true'
@@ -143,6 +146,7 @@ Risk of Rain 2:
   start_inventory: {}
 
 Muse Dash:
+  plando_items: [{"items": {"Extra Life": 9, "Great To Perfect (10 Pack)": 9, "Miss To Great (5 Pack)": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   music_sheet_win_count_percentage: '100' #reduce by 10, 9 times
   grade_needed: pinks #change to A > B
 
@@ -176,6 +180,7 @@ Muse Dash:
   start_inventory: {}
 
 VVVVVV:
+  plando_items: [{"items": {"Trinket 13": 9, "Trinket 14": 9, "Trinket 15": 9, "Trinket 16": 9, "Trinket 17": 9, "Trinket 18": 9, "Trinket 19": 9, "Trinket 20": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   death_link_amnesty: '6' #increase by 3, 8 times
   door_cost: random-range-high-1-3 #change to 'random-range-1-3' > random-range-low-1-3
 
@@ -187,6 +192,7 @@ VVVVVV:
   start_inventory: {}
 
 Pokemon Emerald:
+  plando_items: [{"item": "Leftovers", "location": "healing IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Leftovers", "location": "healing VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "HM02 Fly", "location": "travel II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rare Candy": 6}, "locations": [defense IX-3, defense XIX-2, XP III-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   ability_blacklist: # add Wonder Guard
   - Arena Trap
   - Shadow Tag

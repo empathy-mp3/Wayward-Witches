@@ -1,4 +1,4 @@
-Name: DeathclawCavern
+name: DeathclawCavern
 game: 
   Celeste 64: 69
   Ocarina of Time: 69
@@ -6,6 +6,7 @@ game:
   Super Mario 64: 69
 description: Funneh
 Celeste 64:
+  plando_items: [{"items": {"Raspberry": 10}, "locations": [defense X-3, defense XI-2, defense XII-1, defense XX-1, second chance I-2, melee weapon II-1, melee weapon V-1, travel I-2, fragment III-1, uncategorized XVII-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
@@ -26,6 +27,7 @@ Celeste 64:
 
 
 Ocarina of Time:
+  plando_items: [{"item": "Nayrus Love", "location": "defense XII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Double Defense", "location": "defense XX-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle", "location": "second chance I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Biggoron Sword", "location": "melee weapon V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Farores Wind", "location": "travel I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rupees (50)": 5}, "locations": [defense X-3, defense XI-2, melee weapon II-1, fragment III-1, uncategorized XVII-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
@@ -192,6 +194,7 @@ Ocarina of Time:
 
 
 Timespinner:
+  plando_items: [{"item": "Eternal Crown", "location": "defense X-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Eternal Coat", "location": "defense XI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Star of Lachiem", "location": "melee weapon II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shattered Orb", "location": "fragment III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Radiant Orb", "location": "uncategorized XVII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rotten Tail": 5}, "locations": [defense XII-1, defense XX-1, second chance I-2, melee weapon V-1, travel I-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   death_link: 'true'
   progression_balancing: '50'
   accessibility: full
@@ -241,6 +244,7 @@ Timespinner:
 
 
 Super Mario 64:
+  plando_items: [{"items": {"1Up Mushroom": 10}, "locations": [defense X-3, defense XI-2, defense XII-1, defense XX-1, second chance I-2, melee weapon II-1, melee weapon V-1, travel I-2, fragment III-1, uncategorized XVII-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '0' # Change to 20, then to 40, then to 60, then to 80, then to 100
   accessibility: full
   enable_coin_stars: 'false'

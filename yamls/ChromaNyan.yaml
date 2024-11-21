@@ -9,6 +9,7 @@ requires:
   version: 0.5.0
 
 Minecraft:
+  plando_items: [{"item": "4 Diamond Ore", "location": "price IX-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "4 Diamond Ore", "location": "price XIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Sharpness III Book", "location": "attack II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shulker Box", "location": "slots I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shulker Box", "location": "slots II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "16 Porkchops", "location": "food I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Looting III Book", "location": "luck II-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Infinity Book", "location": "copy I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rotten Flesh": 5, "50 XP": 5, "32 Arrows": 5, "4 Emeralds": 5}, "locations": [uncategorized V-1, uncategorized V-2, uncategorized VII-2, uncategorized VII-3, uncategorized XII-5], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 50
   advancement_goal: 70 # change to 60, then 50
   egg_shards_required: 15 # change to 12, then 10
@@ -22,6 +23,7 @@ Minecraft:
   bee_traps: 100 # change to 50, then 0
   death_link: 'true'
 Manual_SuperCatTales_ChromaNyan:
+  plando_items: [{"item": "Single-Use Golden Cat", "location": "uncategorized V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Mr. Cloud", "location": "uncategorized V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Golden Bat", "location": "uncategorized VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Ghost", "location": "uncategorized VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Single-Use Golden Cat", "location": "uncategorized XII-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rusted Bell": 8}, "locations": [price IX-1, price XIII-1, attack II-1, slots I-2, slots II-3, food I-1, luck II-5, copy I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0 # change to 20, then 40, then 60
   filler_traps: random-high # change to random, then random-low
   death_link: 'true'

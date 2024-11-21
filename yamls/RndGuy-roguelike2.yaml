@@ -8,6 +8,7 @@ game:
 description: Roguelike2 async by empathy.mp3
 
 Hollow Knight:
+  plando_items: [{"item": "Hiveblood", "location": "healing III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Dashmaster", "location": "speed III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Sprintmaster", "location": "speed IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Strength", "location": "attack III-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 3}, "locations": [vitality III-3, vitality VI-3, vitality IX-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   # these will always be the value defined
   progression_balancing: random-range-low-0-50
   RandomizeDreamers: 'true'
@@ -279,6 +280,7 @@ Hollow Knight:
           RandomizeNail: 'true'
 
 Celeste 64:
+  plando_items: [{"items": {"Raspberry": 7}, "locations": [vitality III-3, vitality VI-3, vitality IX-2, healing III-2, speed III-2, speed IV-3, attack III-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: random-range-low-0-50
   death_link: 'true'
   death_link_amnesty: random-range-high-1-3 # change the upper range number to 5, then 8, then 12, then 17, then 23, then 30
@@ -347,6 +349,7 @@ Celeste 64:
           badeline_chaser_speed: '10'
 
 Blasphemous:
+  plando_items: [{"item": "Life Upgrade", "location": "vitality III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Life Upgrade", "location": "vitality VI-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Life Upgrade", "location": "vitality IX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Tears of Atonement (250)": 4}, "locations": [healing III-2, speed III-2, speed IV-3, attack III-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: random-range-low-0-50
   penitence: 'true'
   ending: ending_c
@@ -426,6 +429,7 @@ Blasphemous:
 
 
 Muse Dash:
+  plando_items: [{"items": {"Extra Life": 7, "Great To Perfect (10 Pack)": 7, "Miss To Great (5 Pack)": 7}, "locations": [vitality III-3, vitality VI-3, vitality IX-2, healing III-2, speed III-2, speed IV-3, attack III-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: random-range-low-0-50
   starting_song_count: '5'
   additional_song_count: '45'
@@ -513,6 +517,7 @@ Muse Dash:
 
 
 The Witness:
+  plando_items: [{"items": {"Speed Boost": 7}, "locations": [vitality III-3, vitality VI-3, vitality IX-2, healing III-2, speed III-2, speed IV-3, attack III-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   # these stay the same
   progression_balancing: random-range-low-0-50
   victory_condition: panel_hunt

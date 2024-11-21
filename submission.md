@@ -518,7 +518,7 @@ Super Metroid
 
 Unique Items:
 - Charge Beam  (Can only recieve after doors_colors_rando is disabled)
-- Spazer Beam  (Can only recieve after doors_colors_rando is disabled)
+- Spazer  (Can only recieve after doors_colors_rando is disabled)
 - X-Ray Scope
 
 
@@ -657,7 +657,7 @@ Super Metroid:
 
 Unique Items:
 Plasma Beam
-Spazer Beam
+Spazer
 
 Duplicate Items:
 Power Bomb: 2
@@ -669,11 +669,11 @@ Super Metroid Map Rando:
 12 yaml changes (specified in file)
 
 Unique Items:
-Plasma Beam
-Spazer Beam
+Plasma
+Spazer
 
 Duplicate Items:
-Power Bomb: 2
+PowerBomb: 2
 
 Filler:
 Missile
@@ -683,9 +683,9 @@ Manual_Angband425_Broney:
 
 Duplicate Items:
 Progressive Ring Artifact: 4
-Progressive Polearm Weapon: 1
-Progressive Ranged Weapon: 1
-Progressive Shield Weapon: 1
+Progressive Polearm Weapon Artifact: 1
+Progressive Ranged Weapon Artifact: 1
+Progressive Shield Artifact: 1
 
 Filler:
 Scroll of Acquirement
@@ -1044,7 +1044,7 @@ Duplicate Items:
 Slingshot: 1
 Bow: 1
 Bottle: 2
-Huge Rupee
+Rupees (200)
 Heart Container: 2
 
 ## Brynatron
@@ -1196,7 +1196,7 @@ A Link To the Past:
 Unique Items:
 "Blue Mail": 1
 "Red Mail": 1 (after normal item pool)
-"Bug Net": 1
+"Bug Catching Net": 1
 
 
 Duplicate Items:

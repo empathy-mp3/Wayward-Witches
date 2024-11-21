@@ -4,6 +4,7 @@ game:
   Slay the Spire: 1
 
 Kingdom Hearts:
+  plando_items: [{"item": "Dodge Roll", "location": "careful movement IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Second Chance", "location": "second chance VIII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Cosmic Arts", "location": "uncategorized I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Cure", "location": "uncategorized I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Aero", "location": "uncategorized VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Aero", "location": "uncategorized VI-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Leaf Bracer", "location": "uncategorized X-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Aero", "location": "uncategorized XI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Elixir": 4}, "locations": [choice IV-2, choice IV-3, utility III-3, utility VI-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing:
     disabled: 50 
   accessibility:
@@ -118,6 +119,7 @@ Kingdom Hearts:
     0: 50
 
 Slay the Spire:
+  plando_items: [{"item": "Rare Card Draw", "location": "choice IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Rare Card Draw", "location": "choice IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Relic", "location": "utility III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Relic", "location": "utility VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Card Draw": 8}, "locations": [careful movement IV-2, second chance VIII-3, uncategorized I-1, uncategorized I-3, uncategorized VI-2, uncategorized VI-4, uncategorized X-4, uncategorized XI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 20 # change to 50, then 80
   accessibility: items
   character: spire_take_the_wheel # change to random, then ironclad

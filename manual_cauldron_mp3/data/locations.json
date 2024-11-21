@@ -405,6 +405,8 @@
         {"name": "slots II-1","category": ["locations"],"region": "slots II"},
         {"name": "slots II-2","category": ["locations"],"region": "slots II"},
         {"name": "slots II-3","category": ["locations"],"region": "slots II"},
+        {"name": "slots II-4","category": ["locations"],"region": "slots II"},
+        {"name": "slots II-5","category": ["locations"],"region": "slots II"},
         {"name": "slots III-1","category": ["locations"],"region": "slots III"},
         {"name": "slots III-2","category": ["locations"],"region": "slots III"},
         {"name": "slots III-3","category": ["locations"],"region": "slots III"},

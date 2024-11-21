@@ -73,6 +73,55 @@
             "stealth V",
             "stealth VI",
             "stealth VII",
+            "logic I",
+            "logic II",
+            "logic III",
+            "traps I",
+            "traps II",
+            "traps III",
+            "traps IV",
+            "traps V",
+            "traps VI",
+            "traps VII",
+            "traps VIII",
+            "traps IX",
+            "traps X",
+            "traps XI",
+            "traps XII",
+            "traps XIII",
+            "traps XIV",
+            "traps XV",
+            "link I",
+            "link II",
+            "link III",
+            "link IV",
+            "link V",
+            "goal I",
+            "goal II",
+            "goal III",
+            "goal IV",
+            "goal V",
+            "goal VI",
+            "goal VII",
+            "goal VIII",
+            "goal IX",
+            "goal X",
+            "goal XI",
+            "goal XII",
+            "goal XIII",
+            "goal XIV",
+            "goal XV",
+            "goal XVI",
+            "goal XVII",
+            "boss I",
+            "boss II",
+            "boss III",
+            "boss IV",
+            "boss V",
+            "boss VI",
+            "boss VII",
+            "boss VIII",
+            "boss IX",
             "key I",
             "key II",
             "key III",
@@ -88,6 +137,14 @@
             "dangerous areas VII",
             "dangerous areas VIII",
             "dangerous areas IX",
+            "dangerous areas X",
+            "dangerous areas XI",
+            "dangerous areas XII",
+            "dangerous areas XIII",
+            "dangerous areas XIV",
+            "entrance rando I",
+            "entrance rando II",
+            "entrance rando III",
             "macguffins I",
             "macguffins II",
             "macguffins III",
@@ -113,6 +170,7 @@
             "price XIV",
             "price XV",
             "price XVI",
+            "price XVII",
             "defense I",
             "defense II",
             "defense III",
@@ -375,1114 +433,432 @@
         ],
         "starting": true
     },
-    "ranged weapon I": {
-        "requires": ""
-    },
-    "ranged weapon II": {
-        "requires": ""
-    },
-    "ranged weapon III": {
-        "requires": ""
-    },
-    "ranged weapon IV": {
-        "requires": ""
-    },
-    "ranged weapon V": {
-        "requires": ""
-    },
-    "ranged weapon VI": {
-        "requires": ""
-    },
-    "ranged weapon VII": {
-        "requires": ""
-    },
-    "ranged weapon VIII": {
-        "requires": ""
-    },
-    "fire I": {
-        "requires": ""
-    },
-    "fire II": {
-        "requires": ""
-    },
-    "fire III": {
-        "requires": ""
-    },
-    "explosion I": {
-        "requires": ""
-    },
-    "explosion II": {
-        "requires": ""
-    },
-    "explosion III": {
-        "requires": ""
-    },
-    "explosion IV": {
-        "requires": ""
-    },
-    "explosion V": {
-        "requires": ""
-    },
-    "vitality I": {
-        "requires": ""
-    },
-    "vitality II": {
-        "requires": ""
-    },
-    "vitality III": {
-        "requires": ""
-    },
-    "vitality IV": {
-        "requires": ""
-    },
-    "vitality V": {
-        "requires": ""
-    },
-    "vitality VI": {
-        "requires": ""
-    },
-    "vitality VII": {
-        "requires": ""
-    },
-    "vitality VIII": {
-        "requires": ""
-    },
-    "vitality IX": {
-        "requires": ""
-    },
-    "vitality X": {
-        "requires": ""
-    },
-    "vitality XI": {
-        "requires": ""
-    },
-    "vitality XII": {
-        "requires": ""
-    },
-    "vitality XIII": {
-        "requires": ""
-    },
-    "vitality XIV": {
-        "requires": ""
-    },
-    "vitality XV": {
-        "requires": ""
-    },
-    "vitality XVI": {
-        "requires": ""
-    },
-    "healing I": {
-        "requires": ""
-    },
-    "healing II": {
-        "requires": ""
-    },
-    "healing III": {
-        "requires": ""
-    },
-    "healing IV": {
-        "requires": ""
-    },
-    "healing V": {
-        "requires": ""
-    },
-    "healing VI": {
-        "requires": ""
-    },
-    "healing VII": {
-        "requires": ""
-    },
-    "healing VIII": {
-        "requires": ""
-    },
-    "healing IX": {
-        "requires": ""
-    },
-    "healing X": {
-        "requires": ""
-    },
-    "fearless I": {
-        "requires": ""
-    },
-    "fearless II": {
-        "requires": ""
-    },
-    "challenge I": {
-        "requires": ""
-    },
-    "challenge II": {
-        "requires": ""
-    },
-    "challenge III": {
-        "requires": ""
-    },
-    "challenge IV": {
-        "requires": ""
-    },
-    "challenge V": {
-        "requires": ""
-    },
-    "challenge VI": {
-        "requires": ""
-    },
-    "challenge VII": {
-        "requires": ""
-    },
-    "challenge VIII": {
-        "requires": ""
-    },
-    "challenge IX": {
-        "requires": ""
-    },
-    "challenge X": {
-        "requires": ""
-    },
-    "sight I": {
-        "requires": ""
-    },
-    "sight II": {
-        "requires": ""
-    },
-    "sight III": {
-        "requires": ""
-    },
-    "speed I": {
-        "requires": ""
-    },
-    "speed II": {
-        "requires": ""
-    },
-    "speed III": {
-        "requires": ""
-    },
-    "speed IV": {
-        "requires": ""
-    },
-    "speed V": {
-        "requires": ""
-    },
-    "speed VI": {
-        "requires": ""
-    },
-    "speed VII": {
-        "requires": ""
-    },
-    "stealth I": {
-        "requires": ""
-    },
-    "stealth II": {
-        "requires": ""
-    },
-    "stealth III": {
-        "requires": ""
-    },
-    "stealth IV": {
-        "requires": ""
-    },
-    "stealth V": {
-        "requires": ""
-    },
-    "stealth VI": {
-        "requires": ""
-    },
-    "stealth VII": {
-        "requires": ""
-    },
-    "key I": {
-        "requires": ""
-    },
-    "key II": {
-        "requires": ""
-    },
-    "key III": {
-        "requires": ""
-    },
-    "key IV": {
-        "requires": ""
-    },
-    "breath I": {
-        "requires": ""
-    },
-    "breath II": {
-        "requires": ""
-    },
-    "dangerous areas I": {
-        "requires": ""
-    },
-    "dangerous areas II": {
-        "requires": ""
-    },
-    "dangerous areas III": {
-        "requires": ""
-    },
-    "dangerous areas IV": {
-        "requires": ""
-    },
-    "dangerous areas V": {
-        "requires": ""
-    },
-    "dangerous areas VI": {
-        "requires": ""
-    },
-    "dangerous areas VII": {
-        "requires": ""
-    },
-    "dangerous areas VIII": {
-        "requires": ""
-    },
-    "dangerous areas IX": {
-        "requires": ""
-    },
-    "macguffins I": {
-        "requires": ""
-    },
-    "macguffins II": {
-        "requires": ""
-    },
-    "macguffins III": {
-        "requires": ""
-    },
-    "macguffins IV": {
-        "requires": ""
-    },
-    "macguffins V": {
-        "requires": ""
-    },
-    "macguffins VI": {
-        "requires": ""
-    },
-    "macguffins VII": {
-        "requires": ""
-    },
-    "macguffins VIII": {
-        "requires": ""
-    },
-    "macguffins IX": {
-        "requires": ""
-    },
-    "price I": {
-        "requires": ""
-    },
-    "price II": {
-        "requires": ""
-    },
-    "price III": {
-        "requires": ""
-    },
-    "price IV": {
-        "requires": ""
-    },
-    "price V": {
-        "requires": ""
-    },
-    "price VI": {
-        "requires": ""
-    },
-    "price VII": {
-        "requires": ""
-    },
-    "price VIII": {
-        "requires": ""
-    },
-    "price IX": {
-        "requires": ""
-    },
-    "price X": {
-        "requires": ""
-    },
-    "price XI": {
-        "requires": ""
-    },
-    "price XII": {
-        "requires": ""
-    },
-    "price XIII": {
-        "requires": ""
-    },
-    "price XIV": {
-        "requires": ""
-    },
-    "price XV": {
-        "requires": ""
-    },
-    "price XVI": {
-        "requires": ""
-    },
-    "defense I": {
-        "requires": ""
-    },
-    "defense II": {
-        "requires": ""
-    },
-    "defense III": {
-        "requires": ""
-    },
-    "defense IV": {
-        "requires": ""
-    },
-    "defense V": {
-        "requires": ""
-    },
-    "defense VI": {
-        "requires": ""
-    },
-    "defense VII": {
-        "requires": ""
-    },
-    "defense VIII": {
-        "requires": ""
-    },
-    "defense IX": {
-        "requires": ""
-    },
-    "defense X": {
-        "requires": ""
-    },
-    "defense XI": {
-        "requires": ""
-    },
-    "defense XII": {
-        "requires": ""
-    },
-    "defense XIII": {
-        "requires": ""
-    },
-    "defense XIV": {
-        "requires": ""
-    },
-    "defense XV": {
-        "requires": ""
-    },
-    "defense XVI": {
-        "requires": ""
-    },
-    "defense XVII": {
-        "requires": ""
-    },
-    "defense XVIII": {
-        "requires": ""
-    },
-    "defense XIX": {
-        "requires": ""
-    },
-    "defense XX": {
-        "requires": ""
-    },
-    "careful movement I": {
-        "requires": ""
-    },
-    "careful movement II": {
-        "requires": ""
-    },
-    "careful movement III": {
-        "requires": ""
-    },
-    "careful movement IV": {
-        "requires": ""
-    },
-    "attack I": {
-        "requires": ""
-    },
-    "attack II": {
-        "requires": ""
-    },
-    "attack III": {
-        "requires": ""
-    },
-    "attack IV": {
-        "requires": ""
-    },
-    "attack V": {
-        "requires": ""
-    },
-    "attack VI": {
-        "requires": ""
-    },
-    "attack VII": {
-        "requires": ""
-    },
-    "attack VIII": {
-        "requires": ""
-    },
-    "attack IX": {
-        "requires": ""
-    },
-    "stamina I": {
-        "requires": ""
-    },
-    "mana I": {
-        "requires": ""
-    },
-    "mana II": {
-        "requires": ""
-    },
-    "mana III": {
-        "requires": ""
-    },
-    "mana IV": {
-        "requires": ""
-    },
-    "mana V": {
-        "requires": ""
-    },
-    "mana VI": {
-        "requires": ""
-    },
-    "slots I": {
-        "requires": ""
-    },
-    "slots II": {
-        "requires": ""
-    },
-    "slots III": {
-        "requires": ""
-    },
-    "slots IV": {
-        "requires": ""
-    },
-    "food I": {
-        "requires": ""
-    },
-    "second chance I": {
-        "requires": ""
-    },
-    "second chance II": {
-        "requires": ""
-    },
-    "second chance III": {
-        "requires": ""
-    },
-    "second chance IV": {
-        "requires": ""
-    },
-    "second chance V": {
-        "requires": ""
-    },
-    "second chance VI": {
-        "requires": ""
-    },
-    "second chance VII": {
-        "requires": ""
-    },
-    "second chance VIII": {
-        "requires": ""
-    },
-    "second chance IX": {
-        "requires": ""
-    },
-    "progression balancing I": {
-        "requires": ""
-    },
-    "progression balancing II": {
-        "requires": ""
-    },
-    "progression balancing III": {
-        "requires": ""
-    },
-    "progression balancing IV": {
-        "requires": ""
-    },
-    "progression balancing V": {
-        "requires": ""
-    },
-    "choice I": {
-        "requires": ""
-    },
-    "choice II": {
-        "requires": ""
-    },
-    "choice III": {
-        "requires": ""
-    },
-    "choice IV": {
-        "requires": ""
-    },
-    "rest I": {
-        "requires": ""
-    },
-    "rest II": {
-        "requires": ""
-    },
-    "electricity I": {
-        "requires": ""
-    },
-    "low HP I": {
-        "requires": ""
-    },
-    "XP I": {
-        "requires": ""
-    },
-    "XP II": {
-        "requires": ""
-    },
-    "XP III": {
-        "requires": ""
-    },
-    "XP IV": {
-        "requires": ""
-    },
-    "XP V": {
-        "requires": ""
-    },
-    "XP VI": {
-        "requires": ""
-    },
-    "XP VII": {
-        "requires": ""
-    },
-    "XP VIII": {
-        "requires": ""
-    },
-    "XP IX": {
-        "requires": ""
-    },
-    "XP X": {
-        "requires": ""
-    },
-    "XP XI": {
-        "requires": ""
-    },
-    "XP XII": {
-        "requires": ""
-    },
-    "XP XIII": {
-        "requires": ""
-    },
-    "XP XIV": {
-        "requires": ""
-    },
-    "XP XV": {
-        "requires": ""
-    },
-    "melee weapon I": {
-        "requires": ""
-    },
-    "melee weapon II": {
-        "requires": ""
-    },
-    "melee weapon III": {
-        "requires": ""
-    },
-    "melee weapon IV": {
-        "requires": ""
-    },
-    "melee weapon V": {
-        "requires": ""
-    },
-    "melee weapon VI": {
-        "requires": ""
-    },
-    "melee weapon VII": {
-        "requires": ""
-    },
-    "melee weapon VIII": {
-        "requires": ""
-    },
-    "melee weapon IX": {
-        "requires": ""
-    },
-    "melee weapon X": {
-        "requires": ""
-    },
-    "melee weapon XI": {
-        "requires": ""
-    },
-    "starting I": {
-        "requires": ""
-    },
-    "starting II": {
-        "requires": ""
-    },
-    "starting III": {
-        "requires": ""
-    },
-    "revenge I": {
-        "requires": ""
-    },
-    "ice I": {
-        "requires": ""
-    },
-    "ice II": {
-        "requires": ""
-    },
-    "beast I": {
-        "requires": ""
-    },
-    "god I": {
-        "requires": ""
-    },
-    "god II": {
-        "requires": ""
-    },
-    "water I": {
-        "requires": ""
-    },
-    "army I": {
-        "requires": ""
-    },
-    "army II": {
-        "requires": ""
-    },
-    "army III": {
-        "requires": ""
-    },
-    "army IV": {
-        "requires": ""
-    },
-    "army V": {
-        "requires": ""
-    },
-    "robot I": {
-        "requires": ""
-    },
-    "luck I": {
-        "requires": ""
-    },
-    "luck II": {
-        "requires": ""
-    },
-    "travel I": {
-        "requires": ""
-    },
-    "travel II": {
-        "requires": ""
-    },
-    "travel III": {
-        "requires": ""
-    },
-    "travel IV": {
-        "requires": ""
-    },
-    "utility I": {
-        "requires": ""
-    },
-    "utility II": {
-        "requires": ""
-    },
-    "utility III": {
-        "requires": ""
-    },
-    "utility IV": {
-        "requires": ""
-    },
-    "utility V": {
-        "requires": ""
-    },
-    "utility VI": {
-        "requires": ""
-    },
-    "amnesty I": {
-        "requires": ""
-    },
-    "amnesty II": {
-        "requires": ""
-    },
-    "amnesty III": {
-        "requires": ""
-    },
-    "amnesty IV": {
-        "requires": ""
-    },
-    "amnesty V": {
-        "requires": ""
-    },
-    "time I": {
-        "requires": ""
-    },
-    "time II": {
-        "requires": ""
-    },
-    "time III": {
-        "requires": ""
-    },
-    "time IV": {
-        "requires": ""
-    },
-    "time V": {
-        "requires": ""
-    },
-    "time VI": {
-        "requires": ""
-    },
-    "ammo I": {
-        "requires": ""
-    },
-    "sun I": {
-        "requires": ""
-    },
-    "copy I": {
-        "requires": ""
-    },
-    "copy II": {
-        "requires": ""
-    },
-    "copy III": {
-        "requires": ""
-    },
-    "enemy damage I": {
-        "requires": ""
-    },
-    "enemy damage II": {
-        "requires": ""
-    },
-    "knowledge I": {
-        "requires": ""
-    },
-    "knowledge II": {
-        "requires": ""
-    },
-    "knowledge III": {
-        "requires": ""
-    },
-    "knowledge IV": {
-        "requires": ""
-    },
-    "knowledge V": {
-        "requires": ""
-    },
-    "knowledge VI": {
-        "requires": ""
-    },
-    "knowledge VII": {
-        "requires": ""
-    },
-    "knowledge VIII": {
-        "requires": ""
-    },
-    "knowledge IX": {
-        "requires": ""
-    },
-    "knowledge X": {
-        "requires": ""
-    },
-    "knowledge XI": {
-        "requires": ""
-    },
-    "knowledge XII": {
-        "requires": ""
-    },
-    "knowledge XIII": {
-        "requires": ""
-    },
-    "knowledge XIV": {
-        "requires": ""
-    },
-    "knowledge XV": {
-        "requires": ""
-    },
-    "knowledge XVI": {
-        "requires": ""
-    },
-    "knowledge XVII": {
-        "requires": ""
-    },
-    "knowledge XVIII": {
-        "requires": ""
-    },
-    "knowledge XIX": {
-        "requires": ""
-    },
-    "knowledge XX": {
-        "requires": ""
-    },
-    "knowledge XXI": {
-        "requires": ""
-    },
-    "knowledge XXII": {
-        "requires": ""
-    },
-    "knowledge XXIII": {
-        "requires": ""
-    },
-    "knowledge XXIV": {
-        "requires": ""
-    },
-    "knowledge XXV": {
-        "requires": ""
-    },
-    "knowledge XXVI": {
-        "requires": ""
-    },
-    "knowledge XXVII": {
-        "requires": ""
-    },
-    "knowledge XXVIII": {
-        "requires": ""
-    },
-    "knowledge XXIX": {
-        "requires": ""
-    },
-    "knowledge XXX": {
-        "requires": ""
-    },
-    "knowledge XXXI": {
-        "requires": ""
-    },
-    "knowledge XXXII": {
-        "requires": ""
-    },
-    "defy death I": {
-        "requires": ""
-    },
-    "defy death II": {
-        "requires": ""
-    },
-    "defy death III": {
-        "requires": ""
-    },
-    "defy death IV": {
-        "requires": ""
-    },
-    "defy death V": {
-        "requires": ""
-    },
-    "defy death VI": {
-        "requires": ""
-    },
-    "defy death VII": {
-        "requires": ""
-    },
-    "defy death VIII": {
-        "requires": ""
-    },
-    "defy death IX": {
-        "requires": ""
-    },
-    "defy death X": {
-        "requires": ""
-    },
-    "defy death XI": {
-        "requires": ""
-    },
-    "defy death XII": {
-        "requires": ""
-    },
-    "defy death XIII": {
-        "requires": ""
-    },
-    "defy death XIV": {
-        "requires": ""
-    },
-    "defy death XV": {
-        "requires": ""
-    },
-    "defy death XVI": {
-        "requires": ""
-    },
-    "defy death XVII": {
-        "requires": ""
-    },
-    "defy death XVIII": {
-        "requires": ""
-    },
-    "defy death XIX": {
-        "requires": ""
-    },
-    "defy death XX": {
-        "requires": ""
-    },
-    "defy death XXI": {
-        "requires": ""
-    },
-    "defy death XXII": {
-        "requires": ""
-    },
-    "defy death XXIII": {
-        "requires": ""
-    },
-    "defy death XXIV": {
-        "requires": ""
-    },
-    "defy death XXV": {
-        "requires": ""
-    },
-    "defy death XXVI": {
-        "requires": ""
-    },
-    "defy death XXVII": {
-        "requires": ""
-    },
-    "defy death XXVIII": {
-        "requires": ""
-    },
-    "defy death XXIX": {
-        "requires": ""
-    },
-    "defy death XXX": {
-        "requires": ""
-    },
-    "defy death XXXI": {
-        "requires": ""
-    },
-    "defy death XXXII": {
-        "requires": ""
-    },
-    "defy death XXXIII": {
-        "requires": ""
-    },
-    "defy death XXXIV": {
-        "requires": ""
-    },
-    "defy death XXXV": {
-        "requires": ""
-    },
-    "defy death XXXVI": {
-        "requires": ""
-    },
-    "defy death XXXVII": {
-        "requires": ""
-    },
-    "defy death XXXVIII": {
-        "requires": ""
-    },
-    "defy death XXXIX": {
-        "requires": ""
-    },
-    "defy death XXXX": {
-        "requires": ""
-    },
-    "defy death XXXXI": {
-        "requires": ""
-    },
-    "defy death XXXXII": {
-        "requires": ""
-    },
-    "defy death XXXXIII": {
-        "requires": ""
-    },
-    "defy death XXXXIV": {
-        "requires": ""
-    },
-    "defy death XXXXV": {
-        "requires": ""
-    },
-    "defy death XXXXVI": {
-        "requires": ""
-    },
-    "defy death XXXXVII": {
-        "requires": ""
-    },
-    "defy death XXXXVIII": {
-        "requires": ""
-    },
-    "defy death XXXXIX": {
-        "requires": ""
-    },
-    "defy death L": {
-        "requires": ""
-    },
-    "defy death LI": {
-        "requires": ""
-    },
-    "defy death LII": {
-        "requires": ""
-    },
-    "defy death LIII": {
-        "requires": ""
-    },
-    "defy death LIV": {
-        "requires": ""
-    },
-    "defy death LV": {
-        "requires": ""
-    },
-    "defy death LVI": {
-        "requires": ""
-    },
-    "defy death LVII": {
-        "requires": ""
-    },
-    "defy death LVIII": {
-        "requires": ""
-    },
-    "defy death LIX": {
-        "requires": ""
-    },
-    "defy death LX": {
-        "requires": ""
-    },
-    "refund I": {
-        "requires": ""
-    },
-    "refund II": {
-        "requires": ""
-    },
-    "refund III": {
-        "requires": ""
-    },
-    "refund IV": {
-        "requires": ""
-    },
-    "refund V": {
-        "requires": ""
-    },
-    "fragment I": {
-        "requires": ""
-    },
-    "fragment II": {
-        "requires": ""
-    },
-    "fragment III": {
-        "requires": ""
-    },
-    "uncategorized I": {
-        "requires": ""
-    },
-    "uncategorized II": {
-        "requires": ""
-    },
-    "uncategorized III": {
-        "requires": ""
-    },
-    "uncategorized IV": {
-        "requires": ""
-    },
-    "uncategorized V": {
-        "requires": ""
-    },
-    "uncategorized VI": {
-        "requires": ""
-    },
-    "uncategorized VII": {
-        "requires": ""
-    },
-    "uncategorized VIII": {
-        "requires": ""
-    },
-    "uncategorized IX": {
-        "requires": ""
-    },
-    "uncategorized X": {
-        "requires": ""
-    },
-    "uncategorized XI": {
-        "requires": ""
-    },
-    "uncategorized XII": {
-        "requires": ""
-    },
-    "uncategorized XIII": {
-        "requires": ""
-    },
-    "uncategorized XIV": {
-        "requires": ""
-    },
-    "uncategorized XV": {
-        "requires": ""
-    },
-    "uncategorized XVI": {
-        "requires": ""
-    },
-    "uncategorized XVII": {
-        "requires": ""
-    },
-    "uncategorized XVIII": {
-        "requires": ""
-    },
-    "uncategorized XIX": {
-        "requires": ""
-    },
-    "uncategorized XX": {
-        "requires": ""
-    }
+    "ranged weapon I": {"requires": ""},
+    "ranged weapon II": {"requires": ""},
+    "ranged weapon III": {"requires": ""},
+    "ranged weapon IV": {"requires": ""},
+    "ranged weapon V": {"requires": ""},
+    "ranged weapon VI": {"requires": ""},
+    "ranged weapon VII": {"requires": ""},
+    "ranged weapon VIII": {"requires": ""},
+    "fire I": {"requires": ""},
+    "fire II": {"requires": ""},
+    "fire III": {"requires": ""},
+    "explosion I": {"requires": ""},
+    "explosion II": {"requires": ""},
+    "explosion III": {"requires": ""},
+    "explosion IV": {"requires": ""},
+    "explosion V": {"requires": ""},
+    "vitality I": {"requires": ""},
+    "vitality II": {"requires": ""},
+    "vitality III": {"requires": ""},
+    "vitality IV": {"requires": ""},
+    "vitality V": {"requires": ""},
+    "vitality VI": {"requires": ""},
+    "vitality VII": {"requires": ""},
+    "vitality VIII": {"requires": ""},
+    "vitality IX": {"requires": ""},
+    "vitality X": {"requires": ""},
+    "vitality XI": {"requires": ""},
+    "vitality XII": {"requires": ""},
+    "vitality XIII": {"requires": ""},
+    "vitality XIV": {"requires": ""},
+    "vitality XV": {"requires": ""},
+    "vitality XVI": {"requires": ""},
+    "healing I": {"requires": ""},
+    "healing II": {"requires": ""},
+    "healing III": {"requires": ""},
+    "healing IV": {"requires": ""},
+    "healing V": {"requires": ""},
+    "healing VI": {"requires": ""},
+    "healing VII": {"requires": ""},
+    "healing VIII": {"requires": ""},
+    "healing IX": {"requires": ""},
+    "healing X": {"requires": ""},
+    "fearless I": {"requires": ""},
+    "fearless II": {"requires": ""},
+    "challenge I": {"requires": ""},
+    "challenge II": {"requires": ""},
+    "challenge III": {"requires": ""},
+    "challenge IV": {"requires": ""},
+    "challenge V": {"requires": ""},
+    "challenge VI": {"requires": ""},
+    "challenge VII": {"requires": ""},
+    "challenge VIII": {"requires": ""},
+    "challenge IX": {"requires": ""},
+    "challenge X": {"requires": ""},
+    "sight I": {"requires": ""},
+    "sight II": {"requires": ""},
+    "sight III": {"requires": ""},
+    "speed I": {"requires": ""},
+    "speed II": {"requires": ""},
+    "speed III": {"requires": ""},
+    "speed IV": {"requires": ""},
+    "speed V": {"requires": ""},
+    "speed VI": {"requires": ""},
+    "speed VII": {"requires": ""},
+    "stealth I": {"requires": ""},
+    "stealth II": {"requires": ""},
+    "stealth III": {"requires": ""},
+    "stealth IV": {"requires": ""},
+    "stealth V": {"requires": ""},
+    "stealth VI": {"requires": ""},
+    "stealth VII": {"requires": ""},
+    "logic I": {"requires": ""},
+    "logic II": {"requires": ""},
+    "logic III": {"requires": ""},
+    "traps I": {"requires": ""},
+    "traps II": {"requires": ""},
+    "traps III": {"requires": ""},
+    "traps IV": {"requires": ""},
+    "traps V": {"requires": ""},
+    "traps VI": {"requires": ""},
+    "traps VII": {"requires": ""},
+    "traps VIII": {"requires": ""},
+    "traps IX": {"requires": ""},
+    "traps X": {"requires": ""},
+    "traps XI": {"requires": ""},
+    "traps XII": {"requires": ""},
+    "traps XIII": {"requires": ""},
+    "traps XIV": {"requires": ""},
+    "traps XV": {"requires": ""},
+    "link I": {"requires": ""},
+    "link II": {"requires": ""},
+    "link III": {"requires": ""},
+    "link IV": {"requires": ""},
+    "link V": {"requires": ""},
+    "goal I": {"requires": ""},
+    "goal II": {"requires": ""},
+    "goal III": {"requires": ""},
+    "goal IV": {"requires": ""},
+    "goal V": {"requires": ""},
+    "goal VI": {"requires": ""},
+    "goal VII": {"requires": ""},
+    "goal VIII": {"requires": ""},
+    "goal IX": {"requires": ""},
+    "goal X": {"requires": ""},
+    "goal XI": {"requires": ""},
+    "goal XII": {"requires": ""},
+    "goal XIII": {"requires": ""},
+    "goal XIV": {"requires": ""},
+    "goal XV": {"requires": ""},
+    "goal XVI": {"requires": ""},
+    "goal XVII": {"requires": ""},
+    "boss I": {"requires": ""},
+    "boss II": {"requires": ""},
+    "boss III": {"requires": ""},
+    "boss IV": {"requires": ""},
+    "boss V": {"requires": ""},
+    "boss VI": {"requires": ""},
+    "boss VII": {"requires": ""},
+    "boss VIII": {"requires": ""},
+    "boss IX": {"requires": ""},
+    "key I": {"requires": ""},
+    "key II": {"requires": ""},
+    "key III": {"requires": ""},
+    "key IV": {"requires": ""},
+    "breath I": {"requires": ""},
+    "breath II": {"requires": ""},
+    "dangerous areas I": {"requires": ""},
+    "dangerous areas II": {"requires": ""},
+    "dangerous areas III": {"requires": ""},
+    "dangerous areas IV": {"requires": ""},
+    "dangerous areas V": {"requires": ""},
+    "dangerous areas VI": {"requires": ""},
+    "dangerous areas VII": {"requires": ""},
+    "dangerous areas VIII": {"requires": ""},
+    "dangerous areas IX": {"requires": ""},
+    "dangerous areas X": {"requires": ""},
+    "dangerous areas XI": {"requires": ""},
+    "dangerous areas XII": {"requires": ""},
+    "dangerous areas XIII": {"requires": ""},
+    "dangerous areas XIV": {"requires": ""},
+    "entrance rando I": {"requires": ""},
+    "entrance rando II": {"requires": ""},
+    "entrance rando III": {"requires": ""},
+    "macguffins I": {"requires": ""},
+    "macguffins II": {"requires": ""},
+    "macguffins III": {"requires": ""},
+    "macguffins IV": {"requires": ""},
+    "macguffins V": {"requires": ""},
+    "macguffins VI": {"requires": ""},
+    "macguffins VII": {"requires": ""},
+    "macguffins VIII": {"requires": ""},
+    "macguffins IX": {"requires": ""},
+    "price I": {"requires": ""},
+    "price II": {"requires": ""},
+    "price III": {"requires": ""},
+    "price IV": {"requires": ""},
+    "price V": {"requires": ""},
+    "price VI": {"requires": ""},
+    "price VII": {"requires": ""},
+    "price VIII": {"requires": ""},
+    "price IX": {"requires": ""},
+    "price X": {"requires": ""},
+    "price XI": {"requires": ""},
+    "price XII": {"requires": ""},
+    "price XIII": {"requires": ""},
+    "price XIV": {"requires": ""},
+    "price XV": {"requires": ""},
+    "price XVI": {"requires": ""},
+    "price XVII": {"requires": ""},
+    "defense I": {"requires": ""},
+    "defense II": {"requires": ""},
+    "defense III": {"requires": ""},
+    "defense IV": {"requires": ""},
+    "defense V": {"requires": ""},
+    "defense VI": {"requires": ""},
+    "defense VII": {"requires": ""},
+    "defense VIII": {"requires": ""},
+    "defense IX": {"requires": ""},
+    "defense X": {"requires": ""},
+    "defense XI": {"requires": ""},
+    "defense XII": {"requires": ""},
+    "defense XIII": {"requires": ""},
+    "defense XIV": {"requires": ""},
+    "defense XV": {"requires": ""},
+    "defense XVI": {"requires": ""},
+    "defense XVII": {"requires": ""},
+    "defense XVIII": {"requires": ""},
+    "defense XIX": {"requires": ""},
+    "defense XX": {"requires": ""},
+    "careful movement I": {"requires": ""},
+    "careful movement II": {"requires": ""},
+    "careful movement III": {"requires": ""},
+    "careful movement IV": {"requires": ""},
+    "attack I": {"requires": ""},
+    "attack II": {"requires": ""},
+    "attack III": {"requires": ""},
+    "attack IV": {"requires": ""},
+    "attack V": {"requires": ""},
+    "attack VI": {"requires": ""},
+    "attack VII": {"requires": ""},
+    "attack VIII": {"requires": ""},
+    "attack IX": {"requires": ""},
+    "stamina I": {"requires": ""},
+    "mana I": {"requires": ""},
+    "mana II": {"requires": ""},
+    "mana III": {"requires": ""},
+    "mana IV": {"requires": ""},
+    "mana V": {"requires": ""},
+    "mana VI": {"requires": ""},
+    "slots I": {"requires": ""},
+    "slots II": {"requires": ""},
+    "slots III": {"requires": ""},
+    "slots IV": {"requires": ""},
+    "food I": {"requires": ""},
+    "second chance I": {"requires": ""},
+    "second chance II": {"requires": ""},
+    "second chance III": {"requires": ""},
+    "second chance IV": {"requires": ""},
+    "second chance V": {"requires": ""},
+    "second chance VI": {"requires": ""},
+    "second chance VII": {"requires": ""},
+    "second chance VIII": {"requires": ""},
+    "second chance IX": {"requires": ""},
+    "progression balancing I": {"requires": ""},
+    "progression balancing II": {"requires": ""},
+    "progression balancing III": {"requires": ""},
+    "progression balancing IV": {"requires": ""},
+    "progression balancing V": {"requires": ""},
+    "choice I": {"requires": ""},
+    "choice II": {"requires": ""},
+    "choice III": {"requires": ""},
+    "choice IV": {"requires": ""},
+    "rest I": {"requires": ""},
+    "rest II": {"requires": ""},
+    "electricity I": {"requires": ""},
+    "low HP I": {"requires": ""},
+    "XP I": {"requires": ""},
+    "XP II": {"requires": ""},
+    "XP III": {"requires": ""},
+    "XP IV": {"requires": ""},
+    "XP V": {"requires": ""},
+    "XP VI": {"requires": ""},
+    "XP VII": {"requires": ""},
+    "XP VIII": {"requires": ""},
+    "XP IX": {"requires": ""},
+    "XP X": {"requires": ""},
+    "XP XI": {"requires": ""},
+    "XP XII": {"requires": ""},
+    "XP XIII": {"requires": ""},
+    "XP XIV": {"requires": ""},
+    "XP XV": {"requires": ""},
+    "melee weapon I": {"requires": ""},
+    "melee weapon II": {"requires": ""},
+    "melee weapon III": {"requires": ""},
+    "melee weapon IV": {"requires": ""},
+    "melee weapon V": {"requires": ""},
+    "melee weapon VI": {"requires": ""},
+    "melee weapon VII": {"requires": ""},
+    "melee weapon VIII": {"requires": ""},
+    "melee weapon IX": {"requires": ""},
+    "melee weapon X": {"requires": ""},
+    "melee weapon XI": {"requires": ""},
+    "starting I": {"requires": ""},
+    "starting II": {"requires": ""},
+    "starting III": {"requires": ""},
+    "revenge I": {"requires": ""},
+    "ice I": {"requires": ""},
+    "ice II": {"requires": ""},
+    "beast I": {"requires": ""},
+    "god I": {"requires": ""},
+    "god II": {"requires": ""},
+    "water I": {"requires": ""},
+    "army I": {"requires": ""},
+    "army II": {"requires": ""},
+    "army III": {"requires": ""},
+    "army IV": {"requires": ""},
+    "army V": {"requires": ""},
+    "robot I": {"requires": ""},
+    "luck I": {"requires": ""},
+    "luck II": {"requires": ""},
+    "travel I": {"requires": ""},
+    "travel II": {"requires": ""},
+    "travel III": {"requires": ""},
+    "travel IV": {"requires": ""},
+    "utility I": {"requires": ""},
+    "utility II": {"requires": ""},
+    "utility III": {"requires": ""},
+    "utility IV": {"requires": ""},
+    "utility V": {"requires": ""},
+    "utility VI": {"requires": ""},
+    "amnesty I": {"requires": ""},
+    "amnesty II": {"requires": ""},
+    "amnesty III": {"requires": ""},
+    "amnesty IV": {"requires": ""},
+    "amnesty V": {"requires": ""},
+    "time I": {"requires": ""},
+    "time II": {"requires": ""},
+    "time III": {"requires": ""},
+    "time IV": {"requires": ""},
+    "time V": {"requires": ""},
+    "time VI": {"requires": ""},
+    "ammo I": {"requires": ""},
+    "sun I": {"requires": ""},
+    "copy I": {"requires": ""},
+    "copy II": {"requires": ""},
+    "copy III": {"requires": ""},
+    "enemy damage I": {"requires": ""},
+    "enemy damage II": {"requires": ""},
+    "knowledge I": {"requires": ""},
+    "knowledge II": {"requires": ""},
+    "knowledge III": {"requires": ""},
+    "knowledge IV": {"requires": ""},
+    "knowledge V": {"requires": ""},
+    "knowledge VI": {"requires": ""},
+    "knowledge VII": {"requires": ""},
+    "knowledge VIII": {"requires": ""},
+    "knowledge IX": {"requires": ""},
+    "knowledge X": {"requires": ""},
+    "knowledge XI": {"requires": ""},
+    "knowledge XII": {"requires": ""},
+    "knowledge XIII": {"requires": ""},
+    "knowledge XIV": {"requires": ""},
+    "knowledge XV": {"requires": ""},
+    "knowledge XVI": {"requires": ""},
+    "knowledge XVII": {"requires": ""},
+    "knowledge XVIII": {"requires": ""},
+    "knowledge XIX": {"requires": ""},
+    "knowledge XX": {"requires": ""},
+    "knowledge XXI": {"requires": ""},
+    "knowledge XXII": {"requires": ""},
+    "knowledge XXIII": {"requires": ""},
+    "knowledge XXIV": {"requires": ""},
+    "knowledge XXV": {"requires": ""},
+    "knowledge XXVI": {"requires": ""},
+    "knowledge XXVII": {"requires": ""},
+    "knowledge XXVIII": {"requires": ""},
+    "knowledge XXIX": {"requires": ""},
+    "knowledge XXX": {"requires": ""},
+    "knowledge XXXI": {"requires": ""},
+    "knowledge XXXII": {"requires": ""},
+    "defy death I": {"requires": ""},
+    "defy death II": {"requires": ""},
+    "defy death III": {"requires": ""},
+    "defy death IV": {"requires": ""},
+    "defy death V": {"requires": ""},
+    "defy death VI": {"requires": ""},
+    "defy death VII": {"requires": ""},
+    "defy death VIII": {"requires": ""},
+    "defy death IX": {"requires": ""},
+    "defy death X": {"requires": ""},
+    "defy death XI": {"requires": ""},
+    "defy death XII": {"requires": ""},
+    "defy death XIII": {"requires": ""},
+    "defy death XIV": {"requires": ""},
+    "defy death XV": {"requires": ""},
+    "defy death XVI": {"requires": ""},
+    "defy death XVII": {"requires": ""},
+    "defy death XVIII": {"requires": ""},
+    "defy death XIX": {"requires": ""},
+    "defy death XX": {"requires": ""},
+    "defy death XXI": {"requires": ""},
+    "defy death XXII": {"requires": ""},
+    "defy death XXIII": {"requires": ""},
+    "defy death XXIV": {"requires": ""},
+    "defy death XXV": {"requires": ""},
+    "defy death XXVI": {"requires": ""},
+    "defy death XXVII": {"requires": ""},
+    "defy death XXVIII": {"requires": ""},
+    "defy death XXIX": {"requires": ""},
+    "defy death XXX": {"requires": ""},
+    "defy death XXXI": {"requires": ""},
+    "defy death XXXII": {"requires": ""},
+    "defy death XXXIII": {"requires": ""},
+    "defy death XXXIV": {"requires": ""},
+    "defy death XXXV": {"requires": ""},
+    "defy death XXXVI": {"requires": ""},
+    "defy death XXXVII": {"requires": ""},
+    "defy death XXXVIII": {"requires": ""},
+    "defy death XXXIX": {"requires": ""},
+    "defy death XXXX": {"requires": ""},
+    "defy death XXXXI": {"requires": ""},
+    "defy death XXXXII": {"requires": ""},
+    "defy death XXXXIII": {"requires": ""},
+    "defy death XXXXIV": {"requires": ""},
+    "defy death XXXXV": {"requires": ""},
+    "defy death XXXXVI": {"requires": ""},
+    "defy death XXXXVII": {"requires": ""},
+    "defy death XXXXVIII": {"requires": ""},
+    "defy death XXXXIX": {"requires": ""},
+    "defy death L": {"requires": ""},
+    "defy death LI": {"requires": ""},
+    "defy death LII": {"requires": ""},
+    "defy death LIII": {"requires": ""},
+    "defy death LIV": {"requires": ""},
+    "defy death LV": {"requires": ""},
+    "defy death LVI": {"requires": ""},
+    "defy death LVII": {"requires": ""},
+    "defy death LVIII": {"requires": ""},
+    "defy death LIX": {"requires": ""},
+    "defy death LX": {"requires": ""},
+    "refund I": {"requires": ""},
+    "refund II": {"requires": ""},
+    "refund III": {"requires": ""},
+    "refund IV": {"requires": ""},
+    "refund V": {"requires": ""},
+    "fragment I": {"requires": ""},
+    "fragment II": {"requires": ""},
+    "fragment III": {"requires": ""},
+    "uncategorized I": {"requires": ""},
+    "uncategorized II": {"requires": ""},
+    "uncategorized III": {"requires": ""},
+    "uncategorized IV": {"requires": ""},
+    "uncategorized V": {"requires": ""},
+    "uncategorized VI": {"requires": ""},
+    "uncategorized VII": {"requires": ""},
+    "uncategorized VIII": {"requires": ""},
+    "uncategorized IX": {"requires": ""},
+    "uncategorized X": {"requires": ""},
+    "uncategorized XI": {"requires": ""},
+    "uncategorized XII": {"requires": ""},
+    "uncategorized XIII": {"requires": ""},
+    "uncategorized XIV": {"requires": ""},
+    "uncategorized XV": {"requires": ""},
+    "uncategorized XVI": {"requires": ""},
+    "uncategorized XVII": {"requires": ""},
+    "uncategorized XVIII": {"requires": ""},
+    "uncategorized XIX": {"requires": ""},
+    "uncategorized XX": {"requires": ""}
 }

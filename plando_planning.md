@@ -6,7 +6,7 @@
 hecate.mp3 (Noita): "Wand (Tier 5)"
 hecate.mp3 (UK): "Revolver - Sharpshooter"
 Connor (Godhome): "Flukenest"
-Broney (SMMR): Plasma Beam
+Broney (SMMR): Plasma
 DragoRogue2 (Earthbound): "Progressive Gun"
 Jake13Snake (DOOM 1993): "Plasma gun"
 Grimore (Noita): "Wand (Tier 4)"
@@ -20,7 +20,7 @@ TzufRougelike (HK): "Shaman_Stone"
 Connor (HK): "Shaman_Stone"
 hecate.mp3 (Noita): "Wand (Tier 4)"
 Sylsko (TUNC): Magic Wand
-Broney (SMMR): Spazer Beam
+Broney (SMMR): Spazer
 rhythm.Tsuki: Artillery air gun
 Grimore (Noita): "Wand (Tier 5)"
 jf-rogue (HK): "Shaman_Stone"
@@ -34,7 +34,7 @@ sheen (SMMR): change `supers_double` to `true`
 hecate.mp3 (UK): "Shotgun - Sawed-On"
 Sylsko (TUNC): Gun
 Toto (DS3): change `no_spell_requirements` to `true`
-Broney (Angband): Progressive Ranged Weapon
+Broney (Angband): Progressive Ranged Weapon Artifact
 Jake13Snake (DOOM 1993): "Shotgun"
 Grimore (Noita): "Wand (Tier 4)"
 sheen (SMMR): Spazer
@@ -47,7 +47,7 @@ sheen (SMMR): Spazer
 hecate.mp3 (UK): reduce `any_weapon_or_arm` to 1
 hecate.mp3 (TUNC): "Gun"
 Sylsko (Ender Lilies): Last Rites
-Broney (SM): Spazer Beam
+Broney (SM): Spazer
 DragoRogue2 (Earthbound): "Progressive Gun"
 Grimore (Noita): "Wand (Tier 6)"
 Ravanan: "Super Missile"
@@ -62,7 +62,7 @@ hecate.mp3 (Noita): "Wand (Tier 4)"
 hecate.mp3 (UK): "Nailgun - Attractor"
 MiroRogue (HK): "Shaman_Stone"
 Jake13Snake (DOOM 1993): "Chaingun"
-TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}
+TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}
 Ravanan: "Spazer"
 sheen (SMMR): Super
 Grimore (Noita): Tinker with Wands Everywhere Perk
@@ -91,7 +91,7 @@ hecate.mp3 (Noita): "Wand (Tier 5)"
 Toto (SotM): remove `Urban Warfare Expatriette`, `Siege Breaker Bunker`, and `Nitro Boost Absolute Zero` from `exclude_from_pool`
 Broney (SM): change `nerfed_charge` to `true`
 Grimore (Noita): "Wand (Tier 6)"
-TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}
+TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}
 RndGuy (Hollow Knight): set `RemoveSpellUpgrades` to `false`
 sheen (SMMR): Super
 
@@ -104,7 +104,7 @@ CrystalOOT: Slingshot
 hecate.mp3 (Noita): "Wand (Tier 6)"
 Toto (SotM): remove `"Parse: Fugue State"` from `exclude_from_pool`
 Broney (SM): Plasma Beam
-TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}
+TzufRougelike (SM): progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}
 Jake13Snake (LADX): "Boomerang"
 Ravanan: change `fun_combat` to `false`
 
@@ -138,7 +138,7 @@ Roguinater (Peggle Nights): Lord Cinderbottom
 (hecate.mp3 (UK): "Rocket Launcher - S.R.S. Cannon")
 
 hecate.mp3 (UK): "Rocket Launcher - S.R.S. Cannon"
-Broney (SMMR): Power Bomb
+Broney (SMMR): PowerBomb
 TzufRougelike (LTTP): change `bombless_start` to `false`
 sheen (SMMR): increase `custom_item_pool: PowerBomb` to 14
 
@@ -159,7 +159,7 @@ TzufRougelike (SM): "Power Bomb"
 
 Roguinater (Peggle Nights): Splork
 hecate.mp3 (UK): "Railcannon - Malicious"
-Broney (SMMR): Power Bomb
+Broney (SMMR): PowerBomb
 Ravanan: "Power Bomb"
 sheen (SMMR): PowerBomb
 
@@ -1129,6 +1129,7 @@ remove `LTTPTrapLink` `item_link`
 (remove `HollowKnightTrapLink` `item_link`)
 
 remove `HollowKnightTrapLink` `item_link`
+remove `OOTTrapLink` `item_link`
 
 ## link III
 
@@ -1136,13 +1137,15 @@ remove `HollowKnightTrapLink` `item_link`
 (remove `MinecraftTrapLink` `item_link`)
 
 remove `MinecraftTrapLink` `item_link`
+remove `OuterWildsTrapLink` `item_link`
 
 ## link IV
 
 *we are all fools.*
-(remove `TunicTrapLink` `item_link`)
+(remove `TUNICTrapLink` `item_link`)
 
-remove `TunicTrapLink` `item_link`
+remove `TUNICTrapLink` `item_link`
+remove `MuseDashTrapLink` `item_link`
 
 ## link V
 
@@ -1150,6 +1153,7 @@ remove `TunicTrapLink` `item_link`
 (remove `TimespinnerTrapLink` `item_link`)
 
 remove `TimespinnerTrapLink` `item_link`
+remove `WitnessTrapLink` `item_link`
 
 ## goal I
 
@@ -1455,7 +1459,7 @@ Broney (SM): change `door_colors_rando` to `false`
 hecate.mp3 (DO2): change `caves_of_carnage_key_count`, `black_mines_key_count`, `flooded_depths_key_count`, and `burning_dark_key_count` to random-high
 Sylsko (Astalon): change `open_early_doors` to `true`
 MiroRogue (aHiT): decrease `ChapterCost` (trigger)
-Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}
+Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}
 MiroRogue (aHiT): decrease `ChapterCost` (trigger)
 sheen (SMMR): change `doors_mode` to `blue`
 superfid (LTTP): change `small_key_shuffle` to `start_with`
@@ -1475,7 +1479,7 @@ DeathclawCavern (OOT): decrease `ganon_bosskey_tokens` by 20
 DeathclawCavern (OOT): decrease `ganon_bosskey_hearts` by 4
 JoyTheBard (SM64): decrease `second_floor_star_door_cost`
 JoyTheBard (SM64): decrease `second_floor_star_door_cost`
-Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}
+Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}
 
 ## key IV
 
@@ -1490,7 +1494,7 @@ JoyTheBard (SM64): decrease `basement_star_door_cost`
 Rogue772nic: change `keys_behind_bosses: false` weight to 0
 MiroRogue (aHiT): decrease `ChapterCost` (trigger)
 sheen (KH:BBS): increase `keyblade_max_mgc` to 10
-Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer Beam}
+Slipomatic_SM: progressive {change `doors_colors_rando` to false and then Charge Beam and then Spazer}
 
 ## breath I
 
@@ -1987,9 +1991,9 @@ Toto (DS3): change `reduce_harmless_enemies` to `false`
 ## price XV
 
 *Loads'a Moneh*
-(CrystalOOT: Huge Rupee) [hint by Deathclaw99!]
+(CrystalOOT: Rupees (200)) [hint by Deathclaw99!]
 
-CrystalOOT: Huge Rupee
+CrystalOOT: Rupees (200)
 Brynatron (HK): increase `StartingGeo`
 MiroRogue (HK): decrease `Costs` (trigger)
 DragoRogue2 (Factorio): reduce `min_tech_cost`
@@ -2051,7 +2055,7 @@ HPfunman (StS): lower `death_link` percentage
 
 Roguinater (MC): Progressive Armor
 Connor (TS): "Eternal Coat"
-Maxor: Progressive Armor
+Maxor: Progressive Mail
 
 ## defense V [force this to be near the start of the skill tree]
 
@@ -2123,7 +2127,7 @@ DeathclawCavern (TS): Eternal Coat
 
 DeathclawCavern (OOT): Nayrus Love
 MiroRogue (TS): "Eternal Crown"
-Broney (Angband): Progressive Shield Weapon
+Broney (Angband): Progressive Shield Artifact
 
 ## defense XIII
 
@@ -2929,7 +2933,7 @@ BennyRogue (RL): Sky Blueprints
 BennyRogue (RL): Dragon Blueprints
 Jake13Snake (DOOM 1993): "Chainsaw"
 DragoRogue2 (Earthbound): "Progressive Fry Pan"
-Broney (Angband): Progressive Polearm Weapon
+Broney (Angband): Progressive Polearm Weapon Artifact
 
 ## melee weapon V
 
@@ -4239,8 +4243,8 @@ HPfunman (Kingdom Hearts): Progressive Cure
 DragoRogue2 (Factorio): decrease `recipe_ingredients_offset`
 ARogueinTime772: make `DLC` more reasonable (trigger)
 SunCat (ROR2): reduce `item_pickup_step` by 1
-rhythm.SADX: reduce `black_market_unlock_costs`
-rhythm.SADX: make `White Chaos Emerald` not forced to be on `Black Market - 64` location
+rhythm.SA2B: reduce `black_market_unlock_costs`
+rhythm.SA2B: make `White Chaos Emerald` not forced to be on `Black Market - 64` location
 
 ## uncategorized II
 
@@ -4306,7 +4310,7 @@ superfid (Pseudoregalia): "Indignation"
 HPfunman (Kingdom Hearts): change `cups` to `false`
 rhythm.Tsuki: Drill upgrade
 RndGuy (Blasphemous): change `purified_hand` to `random`
-rhythm.SADX: change `number_of_level_gates` to 0
+rhythm.SA2B: change `number_of_level_gates` to 0
 rhythm.ClankUYA: Charge Boots
 
 ## uncategorized VI
@@ -4341,7 +4345,7 @@ jf-rogue (aHiT): change `TasksanityCheckCount: 18` weight to 0
 Brynatron (SDV): change `building_progression` to `progressive_very_cheap`
 sheen (Factorio): reduce `recipe_ingredients_offset` by 1
 rhythm.Ventus/Terra/Aqua: Dark Impulse
-rhythm.SADX: change `confusion_trap_weight` to `none`
+rhythm.SA2B: change `confusion_trap_weight` to `none`
 
 ## uncategorized VIII
 
@@ -4357,7 +4361,7 @@ rhythm.SADX: set `guaranteed_level` to `true`
 rhythm.Belius/Terakomari: make `logistic_distribution` more reasonable
 Grimore (MC): set `structure_compasses` to `true`
 rhythm.Tsuki: Fruit duration
-rhythm.SADX: Eggman - Laser Blaster
+rhythm.SA2B: Eggman - Laser Blaster
 rhythm.Ventus/Terra/Aqua: Cyclone
 
 ## uncategorized IX
@@ -4372,9 +4376,9 @@ MiroRogue (Emerald): add `Wonder Guard: 1` to `ability_blacklist`
 sheen (Factorio): reduce `max_science_pack`
 RndGuy (Blasphemous): reduce `skip_long_quests: true` weight
 JoyTheBard (Witness): change `elevators_come_to_you` to `true`
-rhythm.SADX: Knuckles - Mystic Melody
+rhythm.SA2B: Knuckles - Mystic Melody
 rhythm.ClankUYA: Aegis Mark V Armor
-rhythm.SADX: Eggman - Protective Armor
+rhythm.SA2B: Eggman - Protective Armor
 
 ## uncategorized X
 
@@ -4390,7 +4394,7 @@ DragoRogue2 (Earthbound): increase `rare_filler_weight` by 8
 rhythm.Tsuki: Jetpack upgrade
 HPfunman (Kingdom Hearts): Leaf Bracer
 rhythm.ClankUYA: increase `progression_balancing` by varying amounts
-rhythm.SADX: Tails - Laser Blaster
+rhythm.SA2B: Tails - Laser Blaster
 
 ## uncategorized XI
 
@@ -4407,7 +4411,7 @@ Brynatron (SDV): change `special_order_locations` to `board_qi_very_short`
 jf-rogue (Muse Dash): change `additional_song_count: 50` weight to 0
 sheen (KH:BBS): Once More
 rhythm.ClankUYA: Infernox Armor
-rhythm.SADX: set `goal: boss_rush_chaos_emerald_hunt` to `disabled`
+rhythm.SA2B: set `goal: boss_rush_chaos_emerald_hunt` to `disabled`
 rhythm.Ventus/Terra/Aqua: Firestorm
 
 ## uncategorized XII
@@ -4425,8 +4429,8 @@ rhythm.Tsuki: set `mining_everything: true` weight to 0
 superfid (Pseudoregalia): "Good Graces"
 ChromaNyan (Super Cat Tales): "Single-Use Golden Cat"
 rhythm.Ventus/Terra/Aqua: HP Boost
-rhythm.SADX: change `reverse_trap_weight` to `none`
-rhythm.SADX: Shadow - Mystic Melody
+rhythm.SA2B: change `reverse_trap_weight` to `none`
+rhythm.SA2B: Shadow - Mystic Melody
 
 ## uncategorized XIII
 
@@ -4441,9 +4445,9 @@ MiroRogue (HK): decrease `AnnoyingChecks` (trigger)
 DragoRogue2 (Factorio): increase `free_samples` amount
 MiroRogue (TS): change `gyre_archives`, `cantoran`, and `enter_sandman` to `false` (i think?)
 jf-rogue (RL): "Vault Runes"
-rhythm.SADX: change `ring_loss` to `classic`
+rhythm.SA2B: change `ring_loss` to `classic`
 rhythm.Ventus/Terra/Aqua: Spellweaver
-rhythm.SADX: Shadow - Air Shoes
+rhythm.SA2B: Shadow - Air Shoes
 
 ## uncategorized XIV
 
@@ -4459,8 +4463,8 @@ rhythm.Tsuki: Fruit duration
 SunCat (TS): "Chaos Horn"
 jf-rogue (RL): change `number_of_children: 1` weight to 0
 rhythm.ClankUYA: increase `progression_balancing` by varying amounts
-rhythm.SADX: Sonic - Mystic Melody
-rhythm.SADX: Rouge - Treasure Scope
+rhythm.SA2B: Sonic - Mystic Melody
+rhythm.SA2B: Rouge - Treasure Scope
 
 ## uncategorized XV
 
@@ -4477,7 +4481,7 @@ TzufRougelike (SM): change `morph_placement` to `early`
 rhythm.SADX: set `levels_percentage` to `random-low`
 rhythm.Tsuki: Drill upgrade
 rhythm.Ventus/Terra/Aqua: Frozen Fortune
-rhythm.SADX: change `pong_trap_weight` to `none`
+rhythm.SA2B: change `pong_trap_weight` to `none`
 rhythm.ClankUYA: Gadgetron PDU
 
 ## uncategorized XVI
@@ -4510,7 +4514,7 @@ jf-rogue (TS): change `GyreArchives: true` weight to 0
 RndGuy (Blasphemous): reduce `skip_long_quests: true` weight
 DeathclawCavern (TS): Radiant Orb
 rhythm.Ventus/Terra/Aqua: Wingblade
-rhythm.SADX: reduce `black_market_unlock_costs`
+rhythm.SA2B: reduce `black_market_unlock_costs`
 rhythm.Ventus/Terra/Aqua: Doubleflight
 
 ## uncategorized XVIII
@@ -4544,7 +4548,7 @@ jf-rogue (aHiT): "Yarn"
 SunCat (TS): "Silence Ring"
 rhythm.Ventus/Terra/Aqua: HP Boost
 rhythm.Ventus/Terra/Aqua: Fever Pitch
-rhythm.SADX: Rouge - Mystic Melody
+rhythm.SA2B: Rouge - Mystic Melody
 
 ## uncategorized XX [force this to be near the end of the skill tree]
 
@@ -4558,7 +4562,7 @@ ARogueinTime772: make `DLC` more reasonable (trigger)
 Brynatron (SDV): change `bundle_randomization` to `remixed`
 DashingRogue772: reduce `additional_song_count`
 DragoRogue2 (Earthbound): change `monkey_caves_mode` to `solved`
-TzufRougelike (LTTP): "Bug Net"
-rhythm.SADX: Eggman - Jet Engine
+TzufRougelike (LTTP): "Bug Catching Net"
+rhythm.SA2B: Eggman - Jet Engine
 rhythm.Ventus/Terra/Aqua: change `mirage_arena` to `false`
 rhythm.Ventus/Terra/Aqua: Sky Climber
