@@ -1,7 +1,7 @@
 ﻿name: HPfunman
 game: 
   Kingdom Hearts: 1
-  Slay the Spire: 1
+  Slay the Spire: 0 # turn back to 1 when it's fixed
 
 Kingdom Hearts:
   plando_items: [{"item": "Dodge Roll", "location": "careful movement IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Second Chance", "location": "second chance VIII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Cosmic Arts", "location": "uncategorized I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Cure", "location": "uncategorized I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Aero", "location": "uncategorized VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Aero", "location": "uncategorized VI-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Leaf Bracer", "location": "uncategorized X-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Aero", "location": "uncategorized XI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Elixir": 4}, "locations": [choice IV-2, choice IV-3, utility III-3, utility VI-1], "world": "The Cauldron", "force": true, "from_pool": true}]

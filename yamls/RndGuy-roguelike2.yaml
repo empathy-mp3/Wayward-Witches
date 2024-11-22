@@ -89,8 +89,6 @@ Hollow Knight:
     'dreamers': 25
     'fragments': 25
     'dreamersAndFragments': 25
-  start_inventory:
-    Sprintmaster: 1
   # these might be changed by triggers
   RandomizeFocus: 'true'
   RandomizeNail: 'true'
