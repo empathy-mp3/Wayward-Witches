@@ -1385,6 +1385,7 @@ Toto (StS): reduce `final_act: true` weight
 Broney (SMMR): decrease `mother_brain`
 Sylsko (TUNC): change `keys_behind_bosses` to `false`
 DiStegRogue (LTTP): make `boss_shuffle` easier
++2 life (yeah, i literally cannot manage this async until yall have this, so...)
 
 ## boss V
 

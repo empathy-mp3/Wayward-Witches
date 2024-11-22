@@ -682,7 +682,7 @@ Sonic Adventure 2 Battle:
   narrator:
     eggman: 25
     tails: 25
-  ring_loss: ohko #Upgrade: classic
+  ring_loss: classic
   speed_mission_count: random-range-middle-1-3
   speed_mission_2: 'false'
   speed_mission_3: 'true'

@@ -122,7 +122,7 @@ Slay the Spire:
   plando_items: [{"item": "Rare Card Draw", "location": "choice IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Rare Card Draw", "location": "choice IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Relic", "location": "utility III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Relic", "location": "utility VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Card Draw": 8}, "locations": [careful movement IV-2, second chance VIII-3, uncategorized I-1, uncategorized I-3, uncategorized VI-2, uncategorized VI-4, uncategorized X-4, uncategorized XI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 20 # change to 50, then 80
   accessibility: items
-  character: spire_take_the_wheel # change to random, then ironclad
+  character: random # change to ironclad
   ascension: 20 # change to 18, then 16, then 14, then 12, then 10 (aka 5 "lower ascension by 2" unlocks available)
   final_act: 'true' # change to false
   death_link: 100 # change to 50, then 25, then 10

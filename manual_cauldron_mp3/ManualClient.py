@@ -53,7 +53,7 @@ class ManualClientCommandProcessor(ClientCommandProcessor):
     @mark_raw
     def _cmd_send_list(self) -> bool:
         """Send all checks from a list"""
-        location_file = open("D:/aubrey/Desktop/roguelike_locations.txt", "r")
+        location_file = open("D:/aubrey/Desktop/Wayward Witches/roguelike_locations.txt", "r")
         location_list = location_file.read().split("\n")
         location_file.close() 
         names = self.ctx.location_names_to_id.keys()

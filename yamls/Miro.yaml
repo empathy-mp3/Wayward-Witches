@@ -577,7 +577,7 @@ Hollow Knight:
   RandomizeNail:
     'false': 25
     'true': 50          # remove this line (or change to 0)
-  AnnoyingChecks: high  # change to medium, then to low
+  AnnoyingChecks: medium # change to low
   SkipDifficulty: all   # change to hard, then medium, then easy, then off
   GoalDifficulty: hard  # change to medium, then to easy
   Costs: high           # change to medium, then to low
@@ -953,7 +953,7 @@ Timespinner:
     'true': &speed 25       # change to 0
   gyre_archives: 
     'false': 10
-    'true': &difficult_areas 50 # change to 5
+    'true': &difficult_areas 5
   boss_rando:
     'off': 25
     scaled: 50

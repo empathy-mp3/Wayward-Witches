@@ -65,10 +65,10 @@ Factorio:
     randomize_recipe: 1
     spawn: 2
   satellite: randomize_recipe
-  free_samples:  #Change to half_stack then to stack
+  free_samples:  #Change to stack
     none: 0
-    single_craft: 50
-    half_stack: 0
+    single_craft: 0
+    half_stack: 1
     stack: 0
   tech_tree_information: none
   starting_items:
