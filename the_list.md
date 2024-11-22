@@ -59,7 +59,7 @@
 - Broney (Angband): Progressive Shield Artifact: 1
 - Broney (Angband): increase `progression_balancing` by 10: 5
 - Broney (Angband): increase `star_acquire_percent` by 10: 4
-- Broney (SM): Plasma Beam
+- Broney (SM): Plasma
 - Broney (SM): Power Bomb: 2
 - Broney (SM): Spazer
 - Broney (SM): change `door_colors_rando` to `false`
@@ -70,7 +70,7 @@
 - Broney (SM): increase `minor_qty` by 20: 4
 - Broney (SM): increase `progression_balancing` by 25: 2
 - Broney (SM): lower `tourian` amount: 2
-- Broney (SMMR): Plasma
+- Broney (SMMR): Plasma Beam
 - Broney (SMMR): PowerBomb: 2
 - Broney (SMMR): Spazer
 - Broney (SMMR): change `buffed_drops` to `true`
@@ -173,8 +173,6 @@
 - ChromaNyan (Super Cat Tales): increase `progression_balancing` by 20: 3
 - ChromaNyan (Super Cat Tales): reduce likelihood of `filler_traps`: 2
 - Connor (Godhome): "Flukenest": 1
-- Connor (Godhome): "Fury of the Fallen": 1
-- Connor (Godhome): "Grubsong": 1
 - Connor (Godhome): "Hiveblood": 1
 - Connor (Godhome): "Lifeblood Core": 1
 - Connor (Godhome): "Lifeblood Heart": 1
@@ -219,14 +217,14 @@
 - Connor (UT): change `starting_area` to easier areas: 3
 - Connor (UT): decrease `key_pieces` by varied amounts: 2
 - Connor (UT): increase `progression_balancing` by 20: 2
-- CrystalOOT: Biggoron Sowrd
+- CrystalOOT: Biggoron Sword
 - CrystalOOT: Bottle: 2
 - CrystalOOT: Bow: 1
 - CrystalOOT: Double Defense
 - CrystalOOT: Farores Wind
 - CrystalOOT: Heart Container: 2
-- CrystalOOT: Rupees (200)
 - CrystalOOT: Nayrus Love
+- CrystalOOT: Rupees (200)
 - CrystalOOT: Slingshot: 1
 - DashingRogue772: increase `song_difficulty_progression`: 5
 - DashingRogue772: reduce `additional_song_count`: 2
@@ -746,7 +744,7 @@
 - Sylsko (TUNC): Money x255: 2
 - Sylsko (TUNC): Muffling Bell
 - Sylsko (TUNC): add `Rooted Ziggurat Lower - Hexagon Blue` to `exclude_locations`
-- Sylsko (TUNC): change `keys_behind_bosses` to `true`
+- Sylsko (TUNC): change `keys_behind_bosses` to `false`
 - Sylsko (TUNC): change `start_with_sword` to `true`
 - Toto (DS3): change `auto_equip` and `lock_equip` to `false`
 - Toto (DS3): change `no_equip_load` to `true`
@@ -834,10 +832,10 @@
 - TzufRougelike (LTTP): change `shop_price_modifier` to 50
 - TzufRougelike (LTTP): decrease `beemizer_total_chance` by 25: 2
 - TzufRougelike (OOT): "Biggoron Sword": 1
-- TzufRougelike (OOT): "Heart Container": 3
 - TzufRougelike (OOT): "Bottle with Red Potion": 1
 - TzufRougelike (OOT): "Double Defense": 1
 - TzufRougelike (OOT): "Farores Wind": 1
+- TzufRougelike (OOT): "Heart Container": 3
 - TzufRougelike (OOT): "Hylian Shield": 1
 - TzufRougelike (OOT): change `damage_multiplier` to `normal`
 - TzufRougelike (OOT): change `deadly_bonks` to `none`
@@ -988,20 +986,40 @@
 - jf-rogue (aHiT): change `TasksanityCheckCount: 18` weight to 0
 - jf-rogue (aHiT): change `TrapChance: random-middle` weight to 0
 - jf-rogue (aHiT): change `YarnCostMax: 12` weight to 0
+- remove `HollowKnightTrapLink` `item_link`
+- remove `LTTPTrapLink` `item_link`
+- remove `MinecraftTrapLink` `item_link`
+- remove `TimespinnerTrapLink` `item_link`
+- remove `TunicTrapLink` `item_link`
 - rhythm.Belius/Terakomari: increase `progression_balancing` by varying amounts: 5
 - rhythm.Belius/Terakomari: make `death_link_mode` more reasonable: 2
 - rhythm.Belius/Terakomari: make `logistic_distribution` more reasonable: 2
 - rhythm.Belius/Terakomari: set `make_early_roadblocks_local` to `true`
-- rhythm.PartyCube: Mario Party 1 4P Minigames
-- rhythm.PartyCube: Mario Party 2 4P Minigames
-- rhythm.PartyCube: Mario Party 3 4P Minigames
-- rhythm.PartyCube: Mario Party 3 Duel Minigames
-- rhythm.PartyCube: Mario Party 4 4P Minigames
-- rhythm.PartyCube: Mario Party 5 4P Minigames
-- rhythm.PartyCube: Mario Party 6 4P Minigames
-- rhythm.PartyCube: Mario Party 7 4P Minigames
-- rhythm.PartyCube: Mario Party 7 Duel Minigames
-- rhythm.PartyCube: Mario Party 8 4P Minigames
+- rhythm.ClankUYA: Aegis Mark V Armor
+- rhythm.ClankUYA: Charge Boots
+- rhythm.ClankUYA: Gadgetron PDU
+- rhythm.ClankUYA: Infernox Armor
+- rhythm.ClankUYA: Nano-Pak
+- rhythm.ClankUYA: increase `progression_balancing` by varying amounts: 5
+- rhythm.SA2B: Eggman - Jet Engine
+- rhythm.SA2B: Eggman - Laser Blaster
+- rhythm.SA2B: Eggman - Protective Armor
+- rhythm.SA2B: Knuckles - Mystic Melody
+- rhythm.SA2B: Knuckles - Sunglasses
+- rhythm.SA2B: Rouge - Mystic Melody
+- rhythm.SA2B: Rouge - Treasure Scope
+- rhythm.SA2B: Shadow - Air Shoes
+- rhythm.SA2B: Shadow - Mystic Melody
+- rhythm.SA2B: Sonic - Mystic Melody
+- rhythm.SA2B: Tails - Laser Blaster
+- rhythm.SA2B: change `confusion_trap_weight` to `none`
+- rhythm.SA2B: change `number_of_level_gates` to 0
+- rhythm.SA2B: change `pong_trap_weight` to `none`
+- rhythm.SA2B: change `reverse_trap_weight` to `none`
+- rhythm.SA2B: change `ring_loss` to `classic`
+- rhythm.SA2B: make `White Chaos Emerald` not forced to be on `Black Market - 64` location
+- rhythm.SA2B: reduce `black_market_unlock_costs`: 2
+- rhythm.SA2B: set `goal: boss_rush_chaos_emerald_hunt` to `disabled`
 - rhythm.SADX: increase `progression_balancing` by varying amounts: 5
 - rhythm.SADX: set `goal: levels_and_emerald_hunt` weight to 0
 - rhythm.SADX: set `goal: missions_and_emerald_hunt` weight to 0
@@ -1021,6 +1039,25 @@
 - rhythm.Tsuki: set `dome_gadget: shield` weight to 0
 - rhythm.Tsuki: set `keeper` to `engineer`
 - rhythm.Tsuki: set `mining_everything: true` weight to 0
+- rhythm.Ventus/Terra/Aqua: Bladecharge
+- rhythm.Ventus/Terra/Aqua: Critical Impact
+- rhythm.Ventus/Terra/Aqua: Cyclone
+- rhythm.Ventus/Terra/Aqua: Dark Impulse
+- rhythm.Ventus/Terra/Aqua: Diamond Dust
+- rhythm.Ventus/Terra/Aqua: Doubleflight
+- rhythm.Ventus/Terra/Aqua: Fever Pitch
+- rhythm.Ventus/Terra/Aqua: Firestorm
+- rhythm.Ventus/Terra/Aqua: Frozen Fortune
+- rhythm.Ventus/Terra/Aqua: Ghost Drive
+- rhythm.Ventus/Terra/Aqua: HP Boost: 4
+- rhythm.Ventus/Terra/Aqua: High Jump
+- rhythm.Ventus/Terra/Aqua: Rhythm Mixer
+- rhythm.Ventus/Terra/Aqua: Rockbreaker
+- rhythm.Ventus/Terra/Aqua: Sky Climber
+- rhythm.Ventus/Terra/Aqua: Spellweaver
+- rhythm.Ventus/Terra/Aqua: Wingblade
+- rhythm.Ventus/Terra/Aqua: change `command_board` to `false`
+- rhythm.Ventus/Terra/Aqua: change `mirage_arena` to `false`
 - sheen (Factorio): add "Nuclear survival kit" group to `starting_items`
 - sheen (Factorio): add "Spoodertron" group to `starting_items`
 - sheen (Factorio): add "Unlimited Power" group to `starting_items`

@@ -415,12 +415,6 @@ Sonic Adventure DX:
     none: 1
     c: 1
   gamma_action_stage_missions: none
-  StageMissions:
-    sonic: 1
-    tails: 1
-    knuckles: 1
-    amy: 1
-    big: 1
   # Upgrade Options
   randomized_sonic_upgrades: random
     # Determines whether Sonic's upgrades are randomized and sent to the item pool.
@@ -483,35 +477,17 @@ Sonic Adventure DX:
         Sonic Adventure DX:
           big_life_sanity: true
     - option_category: Sonic Adventure DX
-      option_name: StageMissions
-      option_result: sonic
-      options:
-        Sonic Adventure DX:
-          sonic_action_stage_missions: c_b_a
-    - option_category: Sonic Adventure DX
-      option_name: StageMissions
-      option_result: tails
+      option_name: goal
+      option_result: levels
       options:
         Sonic Adventure DX:
           tails_action_stage_missions: c_b_a
     - option_category: Sonic Adventure DX
-      option_name: StageMissions
-      option_result: knuckles
+      option_name: goal
+      option_result: levels_and_emerald_hunt
       options:
         Sonic Adventure DX:
-          knuckles_action_stage_missions: c_b_a
-    - option_category: Sonic Adventure DX
-      option_name: StageMissions
-      option_result: amy
-      options:
-        Sonic Adventure DX:
-          amy_action_stage_missions: c_b_a
-    - option_category: Sonic Adventure DX
-      option_name: StageMissions
-      option_result: big
-      options:
-        Sonic Adventure DX:
-          big_action_stage_missions: c
+          tails_action_stage_missions: c_b_a
   sonic_life_sanity: false
   tails_life_sanity: false
   knuckles_life_sanity: false

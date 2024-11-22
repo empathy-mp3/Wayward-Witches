@@ -35,42 +35,34 @@
 ### Incense
 *a substance with a sacred, distinct smell.*
 *found in tundras or hell.*
-*found closer to home.*
 
 ### Chalk
 *a white rock that always leaves a mark.*
 *found in caverns or on the moon.*
-*found farther from home.*
 
 ### Clay
 *a rich, malleable soil used for sculptures.*
 *found in marshes or under the ocean.*
-*found closer to home.*
 
 ### Limestone
 *a light-tinted sedimentary rock.*
 *found in the shadow realm or marshes.*
-*found farther from home.*
 
 ### Snow
 *a soft clump of tiny ice shards.*
 *found in the tundra or mountain.*
-*found farther from home.*
 
 ### Rabbit Foot
 *a lucky charm from a magical creature.*
 *found on the moon or the shadow realm.*
-*found closer to home.*
 
 ### Slate
 *a layered metamorphic rock.*
 *found in mountains or caverns.*
-*found closer to home.*
 
 ### Basalt
 *a fire-grained dark igneous rock.*
 *found in hell or under the ocean.*
-*found farther from home.*
 
 ### Dragon Scale
 *a truly powerful reagent.*

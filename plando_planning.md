@@ -1383,7 +1383,7 @@ DeathclawCavern (TS): make `boss_rando` easier
 
 Toto (StS): reduce `final_act: true` weight
 Broney (SMMR): decrease `mother_brain`
-Sylsko (TUNC): change `keys_behind_bosses` to `true`
+Sylsko (TUNC): change `keys_behind_bosses` to `false`
 DiStegRogue (LTTP): make `boss_shuffle` easier
 
 ## boss V

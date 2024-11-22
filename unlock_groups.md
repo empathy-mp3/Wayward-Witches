@@ -449,7 +449,7 @@ hecate.mp3 (UK): reduce `boss_rewards: extended` to 1
 Connor (TS): change `boss_rando` to `scaled`
 DiStegRogue (OOT): change `shuffle_bosses` to `limited`
 DiStegRogue (LTTP): make `boss_shuffle` easier: 2
-Sylsko (TUNC): change `keys_behind_bosses` to `true`
+Sylsko (TUNC): change `keys_behind_bosses` to `false`
 Sylsko (TS): reduce `boss_rando` difficulty: 2
 Sylsko (TUNC): add `Rooted Ziggurat Lower - Hexagon Blue` to `exclude_locations`
 Caesius (MC): remove a boss from `required_bosses`: 2
