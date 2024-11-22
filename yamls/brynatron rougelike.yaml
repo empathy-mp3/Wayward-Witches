@@ -153,7 +153,7 @@ Stardew Valley:
   season_randomization: randomized
   cropsanity: enabled
   backpack_progression: progressive # Can be upgraded to early_progressive
-  tool_progression: progrssive_very_cheap
+  tool_progression: progressive_very_cheap
   skill_progression: progressive_with_masteries
   building_progression: progressive_cheap # Can be upgraded to progressive_very_cheap
   elevator_progression: progressive_from_previous_floor

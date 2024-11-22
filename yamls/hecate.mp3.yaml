@@ -172,7 +172,7 @@ Outer Wilds:
   randomize_warp_platforms: 'true'
   randomize_dark_bramble_layout:
     'false': 1
-    'true': 20 # reduce to 11, then to 2
+    'true': 11 # reduce to 2
     hub_start: 8
   trap_chance: random-range-60-80 # reduce this to random-range-40-60, then to random-range-20-40, then to random-range-0-20
   trap_type_weights:
