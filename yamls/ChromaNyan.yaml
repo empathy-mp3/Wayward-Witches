@@ -3,7 +3,7 @@
 description: so we back in the mine
 
 game:
-  Minecraft: 1
+  Minecraft: 2
   Manual_SuperCatTales_ChromaNyan: 1
 requires:
   version: 0.5.0

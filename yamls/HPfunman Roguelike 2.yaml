@@ -61,8 +61,8 @@ Kingdom Hearts:
     'false': 50
     'true': 0
   exp_multiplier:
-    2x: 50 # change to 4x, then 8x
-    4x: 0 
+    2x: 0 # change to 8x
+    4x: 50 
     8x: 0 
   advanced_logic:
     'false': 0

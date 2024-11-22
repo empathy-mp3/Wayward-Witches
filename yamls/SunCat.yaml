@@ -222,7 +222,7 @@ Pokemon Emerald:
   ability_blacklist: # add Wonder Guard
   - Arena Trap
   - Shadow Tag
-  match_trainer_levels_bonus: -5 # increase by 1, 10 times
+  match_trainer_levels_bonus: -4 # increase by 1, 9 times
 
   progression_balancing: '0'
   badges: completely_random

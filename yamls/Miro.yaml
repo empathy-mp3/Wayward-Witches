@@ -404,7 +404,7 @@ Pokemon Emerald:
   ability_blacklist:                # add a new line with:  Wonder Guard: 1
     Arena Trap: 1
     Shadow Tag: 1
-  exp_modifier: 100                 # change to 200, then 300
+  exp_modifier: 200                 # change to 300
   match_trainer_levels_bonus: -10   # change to -5, then to 0, then to 5
 
   progression_balancing: 1
