@@ -15,7 +15,7 @@ Slay the Spire:
   ascension: 20 # 20 -> 19 -> 16 -> 12 -> 9 -> 5 -> 1
   final_act:
     false: 1
-    true: 4 # 4 -> 1 -> 0
+    true: 1 # 1 -> 0
   death_link: 10
 Sentinels of the Multiverse:
   plando_items: [{"items": {"Hero Toughness 1": 22, "Villain Fragility 1": 22}, "locations": [vitality III-8, vitality VIII-1, speed IV-4, attack III-2, choice I-1, choice I-2, choice I-3, choice I-4, choice I-5, choice I-6, choice II-1, choice II-2, choice II-4, choice III-1, choice III-2, choice III-3, choice III-4, choice III-5, choice IV-1, utility II-1, utility III-1, utility V-1], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -173,7 +173,7 @@ Dark Souls III:
   accessibility: minimal
   death_link: true
   enable_dlc: true
-  auto_equip: &equip true # true -> false
+  auto_equip: &equip false
   lock_equip: *equip
   no_equip_load: false # false -> true
   no_weapon_requirements: false # false -> true

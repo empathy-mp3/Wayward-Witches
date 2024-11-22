@@ -584,6 +584,16 @@ Hollow Knight:
   SplitCrystalHeart: &split
     'false': 20
     'true': 50          # change to 5
+  item_links:
+    - name: HollowKnightTrapLink
+      item_pool:
+        - Grub
+        - Mimic_Grub
+      replacement_item: "Mimic_Grub"
+      link_replacement: true
+      local_items:
+        - Mimic_Grub
+        - Grub
 
   progression_balancing: 0
   accessibility: random

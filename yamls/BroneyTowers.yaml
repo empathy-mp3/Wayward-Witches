@@ -22,7 +22,7 @@ Super Metroid Map Rando:
   progression_balancing: '0'    # Yaml changes (5) - +10 each
   death_link: 'enable_survive'
   randomized_start: 'true'      # Yaml change (false)
-  mother_brain: 'vanilla'       # Yaml change (2) (vanilla -> short -> skip)
+  mother_brain: 'short'       # Yaml change (2) (short -> skip)
   mark_map_stations: 'false'    # Yaml change (true)
   buffed_drops: 'false'         # Yaml change (true)
   wall_jump: 'collectible'      # Yaml change (vanilla)

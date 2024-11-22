@@ -73,7 +73,7 @@ TUNIC:
   accessibility: full
   sword_progression: true
   start_with_sword: false #change to true
-  keys_behind_bosses: true #change to false
+  keys_behind_bosses: false
   ability_shuffling: random
   shuffle_ladders: true
   entrance_rando: no

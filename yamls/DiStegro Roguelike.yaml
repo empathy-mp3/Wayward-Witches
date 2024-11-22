@@ -510,8 +510,8 @@ A Link to the Past:
   
   #Boss Shuffle from Chaos to Basic to None
   boss_shuffle:
-    chaos: 50
-    basic: 0
+    chaos: 0
+    basic: 50
     none: 0
   
   pot_shuffle: false
