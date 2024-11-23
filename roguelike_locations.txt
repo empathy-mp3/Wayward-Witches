@@ -27,3 +27,8 @@ stamina I-2
 stamina I-3
 stamina I-4
 XP VII-1
+second chance II-1
+second chance II-2
+second chance II-3
+attack V-1
+attack V-2

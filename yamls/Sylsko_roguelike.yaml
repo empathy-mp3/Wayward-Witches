@@ -23,7 +23,7 @@ Celeste 64:
   signsanity: true
   carsanity: true
   badeline_chaser_source: random
-  badeline_chaser_frequency: 2 #change to 5, then to 8, then to 0
+  badeline_chaser_frequency: 8 #change to 0
   badeline_chaser_speed: 10 #change to 8, then to 5, then to 2
   exclude_locations:
     - Badeline Cassette Strawberry

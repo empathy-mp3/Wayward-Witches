@@ -21,12 +21,14 @@ Super Metroid Map Rando:
   plando_items: [{"item": "Plasma", "location": "ranged weapon I-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Spazer", "location": "ranged weapon II-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "PowerBomb", "location": "explosion I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "PowerBomb", "location": "explosion III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Missile": 11}, "locations": [ranged weapon III-3, ranged weapon IV-3, ranged weapon VIII-3, explosion II-3, explosion V-3, defense XII-3, melee weapon IV-4, utility II-2, utility III-2, utility V-2, utility VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '0'    # Yaml changes (5) - +10 each
   death_link: 'enable_survive'
-  randomized_start: 'true'      # Yaml change (false)
+  start_location_mode: 'randomroom' # Yaml change ('ship')
   mother_brain: 'short'       # Yaml change (2) (short -> skip)
   mark_map_stations: 'false'    # Yaml change (true)
   buffed_drops: 'false'         # Yaml change (true)
   wall_jump: 'collectible'      # Yaml change (vanilla)
   map_layout: 'tame'
+  remote_items: 'true'
+  fast_elevators: 'true'
 
 Manual_Angband425_Broney:
   plando_items: [{"item": "Progressive Ranged Weapon Artifact", "location": "ranged weapon III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Shield Artifact", "location": "defense XII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Polearm Weapon Artifact", "location": "melee weapon IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Ring Artifact", "location": "utility II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Ring Artifact", "location": "utility III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Ring Artifact", "location": "utility V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Ring Artifact", "location": "utility VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Scroll of Acquirement": 8}, "locations": [ranged weapon I-4, ranged weapon II-4, ranged weapon IV-3, ranged weapon VIII-3, explosion I-2, explosion II-3, explosion III-3, explosion V-3], "world": "The Cauldron", "force": true, "from_pool": true}]

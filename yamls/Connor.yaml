@@ -46,7 +46,7 @@ Timespinner:
   cantoran: 'true'
   lore_checks: 'true'
   boss_rando: unscaled # change to scaled
-  damage_rando: mostlynerfs #change to mostlybuffs
+  damage_rando: mostlybuffs
   hp_cap: '999'
   level_cap: '99'
   extra_earrings_xp: '0' #Change to 12 then 24

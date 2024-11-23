@@ -767,10 +767,3 @@ TUNIC:
         - electricity I-2
       world: The Cauldron
       force: true
-      
-  item_links:
-    - name: TUNICTrapLink
-      item_pool:
-        - Fool Trap
-      replacement_item: "Fool Trap"
-      link_replacement: true

@@ -81,7 +81,7 @@ Minecraft: # Note: Done. YAML Edits: 12
   shuffle_structures: 'true'
   structure_compasses: 'false' # Item: Set to true.
   bee_traps: '100' # Item: Reduce to 80/60/40/20/0
-  send_defeated_mobs: 'true' # Item: set to false
+  send_defeated_mobs: 'false'
   death_link: 'true'
 Noita: # Note: Finalised. YAML Edits: 5. 
   plando_items: [{"item": "Wand (Tier 4)", "location": "ranged weapon I-7", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 5)", "location": "ranged weapon II-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 4)", "location": "ranged weapon III-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 6)", "location": "ranged weapon IV-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Tinker with Wands Everywhere Perk", "location": "ranged weapon V-7", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 5)", "location": "ranged weapon VI-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Wand (Tier 6)", "location": "ranged weapon VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Extra Max HP", "location": "vitality IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Extra Max HP", "location": "vitality XIV-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Extra Max HP", "location": "vitality XV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Gold (200)": 10, "Potion": 10, "Powder Pouch": 10}, "locations": [speed I-3, defense V-2, careful movement II-2, attack I-2, mana V-2, mana V-3, mana VI-1, slots IV-2, slots IV-5, XP VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -225,10 +225,10 @@ Timespinner: # Edit count: 13
     'true': 15
   lore_checks: 'true'
   boss_rando: 'scaled'
-  damage_rando: # Item: Switch to (mostlynerfs/balanced/mostlybuffs/allbuffs) (4)
-    allnerfs: 1
+  damage_rando: # Item: Switch to (mostlybuffs/allbuffs) (2)
+    allnerfs: 0
     mostlynerfs: 0
-    balanced: 0
+    balanced: 1
     mostlybuffs: 0
     allbuffs: 0
   hp_cap: '50' # Item: Increase HP cap to 100/200/999. (3)

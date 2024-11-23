@@ -522,21 +522,6 @@ Muse Dash:
             '0': 50
             '8': 50
             '9': 50
-  item_links:
-    - name: MuseDashTrapLink
-      item_pool:
-        - Background Freeze Trap
-        - Bad Apple Trap
-        - Chromatic Aberration Trap
-        - Error SFX Trap
-        - Focus Line Trap
-        - Gray Scale Trap
-        - Nyaa SFX Trap
-        - Pixelate Trap
-        - Ripple Trap
-        - Vignette Trap
-      replacement_item: "Bad Apple Trap"
-      link_replacement: true
 
 
 The Witness:
