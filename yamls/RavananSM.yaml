@@ -17,7 +17,7 @@ Super Metroid:
   super_qty: '20'
   power_bomb_qty: '10'
   minor_qty: '50' 		# Change to 75 and then 100
-  energy_qty: sparse 		# Change to medium and then vanilla
+  energy_qty: medium 		# Change to  vanilla
   area_randomization: full
   area_layout: 'true'
   allow_grey_doors: 'false'

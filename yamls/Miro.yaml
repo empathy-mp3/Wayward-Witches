@@ -405,7 +405,7 @@ Pokemon Emerald:
     Arena Trap: 1
     Shadow Tag: 1
   exp_modifier: 200                 # change to 300
-  match_trainer_levels_bonus: -10   # change to -5, then to 0, then to 5
+  match_trainer_levels_bonus: -5   # change to 0, then to 5
 
   progression_balancing: 1
   badges:

@@ -18,7 +18,7 @@ A Link to the Past:
   restrict_dungeon_item_on_boss: 'true'
   item_pool: expert #change to hard then to normal
   item_functionality: expert #change to hard then to normal
-  enemy_health: expert #change to hard then to default
+  enemy_health: hard #change to default
   enemy_damage: default
   progressive: 'on'
   swordless: 'false'

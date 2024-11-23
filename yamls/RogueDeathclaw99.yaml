@@ -61,7 +61,7 @@ Ocarina of Time:
   bridge_hearts: '10'
   shopsanity: fixed_number
   shop_slots: '4'
-  shopsanity_prices: normal
+  shopsanity_prices: affordable
   shuffle_scrubs: low
   shuffle_child_trade: vanilla
   shuffle_mapcompass: startwith

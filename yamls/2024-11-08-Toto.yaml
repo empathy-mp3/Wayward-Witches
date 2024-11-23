@@ -182,7 +182,7 @@ Dark Souls III:
   randomize_infusion_percentage: 50
   randomize_weapon_level: all
   randomize_weapon_level_percentage: 100
-  min_levels_in_5: 0 # 0 -> 1
+  min_levels_in_5: 1
   max_levels_in_5: 0 # 0 -> 3 -> 5
   min_levels_in_10: 0 # 0 -> 1
   max_levels_in_10: 0 # 0 -> 5 -> 10
@@ -308,7 +308,7 @@ Timespinner:
     balanced: 3
     mostlybuffs: 1
     allbuffs: 0
-  hp_cap: 75 # 75 -> 125 -> 200 -> 350 -> 600 -> 999
+  hp_cap: 125 # 125 -> 200 -> 350 -> 600 -> 999
   level_cap: 10 # 10 -> 20 -> 50 -> 99
   boss_healing: random
   shop_fill: randomized

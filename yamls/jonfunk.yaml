@@ -217,7 +217,7 @@ A Hat in Time:
   accessibility:
     minimal: 7
   death_link:
-    'false': 25
+    'true': 25
   EndGoal:
     finale: 19
     rush_hour: 6  # remove this line
@@ -530,7 +530,7 @@ Hollow Knight:
     '1000': 9
     random-middle: 20
   DeathLink:
-    'false': 25
+    'true': 25
   DeathLinkShade:
     shade: 25
   DeathLinkBreaksFragileCharms:
@@ -671,7 +671,7 @@ Muse Dash:
     a: 14
     pinks: 11 # remove this option
   death_link:
-    'false': 25
+    'true': 25
   chosen_traps:
     Background Freeze Trap: 1
     Chromatic Aberration Trap: 1
