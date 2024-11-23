@@ -314,7 +314,6 @@ VVVVVV:
   priority_locations: # Upgrades: Hard Way, Edge Games, and Reckless as priority > normal location > excluded location
     - Doing things the hard way
     - Edge Games
-    - Prize for the Reckless
   door_cost: random-range-high-1-3 #change to 'random-range-1-3' > random-range-low-1-3
   death_link_amnesty: 5 # Upgrades: Set to 5 > 10 > 15 > 20 > 25 > 30 > 50
   music_rando: 'true'

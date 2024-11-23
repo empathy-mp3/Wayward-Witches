@@ -19,7 +19,7 @@ Noita:
   path_option: 
     main_path: 1
     side_path: 7
-    main_world: 5 # reduce main_world to 1
+    main_world: 1
   hidden_chests: random-range-2-4
   pedestal_checks: random-range-4-8
   orbs_as_checks:
@@ -484,7 +484,7 @@ ULTRAKILL:
   randomize_clash_mode: false
   fish_rewards: random
   cleaning_rewards: false
-  chess_reward: random
+  chess_reward: false
   rocket_race_reward: random
   starting_weapon: 
     any_weapon: 5

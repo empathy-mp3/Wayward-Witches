@@ -71,8 +71,8 @@ Ocarina of Time:
   ganon_bosskey_medallions: '6'
   ganon_bosskey_stones: '3'
   ganon_bosskey_rewards: '8'
-  ganon_bosskey_tokens: '80' # Change to 60, then to 40
-  ganon_bosskey_hearts: '16' # Change to 12, then to 8
+  ganon_bosskey_tokens: '40'
+  ganon_bosskey_hearts: '12' # Change to 8
   key_rings_list:
   - Bottom of the Well
   - Fire Temple

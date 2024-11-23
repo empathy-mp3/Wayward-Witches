@@ -34,7 +34,7 @@ VVVVVV:
     'false': 25
     'true': 25
   AreaRandomizer: true
-  DoorCost: 3 # Upgrades: Set to 3 > 2 > 1
+  DoorCost: 2 # Upgrades: Set to 2 > 1
   AreaCostRandomizer: true
   death_link: true
   DeathLinkAmnesty: 3 # Upgrades: Set to 3 > 5 > 10 > 15 > 20 > 25 > 30

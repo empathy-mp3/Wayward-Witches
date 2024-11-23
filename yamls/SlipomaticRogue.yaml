@@ -20,7 +20,7 @@ Super Metroid:
   energy_qty: vanilla
   area_randomization: 'full'             #change to off
   area_layout: 'true'
-  doors_colors_rando: 'true'             #Change to false, this has to happen before giving charge beam or Spazer as a permament upgrade
+  doors_colors_rando: 'false'             
   allow_grey_doors: 'false'
   boss_randomization: 'false'
   escape_rando: 'true'

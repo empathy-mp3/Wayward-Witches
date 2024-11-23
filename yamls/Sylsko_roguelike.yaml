@@ -25,8 +25,8 @@ Celeste 64:
   badeline_chaser_source: random
   badeline_chaser_frequency: 2 #change to 5, then to 8, then to 0
   badeline_chaser_speed: 10 #change to 8, then to 5, then to 2
-  # exclude_locations:
-  #   - Badeline Cassette Strawberry
+  exclude_locations:
+    - Badeline Cassette Strawberry
   
 Timespinner:
   plando_items: [{"item": "Max HP", "location": "vitality I-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max HP", "location": "vitality II-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Eternal Coat", "location": "defense XX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Empire Crown", "location": "attack III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Aura", "location": "mana II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Aura", "location": "mana III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Aura", "location": "mana III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Jewelry Box", "location": "slots III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Galaxy Earrings", "location": "XP II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Sand", "location": "time I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Sand", "location": "time III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Sand", "location": "time V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Berry Pick-Mi-Up": 30, "Ether": 30}, "locations": [ranged weapon II-3, ranged weapon III-2, ranged weapon IV-2, explosion II-1, explosion V-2, vitality I-1, vitality V-1, vitality VIII-7, vitality IX-5, healing II-3, healing V-3, healing VII-1, healing VIII-2, healing VIII-4, speed IV-1, stealth II-1, price VI-1, price VII-1, price IX-2, price XIII-2, price XVI-1, defense VIII-2, attack IV-1, stamina I-3, mana IV-3, slots I-6, slots I-8, slots IV-4, ice I-1, travel I-1], "world": "The Cauldron", "force": true, "from_pool": true}]

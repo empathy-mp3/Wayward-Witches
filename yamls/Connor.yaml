@@ -79,7 +79,7 @@ Undertale:
   route_required: pacifist
   starting_area: core #change to random then to snowdin then to ruins
   key_hunt: 'true'
-  key_pieces: '10' #lower to 7 then to 5
+  key_pieces: '7' #lower to 5
   rando_love: 'false'
   rando_stats: 'false'
   temy_include: 'true'
