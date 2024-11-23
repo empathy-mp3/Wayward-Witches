@@ -135,9 +135,9 @@ Ender Lilies:
   plando_items: [{"item": "Last Rites", "location": "ranged weapon IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Amulet Gem", "location": "vitality V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Amulet Gem", "location": "vitality VIII-7", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Amulet Jewel", "location": "vitality IX-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Priestess' Wish", "location": "healing V-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Priestess' Wish", "location": "healing VII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Priestess' Wish", "location": "healing VIII-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Furious Blight x800", "location": "price VII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Stagnant Blight x800", "location": "price XIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chain of Sorcery", "location": "slots I-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chain of Sorcery", "location": "slots I-8", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chain of Sorcery", "location": "slots IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Lily's Note": 30}, "locations": [ranged weapon II-3, ranged weapon III-2, explosion II-1, explosion V-2, vitality I-1, vitality I-6, vitality II-5, healing II-3, healing VIII-2, speed IV-1, stealth II-1, price VI-1, price IX-2, price XVI-1, defense VIII-2, defense XX-2, attack III-1, attack IV-1, stamina I-3, mana II-2, mana III-1, mana III-2, mana IV-3, slots III-1, XP II-1, ice I-1, travel I-1, time I-3, time III-1, time V-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: normal
   accessibility: items
-  starting_spirit: #set any_sub_spirit to 0
+  starting_spirit:
     any_main_spirit: 50
-    any_sub_spirit: 50
+    any_sub_spirit: 0
   starting_location: random
   item_pool_priority: useful
   goal: ending_c #change to ending_b, then to ending_a

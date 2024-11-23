@@ -995,7 +995,7 @@ A Link to the Past:
   scams: random
   boss_shuffle: full
   pot_shuffle: false
-  enemy_shuffle: random # Upgrade to false
+  enemy_shuffle: false
   killable_thieves: true
   bush_shuffle: random
   shop_item_slots: random
@@ -1071,7 +1071,7 @@ Celeste 64:
   signsanity: random
   carsanity: random
   badeline_chaser_source: locations
-  badeline_chaser_frequency: random-range-1-10 # Upgrade to random-range-5-10, then 0
+  badeline_chaser_frequency: random-range-5-10 # upgrade to 0
   badeline_chaser_speed: random
 # Number of upgrades: 3
 Pseudoregalia:

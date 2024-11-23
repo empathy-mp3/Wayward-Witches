@@ -8,3 +8,9 @@ healing IV-1
 healing IV-2
 healing IV-3
 healing IV-4
+fearless I-1
+fearless I-2
+uncategorized II-1
+uncategorized II-2
+uncategorized II-3
+uncategorized II-4

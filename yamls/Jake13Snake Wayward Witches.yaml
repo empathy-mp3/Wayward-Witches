@@ -11,7 +11,7 @@ Adventure:
   dragon_slay_check: true
   death_link: true
   bat_logic: can_break
-  freeincarnate_max: 0 # Change to 17
+  freeincarnate_max: 17
   dragon_rando_type: random
   yorgle_speed: 9 # Change to 2
   yorgle_min_speed: 8 # Change to 1

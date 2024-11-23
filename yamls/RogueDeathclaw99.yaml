@@ -221,7 +221,7 @@ Timespinner:
   - Neurotoxin Trap
   - Poison Trap
   start_inventory: {}
-  start_with_jewelry_box: random # Change to Yes
+  start_with_jewelry_box: true
   eye_spy: random # Change to No
   quick_seed: random
   specific_keycards: random

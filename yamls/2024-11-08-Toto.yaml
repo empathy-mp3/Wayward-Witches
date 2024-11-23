@@ -207,7 +207,7 @@ Dark Souls III:
         Pool: Bosses
       - Weight: 10 # 10 -> 0
         Pool: Black Knight; Cathedral Knight; Red-Eyed Lothric Knight; Millwood Knight; Ringed Knight; Pontiff Knight; Silver Knight; Winged Knight
-      - Weight: 10 # 10 -> 0
+      - Weight: 0
         Pool: Darkwraith; Grave Warden; Lycanthrope
       - Weight: 6 # 6 -> 0
         Pool: Jailer
