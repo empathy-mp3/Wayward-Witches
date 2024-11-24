@@ -221,7 +221,7 @@ DLCQuest:
     none: 25
     simple: 25              # remove this line (or change to 0)
   time_is_money: optional   # change to required
-  start_hints: []           # add one per upgrade, 10 in total: "Big Sword Pack", "Double Jump Pack", "Finish the Fight Pack", "Gun Pack", "Incredibly Important Pack", "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
+  start_hints: ["Big Sword Pack"]           # add one per upgrade, 9 in total: "Double Jump Pack", "Finish the Fight Pack", "Gun Pack", "Incredibly Important Pack", "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
 
   death_link: true
   coinsanity:

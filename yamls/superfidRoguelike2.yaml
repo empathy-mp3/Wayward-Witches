@@ -983,7 +983,7 @@ A Link to the Past:
   map_shuffle: any_world
   restrict_dungeon_item_on_boss: false
   item_pool: expert # Upgrade to hard, then easy
-  item_functionality: hard # Upgrade to easy
+  item_functionality: easy
   enemy_health: hard # Upgrade to default, then easy
   enemy_damage: default
   progressive: on

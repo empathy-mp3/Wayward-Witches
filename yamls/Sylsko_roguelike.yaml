@@ -116,7 +116,7 @@ Astalon:
   start_with_bell: 'false' #change to true
   apex_elevator: included
   cost_multiplier: double #change to normal, then to half, then to zero
-  fast_blood_chalice: 'false' #change to true
+  fast_blood_chalice: 'true'
   campfire_warp: 'true'
   open_early_doors: 'false' #change to true
   cheap_kyuli_ray: 'true'

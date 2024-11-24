@@ -18,7 +18,7 @@ DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
   permanent_coins: 'false'
   ending_choice: 'true' # -> 'any'
   double_jump_glitch: simple # -> none
-  time_is_money: optional # -> required
+  time_is_money: required
   death_link: 'true'
   # Credit to superfid2006 for the excluded location/plando block
   exclude_locations:
@@ -322,13 +322,13 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
   trap_percentage: random-range-10-20 # -> 5-10 -> 0-5
   puzzle_skip_amount: 2 # -> 5 -> 7
   hint_amount:
-    0: 15 # -> 5 -> 0
-    5: 10 #    10   0
-    10: 5 #    15   5
-    15: 0 #    10  10
-    20: 0 #    5   15
-    25: 0 #    0   10
-    30: 0 #    0    5
+    0: 5  # -> 0
+    5: 10 #    0
+    10: 15 #   5
+    15: 10 #  10
+    20: 5  #  15
+    25: 0  #  10
+    30: 0  #   5
   vague_hints: stable
   area_hint_percentage: '20'
   laser_hints: 'false'

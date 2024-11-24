@@ -490,10 +490,9 @@ A Link to the Past:
     normal: 50
     easy: 0
   
-  #Enemy Health from hard to default
   enemy_health:
-    hard: 50
-    default: 0
+    hard: 0
+    default: 50
   
   #Enemy Damage from shuffled to default
   enemy_damage: 

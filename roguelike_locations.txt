@@ -32,3 +32,24 @@ second chance II-2
 second chance II-3
 attack V-1
 attack V-2
+vitality IX-1
+vitality IX-2
+vitality IX-3
+vitality IX-4
+vitality IX-5
+vitality IX-6
+vitality IX-7
+healing X-1
+healing X-2
+healing X-3
+time III-1
+time III-2
+time III-3
+defense XIX-1
+defense XIX-2
+melee weapon II-1
+melee weapon II-2
+melee weapon II-3
+utility III-1
+utility III-2
+utility III-3

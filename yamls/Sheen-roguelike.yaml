@@ -105,7 +105,7 @@ Factorio:
   satellite: randomize_recipe
   free_samples: none # none -> single_craft -> stack
   tech_tree_information: advancement
-  recipe_time: chaos # chaos -> new_normal -> new_fast
+  recipe_time: new_normal # new_normal -> new_fast
   recipe_ingredients: science_pack
   recipe_ingredients_offset: 0 # 0 -> -1
   imported_blueprints: true

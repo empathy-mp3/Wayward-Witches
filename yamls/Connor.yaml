@@ -139,7 +139,7 @@ Hollow Knight:
   RandomizeLifebloodCocoons: random
   RandomizeGrimmkinFlames: random
   RandomizeJournalEntries: random
-  RandomizeNail: random #Change to false
+  RandomizeNail: false
   RandomizeGeoRocks: random
   RandomizeBossGeo: random
   RandomizeSoulTotems: random
