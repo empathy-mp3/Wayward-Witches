@@ -16,7 +16,7 @@ DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
     10: 10
     20: 5
   permanent_coins: 'false'
-  ending_choice: 'true' # -> 'any'
+  ending_choice: any
   double_jump_glitch: simple # -> none
   time_is_money: required
   death_link: 'true'

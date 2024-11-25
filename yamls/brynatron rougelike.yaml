@@ -56,7 +56,7 @@ Hollow Knight:
   AcidSkips: false
   DamageBoosts: false
   DangerousSkips: false
-  DarkRooms: true # Can be upgraded to false
+  DarkRooms: false
   ComplexSkips: true # Can be upgraded to false
   DifficultSkips: true # Can be upgraded to false
   RemoveSpellUpgrades: false
@@ -139,10 +139,9 @@ Stardew Valley:
 # 12 UPGRADES
   goal:
     community_center: 1
-    cryptic_note: 1
+    cryptic_note: 2
     master_angler: 1
-    greatest_walnut_hunter: 1
-    protector_of_the_valley: 1
+    protector_of_the_valley: 2
 
   farm_type: random
   bundle_randomization: remixed_anywhere # Can be upgraded to remixed

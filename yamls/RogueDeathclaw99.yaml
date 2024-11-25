@@ -222,7 +222,7 @@ Timespinner:
   - Poison Trap
   start_inventory: {}
   start_with_jewelry_box: true
-  eye_spy: random # Change to No
+  eye_spy: random # Change to No and change unchained_keys to true
   quick_seed: random
   specific_keycards: random
   inverted: random

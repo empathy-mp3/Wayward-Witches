@@ -203,7 +203,7 @@ Dark Souls III:
         Pool: Black Knight; Cathedral Knight; Red-Eyed Lothric Knight; Millwood Knight; Ringed Knight; Pontiff Knight; Silver Knight; Winged Knight
       - Weight: 0
         Pool: Darkwraith; Grave Warden; Lycanthrope
-      - Weight: 6 # 6 -> 0
+      - Weight: 0
         Pool: Jailer
       - Weight: 2 # 2 -> 0
         Pool: Angel Pilgrim; Fire Witch; Judicator
@@ -247,7 +247,7 @@ Hollow Knight:
   WhitePalace: include
   ExtraPlatforms: false # false -> true
   DeathLink: true
-  DeathLinkShade: shadeless
+  DeathLinkShade: shade
   MaximumGrubPrice: 46
   MaximumEssencePrice: 2800
   MaximumCharmPrice: 40

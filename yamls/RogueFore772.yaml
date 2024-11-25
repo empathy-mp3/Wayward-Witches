@@ -189,7 +189,6 @@ TUNIC:
   extra_hexagon_percentage: random
   lanternless:
     'false': 10
-    'true': 40 # remove this line
   maskless:
     'false': 10
     'true': 40 # remove this line

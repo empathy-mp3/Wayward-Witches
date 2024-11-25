@@ -382,8 +382,7 @@ Pokemon Emerald:
       world: The Cauldron
       force: true
       from_pool: true
-  goal:           # remove steven, then champion, then legendary_hunt
-    steven: 50
+  goal:           # remove champion, then legendary_hunt
     champion: 25
     legendary_hunt: 25
     norman: 5

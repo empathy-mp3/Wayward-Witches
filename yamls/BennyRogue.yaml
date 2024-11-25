@@ -10,7 +10,7 @@ The Witness:
     elevator: 8 # change to 3
     challenge: 0
     mountain_box_short: 1 # change to 5
-    mountain_box_long: 6 # change to 4
+    mountain_box_long: 4
     panel_hunt: 5 # change to 3
   mountain_lasers: random-range-7-11 # change to random-low
   challenge_lasers: random-range-1-4 # change to random-high
@@ -42,7 +42,7 @@ The Witness:
     Slowness: 6
 
   puzzle_skip_amount: random-low # change to random-high
-  hint_amount: random-low # change to random-high
+  hint_amount: random-high
   vague_hints: stable 
   area_hint_percentage: random-range-20-40 # change to random-range-40-60, then random-range-60-80
   laser_hints: 'false'

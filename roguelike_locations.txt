@@ -75,3 +75,11 @@ explosion III-2
 explosion III-3
 explosion III-4
 explosion III-5
+sight III-1
+defense VIII-1
+defense VIII-2
+time II-1
+time II-2
+time II-3
+time II-4
+time II-5

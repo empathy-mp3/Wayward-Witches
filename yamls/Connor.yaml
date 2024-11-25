@@ -2,8 +2,6 @@
 
 game: 
   Manual_Godhome_Eszenn: 1
-  Manual_SquareMusic_Connor: 1
-  Timespinner: 2
   Undertale: 2
   Hollow Knight: 2
 Manual_Godhome_Eszenn:
@@ -109,7 +107,7 @@ Hollow Knight:
   ComplexSkips: 'false'
   DifficultSkips: 'false'
   StartLocation: king's_pass
-  Goal: godhome_flower #change to godhome then to radiance then to siblings then to any
+  Goal: godhome #change to radiance then to siblings then to any
   WhitePalace: include
   ExtraPlatforms: 'true'
   AddUnshuffledLocations: 'false'
