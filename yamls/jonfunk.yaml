@@ -38,7 +38,6 @@ Rogue Legacy:
     random-range-middle-25-40: 8
   universal_fairy_chests:
     'true': 9
-    'false': 8  # remove this line
   universal_chests:
     'false': 18
     'true': 5
@@ -251,7 +250,6 @@ A Hat in Time:
   MaxPonCost:
     '300': 25
     '200': 10
-    '400': 25  # remove this line
   BadgeSellerMinItems:
     '4': 25
     random-middle: 14

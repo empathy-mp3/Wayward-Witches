@@ -10,7 +10,7 @@ Super Metroid:
   progression_balancing: '0'    # Yaml changes (2) - +25 each
   death_link: 'enable_survive'
   minor_qty: 20                 # Yaml changes (4) - +20 each, eventually reaching 100: 50
-  energy_qty: 'ultra_sparse'    # Yaml changes (3) - ultra_sparse => sparse => medium => vanilla
+  energy_qty: 'sparse'    # Yaml changes (2) - sparse => medium => vanilla
   doors_colors_rando: 'true'    # Yaml change (false)
   fun_combat: 'true'            # Yaml change (false)
   fun_movement: 'true'          # Yaml change (false)
@@ -24,7 +24,7 @@ Super Metroid Map Rando:
   start_location_mode: 'randomroom' # Yaml change ('ship')
   mother_brain: 'short'       # Yaml change (2) (short -> skip)
   mark_map_stations: 'false'    # Yaml change (true)
-  buffed_drops: 'false'         # Yaml change (true)
+  buffed_drops: 'true'
   wall_jump: 'collectible'      # Yaml change (vanilla)
   map_layout: 'tame'
   remote_items: 'true'

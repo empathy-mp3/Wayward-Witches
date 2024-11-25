@@ -53,3 +53,25 @@ melee weapon II-3
 utility III-1
 utility III-2
 utility III-3
+ranged weapon VIII-1
+ranged weapon VIII-2
+ranged weapon VIII-3
+ranged weapon VIII-4
+vitality XIV-1
+vitality XIV-2
+vitality XIV-3
+vitality XIV-4
+vitality XIV-5
+vitality XIV-6
+fearless II-1
+price XII-1
+healing IX-1
+healing IX-2
+healing IX-3
+stealth I-1
+stealth I-2
+explosion III-1
+explosion III-2
+explosion III-3
+explosion III-4
+explosion III-5

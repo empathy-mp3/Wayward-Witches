@@ -23,7 +23,7 @@ Super Metroid:
   allow_grey_doors: 'false'
   boss_randomization: 'true'
   remove_escape_enemies: 'true'
-  fun_combat: 'true'		# Change to false, should be an early change
+  fun_combat: 'false'
   fun_movement: 'true'		# Change to false, should be an early change
   fun_suits: 'true'		# Change to false, should be an early change
   layout_patches: 'true'

@@ -296,7 +296,7 @@ Outer Wilds:
 Manual_DeckedOut2_mp3:
   progression_balancing: 50
   goal:
-    enter the hideout: 32 # reduce to 1
+    enter the hideout: 1
     craft all legendary cards: 32 # reduce to 1
     complete a 30 ember run: 1
     complete a 40 ember run: 2

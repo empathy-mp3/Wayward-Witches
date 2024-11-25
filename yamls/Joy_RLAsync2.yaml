@@ -160,9 +160,9 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
   randomize_rotations: 'true' # -> 'false'
   randomize_warp_platforms: 'true'
   randomize_dark_bramble_layout:
-    'false': 0 # -> 0 -> 5 -> 10
-    'true': 10 #    5    0     0
-    hub_start: 0 #  5    5     0
+    'false': 0 #  -> 5 ->  10
+    'true': 5 #      0     0
+    hub_start: 5 #   5     0
   trap_chance: random-range-10-20 # -> 5-10 -> 0-5
   trap_type_weights:
     Audio Trap: 1

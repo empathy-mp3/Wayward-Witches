@@ -239,7 +239,7 @@ Timespinner: # Edit count: 13
   shop_fill:
     default: 25
     randomized: 25
-    empty: 75 # Item: Set to 25/5/0
+    empty: 25 # Item: Set to 5/0
   shop_warp_shards: 'false' # Item: Set to true
   shop_multiplier:
     '0': 1 # Item: Set chance to 20

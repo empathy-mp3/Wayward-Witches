@@ -25,7 +25,7 @@ Super Metroid:
   energy_qty: medium 		# Change to Vanilla
   area_randomization: 'off'
   area_layout: 'false'
-  doors_colors_rando: 'true' 	# Change to False
+  doors_colors_rando: 'false'
   allow_grey_doors: 'false'
   boss_randomization: 'false'
   escape_rando: 'false'

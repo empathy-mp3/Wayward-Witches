@@ -574,8 +574,7 @@ The Witness:
     eclipse: 10
   trap_percentage: # change to random, then to random-low
     random-high: 50
-  puzzle_skip_amount: # remove '0'
-    '0': 50
+  puzzle_skip_amount:
     random-range-low-0-10: 50
   death_link_amnesty: # 5 upgrades, detailed per option below
     '0': 50

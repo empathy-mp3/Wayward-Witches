@@ -945,18 +945,11 @@ A Link to the Past:
   goal: 
     ganon: 1
     crystals: 1
-    bosses: 1
+    pedestal: 1
     ganon_pedestal: 1
     triforce_hunt: 1
     ganon_triforce_hunt: 1
-# # Upgrade to the following selection (1/2)
-    # ganon: 1
-    # crystals: 1
-    # pedestal: 1
-    # ganon_pedestal: 1
-    # triforce_hunt: 1
-    # ganon_triforce_hunt: 1
-    # mercenary: 1
+    mercenary: 1
 # # Upgrade to the following selection (2/2)
     # crystals: 1
     # pedestal: 1
@@ -1221,7 +1214,7 @@ Secret of Evermore:
   energy_core: random
   required_fragments: random # Upgrade to random-range-1-50, then random-range-1-25. Do the same for available_fragments
   available_fragments: random # See above
-  money_modifier: random-range-50-150 # Upgrade to random-range-100-300, then random-range-300-1000, then random-range-1000-2500
+  money_modifier: random-range-100-300 # Upgrade to random-range-300-1000, then random-range-1000-2500
   exp_modifier: random-range-100-300 # Upgrade to random-range-300-1000, then random-range-1000-2500
   sequence_breaks: off # Upgrade to on
   out_of_bounds: off # Upgrade to on

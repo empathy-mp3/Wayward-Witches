@@ -15,9 +15,9 @@ The Witness:
   mountain_lasers: random-range-7-11 # change to random-low
   challenge_lasers: random-range-1-4 # change to random-high
   panel_hunt_total: random-high # change to random-low
-  panel_hunt_required_percentage: random-high # change to random-low
+  panel_hunt_required_percentage: random-low
   panel_hunt_postgame: disable_challenge_lasers_locations
-  panel_hunt_discourage_same_area_factor: random # change to random-low
+  panel_hunt_discourage_same_area_factor: random-low
   disable_non_randomized_puzzles: 'false'
   shuffle_discarded_panels:
     'true': 6
@@ -66,7 +66,7 @@ Rogue Legacy:
   fairy_chests_per_zone: random-low 
   chests_per_zone: random # change to random-low
   vendors: normal # change to early
-  architect: anywhere # change to early
+  architect: early
   architect_fee: random-low
 
   disable_charon:

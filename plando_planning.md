@@ -4098,8 +4098,8 @@ JoyTheBard (Witness): increase `hint_amount`
 
 ## defy death LI
 
-*a stone bed marked with a sigil.*
-(+1 life, referencing homestuck)
+*A golden banjo*
+(+1 life) [hint by Ravanan!]
 
 +1 life
 
