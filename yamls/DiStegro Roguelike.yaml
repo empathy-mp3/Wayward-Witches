@@ -163,10 +163,10 @@ Pokemon Emerald:
   require_flash: both
   elite_four_requirement: gyms
   
-  #From 6-8 to 4-8, to 4-6
+  #From 4-8 to 4-6
   elite_four_count:
-    random-range-6-8: 50
-    random-range-4-8: 0
+    random-range-6-8: 0
+    random-range-4-8: 50
     random-range-4-6: 0
 
   norman_requirement: badges

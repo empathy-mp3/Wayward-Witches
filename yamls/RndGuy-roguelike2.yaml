@@ -121,7 +121,7 @@ Hollow Knight:
         - Grub 
 
   # these will be changed by upgrades and may affect the items just above
-  StartingGeo: '0' # random-range-0-1000, random-range-0-3000
+  StartingGeo: random-range-0-1000 # random-range-0-3000
   RemoveSpellUpgrades: 'true' # set to false
   RandomCharmCosts: 'random-range-90-180' # random-range-90-140, random-range-90-110, random-range-70-110
   starting_difficulty:  # set high to 10, then set high to 0

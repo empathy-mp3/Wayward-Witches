@@ -12,7 +12,7 @@ game:
 Timespinner:
   plando_items: [{"item": "Eternal Crown", "location": "defense IX-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Eternal Coat", "location": "defense XIX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Galaxy Earrings", "location": "XP III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XIV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Silence Ring", "location": "uncategorized XIX-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Mind Refresh": 3, "Sand Vial": 3, "Antidote": 3}, "locations": [healing IV-4, healing VI-1, travel II-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   DamageRando: mostlynerfs #change to 'balanced' > 'mostlybuffs' > 'allbuffs'
-  ExtraEarringsXP: '0' #increase by 6, 4 times
+  ExtraEarringsXP: '6' #increase by 6, 3 times
   ShopMultiplier: random-range-1-5 #change to 'random-range-low-1-5' > '0'
   LootTierDistro: default_weight #change to 'full_random' > 'inverted_weight'
   TrapChance: '50' #reduce by 25 twice
@@ -207,7 +207,7 @@ Pokemon Emerald:
   ability_blacklist: # add Wonder Guard
   - Arena Trap
   - Shadow Tag
-  match_trainer_levels_bonus: -4 # increase by 1, 9 times
+  match_trainer_levels_bonus: -2 # increase by 1, 7 times
 
   progression_balancing: '0'
   badges: completely_random

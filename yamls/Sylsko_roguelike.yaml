@@ -24,7 +24,7 @@ Celeste 64:
   carsanity: true
   badeline_chaser_source: random
   badeline_chaser_frequency: 8 #change to 0
-  badeline_chaser_speed: 10 #change to 8, then to 5, then to 2
+  badeline_chaser_speed: 8 #change to 5, then to 2
   exclude_locations:
     - Badeline Cassette Strawberry
   
@@ -44,7 +44,7 @@ Timespinner:
   cantoran: random
   lore_checks: random
   boss_rando: unscaled #change to scaled, then to off
-  EnemyRando: unscaled #change to scaled, then to off
+  EnemyRando: scaled #change to off
   damage_rando: mostlynerfs #change to balanced, then to mostlybuffs
   hp_cap: 999
   level_cap: 99
@@ -138,7 +138,7 @@ Ender Lilies:
   starting_spirit:
     any_main_spirit: 50
     any_sub_spirit: 0
-  starting_location: random
+  starting_location: random # change to 'start'
   item_pool_priority: useful
   goal: ending_c #change to ending_b, then to ending_a
   early_maneuver: random

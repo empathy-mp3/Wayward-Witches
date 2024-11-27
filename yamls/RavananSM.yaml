@@ -24,8 +24,8 @@ Super Metroid:
   boss_randomization: 'true'
   remove_escape_enemies: 'true'
   fun_combat: 'false'
-  fun_movement: 'true'		# Change to false, should be an early change
-  fun_suits: 'true'		# Change to false, should be an early change
+  fun_movement: 'false'
+  fun_suits: 'false'
   layout_patches: 'true'
   varia_tweaks: 'true'
   nerfed_charge: 'true'

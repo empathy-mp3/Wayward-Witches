@@ -382,8 +382,7 @@ Pokemon Emerald:
       world: The Cauldron
       force: true
       from_pool: true
-  goal:           # remove champion, then legendary_hunt
-    champion: 25
+  goal:           # remove legendary_hunt
     legendary_hunt: 25
     norman: 5
   dexsanity:
@@ -578,7 +577,7 @@ Hollow Knight:
     'true': 50          # remove this line (or change to 0)
   AnnoyingChecks: medium # change to low
   SkipDifficulty: all   # change to hard, then medium, then easy, then off
-  GoalDifficulty: hard  # change to medium, then to easy
+  GoalDifficulty: medium  # change to easy
   Costs: high           # change to medium, then to low
   SplitCrystalHeart: &split
     'false': 20
@@ -1023,13 +1022,13 @@ Timespinner:
   triggers:
     - option_category: Timespinner
       option_name: quick_seed
-      option_result: false
+      option_result: 'false'
       options:
         Timespinner:
           unchained_keys: 'true'
     - option_category: Timespinner
       option_name: boss_healing
-      option_result: true
+      option_result: 'true'
       options:
         Timespinner:
           extra_earrings_xp: 24

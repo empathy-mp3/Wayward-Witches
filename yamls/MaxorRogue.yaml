@@ -16,7 +16,7 @@ A Link to the Past:
   entrance_shuffle_seed: random
   key_drop_shuffle: 'true'
   restrict_dungeon_item_on_boss: 'true'
-  item_pool: expert #change to hard then to normal
+  item_pool: hard #change to normal
   item_functionality: expert #change to hard then to normal
   enemy_health: hard #change to default
   enemy_damage: default

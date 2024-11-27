@@ -110,7 +110,6 @@ Noita: # Note: Finalised. YAML Edits: 5.
     side_path: 10
   extra_orbs: random-low # Item: Change to random-high. No effect on Greed Ending.
   shop_price:
-    full_price: 10 # Item: Reduce to 0
     75_percent_off: 2
     50_percent_off: 2
     25_percent_off: 2
@@ -231,7 +230,7 @@ Timespinner: # Edit count: 13
     balanced: 1
     mostlybuffs: 0
     allbuffs: 0
-  hp_cap: '50' # Item: Increase HP cap to 100/200/999. (3)
+  hp_cap: '100' # Item: Increase HP cap to 200/999. (2)
   level_cap: '99'
   extra_earrings_xp: '0'
   boss_healing: # Item: Set to true (1)

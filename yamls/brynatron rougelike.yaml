@@ -132,7 +132,7 @@ Terraria:
   fill_extra_checks_with: coins #  Can be upgraded to useful_items
   death_link: true
   exclude_locations:
-    [] # Can be upgraded to include: Real Estate Agent, Funkytown, Gelatin World Tour, Lucky Break, It Can Talk?!, Dead Men Tell No Tales, Watch Your Step!, The Great Slime Mitosis, And Good Riddance!
+    ["Real Estate Agent"] # Can be upgraded to include: Funkytown, Gelatin World Tour, Lucky Break, It Can Talk?!, Dead Men Tell No Tales, Watch Your Step!, The Great Slime Mitosis, And Good Riddance!
 
 Stardew Valley:
   plando_items: [{"items": {"Joja Cola": 9}, "locations": [vitality XV-3, healing III-3, price XII-1, defense XVIII-1, melee weapon IX-2, melee weapon X-2, travel III-1, uncategorized XII-1, uncategorized XIII-1], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -145,7 +145,7 @@ Stardew Valley:
 
   farm_type: random
   bundle_randomization: remixed_anywhere # Can be upgraded to remixed
-  bundle_price: expensive # Can be upgraded to normal, then cheap
+  bundle_price: normal # Can be upgraded to cheap
   entrance_randomization: disabled
   exclude_ginger_island: false
 

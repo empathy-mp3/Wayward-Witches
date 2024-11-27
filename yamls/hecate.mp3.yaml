@@ -1,10 +1,10 @@
 name: hecate.mp3
 game: 
-  Noita: 3
-  Outer Wilds: 3
-  Manual_DeckedOut2_mp3: 3
-  ULTRAKILL: 3
-  TUNIC: 3
+  Noita: 5
+  Outer Wilds: 6
+  Manual_DeckedOut2_mp3: 6
+  ULTRAKILL: 5
+  TUNIC: 4
 description: empathy.mp3 game for Wayward Witches async
 Noita:
   progression_balancing: '50'

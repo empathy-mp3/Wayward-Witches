@@ -59,7 +59,7 @@ Timespinner:
   show_bestiary: 'true'
   show_drops: 'true'
   enter_sandman: 'true'
-  dad_percent: 'false' #Change to True
+  dad_percent: 'true'
   rising_tides: 'true'
   unchained_keys: 'true'
   back_to_the_future: 'false'

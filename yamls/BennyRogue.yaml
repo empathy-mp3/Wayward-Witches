@@ -23,7 +23,7 @@ The Witness:
     'true': 6
     'false': 2 
   shuffle_vault_boxes: 
-    'true': 6 # decrease to 2
+    'true': 2
     'false': 2 # increase to 7
   shuffle_EPs: 'off'
   EP_difficulty: normal 
@@ -41,7 +41,7 @@ The Witness:
     Power Surge: 2
     Slowness: 6
 
-  puzzle_skip_amount: random-low # change to random-high
+  puzzle_skip_amount: random-high
   hint_amount: random-high
   vague_hints: stable 
   area_hint_percentage: random-range-20-40 # change to random-range-40-60, then random-range-60-80

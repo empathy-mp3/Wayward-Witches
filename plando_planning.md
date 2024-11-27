@@ -4296,6 +4296,7 @@ jf-rogue (aHiT): "Yarn"
 jf-rogue (RL): change `new_game_plus: new_game_plus_2` weight to 0
 rhythm.Ventus/Terra/Aqua: HP Boost
 rhythm.ClankUYA: increase `progression_balancing` by varying amounts
+Sylsko (Ender Lilies): change `starting_location` to `random`
 
 ## uncategorized V
 

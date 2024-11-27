@@ -286,7 +286,7 @@ Mindustry:
   disable_invasions: true
   faster_production: true
   death_link: true
-  death_link_mode: death_link_unit # Upgrade x2: change to death_link_core then to death_link_core_russian_roulette
+  death_link_mode: death_link_core # Upgrade: change to death_link_core_russian_roulette
     # Select the death link mode.
   military_level_tracking: true
     # Ensure the player has enough military power to clear sectors. If turned off, the logic will consider that the player can clear every sector once they have the minimal requirement to land on that sector.

@@ -9,7 +9,7 @@ Kingdom Hearts Birth by Sleep: #9 yaml changes
     ventus: 1
     aqua: 1
     terra: 1
-  starting_worlds: 1 #1 -> 2 -> 3 -> 4 -> 5
+  starting_worlds: 3 #3 -> 4 -> 5
   exp_multiplier: 1x # 1x -> 2x -> 4x -> 6x
   final_terra_xehanort_ii: 'false'
   mirage_arena: 'false'
@@ -121,17 +121,16 @@ Factorio:
   death_link: 'true'
   energy_link: 'true'
 
-  starting_items: # there are 5 upgrades here: automation starter pack, starting robots, Spoodertron, Nuclear survival kit, Unlimited Power. They each unlock multiple starting items. They can be unlocked in any order
+  starting_items: # there are 4 upgrades here: starting robots, Spoodertron, Nuclear survival kit, Unlimited Power. They each unlock multiple starting items. They can be unlocked in any order
     burner-mining-drill: 19
     stone-furnace: 19
-
-    ## automation starter pack (6 items)
-    #steel-furnace: 48
-    #assembling-machine-2: 24
-    #electric-mining-drill: 24
-    #lab: 12
-    #efficiency-module: 100
-    #transport-belt: 300
+    # automation starter pack (6 items)
+    steel-furnace: 48
+    assembling-machine-2: 24
+    electric-mining-drill: 24
+    lab: 12
+    efficiency-module: 100
+    transport-belt: 300
 
 
     ## starting robots (5 items)

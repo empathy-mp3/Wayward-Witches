@@ -13,7 +13,7 @@ Adventure:
   bat_logic: can_break
   freeincarnate_max: 17
   dragon_rando_type: random
-  yorgle_speed: 9 # Change to 2
+  yorgle_speed: 2
   yorgle_min_speed: 8 # Change to 1
   grundle_speed: 9 # Change to 2
   grundle_min_speed: 8 # Change to 1

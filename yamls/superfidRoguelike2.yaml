@@ -184,9 +184,9 @@ Timespinner:
   lore_checks: random
   boss_rando: random # Upgrade to 50/50 between 'off' and scaled
   damage_rando: mostlynerfs # Upgrade to balanced, then mostlybuffs
-  hp_cap: random # Upgrade to random-range-250-999, then random-range-500-999, then 999
+  hp_cap: random-range-250-999 # Upgrade to random-range-500-999, then 999
   level_cap: 99
-  extra_earrings_xp: random # Upgrade to random-range-12-24, then 24
+  extra_earrings_xp: random-range-12-24 # Upgrade to 24
   boss_healing: true
   shop_fill: randomized
   shop_warp_shards: true
@@ -975,7 +975,7 @@ A Link to the Past:
   compass_shuffle: any_world
   map_shuffle: any_world
   restrict_dungeon_item_on_boss: false
-  item_pool: expert # Upgrade to hard, then easy
+  item_pool: hard # Upgrade to easy
   item_functionality: easy
   enemy_health: hard # Upgrade to default, then easy
   enemy_damage: default
@@ -997,7 +997,7 @@ A Link to the Past:
   include_witch_hut: false
   randomize_shop_prices: random
   randomize_cost_types: random
-  shop_price_modifier: random # Upgrade to random-range-0-200, then 0
+  shop_price_modifier: random-range-0-200 # Upgrade to 0
   shuffle_capacity_upgrades: random
   bombless_start: random # Upgrade to false
   shuffle_prizes: random
@@ -1219,7 +1219,7 @@ Secret of Evermore:
   sequence_breaks: off # Upgrade to on
   out_of_bounds: off # Upgrade to on
   fix_cheats: true # Upgrade to false
-  fix_infinite_ammo: true # Upgrade to false
+  fix_infinite_ammo: false
   fix_atlas_glitch: true # Upgrade to false
   fix_wings_glitch: true # Upgrade to false
   shorter_dialogs: true

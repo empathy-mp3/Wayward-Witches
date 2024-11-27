@@ -10,7 +10,7 @@ Super Metroid:
   remote_items: 'false'
   death_link: enable_survive
   max_difficulty: medium                  #Change to easy
-  morph_placement: normal                 #change to early
+  morph_placement: early
   hide_items: 'false'
   strict_minors: 'false'
   missile_qty: '30'
