@@ -72,10 +72,9 @@ Pokemon Red and Blue:
   minimum_steps_between_encounters: 25
   level_scaling: auto
   
-  # EXP Modifier from 16 to 32 to 48
+  # EXP Modifier from 32 to 48
   exp_modifier:
-    16: 50
-    32: 0
+    32: 50
     48: 0
 
   randomize_wild_pokemon: completely_random

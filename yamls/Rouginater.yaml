@@ -90,6 +90,6 @@ Manual_PeggleNights_Freezinater:
   fever_bonus_checks: false
   spring_fever_pack: true # Upgrades: Set to true > false (I have played these level packs once or twice at most)
   holiday_2008_pack: false
-  art_contest_pack: true # Upgrades: Set to true > false (I have played these level packs once or twice at most)
+  art_contest_pack: false
   orangesanity: false
   death_link: true

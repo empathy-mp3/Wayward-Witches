@@ -172,7 +172,7 @@ Timespinner:
       force: true
       from_pool: true
   death_link: true
-  start_with_jewelry_box: false # Upgrade to true
+  start_with_jewelry_box: true
   downloadable_items: random
   eye_spy: random
   start_with_meyef: random

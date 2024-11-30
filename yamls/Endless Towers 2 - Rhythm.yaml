@@ -294,7 +294,7 @@ Mindustry:
     # Will randomize core units weapon. Erekir core unit will be made vulnerable and be given an ability instead.
   logistic_distribution: early_logistics # Upgrade x2: change to local_early_logistics then starter_logistics
     # Change how logistics research are distributed.
-  make_early_roadblocks_local: false # Upgrade: true
+  make_early_roadblocks_local: true
     # Make items that could block the player early on local.
   amount_of_resources_required: random-range-100-9999
     # The amount of resources required to complete the 'Every resources collection' goal.
@@ -616,7 +616,6 @@ Sonic Adventure 2 Battle:
   goal:
     chaos_emerald_hunt: 15
     finalhazard_chaos_emerald_hunt: 10
-    boss_rush_chaos_emerald_hunt: 5 # Upgrade: Disabled
   mission_shuffle: 'true'
   boss_rush_shuffle:
     chaos: 25

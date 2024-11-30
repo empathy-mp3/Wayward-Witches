@@ -524,7 +524,6 @@ Hollow Knight:
   AddUnshuffledLocations:
     'false': 25
   StartingGeo:
-    '0': 9   # remove this option
     '1000': 9
     random-middle: 20
   DeathLink:
@@ -634,7 +633,6 @@ Muse Dash:
   additional_song_count:
     '15': 15
     '40': 20
-    '50': 13 # remove this option
     '30': 20
   music_sheet_count_percentage:
     '10': 24

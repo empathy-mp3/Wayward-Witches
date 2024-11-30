@@ -238,10 +238,8 @@ Pokemon Red and Blue:
   town_map_fly_location: true
   minimum_steps_between_encounters: 6
   level_scaling: by_spheres_and_distance
-  exp_modifier:  #Change to quadruple
-    normal: 0 
-    triple: 50 
-    quadruple: 0 
+  exp_modifier:
+    quadruple: 50
   randomize_wild_pokemon: match_base_stats
   area_1_to_1_mapping: true
   randomize_starter_pokemon: match_base_stats

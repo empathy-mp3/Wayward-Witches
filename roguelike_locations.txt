@@ -109,3 +109,34 @@ vitality VII-2
 vitality VII-3
 vitality VII-4
 vitality VII-5
+mana V-1
+mana V-2
+mana V-3
+vitality VIII-1
+vitality VIII-2
+vitality VIII-3
+vitality VIII-4
+vitality VIII-5
+vitality VIII-6
+vitality VIII-7
+vitality VIII-8
+challenge I-1
+price VI-1
+price VI-2
+ranged weapon V-1
+ranged weapon V-2
+ranged weapon V-3
+ranged weapon V-4
+ranged weapon V-5
+ranged weapon V-6
+ranged weapon V-7
+progressive I-1
+uncategorized XI-1
+uncategorized XI-2
+uncategorized XI-3
+uncategorized XI-4
+uncategorized XI-5
+second chance III-1
+second chance III-2
+second chance III-3
+second chance III-4

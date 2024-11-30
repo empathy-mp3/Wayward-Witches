@@ -381,7 +381,7 @@ Blasphemous:
   difficulty:
     easy: 1
     normal: 5
-    hard: 25 # 15, 5, 1
+    hard: 15 # 5, 1
   skip_long_quests: # reduce 'true' to 40, then reduce 'true' to 0
     'false': 20
     'true': 80
@@ -454,7 +454,7 @@ Muse Dash:
   song_difficulty_mode: manual
   song_difficulty_min: '11'
   song_difficulty_max: '11'
-  song_difficulty_progression: '0' # 1, 2, 3, 4, 5
+  song_difficulty_progression: '1' # 2, 3, 4, 5
   grade_needed: silvers
   death_link: 'true'
   chosen_traps:

@@ -63,7 +63,7 @@ A Hat in Time:
   CTRLogic: nothing       # change to sprint, then to scooter, then to time_stop_only
   PonCost: medium           # change to low
   ChapterCost: high       # change to medium, then to low
-  DLC: high               # change to medium, then to low, then to off
+  DLC: medium               # change to low, then to off
   TrapChance: random      # change to random-range-low-0-70, then to 0
   StartWithCompassBadge:
     'false': 10           # remove this line (or change to 0)
@@ -390,7 +390,6 @@ Pokemon Emerald:
     'true': 20    # remove this line (or change to 0)
   trainersanity:
     'false': 50
-    'true': 30    # remove this line (or change to 0)
   require_flash:  # remove neither, then only_granite_cave AND only_victory_road.
     neither: 50
     only_granite_cave: 5
@@ -402,7 +401,7 @@ Pokemon Emerald:
   ability_blacklist:                # add a new line with:  Wonder Guard: 1
     Arena Trap: 1
     Shadow Tag: 1
-  exp_modifier: 200                 # change to 300
+  exp_modifier: 300
   match_trainer_levels_bonus: -5   # change to 0, then to 5
 
   progression_balancing: 1
@@ -968,7 +967,7 @@ Timespinner:
     unscaled: &reduce_difficulty 5 # set to 0
   hp_cap: 250               # increase to 350, then 450, then 999
   boss_healing: false       # change to true
-  shop_multiplier: 2        # change to 1, then to 0
+  shop_multiplier: 1        # change to 0
   dad_percent: false        # change to random, then to true
   trap_chance: random-range-low-5-90 # change to random-range-low-0-35, then to 0
 

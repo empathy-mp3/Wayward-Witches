@@ -3763,9 +3763,9 @@ JoyTheBard (Witness): increase `hint_amount`
 ## defy death III
 
 *a power gained from a dark mirror.*
-(+2 life, referencing death defiance from hades)
+(+1 life, referencing death defiance from hades)
 
-+2 life
++1 life (it was originally 2 but that's too much)
 
 ## defy death IV
 
@@ -3791,9 +3791,9 @@ JoyTheBard (Witness): increase `hint_amount`
 ## defy death VII
 
 *eternity (12)*
-(+2 life, referencing an arcana card from hades II)
+(+1 life, referencing [i was gonna say the reference but it seems i cant])
 
-+2 life
++1 life (it was originally 2 but that's too much)
 
 ## defy death VIII
 
@@ -3868,16 +3868,16 @@ JoyTheBard (Witness): increase `hint_amount`
 ## defy death XVIII
 
 *an electric suit of armor.*
-(+2 life, referencing auric tesla armor from terraria calamity mod)
+(+1 life, referencing auric tesla armor from terraria calamity mod)
 
-+2 life
++1 life (it was originally 2 but that's too much)
 
 ## defy death XIX
 
 *but it refused.*
-(+2 life, referencing "but it refused." from undertale)
+(+1 life, referencing "but it refused." from undertale)
 
-+2 life
++1 life (it was originally 2 but that's too much)
 
 ## defy death XX
 
@@ -4029,16 +4029,16 @@ JoyTheBard (Witness): increase `hint_amount`
 ## defy death XXXXI
 
 *moon, minus 1*
-(+2 life) [hint sorta adapted from Deathclaw99's hint!]
+(+1 life) [hint sorta adapted from Deathclaw99's hint!]
 
-+2 life
++1 life (it was originally 2 but that's too much)
 
 ## defy death XXXXII
 
 *200 bucks.*
-(+2 life) [hint adapted from Deathclaw99's hint!]
+(+1 life) [hint adapted from Deathclaw99's hint!]
 
-+2 life
++1 life (it was originally 2 but that's too much)
 
 ## defy death XXXXIII
 
@@ -4085,9 +4085,9 @@ JoyTheBard (Witness): increase `hint_amount`
 ## defy death XXXXIX
 
 *5 less than that one soda.*
-(+2 life)
+(+1 life)
 
-+2 life
++1 life (it was originally 2 but that's too much)
 
 ## defy death L
 
@@ -4106,9 +4106,9 @@ JoyTheBard (Witness): increase `hint_amount`
 ## defy death LII
 
 *thanatos's vacation*
-(+2 life)
+(+1 life)
 
-+2 life
++1 life (it was originally 2 but that's too much)
 
 ## defy death LIII
 

@@ -47,7 +47,7 @@ Timespinner:
   damage_rando: mostlybuffs
   hp_cap: '999'
   level_cap: '99'
-  extra_earrings_xp: '0' #Change to 12 then 24
+  extra_earrings_xp: '12' #Change to 24
   boss_healing: 'true'
   shop_fill: randomized
   shop_warp_shards: 'true'
@@ -116,7 +116,7 @@ Hollow Knight:
   DeathLinkBreaksFragileCharms: 'true'
   RandomCharmCosts: '100'
   RandomizeDreamers: random
-  RandomizeSkills: random
+  RandomizeSkills: 'true'
   RandomizeSwim: random
   RandomizeCharms: random
   RandomizeKeys: random

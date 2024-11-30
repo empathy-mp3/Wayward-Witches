@@ -476,10 +476,10 @@ ULTRAKILL:
     extended: 11 # reduce to 1
   challenge_rewards:
     'true': 10
-    'false': 25 # reduce to 2
+    'false': 2
   p_rank_rewards: 
     'true': 10
-    'false': 25 # reduce to 2
+    'false': 2
   hank_rewards: random
   randomize_clash_mode: false
   fish_rewards: random

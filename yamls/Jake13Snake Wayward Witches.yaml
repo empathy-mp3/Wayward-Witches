@@ -29,7 +29,7 @@ DOOM 1993:
   progression_balancing: 50
   accessibility: minimal
   goal: complete_boss_levels
-  difficulty: nightmare # Change to hard, then medium, then easy, then baby
+  difficulty: hard # Change to medium, then easy, then baby
   random_monsters: random_chaotic
   random_pickups: random_balanced
   random_music: shuffle_game
