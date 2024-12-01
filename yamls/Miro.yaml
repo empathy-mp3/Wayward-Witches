@@ -875,7 +875,7 @@ Minecraft:
       world: The Cauldron
       force: true
       from_pool: true
-  advancement_goal: 80      # change to 60, then to 40, then to 20
+  advancement_goal: 60      # change to 40, then to 20
   required_bosses: both     #change to ender_dragon, then to wither, then to none
   shuffle_structures:
     'false': 50             # remove this line (or change to 0)

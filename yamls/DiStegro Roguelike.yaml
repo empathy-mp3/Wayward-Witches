@@ -84,8 +84,8 @@ Pokemon Red and Blue:
 
   # Randomize Legendaries to Any
   randomize_legendary_pokemon:
-    vanilla: 50
-    any: 0
+    vanilla: 0
+    any: 50
 
   catch_em_all: off
   randomize_pokemon_stats: randomize
@@ -139,11 +139,11 @@ Pokemon Emerald:
   progression_balancing: 0
   accessibility: full
   
-  # Steven to Champion to Norman
+  # Champion to Norman
   goal:
     norman: 0
-    champion: 0
-    steven: 50
+    champion: 50
+    steven: 0
     
   badges: completely_random
   hms: completely_random
@@ -184,9 +184,7 @@ Pokemon Emerald:
   starter_blacklist: _Legendaries
 
   trainer_parties: completely_random
-
-  #Replace "[]" with "_Legendaries"
-  trainer_party_blacklist: []
+  trainer_party_blacklist: _Legendaries
   
   force_fully_evolved: random-range-30-55
   legendary_encounters: shuffle

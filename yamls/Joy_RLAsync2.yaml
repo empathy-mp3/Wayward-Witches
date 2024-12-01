@@ -290,10 +290,10 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
     umbra_variety: 0 #   5    5
     sigma_expert: 10 #   5    0
   victory_condition:
-    elevator: 0 # . .  -> 10 -> 5
-    challenge: 10 # . . .  5    0
-    mountain_box_long: 0 # 0   10
-    panel_hunt: 5 # . . .  5    5
+    elevator: 10 # . . . -> 5
+    challenge: 5 # . . .    0
+    mountain_box_long: 0 #  10
+    panel_hunt: 5 # . . .   5
   mountain_lasers: random-range-5-9
   challenge_lasers: random-range-8-11
   panel_hunt_total: random-range-60-100

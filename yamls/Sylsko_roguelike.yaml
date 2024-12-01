@@ -72,7 +72,7 @@ TUNIC:
   progression_balancing: normal
   accessibility: full
   sword_progression: true
-  start_with_sword: false #change to true
+  start_with_sword: true
   keys_behind_bosses: false
   ability_shuffling: random
   shuffle_ladders: true

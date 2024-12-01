@@ -119,7 +119,7 @@ Hollow Knight:
   RandomizeSkills: 'true'
   RandomizeSwim: random
   RandomizeCharms: random
-  RandomizeKeys: random
+  RandomizeKeys: 'true'
   RandomizeMaskShards: random
   RandomizeVesselFragments: random
   RandomizeCharmNotches: random

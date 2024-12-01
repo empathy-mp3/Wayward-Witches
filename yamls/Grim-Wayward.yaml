@@ -80,7 +80,7 @@ Minecraft: # Note: Done. YAML Edits: 12
   required_bosses: ender_dragon
   shuffle_structures: 'true'
   structure_compasses: 'false' # Item: Set to true.
-  bee_traps: '100' # Item: Reduce to 80/60/40/20/0
+  bee_traps: '80' # Item: Reduce to 60/40/20/0
   send_defeated_mobs: 'false'
   death_link: 'true'
 Noita: # Note: Finalised. YAML Edits: 5. 
@@ -189,7 +189,7 @@ Sonic Adventure DX: # Note: Finalised. Edit count: 16.
   big_life_sanity: random
   gamma_life_sanity: random
   junk_fill_percentage: '50'
-  trap_fill_percentage: '100' # Item: Reduce by 10 until it hits zero (10)
+  trap_fill_percentage: '90' # Item: Reduce by 10 until it hits zero (9)
   ice_trap_weight: medium
   spring_trap_weight: none
   police_trap_weight: none

@@ -201,7 +201,7 @@ Timespinner:
   downloadable_items: 'true'
   start_with_meyef: 'false'
   lore_checks: 'true'
-  damage_rando: allnerfs # Change to Mostlynerfs, then to Balanced, then to MostlyBuffs
+  damage_rando: mostlynerfs # Change to Balanced, then to MostlyBuffs
   hp_cap: '200' # Change to 400, then to 600, then to 999
   level_cap: '99'
   extra_earrings_xp: '24'

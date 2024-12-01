@@ -364,7 +364,7 @@ A Link to the Past:
   shuffle_prizes: both
   tile_shuffle: 'false'
   glitch_boots: 'true'
-  beemizer_total_chance: '100' # Change to 75, change to 50
+  beemizer_total_chance: '75' # Change to 50
   beemizer_trap_chance: '60'
   timer: none
   countdown_start_time: '10'

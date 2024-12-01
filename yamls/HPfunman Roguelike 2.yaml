@@ -67,9 +67,7 @@ Kingdom Hearts:
   advanced_logic:
     'false': 0
     'true': 50
-  extra_shared_abilities:
-    'false': 50
-    'true': 0 # change to true
+  extra_shared_abilities: 'true'
   exp_zero_in_pool:
     'false': 50
     'true': 0
@@ -125,4 +123,4 @@ Slay the Spire:
   character: ironclad
   ascension: 18 # change to 16, then 14, then 12, then 10 (aka 4 "lower ascension by 2" unlocks available)
   final_act: 'true' # change to false
-  death_link: 50 # change to 25, then 10
+  death_link: 25 # change to 10

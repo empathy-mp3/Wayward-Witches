@@ -140,3 +140,46 @@ second chance III-1
 second chance III-2
 second chance III-3
 second chance III-4
+second chance VIII-1
+second chance VIII-2
+second chance VIII-3
+second chance VIII-4
+time V-1
+time V-2
+time V-3
+time V-4
+time V-5
+god I-1
+second chance VI-1
+second chance VI-2
+second chance VI-3
+second chance VI-4
+attack VI-1
+attack VI-2
+attack VI-3
+attack VI-4
+rest II-1
+rest II-2
+rest II-3
+defense III-1
+defense III-2
+choice I-1
+choice I-2
+choice I-3
+choice I-4
+choice I-5
+choice I-6
+fragment III-1
+fragment III-2
+healing III-1
+healing III-2
+healing III-3
+healing III-4
+melee weapon VIII-1
+melee weapon VIII-2
+defense XIV-1
+defense XIV-2
+defense XIV-3
+careful movement II-1
+careful movement II-2
+careful movement II-3

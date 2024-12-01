@@ -174,7 +174,7 @@ Outer Wilds:
     'false': 1
     'true': 11 # reduce to 2
     hub_start: 8
-  trap_chance: random-range-60-80 # reduce this to random-range-40-60, then to random-range-20-40, then to random-range-0-20
+  trap_chance: random-range-40-60 # reduce this to random-range-20-40, then to random-range-0-20
   trap_type_weights:
     Audio Trap: 0
     Nap Trap: 3
@@ -465,7 +465,7 @@ ULTRAKILL:
     "6_2": 5
     "7_4": 5
     "P_1": 10 # reduce to 1
-    "P_2": 10 # reduce to 1
+    "P_2": 1
   goal_requirement: random-high # change to random-low
   include_secret_mission_completion: random
   unlock_type: random

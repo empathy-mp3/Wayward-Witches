@@ -468,7 +468,7 @@ Muse Dash:
   - Pixelate Trap
   - Ripple Trap
   - Vignette Trap
-  trap_count_percentage: '35' # random-range-25-35, random-range-15-35, random-range-5-35
+  trap_count_percentage: random-range-25-35 # random-range-15-35, random-range-5-35
   start_inventory: {}
   local_items: [Music Sheet]
   triggers:
@@ -565,8 +565,8 @@ The Witness:
     sigma_normal: 25
     sigma_expert: 25 # reduce to 5
     umbra_variety: 25 # reduce to 5
-  panel_hunt_required_percentage: # change to random-range-high-90-100, then to random-range-high-75-100
-    '100': 50
+  panel_hunt_required_percentage: # change to random-range-high-75-100
+    random-range-high-90-100: 50
   shuffle_vault_boxes: 'true' # change to random
   EP_difficulty: # upgrade 1 = change eclipse to 0, upgrade 2 = change normal to 30
     normal: 0

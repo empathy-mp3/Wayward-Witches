@@ -100,7 +100,7 @@ Ocarina of Time: # 6 yaml change upgrades
     all: 50
   shuffle_cows: 'true'
   shuffle_beehives: 'true'
-  shuffle_kokiri_sword: 'true' # Change to false (survivability)
+  shuffle_kokiri_sword: 'false'
   shuffle_ocarinas: 'true'
   shuffle_gerudo_card: 'true'
   shuffle_beans: 'true'
@@ -128,7 +128,7 @@ Ocarina of Time: # 6 yaml change upgrades
   hint_dist: async
   text_shuffle: none
   damage_multiplier: double # Change to normal, then half
-  deadly_bonks: double # Change to normal, then half, then none
+  deadly_bonks: normal # Change to half, then none
   no_collectible_hearts: 'false'
   starting_tod:
     sunrise: 50
@@ -427,7 +427,7 @@ Minecraft: # 5 yaml change upgrades
   include_hard_advancements: 'false'
   include_unreasonable_advancements: 'false'
   include_postgame_advancements: 'false'
-  bee_traps: random-high # Change to random-low
+  bee_traps: random-low
   send_defeated_mobs: 'true'
   death_link: 'true'
       
