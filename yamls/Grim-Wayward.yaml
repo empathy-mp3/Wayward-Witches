@@ -11,7 +11,7 @@ A Hat in Time: # YAML Edits: 12
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
-  TrapChance: '25' # Item: Reduce by 5, until value hits 0.
+  TrapChance: '20' # Item: Reduce by 5, until value hits 0.
   BabyTrapWeight: '40'
   LaserTrapWeight: '10' # Item: reduce to 5, then 0.
   EndGoal:

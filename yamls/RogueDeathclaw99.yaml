@@ -21,7 +21,8 @@ Celeste 64:
   badeline_chaser_source: locations
   badeline_chaser_frequency: '0'
   badeline_chaser_speed: '3'
-  start_inventory: {}
+  start_inventory: 
+    Breakable Blocks: 1
 
 
 
@@ -132,7 +133,8 @@ Ocarina of Time:
   sfx_horse_neigh: default
   sfx_hover_boots: default
   sfx_ocarina: ocarina
-  start_inventory: {}
+  start_inventory: 
+    Bomb Bag: 1
   open_forest: random
   open_kakariko: random
   open_door_of_time: random
@@ -220,7 +222,8 @@ Timespinner:
   - Meteor Sparrow Trap
   - Neurotoxin Trap
   - Poison Trap
-  start_inventory: {}
+  start_inventory: 
+    Lightwall: 1
   start_with_jewelry_box: true
   eye_spy: random # Change to No and change unchained_keys to true
   quick_seed: random
@@ -264,7 +267,8 @@ Super Mario 64:
   strict_move_requirements: 'true'
   amount_of_stars: '120'
   death_link: 'true'
-  start_inventory: {}
+  start_inventory: 
+    Second Floor Key: 1
   area_rando: random # Disable Courses and Secrets from being rolled 
   buddy_checks: random # Change to No
   exclamation_boxes: random 

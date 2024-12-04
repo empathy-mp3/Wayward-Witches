@@ -1,8 +1,8 @@
 name: hecate.mp3
 game: 
   Noita: 5
-  Outer Wilds: 6
-  Manual_DeckedOut2_mp3: 6
+  Outer Wilds: 5
+  Manual_DeckedOut2_mp3: 5
   ULTRAKILL: 5
   TUNIC: 4
 description: empathy.mp3 game for Wayward Witches async
@@ -174,7 +174,7 @@ Outer Wilds:
     'false': 1
     'true': 11 # reduce to 2
     hub_start: 8
-  trap_chance: random-range-40-60 # reduce this to random-range-20-40, then to random-range-0-20
+  trap_chance: random-range-20-40 # reduce this to random-range-0-20
   trap_type_weights:
     Audio Trap: 0
     Nap Trap: 3

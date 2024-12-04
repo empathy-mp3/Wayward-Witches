@@ -163,7 +163,7 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
     'false': 5 #   ->  10
     'true': 0 #        0
     hub_start: 5 #     0
-  trap_chance: random-range-10-20 # -> 5-10 -> 0-5
+  trap_chance: random-range-5-10 # -> 0-5
   trap_type_weights:
     Audio Trap: 1
     Nap Trap: 2

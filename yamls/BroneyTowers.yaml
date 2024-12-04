@@ -21,7 +21,7 @@ Super Metroid Map Rando:
   plando_items: [{"item": "Plasma", "location": "ranged weapon I-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Spazer", "location": "ranged weapon II-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "PowerBomb", "location": "explosion I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "PowerBomb", "location": "explosion III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Missile": 11}, "locations": [ranged weapon III-3, ranged weapon IV-3, ranged weapon VIII-3, explosion II-3, explosion V-3, defense XII-3, melee weapon IV-4, utility II-2, utility III-2, utility V-2, utility VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '0'    # Yaml changes (5) - +10 each
   death_link: 'enable_survive'
-  start_location_mode: 'randomroom' # Yaml change ('ship')
+  start_location_mode: 'ship'
   mother_brain: 'short'       # Yaml change (2) (short -> skip)
   mark_map_stations: 'false'    # Yaml change (true)
   buffed_drops: 'true'

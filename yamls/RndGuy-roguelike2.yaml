@@ -124,10 +124,9 @@ Hollow Knight:
   StartingGeo: random-range-0-1000 # random-range-0-3000
   RemoveSpellUpgrades: 'true' # set to false
   RandomCharmCosts: 'random-range-90-180' # random-range-90-140, random-range-90-110, random-range-70-110
-  starting_difficulty:  # set high to 10, then set high to 0
+  starting_difficulty:
     'low': 10
     'mid': 20
-    'high': 30
   skips_enabled: # remove all, then remove tedious, then remove dangerous
     'all': 20
     'exclude_tedious': 20
@@ -572,8 +571,8 @@ The Witness:
     normal: 0
     tedious: 20
     eclipse: 10
-  trap_percentage: # change to random, then to random-low
-    random-high: 50
+  trap_percentage: # change to random-low
+    random: 50
   puzzle_skip_amount:
     random-range-low-0-10: 50
   death_link_amnesty: # 5 upgrades, detailed per option below

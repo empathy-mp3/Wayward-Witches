@@ -9,7 +9,7 @@ Kingdom Hearts Birth by Sleep: #9 yaml changes
     ventus: 1
     aqua: 1
     terra: 1
-  starting_worlds: 3 #3 -> 4 -> 5
+  starting_worlds: 4 #4 -> 5
   exp_multiplier: 1x # 1x -> 2x -> 4x -> 6x
   final_terra_xehanort_ii: 'false'
   mirage_arena: 'false'

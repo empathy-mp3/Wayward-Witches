@@ -25,7 +25,7 @@ Manual_SquareMusic_Connor:
   progression_balancing:
     0: 1 # Start at 0 then change to 15 then change to 30 then change to 50
   filler_traps:
-    random-high: 1 #Start at random-high then change to 50 then change to 25 then change to 0
+    50: 1 #change to 25 then change to 0
   death_link:
     'true': 10
 Timespinner:
@@ -75,7 +75,7 @@ Undertale:
   progression_balancing: '0' #change to 20 then to 40
   accessibility: full
   route_required: pacifist
-  starting_area: core #change to random then to snowdin then to ruins
+  starting_area: random #change to snowdin then to ruins
   key_hunt: 'true'
   key_pieces: '7' #lower to 5
   rando_love: 'false'

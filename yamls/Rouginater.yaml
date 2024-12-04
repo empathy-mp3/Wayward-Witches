@@ -28,14 +28,14 @@ VVVVVV:
   progression_balancing: 50
   accessibility: full
   priority_locations: [] # Upgrades: Hard Way and Edge Games as priority > normal location > excluded location
-  MusicRandomizer:
+  music_rando:
     'false': 25
     'true': 25
-  AreaRandomizer: true
-  DoorCost: 2 # Upgrades: Set to 2 > 1
-  AreaCostRandomizer: true
+  area_rando: true
+  door_cost: 2 # Upgrades: Set to 2 > 1
+  area_cost: true
   death_link: true
-  DeathLinkAmnesty: 3 # Upgrades: Set to 3 > 5 > 10 > 15 > 20 > 25 > 30
+  death_link_amnesty: 3 # Upgrades: Set to 3 > 5 > 10 > 15 > 20 > 25 > 30
   start_inventory: {}
   exclude_locations: []
   local_items: []

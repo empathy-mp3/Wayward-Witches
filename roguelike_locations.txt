@@ -183,3 +183,12 @@ defense XIV-3
 careful movement II-1
 careful movement II-2
 careful movement II-3
+travel II-1
+travel II-2
+travel II-3
+choice II-1
+choice II-2
+choice II-3
+choice II-4
+ice II-1
+ice II-2

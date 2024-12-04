@@ -199,7 +199,7 @@ Stardew Valley:
   movement_buff_number: random-low
   enabled_filler_buffs:
     ['Bite Rate', 'Defense', 'Luck', 'Damage', 'Immunity', 'Health', 'Energy', 'Fish Trap', 'Fishing Bar Size']
-  trap_items: hard # Can be upgraded to medium, then easy, then no_traps
+  trap_items: medium # Can be upgraded to easy, then no_traps
   multiple_day_sleep_enabled: true
   multiple_day_sleep_cost: free
 

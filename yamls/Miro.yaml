@@ -11,6 +11,7 @@ requires:
   plando: items
 
 A Hat in Time:
+  {Hookshot Badge: 1}
   plando_items:
     - item: No Bonk Badge
       location: careful movement I-1
@@ -233,7 +234,7 @@ DLCQuest:
     shuffled: 50
   coinbundlequantity: random-range-low-5-100
   permanent_coins: random
-  start_inventory: {Pause Menu Pack: 1, Day One Patch Pack: 1}
+  start_inventory: {Pause Menu Pack: 1, Day One Patch Pack: 1, Live Freemium or Die: Progressive Weapon: 1}
   plando_items:
     - item: Health Bar Pack
       location: vitality III-6
@@ -485,6 +486,7 @@ Pokemon Emerald:
   death_link: true
   start_inventory:
     HM02 Fly: 1
+    HM03 Surf: 1
   triggers:
     - option_category: Pokemon Emerald
       option_name: trainersanity
@@ -637,6 +639,8 @@ Hollow Knight:
   local_items: [Mimics, LifebloodCocoons, SoulTotems]
   start_inventory:
     Sprintmaster: 1
+    Mantis_Claw: 1
+
   triggers:
     - option_category: Hollow Knight
       option_name: AnnoyingChecks
@@ -806,7 +810,6 @@ Hollow Knight:
       options:
         Hollow Knight:
           CostSanityEssenceWeight: '0'
-
 Minecraft:
   plando_items:
     - item: 4 Diamond Ore
@@ -888,6 +891,7 @@ Minecraft:
   egg_shards_required: 0
   egg_shards_available: 0
   death_link: true
+  start_inventory: {Progressive Resource Crafting: 1}
 
 Timespinner:
   plando_items:
@@ -970,6 +974,7 @@ Timespinner:
   shop_multiplier: 1        # change to 0
   dad_percent: false        # change to random, then to true
   trap_chance: random-range-low-5-90 # change to random-range-low-0-35, then to 0
+  start_inventory: {lightwall: 1}
 
   start_with_meyef: *convenience
   quick_seed:
