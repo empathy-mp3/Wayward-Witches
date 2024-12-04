@@ -11,7 +11,7 @@ requires:
   plando: items
 
 A Hat in Time:
-  {Hookshot Badge: 1}
+  start_inventory: {Hookshot Badge: 1}
   plando_items:
     - item: No Bonk Badge
       location: careful movement I-1
@@ -234,7 +234,7 @@ DLCQuest:
     shuffled: 50
   coinbundlequantity: random-range-low-5-100
   permanent_coins: random
-  start_inventory: {Pause Menu Pack: 1, Day One Patch Pack: 1, Live Freemium or Die: Progressive Weapon: 1}
+  start_inventory: {Pause Menu Pack: 1, Day One Patch Pack: 1, "Live Freemium or Die: Progressive Weapon": 1}
   plando_items:
     - item: Health Bar Pack
       location: vitality III-6
@@ -974,7 +974,7 @@ Timespinner:
   shop_multiplier: 1        # change to 0
   dad_percent: false        # change to random, then to true
   trap_chance: random-range-low-5-90 # change to random-range-low-0-35, then to 0
-  start_inventory: {lightwall: 1}
+  start_inventory: {Lightwall: 1}
 
   start_with_meyef: *convenience
   quick_seed:

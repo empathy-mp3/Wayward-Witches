@@ -118,7 +118,9 @@ Sonic Adventure DX: # Note: Finalised. Edit count: 16.
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
-  goal: levels
+  goal_requires_levels: 'true'
+  levels_percentage: 100
+  chao_egg_checks: 'true'
   logic_level: normal_logic
   random_starting_location: 'true'
   random_starting_location_per_character: 'true'

@@ -2,8 +2,8 @@ name: rhythm.ET2
 description: ["Rhythms YAML for the Sequel to Endless Towers"]
 game:
   Manual_RatchetAndClankUYA_Rhythm: 7
-  Dome Keeper: 0
-  Mindustry: 2
+  Dome Keeper: 6
+  Mindustry: 5
   Sonic Adventure DX: 6
   Sonic Adventure 2 Battle: 5
   Kingdom Hearts Birth by Sleep: 6
@@ -165,6 +165,8 @@ Dome Keeper:
     shield: 2 # Upgrade: Disabled
     orchard: 2
     repellent: 3
+    droneyard: 15
+  droneyard_drones: 10
 
   map_size:
     # What map size do you wish to play with.
@@ -364,24 +366,26 @@ Sonic Adventure DX:
   accessibility: locations
   death_link: true
   # General Options
-  goal:
-    levels: 1
-    levels_and_emerald_hunt: 1 # Upgrade: Disabled
-    missions: 1
-    missions_and_emerald_hunt: 1 # Upgrade: Disabled
+  goal_requires_levels: random
+  goal_requires_chaos_emeralds: random # Upgrade: Disabled
+  goal_requires_emblems: false
+  goal_requires_missions: random
+  goal_requires_bosses: random
+  goal_requires_chao_races: random # Upgrade: Disabled # NOTE: Moved second emerald hunt disable to this because there's only one emerald toggle now. Keeping goal related.
   logic_level: hard_logic
   levels_percentage: random # Upgrade: random-low
   mission_percentage: random # Upgrade: random-low
   random_starting_location: true
   random_starting_location_per_character: true
   guaranteed_level: false # Upgrade: true
+  guaranteed_starting_checks: random-high
   entrance_randomizer: true
   level_entrance_plando: {}
     # Plando for level entrance. Only works if Entrance Randomizer is enabled.
     # The level name should be Capitalized with no spaces.
     # For example, {'Emerald Coast': 'Final Egg'} will place Final Egg behind the Emerald Coast entrance and randomize the rest.
-  send_death_link_chance: random
-  receive_death_link_chance: 100
+  send_death_link_chance: random-range-25-95
+  receive_death_link_chance: random-range-25-95
   ring_link: true
   casinopolis_ring_link: true
   hard_ring_link: true
@@ -435,6 +439,9 @@ Sonic Adventure DX:
   unify_egg_hornet: random # Determines whether the Egg Hornet fight counts as a single location or two (Sonic, Tails).
   # Extra locations
   field_emblems_checks: true # Determines whether collecting field emblems grants checks (12 Locations).
+  chao_egg_checks: random
+  chao_races_checks: random
+  chao_races_levels_to_access_percentage: random-range-75-100
   mission_mode_checks: true # Determines whether completing missions grants checks (60 Locations).
   auto_start_missions: true
   mission_blacklist: ['53', '54', '49', '58', '41', '40', '38']
@@ -446,6 +453,57 @@ Sonic Adventure DX:
   pinball_life_capsules: false # Determines whether pinball's life capsules grant checks (2 Locations).
   # Only have life_sanity if I need to enter the stages.
   triggers:
+    - option_category: Sonic Adventure DX
+      option_name: sonic_action_stage_missions
+      option_result: none
+      options:
+        Sonic Adventure DX:
+          +mission_blacklist: ['9', '11', '13', '15', '17', '20', '23', '27', '28', '30', '36', '45', '46', '55', '57']
+    - option_category: Sonic Adventure DX
+      option_name: tails_action_stage_missions
+      option_result: none
+      options:
+        Sonic Adventure DX:
+          +mission_blacklist: ['16', '24', '31']
+    - option_category: Sonic Adventure DX
+      option_name: knuckles_action_stage_missions
+      option_result: none
+      options:
+        Sonic Adventure DX:
+          +mission_blacklist: ['25', '26', '38', '48', '56', '59']
+    - option_category: Sonic Adventure DX
+      option_name: amy_action_stage_missions
+      option_result: none
+      options:
+        Sonic Adventure DX:
+          +mission_blacklist: ['18', '19', '50']
+    - option_category: Sonic Adventure DX
+      option_name: big_action_stage_missions
+      option_result: none
+      options:
+        Sonic Adventure DX:
+          +mission_blacklist: ['35', '60']
+    - option_category: Sonic Adventure DX
+      option_name: goal_requires_chao_races
+      option_result: true
+      options:
+        Sonic Adventure DX:
+          chao_races_checks: true
+    - option_category: Sonic Adventure DX
+      option_name: goal_requires_bosses
+      option_result: true
+      options:
+        Sonic Adventure DX:
+          boss_checks: true
+          unify_chaos6: true
+          unify_egg_hornet: true
+    - option_category: Sonic Adventure DX
+      option_name: goal_requires_levels
+      option_result: true
+      options:
+        Sonic Adventure DX:
+          tails_action_stage_missions: c_b_a
+          playable_tails: true
     - option_category: Sonic Adventure DX
       option_name: sonic_action_stage_missions
       option_result: c_b_a

@@ -44,14 +44,14 @@ The Witness:
   puzzle_skip_amount: random-high
   hint_amount: random-high
   vague_hints: stable 
-  area_hint_percentage: random-range-20-40 # change to random-range-40-60, then random-range-60-80
+  area_hint_percentage: random-range-40-60 # change to random-range-60-80
   laser_hints: 'false'
   early_caves: 'off'
   elevators_come_to_you: 'false'
   death_link: 'true'
   death_link_amnesty: 1 # Change to 2, 3, 4, then 5
   shuffle_dog:
-    puzzle_skip: 1 # increase to 6
+    puzzle_skip: 6
     random_item: 10 
 
 Rogue Legacy:

@@ -14,7 +14,7 @@ A Hat in Time:
     seal_the_deal: 10     # remove this line (or change to 0)
   LogicDifficulty: expert # change to hard, then to moderate, then to normal
   CTRLogic: nothing       # change to sprint, then to scooter, then to time_stop_only
-  PonCost: high           # change to medium, then to low
+  PonCost: medium         # change to low
   ChapterCost: high       # change to medium, then to low
   DLC: high               # change to medium, then to low, then to off
   TrapChance: random      # change to random-range-low-0-70, then to 0

@@ -192,3 +192,11 @@ choice II-3
 choice II-4
 ice II-1
 ice II-2
+stealth V-1
+stealth V-2
+melee weapon X-1
+melee weapon X-2
+melee weapon X-3
+melee weapon X-4
+price III-1
+price III-2

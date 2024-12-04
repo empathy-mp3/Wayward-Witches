@@ -193,7 +193,7 @@ Muse Dash:
 VVVVVV:
   plando_items: [{"items": {"Trinket 13": 9, "Trinket 14": 9, "Trinket 15": 9, "Trinket 16": 9, "Trinket 17": 9, "Trinket 18": 9, "Trinket 19": 9, "Trinket 20": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   death_link_amnesty: '6' #increase by 3, 8 times
-  door_cost: random-range-high-1-3 #change to 'random-range-1-3' > random-range-low-1-3
+  door_cost: random-range-1-3 #change to random-range-low-1-3
 
   progression_balancing: '0'
   music_rando: 'true'
