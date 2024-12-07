@@ -11,10 +11,10 @@ The Witness:
     challenge: 0
     mountain_box_short: 1 # change to 5
     mountain_box_long: 4
-    panel_hunt: 5 # change to 3
+    panel_hunt: 3
   mountain_lasers: random-range-7-11 # change to random-low
   challenge_lasers: random-range-1-4 # change to random-high
-  panel_hunt_total: random-high # change to random-low
+  panel_hunt_total: random-low
   panel_hunt_required_percentage: random-low
   panel_hunt_postgame: disable_challenge_lasers_locations
   panel_hunt_discourage_same_area_factor: random-low

@@ -11,14 +11,14 @@ A Hat in Time: # YAML Edits: 12
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
-  TrapChance: '20' # Item: Reduce by 5, until value hits 0.
+  TrapChance: '15' # Item: Reduce by 5, until value hits 0.
   BabyTrapWeight: '40'
   LaserTrapWeight: '10' # Item: reduce to 5, then 0.
   EndGoal:
     finale: 20
     rush_hour: 15
     seal_the_deal: 75 # Item: Reduce this to 20, then 10, then 2
-  trig_removeDeadlyDWBonuses: no # Item: set to yes
+  trig_removeDeadlyDWBonuses: yes
   LogicDifficulty: normal
   ShuffleStorybookPages: 'true'
   ShuffleActContracts: 'true'
@@ -74,13 +74,13 @@ Minecraft: # Note: Done. YAML Edits: 12
   plando_items: [{"items": {"Rotten Flesh": 20, "50 XP": 20, "32 Arrows": 20, "4 Emeralds": 20}, "locations": [ranged weapon I-7, ranged weapon II-6, ranged weapon III-5, ranged weapon IV-5, ranged weapon V-7, ranged weapon VI-4, ranged weapon VII-3, vitality IV-4, vitality XIV-5, vitality XV-4, speed I-3, defense V-2, careful movement II-2, attack I-2, mana V-2, mana V-3, mana VI-1, slots IV-2, slots IV-5, XP VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: full
-  advancement_goal: '80' # Item: Reduce to 60/40/30
+  advancement_goal: '60' # Item: Reduce to 40/30
   egg_shards_required: '20' # Item: Reduce to 15, then 10.
   egg_shards_available: '20'
   required_bosses: ender_dragon
   shuffle_structures: 'true'
   structure_compasses: 'false' # Item: Set to true.
-  bee_traps: '80' # Item: Reduce to 60/40/20/0
+  bee_traps: '60' # Item: Reduce to 40/20/0
   send_defeated_mobs: 'false'
   death_link: 'true'
 Noita: # Note: Finalised. YAML Edits: 5. 
@@ -129,9 +129,9 @@ Sonic Adventure DX: # Note: Finalised. Edit count: 16.
   ring_link: random
   casinopolis_ring_link: 'false'
   hard_ring_link: 'false'
-  ring_loss: # Item: Switch to 'classic', then 'modern'
-    one_hit_k_o: 1
-    classic: 0
+  ring_loss: # Item: Switch to 'modern'
+    one_hit_k_o: 0
+    classic: 1
     modern: 0
   playable_sonic: random
   playable_tails: random
@@ -191,7 +191,7 @@ Sonic Adventure DX: # Note: Finalised. Edit count: 16.
   big_life_sanity: random
   gamma_life_sanity: random
   junk_fill_percentage: '50'
-  trap_fill_percentage: '90' # Item: Reduce by 10 until it hits zero (9)
+  trap_fill_percentage: '70' # Item: Reduce by 10 until it hits zero (7)
   ice_trap_weight: medium
   spring_trap_weight: none
   police_trap_weight: none
@@ -226,13 +226,9 @@ Timespinner: # Edit count: 13
     'true': 15
   lore_checks: 'true'
   boss_rando: 'scaled'
-  damage_rando: # Item: Switch to (mostlybuffs/allbuffs) (2)
-    allnerfs: 0
-    mostlynerfs: 0
-    balanced: 1
-    mostlybuffs: 0
-    allbuffs: 0
-  hp_cap: '100' # Item: Increase HP cap to 200/999. (2)
+  damage_rando:
+    allbuffs: 1
+  hp_cap: '200' # Item: Increase HP cap to 999
   level_cap: '99'
   extra_earrings_xp: '0'
   boss_healing: # Item: Set to true (1)

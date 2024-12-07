@@ -111,14 +111,14 @@ Astalon:
   randomize_switches: 'false'
   randomize_candles: 'random'
   skip_cutscenes: 'true'
-  start_with_qol: 'false' #change to true
+  start_with_qol: 'true'
   start_with_ascendant_key: 'false' #change to true
   start_with_bell: 'false' #change to true
   apex_elevator: included
   cost_multiplier: double #change to normal, then to half, then to zero
   fast_blood_chalice: 'true'
   campfire_warp: 'true'
-  open_early_doors: 'false' #change to true
+  open_early_doors: 'true'
   cheap_kyuli_ray: 'true'
   death_link: 'true'
   always_restore_candles: 'false' #change to true
@@ -143,13 +143,13 @@ Ender Lilies:
   goal: ending_c #change to ending_b, then to ending_a
   early_maneuver: random
   shuffle_slots: 'true'
-  minibosses_chapter: 'true' #change to false
+  minibosses_chapter: 'false'
   ng_plus: 'false'
   shuffle_upgrades: 'random'
   force_ancient_souls: 'random'
   shuffle_bgm: 'false'
   start_chapter: 5 #change to 3, then to 1
-  max_chapter: 10 #change to 8, then to 5
+  max_chapter: 8 #change to 5
   stone_tablets_placement: any
   add_unused_items: 'true'
   entrance_randomizer: 'false'

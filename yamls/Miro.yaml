@@ -60,11 +60,11 @@ A Hat in Time:
     finale: 10
     rush_hour: 2
     seal_the_deal: 10     # remove this line (or change to 0)
-  LogicDifficulty: expert # change to hard, then to moderate, then to normal
-  CTRLogic: nothing       # change to sprint, then to scooter, then to time_stop_only
+  LogicDifficulty: moderate # change to normal
+  CTRLogic: scooter       # change to time_stop_only
   PonCost: medium           # change to low
-  ChapterCost: high       # change to medium, then to low
-  DLC: medium               # change to low, then to off
+  ChapterCost: low
+  DLC: low               # change to off
   TrapChance: random      # change to random-range-low-0-70, then to 0
   StartWithCompassBadge:
     'false': 10           # remove this line (or change to 0)
@@ -577,9 +577,9 @@ Hollow Knight:
     'false': 25
     'true': 50          # remove this line (or change to 0)
   AnnoyingChecks: medium # change to low
-  SkipDifficulty: all   # change to hard, then medium, then easy, then off
+  SkipDifficulty: hard   # change to medium, then easy, then off
   GoalDifficulty: medium  # change to easy
-  Costs: high           # change to medium, then to low
+  Costs: medium          # change to low
   SplitCrystalHeart: &split
     'false': 20
     'true': 50          # change to 5
@@ -969,10 +969,10 @@ Timespinner:
     'off': 25
     scaled: 50
     unscaled: &reduce_difficulty 5 # set to 0
-  hp_cap: 250               # increase to 350, then 450, then 999
+  hp_cap: 350               # increase to 450, then 999
   boss_healing: false       # change to true
   shop_multiplier: 1        # change to 0
-  dad_percent: false        # change to random, then to true
+  dad_percent: random        # change to true
   trap_chance: random-range-low-5-90 # change to random-range-low-0-35, then to 0
   start_inventory: {Lightwall: 1}
 

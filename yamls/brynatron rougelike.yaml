@@ -68,7 +68,7 @@ Hollow Knight:
   WhitePalace: include
   ExtraPlatforms: include
   AddUnshuffledLocations: true
-  StartingGeo: random-low # Can be upgraded to random-middle then random-high
+  StartingGeo: random-high
 
   DeathLink: true
   DeathLinkShade: Shade
@@ -82,7 +82,7 @@ Hollow Knight:
   MaximumEssencePrice: random-high # Can be upgraded to random-middle
   MinimumCharmPrice: random-low
   MaximumCharmPrice: random-high # Can be upgraded to random-middle
-  RandomCharmCosts: 100 # Can be upgraded to 80, then 70
+  RandomCharmCosts: 80 # Can be upgraded to 70
   MinimumEggPrice: 1
   MaximumEggPrice: random-high
   EggShopSlots: random-high

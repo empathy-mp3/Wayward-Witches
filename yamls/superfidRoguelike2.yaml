@@ -183,8 +183,8 @@ Timespinner:
   cantoran: random
   lore_checks: random
   boss_rando: random # Upgrade to 50/50 between 'off' and scaled
-  damage_rando: mostlynerfs # Upgrade to balanced, then mostlybuffs
-  hp_cap: random-range-250-999 # Upgrade to random-range-500-999, then 999
+  damage_rando: mostlybuffs
+  hp_cap: random-range-500-999 # Upgrade to 999
   level_cap: 99
   extra_earrings_xp: random-range-12-24 # Upgrade to 24
   boss_healing: true
@@ -204,7 +204,7 @@ Timespinner:
   rising_tides: true
   unchained_keys: random
   back_to_the_future: true
-  trap_chance: 90 # Upgrade to random-range-0-90
+  trap_chance: random-range-0-90
   traps:
     ['Meteor Sparrow Trap', 'Poison Trap', 'Chaos Trap', 'Neurotoxin Trap', 'Bee Trap']
   item_links:
@@ -970,17 +970,17 @@ A Link to the Past:
   triforce_pieces_extra: random
   entrance_shuffle: vanilla
   big_key_shuffle: any_world
-  small_key_shuffle: random # Upgrade to start_with
+  small_key_shuffle: start_with
   key_drop_shuffle: true
   compass_shuffle: any_world
   map_shuffle: any_world
   restrict_dungeon_item_on_boss: false
   item_pool: hard # Upgrade to easy
   item_functionality: easy
-  enemy_health: hard # Upgrade to default, then easy
+  enemy_health: default # Upgrade to easy
   enemy_damage: default
   progressive: on
-  swordless: random # Upgrade to false
+  swordless: false
   dungeon_counters: on
   retro_bow: random
   retro_caves: random
@@ -1005,7 +1005,7 @@ A Link to the Past:
   misery_mire_medallion: random
   turtle_rock_medallion: random
   glitch_boots: true
-  beemizer_total_chance: random # Upgrade to 0
+  beemizer_total_chance: 0
   beemizer_trap_chance: 60
   death_link: true
   allow_collect: true
@@ -1157,8 +1157,7 @@ Pseudoregalia:
   logic_level: # Remove expert from choices, then change to normal guaranteed
     normal: 50
     hard: 50
-    expert: 50
-  obscure_logic: random # Upgrade to false
+  obscure_logic: false
   progressive_breaker: random
   progressive_slide: random
   split_sun_greaves: random
@@ -1216,7 +1215,7 @@ Secret of Evermore:
   available_fragments: random # See above
   money_modifier: random-range-300-1000 # Upgrade to random-range-1000-2500
   exp_modifier: random-range-100-300 # Upgrade to random-range-300-1000, then random-range-1000-2500
-  sequence_breaks: off # Upgrade to on
+  sequence_breaks: on
   out_of_bounds: off # Upgrade to on
   fix_cheats: true # Upgrade to false
   fix_infinite_ammo: false

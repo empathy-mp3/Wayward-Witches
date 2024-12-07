@@ -546,6 +546,20 @@ Sonic Adventure DX:
       options:
         Sonic Adventure DX:
           tails_action_stage_missions: c_b_a
+    - option_category: Sonic Adventure DX
+      option_name: goal_requires_chao_races
+      option_result: true
+      options:
+        Sonic Adventure DX:
+          tails_action_stage_missions: c_b_a
+          playable_tails: true
+    - option_category: Sonic Adventure DX
+      option_name: chao_races_checks
+      option_result: true
+      options:
+        Sonic Adventure DX:
+          tails_action_stage_missions: c_b_a
+          playable_tails: true
   sonic_life_sanity: false
   tails_life_sanity: false
   knuckles_life_sanity: false
@@ -663,7 +677,7 @@ Manual_RatchetAndClankUYA_Rhythm:
       world: The Cauldron
       force: true
       from_pool: true
-  progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
+  progression_balancing: 5 # Upgrade: Increase by 10, 15, 20, 25 (for total of 75 at max)
   accessibility: locations
   start_inventory: {Map-O-Matic: 1}
   death_link: true

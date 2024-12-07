@@ -11,9 +11,8 @@ A Hat in Time:
   EndGoal:
     finale: 10
     rush_hour: 50         # change to 2
-    seal_the_deal: 10     # remove this line (or change to 0)
-  LogicDifficulty: expert # change to hard, then to moderate, then to normal
-  CTRLogic: nothing       # change to sprint, then to scooter, then to time_stop_only
+  LogicDifficulty: hard # change to moderate, then to normal
+  CTRLogic: sprint        # change to scooter, then to time_stop_only
   PonCost: medium         # change to low
   ChapterCost: high       # change to medium, then to low
   DLC: high               # change to medium, then to low, then to off
@@ -181,7 +180,6 @@ TUNIC:
    'off': 10
    normal: 20
    double: 30
-   onslaught: 60 # remove this line 
   hexagon_quest:
     'false': 30
     'true': 10
@@ -191,12 +189,10 @@ TUNIC:
     'false': 10
   maskless:
     'false': 10
-    'true': 40 # remove this line
   laurels_zips:
     'false': 10
-    'true': 40 # remove this line
   ice_grappling:
-    medium: 50 # change to easy, then 'off'
+    easy: 50 # change to easy, then 'off'
   ladder_storage:
     hard: 50 # change to medium, then easy, then 'off'
   ladder_storage_without_items:

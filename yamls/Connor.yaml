@@ -8,8 +8,7 @@ Manual_Godhome_Eszenn:
   plando_items: [{"item": "Flukenest", "location": "ranged weapon I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood Heart", "location": "vitality V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood Core", "location": "vitality X-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hiveblood", "location": "healing VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fury of the Fallen", "location": "low HP I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Grubsong", "location": "revenge I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"The Urge to Keep Fighting": 23}, "locations": [ranged weapon II-1, fire I-2, vitality IV-1, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing IV-1, speed VII-6, defense IV-2, defense VII-1, defense XIX-1, attack II-2, electricity I-3, XP XIII-1, melee weapon X-4, ice II-2, beast I-1, beast I-2, god I-1, water I-1, army II-1, robot I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing:
     0: 50
-  victory_condition:
-    pantheon_5: 1 #Start with pantheon 5, change to boss_rush
+  victory_condition: boss_rush
   number_of_bosses:
     random-range-30-40: 50 #Start with random-range-30-40, lower to random-range-20-30
   exclude_p5:
@@ -63,7 +62,7 @@ Timespinner:
   rising_tides: 'true'
   unchained_keys: 'true'
   back_to_the_future: 'false'
-  trap_chance: '100' #lower to 75 then 50 then 25
+  trap_chance: '50' # then 25
   traps:
   - Bee Trap
   - Chaos Trap

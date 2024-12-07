@@ -203,7 +203,7 @@ Timespinner:
   downloadable_items: 'true'
   start_with_meyef: 'false'
   lore_checks: 'true'
-  damage_rando: mostlynerfs # Change to Balanced, then to MostlyBuffs
+  damage_rando: balanced # Change to MostlyBuffs
   hp_cap: '200' # Change to 400, then to 600, then to 999
   level_cap: '99'
   extra_earrings_xp: '24'
@@ -225,7 +225,7 @@ Timespinner:
   start_inventory: 
     Lightwall: 1
   start_with_jewelry_box: true
-  eye_spy: random # Change to No and change unchained_keys to true
+  eye_spy: false
   quick_seed: random
   specific_keycards: random
   inverted: random
@@ -236,9 +236,9 @@ Timespinner:
   show_drops: random
   enter_sandman: random
   dad_percent: random
-  unchained_keys: random
+  unchained_keys: true
   back_to_the_future: random
-  trap_chance: random # Change to 10, then to 0
+  trap_chance: 10 # Change to 0
 
 
 

@@ -235,7 +235,7 @@ Timespinner: # 3 yaml change upgrades
   cantoran: 'true'
   lore_checks: 'true'
   boss_rando: unscaled # Change to scaled
-  damage_rando: mostlynerfs # Change to balanced, then to mostlybuffs
+  damage_rando: mostlybuffs
   hp_cap: 999
   level_cap: 99
   extra_earrings_xp: random

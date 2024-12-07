@@ -200,3 +200,46 @@ melee weapon X-3
 melee weapon X-4
 price III-1
 price III-2
+attack VIII-1
+attack I-1
+attack I-2
+travel IV-1
+travel IV-2
+healing I-1
+healing I-2
+healing I-3
+healing I-4
+healing VII-1
+healing VII-2
+healing VII-3
+healing VII-4
+vitality V-1
+vitality V-2
+vitality V-3
+vitality V-4
+uncategorized XIV-1
+uncategorized XIV-2
+uncategorized XIV-3
+uncategorized XIV-4
+uncategorized XIV-5
+melee weapon I-1
+melee weapon I-2
+melee weapon I-3
+sight I-1
+price XV-1
+slots IV-1
+slots IV-2
+slots IV-3
+slots IV-4
+slots IV-5
+attack IX-1
+attack IX-2
+attack IX-3
+vitality XV-1
+vitality XV-2
+vitality XV-3
+vitality XV-4
+vitality XV-5
+vitality XV-6
+melee weapon VI-1
+progressive II-1

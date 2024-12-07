@@ -240,7 +240,7 @@ Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and
   strict_cannon_requirements: 'false'
   strict_move_requirements: 'false' 
   amount_of_stars: '120'
-  first_bowser_star_door_cost: random-range-25-35 # -> 15-25 -> 5-15
+  first_bowser_star_door_cost: random-range-15-25 # -> 5-15
   basement_star_door_cost: random-range-45-50 # -> 35-45 -> 25-35 -> 15-25
   second_floor_star_door_cost: random-range-45-55 # -> 35-45
   mips1_cost: random-range-10-20

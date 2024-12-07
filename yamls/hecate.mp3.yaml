@@ -10,8 +10,8 @@ Noita:
   progression_balancing: '50'
   death_link: 'true'
   bad_effects: 
-    'true': 10 # change to 2
-    'false': 2 # change to 10
+    'true': 2
+    'false': 10
   victory_condition: 
     greed_ending: 1
     pure_ending: 7
@@ -23,7 +23,7 @@ Noita:
   hidden_chests: random-range-2-4
   pedestal_checks: random-range-4-8
   orbs_as_checks:
-    no_orbs: 1 # increase no_orbs to 4
+    no_orbs: 4
     main_path: 3
     side_path: 10
     main_world: 5 # reduce main_world to 1
@@ -296,7 +296,7 @@ Manual_DeckedOut2_mp3:
   progression_balancing: 50
   goal:
     enter the hideout: 1
-    craft all legendary cards: 32 # reduce to 1
+    craft all legendary cards: 1
     complete a 30 ember run: 1
     complete a 40 ember run: 2
     complete a 50 ember run: 4
@@ -307,7 +307,7 @@ Manual_DeckedOut2_mp3:
     complete a 70 ember and 16 crown run: 8
     complete a deepfrost difficulty run: 4
     blow up the gateway with the bomb: 8
-  filler_traps: random-high # change to random, then to random-low
+  filler_traps: random # change to random-low
   death_link: 'true'
   frost_ember_locations: 'true'
   coin_crown_locations: 'true'
@@ -347,11 +347,10 @@ Manual_DeckedOut2_mp3:
   revelation_count: random-low
   aquata_breather_count: random-low
   eureka_count: random-low
-  # change the next 4 options to random-high
-  caves_of_carnage_key_count: random-low
-  black_mines_key_count: random-low
-  flooded_depths_key_count: random-low
-  burning_dark_key_count: random-low
+  caves_of_carnage_key_count: random-high
+  black_mines_key_count: random-high
+  flooded_depths_key_count: random-high
+  burning_dark_key_count: random-high
   plando_items:
     - item: "Second Wind"
       location: healing IV-3

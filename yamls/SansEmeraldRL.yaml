@@ -4,7 +4,7 @@ name: SansEmeraldRL
 Pokemon Emerald:
   plando_items: [{"item": "Leftovers", "location": "healing X-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Exp. Share", "location": "XP XII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "HM02 Fly", "location": "travel IV-1", "world": "The Cauldron", "force": true, "from_pool": true}]
   remove_roadblocks: [] # [] > ["Lilycove City Wailmer", "Route 110 Aqua Grunts"]
-  extra_boulders: 'true' # true > false
+  extra_boulders: 'false'
   norman_count: random-low # random-low > random-high > random-range-4-7
   starters: completely_random # completely_random > vanilla
   exp_modifier: 300 # 300 > 650 > 1000
