@@ -10,7 +10,7 @@ Celeste 64:
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
-  death_link_amnesty: '10' # Change Amnesty to 20, then 25, then 30
+  death_link_amnesty: '20' # Change Amnesty to 25, then 30
   logic_difficulty: standard
   move_shuffle: 'false' 
   total_strawberries: '46' # Change to 40, then 35, then 30, then 25, then 20, then 15, then 10
@@ -105,7 +105,7 @@ Ocarina of Time:
   hint_dist: async
   text_shuffle: none
   damage_multiplier: quadruple # Change to Double, then to Vanilla
-  deadly_bonks: quadruple # Change to Double, then to Vanilla
+  deadly_bonks: double # Change to Vanilla
   no_collectible_hearts: 'false'
   starting_tod: default
   blue_fire_arrows: 'true'
@@ -204,7 +204,7 @@ Timespinner:
   start_with_meyef: 'false'
   lore_checks: 'true'
   damage_rando: balanced # Change to MostlyBuffs
-  hp_cap: '200' # Change to 400, then to 600, then to 999
+  hp_cap: '400' # Change to 600, then to 999
   level_cap: '99'
   extra_earrings_xp: '24'
   boss_healing: 'true'
@@ -238,7 +238,7 @@ Timespinner:
   dad_percent: random
   unchained_keys: true
   back_to_the_future: random
-  trap_chance: 10 # Change to 0
+  trap_chance: 0
 
 
 
@@ -248,7 +248,7 @@ Timespinner:
 
 Super Mario 64:
   plando_items: [{"items": {"1Up Mushroom": 10}, "locations": [defense X-3, defense XI-2, defense XII-1, defense XX-1, second chance I-2, melee weapon II-1, melee weapon V-1, travel I-2, fragment III-1, uncategorized XVII-2], "world": "The Cauldron", "force": true, "from_pool": true}]
-  progression_balancing: '0' # Change to 20, then to 40, then to 60, then to 80, then to 100
+  progression_balancing: '20' # Change to 40, then to 60, then to 80, then to 100
   accessibility: full
   enable_coin_stars: 'false'
   move_rando_actions:
@@ -279,5 +279,5 @@ Super Mario 64:
   second_floor_star_door_cost: random 
   mips1_cost: random 
   mips2_cost: random 
-  stars_to_finish: random # Change to 50, then to 25
+  stars_to_finish: random # Change to random-range-0-50, then to random-range-0-25
   completion_type: random # Change to Final Bowser

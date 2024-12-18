@@ -75,7 +75,7 @@ Hollow Knight:
   DeathLinkBreaksFragileCharms: true
 
   MinimumGeoPrice: random-low
-  MaximumGeoPrice: random-high # Can be upgraded to random-middle
+  MaximumGeoPrice: random-middle
   MinimumGrubPrice: 1
   MaximumGrubPrice: *grub
   MinimumEssencePrice: random-low
@@ -129,7 +129,7 @@ Terraria:
   grindy_achievements: false
   fishing_achievements: false
 
-  fill_extra_checks_with: coins #  Can be upgraded to useful_items
+  fill_extra_checks_with: useful_items
   death_link: true
   exclude_locations:
     ["Real Estate Agent", "Dead Men Tell No Tales", "The Great Slime Mitosis"] # Can be upgraded to include: Funkytown, Gelatin World Tour, Lucky Break, It Can Talk?!, Watch Your Step!, And Good Riddance!

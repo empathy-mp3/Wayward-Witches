@@ -16,15 +16,14 @@ Manual_Godhome_Eszenn:
   death_link:
     'true': 10
   include_bindings:
-    'true': 50 #start true change to false
-  include_radiant_difficulty:
-    'true': 50 #start true change to false
+    'false': 4
+  include_radiant_difficulty: 'false'
 Manual_SquareMusic_Connor:
   plando_items: [{"item": "Phoenix", "location": "fire I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Ramuh", "location": "electricity I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shiva", "location": "ice II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Ifrit", "location": "beast I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bahamut", "location": "beast I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Odin", "location": "god I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Leviathan", "location": "water I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Knights of the Round", "location": "army II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Alexander", "location": "robot I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Hi-Potion": 20}, "locations": [ranged weapon I-3, ranged weapon II-1, vitality IV-1, vitality V-2, vitality X-2, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing IV-1, healing VII-3, speed VII-6, defense IV-2, defense VII-1, defense XIX-1, attack II-2, low HP I-1, XP XIII-1, melee weapon X-4, revenge I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing:
-    0: 1 # Start at 0 then change to 15 then change to 30 then change to 50
+    15: 1 # Start at 15 then change to 30 then change to 50
   filler_traps:
-    50: 1 #change to 25 then change to 0
+    25: 1 #change to 0
   death_link:
     'true': 10
 Timespinner:
@@ -82,7 +81,7 @@ Undertale:
   temy_include: 'true'
   no_equips: 'false'
   only_flakes: 'false'
-  prog_armor: 'true' #change to false
+  prog_armor: 'false'
   prog_weapons: 'true'
   rando_item_button: 'true' 
 Hollow Knight:

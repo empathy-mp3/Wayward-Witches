@@ -65,7 +65,7 @@ A Hat in Time:
   PonCost: medium           # change to low
   ChapterCost: low
   DLC: low               # change to off
-  TrapChance: random      # change to random-range-low-0-70, then to 0
+  TrapChance: 0
   StartWithCompassBadge:
     'false': 10           # remove this line (or change to 0)
     'true': 25
@@ -222,7 +222,7 @@ DLCQuest:
     none: 25
     simple: 25              # remove this line (or change to 0)
   time_is_money: optional   # change to required
-  start_hints: ["Big Sword Pack"]           # add one per upgrade, 9 in total: "Double Jump Pack", "Finish the Fight Pack", "Gun Pack", "Incredibly Important Pack", "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
+  start_hints: ["Big Sword Pack", "Double Jump Pack", "Finish the Fight Pack"]           # add one per upgrade, 7 in total: "Gun Pack", "Incredibly Important Pack", "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
 
   death_link: true
   coinsanity:
@@ -383,8 +383,7 @@ Pokemon Emerald:
       world: The Cauldron
       force: true
       from_pool: true
-  goal:           # remove legendary_hunt
-    legendary_hunt: 25
+  goal:
     norman: 5
   dexsanity:
     'false': 50
@@ -578,7 +577,7 @@ Hollow Knight:
     'true': 50          # remove this line (or change to 0)
   AnnoyingChecks: medium # change to low
   SkipDifficulty: hard   # change to medium, then easy, then off
-  GoalDifficulty: medium  # change to easy
+  GoalDifficulty: easy
   Costs: medium          # change to low
   SplitCrystalHeart: &split
     'false': 20
@@ -878,12 +877,11 @@ Minecraft:
       world: The Cauldron
       force: true
       from_pool: true
-  advancement_goal: 60      # change to 40, then to 20
+  advancement_goal: 40      # change to 20
   required_bosses: both     #change to ender_dragon, then to wither, then to none
   shuffle_structures:
-    'false': 50             # remove this line (or change to 0)
     'true': 50
-  combat_difficulty: hard   # change to normal, then to easy
+  combat_difficulty: normal   # change to easy
   include_postgame_advancements: true # change to false
   bee_traps: random-high    # change to random-low, then to 0
   send_defeated_mobs: true  # change to false
@@ -971,7 +969,7 @@ Timespinner:
     unscaled: &reduce_difficulty 5 # set to 0
   hp_cap: 350               # increase to 450, then 999
   boss_healing: false       # change to true
-  shop_multiplier: 1        # change to 0
+  shop_multiplier: 0
   dad_percent: random        # change to true
   trap_chance: random-range-low-5-90 # change to random-range-low-0-35, then to 0
   start_inventory: {Lightwall: 1}

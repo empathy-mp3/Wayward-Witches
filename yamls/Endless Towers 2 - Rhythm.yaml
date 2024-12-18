@@ -1,11 +1,11 @@
 name: rhythm.ET2
 description: ["Rhythms YAML for the Sequel to Endless Towers"]
 game:
-  Manual_RatchetAndClankUYA_Rhythm: 7
-  Dome Keeper: 6
+  Manual_RatchetAndClankUYA_Rhythm: 0
+  Dome Keeper: 0
   Mindustry: 5
-  Sonic Adventure DX: 6
-  Sonic Adventure 2 Battle: 5
+  Sonic Adventure DX: 9
+  Sonic Adventure 2 Battle: 9
   Kingdom Hearts Birth by Sleep: 6
   
 triggers:
@@ -162,7 +162,6 @@ Dome Keeper:
 
   dome_gadget:
     # What Dome gadget do you wish to play with.
-    shield: 2 # Upgrade: Disabled
     orchard: 2
     repellent: 3
     droneyard: 15
@@ -262,7 +261,7 @@ Mindustry:
       force: true
       from_pool: true
   # Game Options
-  progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
+  progression_balancing: 5 # Upgrade: Increase by 10, 15, 20, 25 (for total of 75 at max)
   accessibility: locations
   tutorial_skip: true
     # Remove the need to complete the tutorial and unlock tutorial related tech. Grant a free launch for every selected planet.
@@ -362,7 +361,7 @@ Sonic Adventure DX:
       force: true
       from_pool: true
   # Game Options
-  progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
+  progression_balancing: 15 # Upgrade: Increase by 15, 20, 25 (for total of 75 at max)
   accessibility: locations
   death_link: true
   # General Options

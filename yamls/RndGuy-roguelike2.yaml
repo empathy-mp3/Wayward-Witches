@@ -131,12 +131,11 @@ Hollow Knight:
     'exclude_tedious': 20
     'exclude_dangerous': 20
     'exclude_painful': 20
-  shop_costs: # remove expensive, then also remove pricey
+  shop_costs: # remove pricey
     'sale': 1
     'cheap': 4
     'average': 20
     'pricey': 20
-    'expensive': 20
 
   triggers:
     # skips
@@ -295,20 +294,19 @@ Celeste 64:
     hard: 75 # reduce to 25, then to 5
   move_shuffle: 'true'
   total_strawberries: '46'
-  strawberries_required_percentage: '100' # random-range-90-100, then random_range-75-100
+  strawberries_required_percentage: random-range-90-100 # random_range-75-100
   friendsanity: 'random'
   signsanity: 'random'
   carsanity: 'random'
   badeline_chaser_source: locations
   badeline_chaser_frequency: '1'
   badeline_chaser_speed: '2'
-  badeline_difficulty: # remove '5', then remove '4', then remove '3', then remove '2'
+  badeline_difficulty: # remove '4', then remove '3', then remove '2'
     '0': 10
     '1': 20
     '2': 30
     '3': 40
     '4': 50
-    '5': 60 
   start_inventory: {}
   triggers:
     - option_category: Celeste 64
@@ -379,7 +377,7 @@ Blasphemous:
   difficulty:
     easy: 1
     normal: 5
-    hard: 15 # 5, 1
+    hard: 5 # 1
   skip_long_quests: # reduce 'true' to 40, then reduce 'true' to 0
     'false': 20
     'true': 80
@@ -452,7 +450,7 @@ Muse Dash:
   song_difficulty_mode: manual
   song_difficulty_min: '11'
   song_difficulty_max: '11'
-  song_difficulty_progression: '1' # 2, 3, 4, 5
+  song_difficulty_progression: '3' # 4, 5
   grade_needed: silvers
   death_link: 'true'
   chosen_traps:
@@ -566,12 +564,12 @@ The Witness:
   panel_hunt_required_percentage: # change to random-range-high-75-100
     random-range-high-90-100: 50
   shuffle_vault_boxes: 'true' # change to random
-  EP_difficulty: # change normal to 30
-    normal: 0
+  EP_difficulty:
+    normal: 30
     tedious: 20
     eclipse: 0
-  trap_percentage: # change to random-low
-    random: 50
+  trap_percentage:
+    random-low: 50
   puzzle_skip_amount:
     random-range-low-0-10: 50
   death_link_amnesty: # 5 upgrades, detailed per option below

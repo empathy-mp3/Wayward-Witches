@@ -35,7 +35,7 @@ Super Metroid Map Rando: #11 yaml changes
     Missile: 32
     PowerBomb: 10 # 10 -> 15
     ReserveTank: 4
-    Super: 12 #12 -> 19
+    Super: 19
   shinespark_tiles: 26
   heated_shinespark_tiles: 29
   shinecharge_leniency_frames: 90
@@ -69,7 +69,7 @@ Super Metroid Map Rando: #11 yaml changes
   item_markers: majors
   item_dots_disappear: 'true'
   all_items_spawn: 'true'
-  buffed_drops: 'false' #false -> 'true'
+  buffed_drops: 'true'
   acid_chozo: 'true'
   fast_elevators: 'true'
   fast_doors: 'true'
@@ -114,7 +114,7 @@ Factorio:
   grenade_traps: 0
   cluster_grenade_traps: 0
   artillery_traps: 0
-  atomic_rocket_traps: 1 # 1 -> 0
+  atomic_rocket_traps: 0
   attack_traps: 0
   evolution_traps: 0
   evolution_trap_increase: 1

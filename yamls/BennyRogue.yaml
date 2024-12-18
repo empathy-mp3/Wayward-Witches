@@ -1,7 +1,7 @@
 name: BennyRogue
 game: 
   The Witness: 3
-  Rogue Legacy: 2
+  Rogue Legacy: 4
 
 The Witness:
   plando_items: [{"items": {"Speed Boost": 8}, "locations": [healing VIII-1, defense II-2, attack VI-1, attack VI-2, mana IV-1, slots II-5, melee weapon III-2, melee weapon IV-1], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -49,7 +49,7 @@ The Witness:
   early_caves: 'off'
   elevators_come_to_you: 'false'
   death_link: 'true'
-  death_link_amnesty: 1 # Change to 2, 3, 4, then 5
+  death_link_amnesty: 2 # Change to 3, 4, then 5
   shuffle_dog:
     puzzle_skip: 6
     random_item: 10 

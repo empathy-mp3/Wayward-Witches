@@ -21,7 +21,7 @@ Super Metroid:
   missile_qty: '30'
   super_qty: '20'
   power_bomb_qty: '10'
-  minor_qty: '60' 	# Change to 75, change to 100
+  minor_qty: '75' 	# Change to 100
   energy_qty: medium 		# Change to Vanilla
   area_randomization: 'off'
   area_layout: 'false'
@@ -106,7 +106,7 @@ Hollow Knight:
   RemoveSpellUpgrades: 'true' 	# Change to False
   StartLocation: king's_pass
   Goal: godhome 	# Change to Radiance
-  WhitePalace: nopathofpain 	# Change to exclude
+  WhitePalace: exclude
   ExtraPlatforms: 'true'
   AddUnshuffledLocations: 'false'
   StartingGeo: '0'
@@ -183,7 +183,7 @@ Ocarina of Time:
   extra_triforce_percentage: '50'
   bombchus_in_logic: 'false'
   dungeon_shortcuts: 'off'
-  mq_dungeons_mode: mq # Change to Vanilla
+  mq_dungeons_mode: vanilla
   mq_dungeons_count: '0'
   bridge_stones: '3'
   bridge_medallions: '6'
@@ -249,7 +249,7 @@ Ocarina of Time:
   fix_broken_drops: 'false'
   start_with_consumables: 'false'
   start_with_rupees: 'false'
-  item_pool_value: scarce # change to balanced 
+  item_pool_value: balanced 
   junk_ice_traps: onslaught # change to on
   ice_trap_appearance: major_only
   adult_trade_start: claim_check
@@ -328,7 +328,7 @@ A Link to the Past:
   triforce_pieces_required: '20'
   triforce_pieces_available: '30'
   triforce_pieces_extra: '10'
-  entrance_shuffle: crossed     # Change to Simple
+  entrance_shuffle: simple
   entrance_shuffle_seed: random
   big_key_shuffle: any_world
   small_key_shuffle: any_world

@@ -24,7 +24,7 @@ A Link to the Past:
   map_shuffle: start_with
   restrict_dungeon_item_on_boss: 'false'
   item_pool: normal
-  item_functionality: expert #change to hard then normal
+  item_functionality: hard #change to normal
   enemy_health: default
   enemy_damage: shuffled #change to default
   progressive: 'on'

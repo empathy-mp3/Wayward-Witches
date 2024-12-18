@@ -5,7 +5,7 @@ Minecraft:
   plando_items: [{"item": "4 Diamond Ore", "location": "price I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "4 Diamond Ore", "location": "price II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "4 Diamond Ore", "location": "price II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Armor", "location": "defense XIII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shulker Box", "location": "slots II-2", "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 50
   accessibility: full
-  advancement_goal: random-range-50-55 # Upgrades: Change random range to 50-55 > 45-50 > 40-45
+  advancement_goal: random-range-40-45
   egg_shards_required: 20 # Upgrades: Change to 20 > 19 > 17 > 15
   egg_shards_available: 20 # Upgrades: Change to 20 > 21 > 23 > 25
   required_bosses: ender_dragon
@@ -15,6 +15,6 @@ Minecraft:
   include_hard_advancements: false
   include_unreasonable_advancements: false
   include_postgame_advancements: false
-  bee_traps: 50 # Upgrades: Change to 50 > 40 > 20 > 0
+  bee_traps: 20 # Upgrades: Change to 20 > 0
   send_defeated_mobs: false
   death_link: true

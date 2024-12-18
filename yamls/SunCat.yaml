@@ -13,9 +13,9 @@ Timespinner:
   plando_items: [{"item": "Eternal Crown", "location": "defense IX-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Eternal Coat", "location": "defense XIX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Galaxy Earrings", "location": "XP III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XIV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Silence Ring", "location": "uncategorized XIX-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Mind Refresh": 3, "Sand Vial": 3, "Antidote": 3}, "locations": [healing IV-4, healing VI-1, travel II-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   DamageRando: mostlybuffs #change to 'allbuffs'
   ExtraEarringsXP: '6' #increase by 6, 3 times
-  ShopMultiplier: random-range-1-5 #change to 'random-range-low-1-5' > '0'
-  LootTierDistro: default_weight #change to 'full_random' > 'inverted_weight'
-  TrapChance: '50' #reduce by 25 twice
+  ShopMultiplier: random-range-low-1-5 #change to '0'
+  LootTierDistro: 'full_random' #change to  > 'inverted_weight'
+  TrapChance: '25' #reduce by 25
 
   progression_balancing: '0'
   StartWithJewelryBox: 'true'
@@ -67,9 +67,9 @@ Timespinner:
 
 Celeste 64:
   plando_items: [{"items": {"Raspberry": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
-  death_link_amnesty: '5' # change to '10' > '20' > '30'
+  death_link_amnesty: '20' # change to '30'
   total_strawberries: random-range-high-5-46 # change to 'random-range-5-46' > 'random-range-low-5-46'
-  strawberries_required_percentage: '100' # reduce by 10, 9 times
+  strawberries_required_percentage: '70' # reduce by 10, 6 times
 
   progression_balancing: '0'
   death_link: 'true'
@@ -192,7 +192,7 @@ Muse Dash:
 
 VVVVVV:
   plando_items: [{"items": {"Trinket 13": 9, "Trinket 14": 9, "Trinket 15": 9, "Trinket 16": 9, "Trinket 17": 9, "Trinket 18": 9, "Trinket 19": 9, "Trinket 20": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
-  death_link_amnesty: '6' #increase by 3, 8 times
+  death_link_amnesty: '12' #increase by 3, 6 times
   door_cost: random-range-1-3 #change to random-range-low-1-3
 
   progression_balancing: '0'
@@ -258,9 +258,31 @@ Pokemon Emerald:
   exp_modifier: '100'
   purge_spinners: 'true'
   better_shops: 'true'
-  extra_boulders: 'true'
+  extra_boulders: random
+  modify_118: random
+  remove_roadblocks: []
+  rm_roadblock_110:
+    'true': 1
+    'false': 3
+  rm_roadblock_112:
+    'true': 1
+    'false': 3
+  rm_roadblock_119:
+    'true': 1
+    'false': 3
+  rm_roadblock_safari:
+    'true': 1
+    'false': 3
+  rm_roadblock_lilycove:
+    'true': 1
+    'false': 3
+  rm_roadblock_aqua_hideout:
+    'true': 1
+    'false': 3
+  rm_roadblock_seafloor_cavern:
+    'true': 1
+    'false': 3
   extra_bumpy_slope: 'true'
-  modify_118: 'true'
   free_fly_location: 'false'
   hm_requirements: fly_without_badge
   turbo_a: 'false'
@@ -333,3 +355,45 @@ Pokemon Emerald:
           match_trainer_levels: 
             additive: 1
             multiplicative: 1
+    - option_category: Pokemon Emerald
+      option_name: rm_roadblock_110
+      option_result: 'true'
+      options:
+        Pokemon Emerald:
+          +remove_roadblocks: [Route 110 Aqua Grunts]
+    - option_category: Pokemon Emerald
+      option_name: rm_roadblock_112
+      option_result: 'true'
+      options:
+        Pokemon Emerald:
+          +remove_roadblocks: [Route 112 Magma Grunts]
+    - option_category: Pokemon Emerald
+      option_name: rm_roadblock_119
+      option_result: 'true'
+      options:
+        Pokemon Emerald:
+          +remove_roadblocks: [Route 119 Aqua Grunts]
+    - option_category: Pokemon Emerald
+      option_name: rm_roadblock_safari
+      option_result: 'true'
+      options:
+        Pokemon Emerald:
+          +remove_roadblocks: [Safari Zone Construction Workers]
+    - option_category: Pokemon Emerald
+      option_name: rm_roadblock_lilycove
+      option_result: 'true'
+      options:
+        Pokemon Emerald:
+          +remove_roadblocks: [Lilycove City Wailmer]
+    - option_category: Pokemon Emerald
+      option_name: rm_roadblock_aqua_hideout
+      option_result: 'true'
+      options:
+        Pokemon Emerald:
+          +remove_roadblocks: [Aqua Hideout Grunts]
+    - option_category: Pokemon Emerald
+      option_name: rm_roadblock_seafloor_cavern
+      option_result: 'true'
+      options:
+        Pokemon Emerald:
+          +remove_roadblocks: [Seafloor Cavern Aqua Grunt]

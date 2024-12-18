@@ -6,7 +6,7 @@ Super Metroid:
   progression_balancing: '50'
   accessibility: items
   start_inventory_removes_from_pool: 'true'
-  preset: expert 		# Change to "veteran" (should be an early change) and then to "regular" (should be a late change)
+  preset: veteran 		# Change to "regular" (should be a late change)
   remote_items: 'true'
   death_link: enable
   max_difficulty: hardcore

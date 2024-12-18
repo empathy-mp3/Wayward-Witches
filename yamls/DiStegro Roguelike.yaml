@@ -18,11 +18,10 @@ Pokemon Red and Blue:
   trainer_name: DiStgro
   rival_name: Zoinks
   
-  #Elite 4 Badges to 4-8, then 4-6
   elite_four_badges_condition: 
-    random-range-6-8: 50
+    random-range-6-8: 0
     random-range-4-8: 0
-    random-range-4-6: 0
+    random-range-4-6: 50
   
   #Elite 4 Key Items to 50-100. then 50-70
   elite_four_key_items_condition:
@@ -205,8 +204,8 @@ Pokemon Emerald:
   
   #Guaranteed Catch False to True
   guaranteed_catch:
-    false: 50
-    true: 0
+    false: 0
+    true: 50
     
   normalize_encounter_rates: true
   exp_modifier: 250
@@ -507,8 +506,8 @@ A Link to the Past:
   #Boss Shuffle from Chaos to Basic to None
   boss_shuffle:
     chaos: 0
-    basic: 50
-    none: 0
+    basic: 0
+    none: 50
   
   pot_shuffle: false
   enemy_shuffle: false

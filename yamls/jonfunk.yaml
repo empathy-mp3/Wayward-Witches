@@ -229,7 +229,6 @@ A Hat in Time:
     normal: 25
   ShuffleStorybookPages:
     'false': 12
-    'true': 25  # remove this line
     random: 9
   ShuffleActContracts:
     'false': 11
@@ -597,7 +596,6 @@ Hollow Knight:
     'true': 14  # remove this option
   CostSanity:
     'off': 25
-    'on': 3    # remove this option
   CostSanityHybridChance:
     '10': 25
   CostSanityEggWeight:

@@ -12,7 +12,7 @@ game:
   Secret of Evermore: 1
 # Number of upgrades: 7
 DLCQuest:
-  progression_balancing: 40 # Upgrade by 10, six times
+  progression_balancing: 60 # Upgrade by 10, 4 times
   coinsanity: coin
   campaign: both
   item_shuffle:
@@ -184,13 +184,13 @@ Timespinner:
   lore_checks: random
   boss_rando: random # Upgrade to 50/50 between 'off' and scaled
   damage_rando: mostlybuffs
-  hp_cap: random-range-500-999 # Upgrade to 999
+  hp_cap: 999
   level_cap: 99
   extra_earrings_xp: random-range-12-24 # Upgrade to 24
   boss_healing: true
   shop_fill: randomized
   shop_warp_shards: true
-  shop_multiplier: random-range-1-5 # Upgrade to 0
+  shop_multiplier: 0
   loot_pool: randomized
   drop_rate_category: fixed
   fixed_drop_rate: random # Upgrade to 100
@@ -999,7 +999,7 @@ A Link to the Past:
   randomize_cost_types: random
   shop_price_modifier: random-range-0-200 # Upgrade to 0
   shuffle_capacity_upgrades: random
-  bombless_start: random # Upgrade to false
+  bombless_start: false
   shuffle_prizes: random
   tile_shuffle: random
   misery_mire_medallion: random
@@ -1055,7 +1055,7 @@ Celeste 64:
       force: true
       from_pool: true
   death_link: true
-  death_link_amnesty: 5 # Upgrade to 10, then 15, then 20, then 30
+  death_link_amnesty: 15 # Upgrade to 20, then 30
   logic_difficulty: random # Upgrade to standard
   move_shuffle: true
   total_strawberries: random-range-20-46 # Upgrade to random
@@ -1213,7 +1213,7 @@ Secret of Evermore:
   energy_core: random
   required_fragments: random # Upgrade to random-range-1-50, then random-range-1-25. Do the same for available_fragments
   available_fragments: random # See above
-  money_modifier: random-range-300-1000 # Upgrade to random-range-1000-2500
+  money_modifier: random-range-1000-2500
   exp_modifier: random-range-100-300 # Upgrade to random-range-300-1000, then random-range-1000-2500
   sequence_breaks: on
   out_of_bounds: off # Upgrade to on

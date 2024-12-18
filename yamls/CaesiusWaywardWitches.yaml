@@ -1,10 +1,10 @@
 name: Caesius
 game:
-  Ocarina of Time: 1
-  Timespinner: 1
-  Manual_MarbleBlastUltra_KitLemonfoot: 1
-  Pokemon Emerald: 1
-  Minecraft: 1
+  Ocarina of Time: 12
+  Timespinner: 12
+  Manual_MarbleBlastUltra_KitLemonfoot: 8
+  Pokemon Emerald: 10
+  Minecraft: 12
 
 description: Games for Wayward Witches
 
@@ -391,7 +391,7 @@ Pokemon Emerald: # 2 yaml change upgrades
   guaranteed_catch: 'true'
   normalize_encounter_rates: true'
   exp_modifier: random-range-100-200
-  blind_trainers: 'false' # Change to 'true'
+  blind_trainers: 'true'
   purge_spinners: 'true'
   match_trainer_levels: 'off'
   match_trainer_levels_bonus: 0
@@ -420,7 +420,7 @@ Minecraft: # 5 yaml change upgrades
   advancement_goal: random
   egg_shards_required: random
   egg_shards_available: random
-  required_bosses: both # Change to wither, then none
+  required_bosses: wither # Change to none
   shuffle_structures: 'true'
   structure_compasses: 'true'
   combat_difficulty: hard # Change to normal, then easy

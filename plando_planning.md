@@ -3765,7 +3765,7 @@ JoyTheBard (Witness): increase `hint_amount`
 *a power gained from a dark mirror.*
 (+1 life, referencing death defiance from hades)
 
-+1 life (it was originally 2 but that's too much)
++1 life
 
 ## defy death IV
 
@@ -3870,14 +3870,14 @@ JoyTheBard (Witness): increase `hint_amount`
 *an electric suit of armor.*
 (+1 life, referencing auric tesla armor from terraria calamity mod)
 
-+1 life (it was originally 2 but that's too much)
++1 life
 
 ## defy death XIX
 
 *but it refused.*
 (+1 life, referencing "but it refused." from undertale)
 
-+1 life (it was originally 2 but that's too much)
++1 life
 
 ## defy death XX
 
@@ -4031,14 +4031,14 @@ JoyTheBard (Witness): increase `hint_amount`
 *moon, minus 1*
 (+1 life) [hint sorta adapted from Deathclaw99's hint!]
 
-+1 life (it was originally 2 but that's too much)
++2 life
 
 ## defy death XXXXII
 
 *200 bucks.*
 (+1 life) [hint adapted from Deathclaw99's hint!]
 
-+1 life (it was originally 2 but that's too much)
++2 life
 
 ## defy death XXXXIII
 
@@ -4087,7 +4087,7 @@ JoyTheBard (Witness): increase `hint_amount`
 *5 less than that one soda.*
 (+1 life)
 
-+1 life (it was originally 2 but that's too much)
++2 life
 
 ## defy death L
 
@@ -4108,7 +4108,7 @@ JoyTheBard (Witness): increase `hint_amount`
 *thanatos's vacation*
 (+1 life)
 
-+1 life (it was originally 2 but that's too much)
++1 life
 
 ## defy death LIII
 

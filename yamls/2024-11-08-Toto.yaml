@@ -12,7 +12,7 @@ Slay the Spire:
   progression_balancing: 0
   accessibility: minimal
   character: THE_PACKMASTER
-  ascension: 19 # 19 -> 16 -> 12 -> 9 -> 5 -> 1
+  ascension: 16 # 16 -> 12 -> 9 -> 5 -> 1
   final_act:
     false: 1
     true: 1 # 1 -> 0
@@ -50,7 +50,6 @@ Sentinels of the Multiverse:
     - America's Greatest Legacy
     - America's Newest Legacy
     - Freedom Five Legacy
-    - "Ra: Setting Sun" # No change -> Remove this
     - Argent Adept # No change -> Remove this and the 3 below
     - Dark Conductor Argent Adept
     - Prime Wardens Argent Adept
@@ -141,8 +140,8 @@ Sentinels of the Multiverse:
       max: 3 # 3 -> 1
     - name: Scion
       weight: 0
-      min: 10 # 10 -> 20 [Also change the comment below]
-  required_scions: 50 # 50 -> 40
+      min: 20
+  required_scions: 40
   scions_are_relative: false
   location_density:
     environment: 2
@@ -169,7 +168,7 @@ Dark Souls III:
   lock_equip: *equip
   no_equip_load: false # false -> true
   no_weapon_requirements: false # false -> true
-  no_spell_requirements: false # false -> true
+  no_spell_requirements: true
   randomize_infusion: true
   randomize_infusion_percentage: 50
   randomize_weapon_level: all
@@ -178,8 +177,8 @@ Dark Souls III:
   max_levels_in_5: 0 # 0 -> 3 -> 5
   min_levels_in_10: 0 # 0 -> 1
   max_levels_in_10: 0 # 0 -> 5 -> 10
-  simple_early_bosses: false # false -> true
-  reduce_harmless_enemies: true # true -> false
+  simple_early_bosses: true
+  reduce_harmless_enemies: false
   random_enemy_preset:
     RemoveSource: Ancient Wyvern; Ancient Wyvern Mob; Bridge Darkeater Midir; Darkeater Midir; King of the Storm
     Boss:

@@ -6,7 +6,8 @@ game:
  The Witness: 1 #    line 130
 description: YAML for Roguelike Async 2.
 DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
-  progression_balancing: 0 # -> 10 -> 20 -> 30 -> 40 -> 50
+  start_inventory: {"Live Freemium or Die: Progressive Weapon": 1}
+  progression_balancing: 10 # -> 20 -> 30 -> 40 -> 50
   accessibility: full
   coinsanity: coin
   campaign: both
@@ -147,7 +148,7 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
       world: The Cauldron
       force: true
       from_pool: true
-  progression_balancing: 0 # -> 25 -> 50
+  progression_balancing: 25 # -> 50
   accessibility: full
   goal: song_of_the_nomai # -> song_of_five
   spawn:
@@ -160,9 +161,9 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
   randomize_rotations: 'true' # -> 'false'
   randomize_warp_platforms: 'true'
   randomize_dark_bramble_layout:
-    'false': 5 #   ->  10
-    'true': 0 #        0
-    hub_start: 5 #     0
+    'false': 10
+    'true': 0
+    hub_start: 0
   trap_chance: random-range-5-10 # -> 0-5
   trap_type_weights:
     Audio Trap: 1
@@ -176,6 +177,7 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
   enable_ac_mod: 'false'
   enable_hn2_mod: 'false'
   enable_fq_mod: 'false'
+  start_inventory: {"Signalscope": 1}
       
   item_links:
     - name: OuterWildsTrapLink
@@ -221,7 +223,7 @@ Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and
   area_rando: courses_and_secrets # -> courses_and_secrets_separate
   buddy_checks: 'true'
   exclamation_boxes: 1ups_only
-  progressive_keys: random
+  progressive_keys: 'false'
   enable_coin_stars: 'true' # -> 'false'
   enable_move_rando: 'true'
   move_rando_actions:
@@ -247,7 +249,8 @@ Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and
   mips2_cost: random-range-40-50
   stars_to_finish: random-range-80-90 # -> 70-80 -> 60-70 -> 50-60 
   death_link: 'true'
-  completion_type: all_bowser_stages # -> last_bowser_stage
+  completion_type: last_bowser_stage
+  start_inventory: {"Second Floor Key": 1}
 
 The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 183
   plando_items:
@@ -306,7 +309,7 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
   shuffle_EPs:
     individual: 5
     obelisk_sides: 5
-  EP_difficulty: tedious # -> normal
+  EP_difficulty: normal
   shuffle_postgame: 'false'
   shuffle_symbols: 'true'
   shuffle_doors:
@@ -319,8 +322,8 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
     local: 5
     anywhere: 5
   obelisk_keys: 'true'
-  trap_percentage: random-range-10-20 # -> 5-10 -> 0-5
-  puzzle_skip_amount: 2 # -> 5 -> 7
+  trap_percentage: random-range-0-5
+  puzzle_skip_amount: 5 #-> 7
   hint_amount:
     0: 0  
     5: 0 
@@ -337,6 +340,7 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
   death_link: 'true'
   death_link_amnesty: 0 # -> 2 -> 4
   shuffle_dog: random_item
+  start_inventory: {"Town Obelisk Key": 1}
 
       
   item_links:

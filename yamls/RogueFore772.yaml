@@ -1,8 +1,8 @@
 game:                 # go to line (Ctrl+G):
-  A Hat in Time: 3    # line 14
+  A Hat in Time: 4    # line 14
   TUNIC: 4            # line 170
   Muse Dash: 2        # line 208
-  VVVVVV: 4           # line 293
+  VVVVVV: 3           # line 293
 name: Fore772
 description: Fore772 yaml for Roguelike Async
 
@@ -10,7 +10,7 @@ A Hat in Time:
   plando_items: [{"item": "No Bonk Badge", "location": "careful movement III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Badge Pin", "location": "slots IV-3", "world": "The Cauldron", "force": true, "from_pool": true}]
   EndGoal:
     finale: 10
-    rush_hour: 50         # change to 2
+    rush_hour: 2
   LogicDifficulty: hard # change to moderate, then to normal
   CTRLogic: sprint        # change to scooter, then to time_stop_only
   PonCost: medium         # change to low
@@ -214,7 +214,7 @@ Muse Dash:
   song_difficulty_mode: manual
   song_difficulty_min: '11'
   song_difficulty_max: '11'
-  song_difficulty_progression: '0' # 1, 2, 3, 4, 5
+  song_difficulty_progression: '3' # 4, 5
   grade_needed: pinks #change to A, then B
   death_link: 'true'
   chosen_traps:
@@ -287,7 +287,7 @@ Muse Dash:
 VVVVVV:
   excluded_locations: [] # Upgrades: Hard Way, Edge Games, and Reckless as priority > normal location > excluded location
   door_cost: random-range-high-1-3 #change to 'random-range-1-3' > random-range-low-1-3
-  death_link_amnesty: 5 # Upgrades: Set to 5 > 10 > 15 > 20 > 25 > 30 > 50
+  death_link_amnesty: 10 # Upgrades: Set to 10 > 15 > 20 > 25 > 30 > 50
   music_rando: 'true'
   area_rando: 'true'
   area_cost: 'true'

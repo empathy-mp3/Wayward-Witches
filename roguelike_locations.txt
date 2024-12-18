@@ -243,3 +243,67 @@ vitality XV-5
 vitality XV-6
 melee weapon VI-1
 progressive II-1
+defense I-1
+defense I-2
+explosion IV-1
+explosion IV-2
+explosion IV-3
+defense VI-1
+defense VI-2
+price XIII-1
+price XIII-2
+travel III-1
+travel III-2
+stealth IV-1
+sun I-1
+sun I-2
+vitality XVI-1
+vitality XVI-2
+vitality XVI-3
+vitality XVI-4
+vitality XVI-5
+vitality XVI-6
+luck I-1
+luck I-2
+luck I-3
+luck I-4
+luck I-5
+luck I-6
+choice III-1
+choice III-2
+choice III-3
+choice III-4
+choice III-5
+mana IV-1
+mana IV-2
+mana IV-3
+choice IV-1
+choice IV-2
+choice IV-3
+stealth II-1
+stealth II-2
+stealth II-3
+healing II-1
+healing II-2
+healing II-3
+healing II-4
+dangerous areas III-1
+dangerous areas III-2
+defense XVIII-1
+defense XVIII-2
+mana II-1
+mana II-2
+mana II-3
+ranged weapon III-1
+ranged weapon III-2
+ranged weapon III-3
+ranged weapon III-4
+ranged weapon III-5
+ranged weapon III-6
+careful movement III-1
+careful movement III-2
+careful movement III-3
+explosion II-1
+explosion II-2
+explosion II-3
+explosion II-4

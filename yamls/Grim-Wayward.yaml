@@ -11,13 +11,13 @@ A Hat in Time: # YAML Edits: 12
   progression_balancing: '50'
   accessibility: full
   death_link: 'true'
-  TrapChance: '15' # Item: Reduce by 5, until value hits 0.
+  TrapChance: '10' # Item: Reduce by 5, until value hits 0.
   BabyTrapWeight: '40'
-  LaserTrapWeight: '10' # Item: reduce to 5, then 0.
+  LaserTrapWeight: '5' # Item: reduce to 0.
   EndGoal:
     finale: 20
     rush_hour: 15
-    seal_the_deal: 75 # Item: Reduce this to 20, then 10, then 2
+    seal_the_deal: 2
   trig_removeDeadlyDWBonuses: yes
   LogicDifficulty: normal
   ShuffleStorybookPages: 'true'
@@ -74,7 +74,7 @@ Minecraft: # Note: Done. YAML Edits: 12
   plando_items: [{"items": {"Rotten Flesh": 20, "50 XP": 20, "32 Arrows": 20, "4 Emeralds": 20}, "locations": [ranged weapon I-7, ranged weapon II-6, ranged weapon III-5, ranged weapon IV-5, ranged weapon V-7, ranged weapon VI-4, ranged weapon VII-3, vitality IV-4, vitality XIV-5, vitality XV-4, speed I-3, defense V-2, careful movement II-2, attack I-2, mana V-2, mana V-3, mana VI-1, slots IV-2, slots IV-5, XP VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: full
-  advancement_goal: '60' # Item: Reduce to 40/30
+  advancement_goal: '40' # Item: Reduce to 30
   egg_shards_required: '20' # Item: Reduce to 15, then 10.
   egg_shards_available: '20'
   required_bosses: ender_dragon
@@ -191,7 +191,7 @@ Sonic Adventure DX: # Note: Finalised. Edit count: 16.
   big_life_sanity: random
   gamma_life_sanity: random
   junk_fill_percentage: '50'
-  trap_fill_percentage: '70' # Item: Reduce by 10 until it hits zero (7)
+  trap_fill_percentage: '50' # Item: Reduce by 10 until it hits zero (5)
   ice_trap_weight: medium
   spring_trap_weight: none
   police_trap_weight: none
@@ -237,7 +237,7 @@ Timespinner: # Edit count: 13
     default: 25
     randomized: 25
     empty: 5 # Item: Set to 0
-  shop_warp_shards: 'false' # Item: Set to true
+  shop_warp_shards: 'true'
   shop_multiplier:
     '0': 1 # Item: Set chance to 20
     '1': 40

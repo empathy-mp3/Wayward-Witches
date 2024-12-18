@@ -29,7 +29,7 @@ DOOM 1993:
   progression_balancing: 50
   accessibility: minimal
   goal: complete_boss_levels
-  difficulty: medium # Change to easy, then baby
+  difficulty: easy # Change to baby
   random_monsters: random_chaotic
   random_pickups: random_balanced
   random_music: shuffle_game
@@ -86,7 +86,7 @@ Links Awakening DX:
   hard_mode: ohko # Change to none
   tarins_gift: any_item # Change to bush_breaker
   overworld: open_mabe
-  in_game_hints: 'false' # Change to 'true'
+  in_game_hints: 'true'
   death_link: 'true'
   stabilize_item_pool: 'true'
   nag_messages: 'false'

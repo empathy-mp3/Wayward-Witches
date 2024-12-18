@@ -18,7 +18,7 @@ Super Metroid:
   power_bomb_qty: '10'
   minor_qty: '100'
   energy_qty: vanilla
-  area_randomization: 'full'             #change to off
+  area_randomization: 'off'
   area_layout: 'true'
   doors_colors_rando: 'false'             
   allow_grey_doors: 'false'

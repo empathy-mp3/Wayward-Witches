@@ -10,7 +10,7 @@ EarthBound:
   progression_balancing: 0
   accessibility: minimal
   giygas_required: true
-  sanctuaries_required: 6  # Reduce this to 5, then to 4
+  sanctuaries_required: 4
   skip_prayer_sequences: true
   random_start_location: true
   alternate_sanctuary_goal: true
@@ -56,7 +56,7 @@ Factorio:
     space_science_pack: 50
   goal: rocket
   tech_tree_layout: random
-  min_tech_cost: 300  #Change to 100 then 1
+  min_tech_cost: 100  #Change to 1
   max_tech_cost: random
   tech_cost_distribution: even
   tech_cost_mix: random-high
@@ -171,7 +171,7 @@ Factorio:
   teleport_traps: 0
   grenade_traps: 20
   cluster_grenade_traps: 20
-  artillery_traps: 15  #Change to 10 then to 5 then to 0
+  artillery_traps: 10  #Change to 5 then to 0
   atomic_rocket_traps: 0
   attack_traps: 0
   evolution_traps: 5
@@ -225,12 +225,11 @@ Pokemon Red and Blue:
   oaks_aide_rt_11: random-low
   oaks_aide_rt_15: random-low
   stonesanity: false
-  door_shuffle:  # Remove decoupled, then remove insanity then remove full
+  door_shuffle:  # Remove insanity then remove full
     'off': 1
     simple: 1
     full: 1
     insanity: 1
-    decoupled: 1
   warp_tile_shuffle: mixed
   randomize_rock_tunnel: false
   dark_rock_tunnel_logic: true
@@ -248,7 +247,7 @@ Pokemon Red and Blue:
   catch_em_all: first_stage
   randomize_pokemon_stats: shuffle
   randomize_pokemon_catch_rates: false
-  minimum_catch_rate: 3 #Change to 30 then 60
+  minimum_catch_rate: 30 #Change to 60
   randomize_trainer_parties: match_base_stats
   trainer_legendaries: true
   move_balancing: false
