@@ -627,7 +627,7 @@ TUNIC:
   start_inventory_from_pool: {"Hero's Laurels": 1}
   keys_behind_bosses: random
   shuffle_ladders: random
-  entrance_rando: random
+  entrance_rando: 'false'
   fixed_shop: random
   fool_traps:
     off: 2

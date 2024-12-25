@@ -77,7 +77,7 @@ Super Metroid Map Rando: #11 yaml changes
   respin: 'false'
   infinite_space_jump: 'false'
   momentum_conservation: 'false' #false -> true
-  wall_jump: collectible #collectible -> vanilla
+  wall_jump: vanilla
   etank_refill: vanilla
   maps_revealed: hidden #hidden -> revealed
   map_layout: wild

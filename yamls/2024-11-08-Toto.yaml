@@ -196,7 +196,7 @@ Dark Souls III:
         Pool: Minibosses
       - Weight: 2 # 2 -> 0
         Pool: Bosses
-      - Weight: 10 # 10 -> 0
+      - Weight: 0
         Pool: Black Knight; Cathedral Knight; Red-Eyed Lothric Knight; Millwood Knight; Ringed Knight; Pontiff Knight; Silver Knight; Winged Knight
       - Weight: 0
         Pool: Darkwraith; Grave Warden; Lycanthrope
@@ -285,7 +285,7 @@ Timespinner:
   start_with_jewelry_box: true
   eye_spy: true
   quick_seed:
-    false: 4 # 4 -> 1
+    false: 1
     true: 1
   specific_keycards: true
   inverted: random

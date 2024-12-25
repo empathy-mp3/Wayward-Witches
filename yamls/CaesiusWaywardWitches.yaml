@@ -420,7 +420,7 @@ Minecraft: # 5 yaml change upgrades
   advancement_goal: random
   egg_shards_required: random
   egg_shards_available: random
-  required_bosses: wither # Change to none
+  required_bosses: none
   shuffle_structures: 'true'
   structure_compasses: 'true'
   combat_difficulty: hard # Change to normal, then easy

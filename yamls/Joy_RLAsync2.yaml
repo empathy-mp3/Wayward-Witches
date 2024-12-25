@@ -18,7 +18,7 @@ DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
     20: 5
   permanent_coins: 'false'
   ending_choice: any
-  double_jump_glitch: simple # -> none
+  double_jump_glitch: none
   time_is_money: required
   death_link: 'true'
   # Credit to superfid2006 for the excluded location/plando block
@@ -64,6 +64,7 @@ DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
       from_pool: true
     - items:
         Temporary Spike: true
+        Zombie Sheep: true
       locations:
         - Animation Pack
         - Armor for your Horse Pack
@@ -96,9 +97,6 @@ DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
         - Time is Money Pack
         - Top Hat Pack
         - Wall Jump Pack
-      world: false
-      from_pool: true
-      force: true
 
 Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
   plando_items:

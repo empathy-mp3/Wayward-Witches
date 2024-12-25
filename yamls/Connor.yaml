@@ -41,7 +41,7 @@ Timespinner:
   gyre_archives: 'true'
   cantoran: 'true'
   lore_checks: 'true'
-  boss_rando: unscaled # change to scaled
+  boss_rando: scaled
   damage_rando: mostlybuffs
   hp_cap: '999'
   level_cap: '99'

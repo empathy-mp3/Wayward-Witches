@@ -168,19 +168,19 @@ A Hat in Time:
       option_result: medium
       options:
         A Hat in Time:
-          MinPonCost: random-middle
-          MaxPonCost: random-middle
-          MetroMinPonCost: random-middle
-          MetroMaxPonCost: random-middle
+          LowestChapterCost: random-middle
+          HighestChapterCost: random-middle
+          FinalChapterMinCost: random-middle
+          FinalChapterMaxCost: random-middle
     - option_category: A Hat in Time
       option_name: ChapterCost
       option_result: low
       options:
         A Hat in Time:
-          MinPonCost: random-low
-          MaxPonCost: random-low
-          MetroMinPonCost: random-low
-          MetroMaxPonCost: random-low
+          LowestChapterCost: random-low
+          HighestChapterCost: random-low
+          FinalChapterMinCost: random-low
+          FinalChapterMaxCost: random-low
     - option_category: A Hat in Time
       option_name: DLC
       option_result: high
@@ -959,7 +959,7 @@ Timespinner:
   start_with_jewelry_box: &convenience false # change to true
   eye_spy:
     'false': 50
-    'true': &speed 25       # change to 0
+    'true': &speed 0
   gyre_archives: 
     'false': 10
     'true': &difficult_areas 5

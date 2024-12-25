@@ -17,7 +17,7 @@ Adventure:
   yorgle_min_speed: 8 # Change to 1
   grundle_speed: 9 # Change to 2
   grundle_min_speed: 8 # Change to 1
-  rhindle_speed: 9 # Change to 2
+  rhindle_speed: 2
   rhindle_min_speed: 8 # Change to 1
   difficulty_switch_a: hard_with_unlock_item
   difficulty_switch_b: hard_with_unlock_item

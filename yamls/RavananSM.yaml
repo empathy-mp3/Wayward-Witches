@@ -42,7 +42,42 @@ Super Metroid:
   tourian: fast
   custom_objective_list: random
   custom_objective_count: '5'
-  objective: kill all G4
+  objective:
+  - activate chozo robots
+  - clear crateria
+  - clear croc's lair
+  - clear east maridia
+  - clear green brinstar
+  - clear kraid's lair
+  - clear red brinstar
+  - clear upper norfair
+  - clear west maridia
+  - clear wrecked ship
+  - collect 25% items
+  - collect 50% items
+  - collect 75% items
+  - kill all G4
+  - kill all mini bosses
+  - kill botwoon
+  - kill crocomire
+  - kill draygon
+  - kill golden torizo
+  - kill king cacatac
+  - kill kraid
+  - kill one G4
+  - kill one miniboss
+  - kill phantoon
+  - kill ridley
+  - kill shaktool
+  - kill spore spawn
+  - kill the orange geemer
+  - kill three G4
+  - kill three minibosses
+  - kill two G4
+  - kill two minibosses
+  - nothing
+  - tickle the red fish
+  - visit the animals
   relaxed_round_robin_cf: 'true'
   start_inventory: {}
   start_location: random

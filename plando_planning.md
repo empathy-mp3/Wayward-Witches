@@ -4085,7 +4085,7 @@ JoyTheBard (Witness): increase `hint_amount`
 ## defy death XXXXIX
 
 *5 less than that one soda.*
-(+1 life)
+(+2 life)
 
 +2 life
 

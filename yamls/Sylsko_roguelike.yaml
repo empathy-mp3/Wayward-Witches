@@ -37,7 +37,7 @@ Timespinner:
   downloadable_items: random
   eye_spy: random
   start_with_meyef: random
-  quick_seed: false #change to true
+  quick_seed: true
   specific_keycards: true
   inverted: random
   gyre_archives: random

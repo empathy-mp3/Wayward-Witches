@@ -12,6 +12,7 @@ game:
   Secret of Evermore: 1
 # Number of upgrades: 7
 DLCQuest:
+  start_inventory: {Wall Jump Pack: 1}
   progression_balancing: 60 # Upgrade by 10, 4 times
   coinsanity: coin
   campaign: both
@@ -79,6 +80,7 @@ DLCQuest:
       from_pool: true
     - items:
         Temporary Spike: true
+        Zombie Sheep: true
       locations:
         - Animation Pack
         - Armor for your Horse Pack
@@ -111,11 +113,9 @@ DLCQuest:
         - Time is Money Pack
         - Top Hat Pack
         - Wall Jump Pack
-      world: false
-      from_pool: true
-      force: true
 # Number of upgrades: 13
 Timespinner:
+  start_inventory: {Lightwall: 1}
   plando_items:
     - item: Eternal Coat
       location: defense XIII-1
@@ -219,6 +219,7 @@ Timespinner:
       link_replacement: true
 # Number of upgrades: 15
 A Link to the Past:
+  start_inventory: {Hammer: 1}
 # Trigger block adding mercenary mode (1 Triforce piece needed to goal put on a random boss
   triggers:
   - option_name: goal
@@ -1057,7 +1058,7 @@ Celeste 64:
   death_link: true
   death_link_amnesty: 15 # Upgrade to 20, then 30
   logic_difficulty: random # Upgrade to standard
-  move_shuffle: true
+  move_shuffle: false
   total_strawberries: random-range-20-46 # Upgrade to random
   strawberries_required_percentage: 100 #Upgrade to random, then random-range-0-50
   friendsanity: random
@@ -1068,6 +1069,7 @@ Celeste 64:
   badeline_chaser_speed: random
 # Number of upgrades: 3
 Pseudoregalia:
+  start_inventory: {Cling Gem: 1}
   plando_items:
     - item: Health Piece
       location: vitality I-5
@@ -1240,3 +1242,4 @@ Secret of Evermore:
   trap_chance_confound: 20
   trap_chance_hud: 20
   trap_chance_ohko: 20
+  start_inventory: {Bronze Axe: 1}
