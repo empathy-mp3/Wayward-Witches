@@ -22,8 +22,7 @@ Manual_SquareMusic_Connor:
   plando_items: [{"item": "Phoenix", "location": "fire I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Ramuh", "location": "electricity I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shiva", "location": "ice II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Ifrit", "location": "beast I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bahamut", "location": "beast I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Odin", "location": "god I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Leviathan", "location": "water I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Knights of the Round", "location": "army II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Alexander", "location": "robot I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Hi-Potion": 20}, "locations": [ranged weapon I-3, ranged weapon II-1, vitality IV-1, vitality V-2, vitality X-2, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing IV-1, healing VII-3, speed VII-6, defense IV-2, defense VII-1, defense XIX-1, attack II-2, low HP I-1, XP XIII-1, melee weapon X-4, revenge I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing:
     15: 1 # Start at 15 then change to 30 then change to 50
-  filler_traps:
-    25: 1 #change to 0
+  filler_traps: 0
   death_link:
     'true': 10
 Timespinner:
@@ -105,7 +104,7 @@ Hollow Knight:
   ComplexSkips: 'false'
   DifficultSkips: 'false'
   StartLocation: king's_pass
-  Goal: godhome #change to radiance then to siblings then to any
+  Goal: radiance #change to siblings then to any
   WhitePalace: include
   ExtraPlatforms: 'true'
   AddUnshuffledLocations: 'false'

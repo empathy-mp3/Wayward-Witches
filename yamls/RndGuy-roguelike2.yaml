@@ -108,22 +108,12 @@ Hollow Knight:
   MaximumEssencePrice: '1400'
   MaximumCharmPrice: '40'
   MaximumEggPrice: '10'
-  local_items: [LifebloodCocoons, SoulTotems, JournalEntries, LoreTablets, Maps]
-  item_links:
-    - name: HollowKnightTrapLink
-      item_pool:
-        - Grub
-        - Mimic_Grub
-      replacement_item: "Mimic_Grub"
-      link_replacement: true
-      local_items:
-        - Mimic_Grub # re-add "Mimics" to local_items when removed
-        - Grub 
+  local_items: [LifebloodCocoons, SoulTotems, JournalEntries, LoreTablets, Maps, Mimics]
 
   # these will be changed by upgrades and may affect the items just above
   StartingGeo: random-range-0-1000 # random-range-0-3000
-  RemoveSpellUpgrades: 'true' # set to false
-  RandomCharmCosts: 'random-range-90-140' # random-range-90-110, random-range-70-110
+  RemoveSpellUpgrades: 'false'
+  RandomCharmCosts: 'random-range-90-110' # random-range-70-110
   starting_difficulty:
     'low': 10
     'mid': 20
@@ -131,11 +121,10 @@ Hollow Knight:
     'exclude_tedious': 20
     'exclude_dangerous': 20
     'exclude_painful': 20
-  shop_costs: # remove pricey
+  shop_costs:
     'sale': 1
     'cheap': 4
     'average': 20
-    'pricey': 20
 
   triggers:
     # skips
@@ -464,7 +453,7 @@ Muse Dash:
   - Pixelate Trap
   - Ripple Trap
   - Vignette Trap
-  trap_count_percentage: random-range-25-35 # random-range-15-35, random-range-5-35
+  trap_count_percentage: random-range-5-35
   start_inventory: {}
   local_items: [Music Sheet]
   triggers:

@@ -1,7 +1,7 @@
 name: DeathclawCavern
 game: 
   Celeste 64: 69
-  Ocarina of Time: 69
+  Ocarina of Time: 0
   Timespinner: 69
   Super Mario 64: 69
 description: Funneh
@@ -203,7 +203,7 @@ Timespinner:
   downloadable_items: 'true'
   start_with_meyef: 'false'
   lore_checks: 'true'
-  damage_rando: balanced # Change to MostlyBuffs
+  damage_rando: mostlybuffs
   hp_cap: '400' # Change to 600, then to 999
   level_cap: '99'
   extra_earrings_xp: '24'
@@ -231,7 +231,9 @@ Timespinner:
   inverted: random
   gyre_archives: random
   cantoran: random
-  boss_rando: random # Disable Unscaled, then Disable Scaled
+  boss_rando:  # Disable Scaled
+    'off': 20
+    scaled: 20
   show_bestiary: random
   show_drops: random
   enter_sandman: random

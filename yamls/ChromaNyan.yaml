@@ -20,7 +20,7 @@ Minecraft:
   shuffle_structures: 'true'
   structure_compasses: 'true'
   combat_difficulty: hard # change to normal, then easy
-  bee_traps: 100 # change to 50, then 0
+  bee_traps: 50 # change to 0
   death_link: 'true'
   exclude_locations:
     - Sniper Duel

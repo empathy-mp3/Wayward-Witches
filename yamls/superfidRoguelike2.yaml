@@ -182,7 +182,9 @@ Timespinner:
   gyre_archives: random
   cantoran: random
   lore_checks: random
-  boss_rando: random # Upgrade to 50/50 between 'off' and scaled
+  boss_rando: 
+    'off': 20
+    scaled: 20
   damage_rando: mostlybuffs
   hp_cap: 999
   level_cap: 99
@@ -998,7 +1000,7 @@ A Link to the Past:
   include_witch_hut: false
   randomize_shop_prices: random
   randomize_cost_types: random
-  shop_price_modifier: random-range-0-200 # Upgrade to 0
+  shop_price_modifier: 0
   shuffle_capacity_upgrades: random
   bombless_start: false
   shuffle_prizes: random
@@ -1216,12 +1218,12 @@ Secret of Evermore:
   required_fragments: random # Upgrade to random-range-1-50, then random-range-1-25. Do the same for available_fragments
   available_fragments: random # See above
   money_modifier: random-range-1000-2500
-  exp_modifier: random-range-100-300 # Upgrade to random-range-300-1000, then random-range-1000-2500
+  exp_modifier: random-range-300-1000 # Upgrade to random-range-1000-2500
   sequence_breaks: on
   out_of_bounds: off # Upgrade to on
   fix_cheats: true # Upgrade to false
   fix_infinite_ammo: false
-  fix_atlas_glitch: true # Upgrade to false
+  fix_atlas_glitch: false
   fix_wings_glitch: true # Upgrade to false
   shorter_dialogs: true
   short_boss_rush: false # Upgrade to true

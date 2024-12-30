@@ -1,10 +1,10 @@
 name: hecate.mp3
 game: 
-  Noita: 5
-  Outer Wilds: 0
-  Manual_DeckedOut2_mp3: 5
+  Noita: 4
+  Outer Wilds: 4
+  Manual_DeckedOut2_mp3: 3
   ULTRAKILL: 5
-  TUNIC: 0
+  TUNIC: 3
 description: empathy.mp3 game for Wayward Witches async
 Noita:
   start_inventory: {Extra Life Perk: 1}
@@ -14,7 +14,7 @@ Noita:
     'true': 2
     'false': 10
   victory_condition: 
-    greed_ending: 1
+    greed_ending: 3
     pure_ending: 7
     peaceful_ending: 1
   path_option: 
@@ -32,7 +32,7 @@ Noita:
     no_bosses: 1 # increase no_bosses to 4
     main_path: 3
     side_path: 10
-    all_bosses: 5 # reduce all_bosses to 1
+    all_bosses: 1
   extra_orbs: random-low # change to random-high
   shop_price: 
     75_percent_off: 5
@@ -145,7 +145,7 @@ Outer Wilds:
     song_of_the_nomai: 2
     song_of_the_stranger: 2
     song_of_six: 4
-    song_of_seven: 12 # reduce to 7, then to 2
+    song_of_seven: 7 # reduce to 2
     echoes_of_the_eye: 2
   spawn:
     hourglass_twins: 3
@@ -173,7 +173,7 @@ Outer Wilds:
   randomize_warp_platforms: 'true'
   randomize_dark_bramble_layout:
     'false': 1
-    'true': 11 # reduce to 2
+    'true': 2
     hub_start: 8
   trap_chance: random-range-0-20
   trap_type_weights:
@@ -491,7 +491,7 @@ ULTRAKILL:
     any_weapon: 5
     any_weapon_or_arm: 15 # reduce to 1
   randomize_secondary_fire: random
-  start_with_arm: random
+  start_with_arm: true
   starting_stamina: random-high
   starting_walljumps: random-high
   start_with_slide: 
@@ -633,7 +633,6 @@ TUNIC:
     off: 2
     normal: 4
     double: 8
-    onslaught: 16 # change to 0
   hexagon_quest: random
   hexagon_goal: random
   extra_hexagon_percentage: random  

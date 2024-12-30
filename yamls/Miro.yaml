@@ -64,7 +64,7 @@ A Hat in Time:
   CTRLogic: scooter       # change to time_stop_only
   PonCost: medium           # change to low
   ChapterCost: low
-  DLC: low               # change to off
+  DLC: off
   TrapChance: 0
   StartWithCompassBadge:
     'false': 10           # remove this line (or change to 0)
@@ -217,12 +217,12 @@ A Hat in Time:
 
 DLCQuest:
   progression_balancing: 0  # increase to 33, then to 66, then to 99
-  ending_choice: random     # change to any
+  ending_choice: any
   double_jump_glitch:
     none: 25
     simple: 25              # remove this line (or change to 0)
   time_is_money: optional   # change to required
-  start_hints: ["Big Sword Pack", "Double Jump Pack", "Finish the Fight Pack"]           # add one per upgrade, 7 in total: "Gun Pack", "Incredibly Important Pack", "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
+  start_hints: ["Big Sword Pack", "Double Jump Pack", "Finish the Fight Pack", "Gun Pack"]           # add one per upgrade, 7 in total: "Incredibly Important Pack", "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
 
   death_link: true
   coinsanity:
@@ -571,27 +571,16 @@ Hollow Knight:
       from_pool: true
   RandomizeFocus:
     'false': 25
-    'true': 50          # remove this line (or change to 0)
   RandomizeNail:
     'false': 25
     'true': 50          # remove this line (or change to 0)
-  AnnoyingChecks: medium # change to low
+  AnnoyingChecks: low
   SkipDifficulty: hard   # change to medium, then easy, then off
   GoalDifficulty: easy
-  Costs: medium          # change to low
+  Costs: low
   SplitCrystalHeart: &split
     'false': 20
     'true': 50          # change to 5
-  item_links:
-    - name: HollowKnightTrapLink
-      item_pool:
-        - Grub
-        - Mimic_Grub
-      replacement_item: "Mimic_Grub"
-      link_replacement: true
-      local_items:
-        - Mimic_Grub
-        - Grub
 
   progression_balancing: 0
   accessibility: random
@@ -878,7 +867,7 @@ Minecraft:
       force: true
       from_pool: true
   advancement_goal: 40      # change to 20
-  required_bosses: both     #change to ender_dragon, then to wither, then to none
+  required_bosses: none
   shuffle_structures:
     'true': 50
   combat_difficulty: normal   # change to easy

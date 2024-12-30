@@ -13,9 +13,9 @@ Super Metroid:
   energy_qty: 'medium'    # Yaml changes (1) - medium => vanilla
   doors_colors_rando: 'true'    # Yaml change (false)
   fun_combat: 'true'            # Yaml change (false)
-  fun_movement: 'true'          # Yaml change (false)
-  nerfed_charge: 'false'        # Yaml change (true)
-  tourian: 'vanilla'            # Yaml change (2) (vanilla -> fast -> disabled)
+  fun_movement: 'false'
+  nerfed_charge: 'true'
+  tourian: 'disabled'
   start_inventory: {"Gravity Suit": 1}
 
 Super Metroid Map Rando:

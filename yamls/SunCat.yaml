@@ -14,7 +14,7 @@ Timespinner:
   DamageRando: mostlybuffs #change to 'allbuffs'
   ExtraEarringsXP: '6' #increase by 6, 3 times
   ShopMultiplier: random-range-low-1-5 #change to '0'
-  LootTierDistro: 'full_random' #change to  > 'inverted_weight'
+  LootTierDistro: 'inverted_weight'
   TrapChance: '25' #reduce by 25
 
   progression_balancing: '0'
@@ -50,7 +50,7 @@ Timespinner:
   PresentAccessWithWheelAndSpindle: 'true'
   DeathLink: 'true'
   #start_inventory_from_pool doesn't work
-  start_inventory: { "Bird Statue":1 }
+  start_inventory: { "Bird Statue":1, "Celestial Sash":1 }
   EyeSpy: random
   Inverted: random
   UnchainedKeys: random
@@ -83,7 +83,7 @@ Celeste 64:
   badeline_chaser_source: locations
   badeline_chaser_frequency: '0'
   badeline_chaser_speed: '3'
-  start_inventory: {}
+  start_inventory: {Dash Refills: 1}
   triggers:
     - option_category: Celeste 64
       option_name: move_shuffle
@@ -111,9 +111,9 @@ Celeste 64:
 Risk of Rain 2:
   plando_items: [{"items": {"Item Scrap, White": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   start_with_revive: 'true'
-  total_revivals: '0' #increase by 2, 5 times
+  total_revivals: '4' #increase by 2, 3 times
   final_stage_death: 'false' # change to 'true'
-  item_pickup_step: '3' #reduce by 1, 3 times
+  item_pickup_step: '2' #reduce by 1, 2 times
   shrine_use_step: '1' #reduce to 0
 
   progression_balancing: '0'
@@ -129,7 +129,6 @@ Risk of Rain 2:
   scanner_per_stage: random-range-0-1
   altars_per_stage: random-range-0-2
   require_stages: 
-    true: 2
     false: 1
   progressive_stages: random
   total_locations: '40'
@@ -148,12 +147,12 @@ Risk of Rain 2:
   equipment: '32'
   money: '64'
   lunar_coin: '20'
-  experience: '40'
+  experience: '100'
   mountain_trap: '5'
   time_warp_trap: '20'
   combat_trap: '20'
   teleport_trap: '20'
-  start_inventory: {}
+  start_inventory: {1000 Exp: 5}
 
 Muse Dash:
   plando_items: [{"items": {"Extra Life": 9, "Great To Perfect (10 Pack)": 9, "Miss To Great (5 Pack)": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -162,8 +161,8 @@ Muse Dash:
 
   progression_balancing: '0'
   starting_song_count: random-range-3-10
-  additional_song_count: random-range-high-40-100 #change to 'random-range-40-100' > random-range-low-40-100
-  music_sheet_count_percentage: '40'
+  additional_song_count: random-range-40-100 # > random-range-low-40-100
+  music_sheet_count_percentage: '10'
   dlc_packs:
   - Muse Plus
   - CHUNITHM COURSE MUSE
@@ -200,14 +199,14 @@ VVVVVV:
   area_rando: 'true'
   area_cost: 'true'
   death_link: 'true'
-  start_inventory: {}
+  start_inventory: {Trinket 01: 1}
 
 Pokemon Emerald:
   plando_items: [{"item": "Leftovers", "location": "healing IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Leftovers", "location": "healing VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "HM02 Fly", "location": "travel II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rare Candy": 6}, "locations": [defense IX-3, defense XIX-2, XP III-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   ability_blacklist: # add Wonder Guard
   - Arena Trap
   - Shadow Tag
-  match_trainer_levels_bonus: -2 # increase by 1, 7 times
+  match_trainer_levels_bonus: -1 # increase by 1, 6 times
 
   progression_balancing: '0'
   badges: completely_random
@@ -283,7 +282,7 @@ Pokemon Emerald:
     'true': 1
     'false': 3
   extra_bumpy_slope: 'true'
-  free_fly_location: 'false'
+  free_fly_location: 'true'
   hm_requirements: fly_without_badge
   turbo_a: 'false'
   receive_item_messages: progression
@@ -293,7 +292,7 @@ Pokemon Emerald:
   death_link: 'true'
   enable_wonder_trading: 'true'
   easter_egg: EMERALD SECRET
-  start_inventory: {"Master Ball": 10, "Nugget": 10}
+  start_inventory: {"Master Ball": 10, "Nugget": 10, Balance Badge: 1}
   goal: random
   trainersanity:
     'true': 1

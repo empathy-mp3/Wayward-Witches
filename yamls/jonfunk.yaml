@@ -61,7 +61,6 @@ Rogue Legacy:
   gold_gain_multiplier:
     normal: 22
     quarter: 2
-    half: 7  # remove this line
     double: 7
     quadruple: 2
     random: 18
@@ -125,7 +124,6 @@ Timespinner:
     random: 8
   Inverted:
     'false': 25
-    'true': 9  # remove this line
   GyreArchives:
     'false': 25
     'true': 5  # remove this line
@@ -191,7 +189,6 @@ Timespinner:
     'true': 5
   TrapChance:
     '0': 11
-    '10': 11  # remove this line
     '5': 16
   Traps:
     Bee Trap: 1
@@ -223,7 +220,6 @@ A Hat in Time:
     random: 6  # remove this line
   ShuffleAlpineZiplines:
     'false': 9
-    'true': 6  # remove this line
     random: 10
   LogicDifficulty:
     normal: 25
@@ -351,7 +347,6 @@ A Hat in Time:
     '60': 23
   MetroMaxPonCost:
     '200': 25
-    '250': 25  # remove this line
     '150': 25
   NyakuzaThugMinShopItems:
     '2': 25
@@ -551,7 +546,6 @@ Hollow Knight:
     '20': 25
     random-middle: 12
   RandomCharmCosts:
-    random-middle: 10   # remove this option
     '79': 11
     '69': 11
     '59': 11

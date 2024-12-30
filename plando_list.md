@@ -793,7 +793,7 @@ slots II-5: BennyRogue (RL): Equip Up
 slots III-1: Sylsko (TS): Jewerly Box
 slots III-2: MiroRogue (HK): "Charm_Notch"
 slots III-3: jf-rogue (HK): "Charm_Notch"
-
+ 
 ## slots IV
 
 slots IV-1: jf-rogue (HK): "Charm_Notch"

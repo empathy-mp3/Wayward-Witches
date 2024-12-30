@@ -23,7 +23,7 @@ Celeste 64:
   signsanity: true
   carsanity: true
   badeline_chaser_source: random
-  badeline_chaser_frequency: 8 #change to 0
+  badeline_chaser_frequency: 0
   badeline_chaser_speed: 8 #change to 5, then to 2
   exclude_locations:
     - Badeline Cassette Strawberry
@@ -44,7 +44,7 @@ Timespinner:
   cantoran: random
   lore_checks: random
   boss_rando: scaled #change to off
-  EnemyRando: scaled #change to off
+  EnemyRando: off
   damage_rando: mostlynerfs #change to balanced, then to mostlybuffs
   hp_cap: 999
   level_cap: 99
@@ -115,7 +115,7 @@ Astalon:
   start_with_ascendant_key: 'false' #change to true
   start_with_bell: 'true'
   apex_elevator: included
-  cost_multiplier: half #change to zero
+  cost_multiplier: zero
   fast_blood_chalice: 'true'
   campfire_warp: 'true'
   open_early_doors: 'true'

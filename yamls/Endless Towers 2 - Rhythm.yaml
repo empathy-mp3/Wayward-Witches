@@ -287,13 +287,13 @@ Mindustry:
   disable_invasions: true
   faster_production: true
   death_link: true
-  death_link_mode: death_link_core # Upgrade: change to death_link_core_russian_roulette
+  death_link_mode: death_link_core_russian_roulette
     # Select the death link mode.
   military_level_tracking: true
     # Ensure the player has enough military power to clear sectors. If turned off, the logic will consider that the player can clear every sector once they have the minimal requirement to land on that sector.
   randomize_core_units_weapon: false
     # Will randomize core units weapon. Erekir core unit will be made vulnerable and be given an ability instead.
-  logistic_distribution: early_logistics # Upgrade x2: change to local_early_logistics then starter_logistics
+  logistic_distribution: local_early_logistics # Upgrade x2: change to starter_logistics
     # Change how logistics research are distributed.
   make_early_roadblocks_local: true
     # Make items that could block the player early on local.
@@ -361,7 +361,7 @@ Sonic Adventure DX:
       force: true
       from_pool: true
   # Game Options
-  progression_balancing: 15 # Upgrade: Increase by 15, 20, 25 (for total of 75 at max)
+  progression_balancing: 30 # Upgrade: Increase by 20, 25 (for total of 75 at max)
   accessibility: locations
   death_link: true
   # General Options
@@ -370,7 +370,7 @@ Sonic Adventure DX:
   goal_requires_emblems: false
   goal_requires_missions: random
   goal_requires_bosses: random
-  goal_requires_chao_races: random # Upgrade: Disabled # NOTE: Moved second emerald hunt disable to this because there's only one emerald toggle now. Keeping goal related.
+  goal_requires_chao_races: false
   logic_level: hard_logic
   levels_percentage: random # Upgrade: random-low
   mission_percentage: random # Upgrade: random-low

@@ -46,14 +46,14 @@ Factorio:
   # Game Options
   progression_balancing: 0
   accessibility: minimal
-  max_science_pack:  # Change to utility_science_pack, then production_science_pack, then chemical_science_pack
+  max_science_pack:  # Change to production_science_pack, then chemical_science_pack
     automation_science_pack: 0
     logistic_science_pack: 0
     military_science_pack: 0
     chemical_science_pack: 0
     production_science_pack: 0
-    utility_science_pack: 0
-    space_science_pack: 50
+    utility_science_pack: 50
+    space_science_pack: 0
   goal: rocket
   tech_tree_layout: random
   min_tech_cost: 100  #Change to 1
@@ -65,11 +65,8 @@ Factorio:
     randomize_recipe: 1
     spawn: 2
   satellite: randomize_recipe
-  free_samples:  #Change to stack
-    none: 0
-    single_craft: 0
-    half_stack: 1
-    stack: 0
+  free_samples:
+    stack: 1
   tech_tree_information: none
   starting_items:
     burner-mining-drill: 4
@@ -225,11 +222,10 @@ Pokemon Red and Blue:
   oaks_aide_rt_11: random-low
   oaks_aide_rt_15: random-low
   stonesanity: false
-  door_shuffle:  # Remove insanity then remove full
+  door_shuffle:  # remove full
     'off': 1
     simple: 1
     full: 1
-    insanity: 1
   warp_tile_shuffle: mixed
   randomize_rock_tunnel: false
   dark_rock_tunnel_logic: true
@@ -247,7 +243,7 @@ Pokemon Red and Blue:
   catch_em_all: first_stage
   randomize_pokemon_stats: shuffle
   randomize_pokemon_catch_rates: false
-  minimum_catch_rate: 30 #Change to 60
+  minimum_catch_rate: 60
   randomize_trainer_parties: match_base_stats
   trainer_legendaries: true
   move_balancing: false

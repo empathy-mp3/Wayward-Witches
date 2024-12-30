@@ -309,3 +309,53 @@ explosion II-3
 explosion II-4
 speed III-1
 speed III-2
+mana VI-1
+mana VI-2
+price II-1
+price II-2
+attack VII-1
+attack VII-2
+attack VII-3
+uncategorized VI-1
+uncategorized VI-2
+uncategorized VI-3
+uncategorized VI-4
+uncategorized VI-5
+uncategorized VI-6
+uncategorized VI-7
+XP XIII-1
+XP XIII-2
+travel I-1
+travel I-2
+travel I-3
+second chance VII-1
+second chance VII-2
+slots III-1
+slots III-2
+slots III-3
+ranged weapon VII-1
+ranged weapon VII-2
+ranged weapon VII-3
+ranged weapon VII-4
+progressive I-2
+stealth VI-1
+speed I-1
+speed I-2
+speed I-3
+speed I-4
+healing VI-1
+luck II-1
+luck II-2
+luck II-3
+luck II-4
+luck II-5
+luck II-6
+luck II-7
+uncategorized III-1
+uncategorized III-2
+uncategorized III-3
+uncategorized XVI-1
+uncategorized XVI-2
+uncategorized XVI-3
+uncategorized XVI-4
+uncategorized XVI-5

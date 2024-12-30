@@ -67,9 +67,6 @@ Sentinels of the Multiverse:
     - Starlight Genesis
     - Nightlore Council Starlight
     - Starlight Area-51
-    - Urban Warfare Expatriette # No change -> Remove this and the 2 below
-    - Siege Breaker Bunker
-    - Nitro Boost Absolute Zero
   filler_weights:
     - name: HeroHp
       weight: 5
@@ -86,11 +83,11 @@ Sentinels of the Multiverse:
       weight: 1
       variant: neg
       specificity: &C
-        0 # 0 -> 1 [X. Also change the 3 other comments marked X]
+        1
       max: 2
     - name: HeroDamageDealt
       weight: &A
-        0 # 0 -> 2 [X. Also change the 3 other comments marked X]
+        2
       variant: pos
       specificity: *C
       max: 3
@@ -121,10 +118,10 @@ Sentinels of the Multiverse:
     - name: VillainDamageTaken
       weight: 1
       variant: &E
-        neg # neg -> pos [X. Also change the 3 other comments marked X]
+        pos
       max: 2
       typed: &F
-        false # false -> true [X. Also change the 3 other comments marked X]
+        true
     - name: VillainDamageDealt
       weight: 2
       variant: *E
@@ -155,6 +152,8 @@ Sentinels of the Multiverse:
     environments: 4
     heroes: 10
     villains: 4
+    contenders: 0
+    gladiators: 0
   death_link:
     individual: 4 # 4 -> 1
     team: 2
@@ -166,7 +165,7 @@ Dark Souls III:
   enable_dlc: true
   auto_equip: &equip false
   lock_equip: *equip
-  no_equip_load: false # false -> true
+  no_equip_load: true
   no_weapon_requirements: false # false -> true
   no_spell_requirements: true
   randomize_infusion: true
@@ -176,7 +175,7 @@ Dark Souls III:
   min_levels_in_5: 1
   max_levels_in_5: 0 # 0 -> 3 -> 5
   min_levels_in_10: 0 # 0 -> 1
-  max_levels_in_10: 0 # 0 -> 5 -> 10
+  max_levels_in_10: 5 # 5 -> 10
   simple_early_bosses: true
   reduce_harmless_enemies: false
   random_enemy_preset:
@@ -187,7 +186,7 @@ Dark Souls III:
     Miniboss:
       - Weight: 80
         Pool: default
-      - Weight: 20 # 20 -> 0
+      - Weight: 0
         Pool: Bosses
     Basic:
       - Weight: 60
@@ -217,7 +216,7 @@ Hollow Knight:
   plando_items: [{"item": "Full_Mask", "location": "vitality III-8", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Full_Mask", "location": "vitality VIII-1", "world": "The Cauldron", "force": true, "from_pool": false}, {"item": "Sprintmaster", "location": "speed IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Pale_Ore", "location": "attack III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 18}, "locations": [choice I-1, choice I-2, choice I-3, choice I-4, choice I-5, choice I-6, choice II-1, choice II-2, choice II-4, choice III-1, choice III-2, choice III-3, choice III-4, choice III-5, choice IV-1, utility II-1, utility III-1, utility V-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: minimal
-  RandomizeFocus: true # true -> false
+  RandomizeFocus: false
   RandomizeSwim: true
   RandomizeGeoChests: true
   RandomizeJunkPitChests: true
@@ -236,11 +235,11 @@ Hollow Knight:
   RandomizeLoreTablets: true
   RandomizeElevatorPass: true
   RemoveSpellUpgrades: false
-  Goal: # 1/3/6/10 -> 2/6/8/4 -> 3/7/7/3 -> 4/8/6/2 -> 10/6/3/1
-    hollowknight: 1
-    siblings: 3
-    radiance: 6
-    godhome: 10
+  Goal: # 2/6/8/4 -> 3/7/7/3 -> 4/8/6/2 -> 10/6/3/1
+    hollowknight: 2
+    siblings: 6
+    radiance: 8
+    godhome: 4
   WhitePalace: include
   ExtraPlatforms: false # false -> true
   DeathLink: true
@@ -248,7 +247,7 @@ Hollow Knight:
   MaximumGrubPrice: 46
   MaximumEssencePrice: 2800
   MaximumCharmPrice: 40
-  RandomCharmCosts: 180 # 180 -> 160 -> 140 -> 120 -> 100 -> 80
+  RandomCharmCosts: 120 # 120 -> 100 -> 80
   PlandoCharmCosts: {"Sprintmaster": 0}
   MaximumEggPrice: 20
   EggShopSlots: 16
@@ -264,18 +263,8 @@ Hollow Knight:
   SplitMothwingCloak: true
   SplitMantisClaw: true
   CostSanity: on
-  CostSanityHybridChance: 100 # 100 -> 50 -> 25
+  CostSanityHybridChance: 50 # 50 -> 25
   CostSanityGeoWeight: 4
-  item_links:
-    - name: HollowKnightTrapLink
-      item_pool:
-        - Grub
-        - Mimic_Grub
-      replacement_item: "Mimic_Grub"
-      link_replacement: true
-      local_items:
-        - Mimic_Grub
-        - Grub
 
 Timespinner:
   plando_items: [{"items": {"Potion": 22, "Ether": 22, "Sand Vial": 22, "Berry Pick-Mi-Up": 22}, "locations": [vitality III-8, vitality VIII-1, speed IV-4, attack III-2, choice I-1, choice I-2, choice I-3, choice I-4, choice I-5, choice I-6, choice II-1, choice II-2, choice II-4, choice III-1, choice III-2, choice III-3, choice III-4, choice III-5, choice IV-1, utility II-1, utility III-1, utility V-1], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -293,12 +282,12 @@ Timespinner:
   cantoran: true
   lore_checks: true
   boss_rando: scaled
-  damage_rando: # 2/3/7/5/3 -> 0/3/4/7/6 -> 0/1/3/6/10
-    allnerfs: 2
+  damage_rando: # 0/3/4/7/6 -> 0/1/3/6/10
+    allnerfs: 0
     mostlynerfs: 3
-    balanced: 7
-    mostlybuffs: 5
-    allbuffs: 3
+    balanced: 4
+    mostlybuffs: 7
+    allbuffs: 6
   hp_cap: 200 # 200 -> 350 -> 600 -> 999
   level_cap: 10 # 10 -> 20 -> 50 -> 99
   boss_healing: random
@@ -349,7 +338,7 @@ Timespinner:
       Flooded: 33
   unchained_keys: true
   back_to_the_future: true
-  trap_chance: 50 # 50 -> 30 -> 10
+  trap_chance: 10
   traps:
     - Meteor Sparrow Trap
     - Poison Trap

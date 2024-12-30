@@ -74,7 +74,7 @@ Rogue Legacy:
   gold_gain_multiplier:
     normal: 3
     double: 3
-    quadruple: 1 # change to 3, then to 4
+    quadruple: 3 # change to 4
 
   number_of_children: random-high
   free_diary_on_generation: 'true'

@@ -84,7 +84,7 @@ Links Awakening DX:
   rooster: 'false' # Change to 'true'
   trendy_game: hardest # Change to easy
   hard_mode: ohko # Change to none
-  tarins_gift: any_item # Change to bush_breaker
+  tarins_gift: bush_breaker
   overworld: open_mabe
   in_game_hints: 'true'
   death_link: 'true'

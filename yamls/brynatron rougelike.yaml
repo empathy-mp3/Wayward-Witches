@@ -100,19 +100,8 @@ Hollow Knight:
   SplitMothwingCloak: true
   SplitMantisClaw: true
   
-  # local_items:
-  #   [Grub, Mimic_Grub]
-  # # ^^^^^^ re-add this when you remove trap link
-  item_links:
-    - name: HollowKnightTrapLink
-      item_pool:
-        - Grub
-        - Mimic_Grub
-      replacement_item: "Mimic_Grub"
-      link_replacement: true
-      local_items:
-        - Mimic_Grub
-        - Grub
+  local_items:
+    [Grub, Mimic_Grub]
  
 Terraria:
   plando_items: [{"item": "Reward: Cobalt Shield", "location": "defense XVIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Rod of Discord", "location": "travel III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Black Belt", "location": "uncategorized XII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Lava Charm", "location": "uncategorized XIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Reward: Coins": 5}, "locations": [vitality XV-3, healing III-3, price XII-1, melee weapon IX-2, melee weapon X-2], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -132,7 +121,7 @@ Terraria:
   fill_extra_checks_with: useful_items
   death_link: true
   exclude_locations:
-    ["Real Estate Agent", "Dead Men Tell No Tales", "The Great Slime Mitosis"] # Can be upgraded to include: Funkytown, Gelatin World Tour, Lucky Break, It Can Talk?!, Watch Your Step!, And Good Riddance!
+    ["Real Estate Agent", "Dead Men Tell No Tales", "The Great Slime Mitosis", "Funkytown"] # Can be upgraded to include: Gelatin World Tour, Lucky Break, It Can Talk?!, Watch Your Step!, And Good Riddance!
 
 Stardew Valley:
   plando_items: [{"items": {"Joja Cola": 9}, "locations": [vitality XV-3, healing III-3, price XII-1, defense XVIII-1, melee weapon IX-2, melee weapon X-2, travel III-1, uncategorized XII-1, uncategorized XIII-1], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -177,7 +166,7 @@ Stardew Valley:
     all: 4      
     none: 1
   friendsanity: all
-  friendsanity_heart_size: random-middle # Can be upgraded to random-high
+  friendsanity_heart_size: random-high
   booksanity:
     all: 3
     power_skill: 1
@@ -199,7 +188,7 @@ Stardew Valley:
   movement_buff_number: random-low
   enabled_filler_buffs:
     ['Bite Rate', 'Defense', 'Luck', 'Damage', 'Immunity', 'Health', 'Energy', 'Fish Trap', 'Fishing Bar Size']
-  trap_items: medium # Can be upgraded to easy, then no_traps
+  trap_items: easy # Can be upgraded to no_traps
   multiple_day_sleep_enabled: true
   multiple_day_sleep_cost: free
 

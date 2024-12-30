@@ -18,7 +18,6 @@ A Hat in Time:
   DLC: high               # change to medium, then to low, then to off
   TrapChance: random      # change to random-range-low-0-70, then to 0
   StartWithCompassBadge:
-    'false': 10           # remove this line (or change to 0)
     'true': 25
 
   death_link: 'true'

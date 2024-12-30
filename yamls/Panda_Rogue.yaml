@@ -9,7 +9,7 @@ Minecraft:
   egg_shards_required: 20 # Upgrades: Change to 20 > 19 > 17 > 15
   egg_shards_available: 20 # Upgrades: Change to 20 > 21 > 23 > 25
   required_bosses: ender_dragon
-  shuffle_structures: false # Upgrades: Set to false > true
+  shuffle_structures: true
   structure_compasses: true
   combat_difficulty: hard # Upgrades: Set to hard > normal > easy
   include_hard_advancements: false

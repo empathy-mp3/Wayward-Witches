@@ -10,7 +10,7 @@ Kingdom Hearts Birth by Sleep: #9 yaml changes
     aqua: 1
     terra: 1
   starting_worlds: 4 #4 -> 5
-  exp_multiplier: 1x # 1x -> 2x -> 4x -> 6x
+  exp_multiplier: 2x # 2x -> 4x -> 6x
   final_terra_xehanort_ii: 'false'
   mirage_arena: 'false'
   command_board: 'false'
@@ -79,7 +79,7 @@ Super Metroid Map Rando: #11 yaml changes
   momentum_conservation: 'false' #false -> true
   wall_jump: vanilla
   etank_refill: vanilla
-  maps_revealed: hidden #hidden -> revealed
+  maps_revealed: revealed
   map_layout: wild
   energy_free_shinesparks: 'false'
   reserve_hud_style: revamped
@@ -95,13 +95,13 @@ Factorio:
   plando_items: [{"items": {"progressive-physical-projectile-damage": 20, "progressive-research-speed": 20}, "locations": [ranged weapon III-6, ranged weapon V-6, ranged weapon VI-5, ranged weapon VII-4, explosion III-5, explosion IV-3, vitality VI-5, vitality X-5, vitality XI-3, vitality XIV-3, vitality XVI-3, speed III-1, second chance V-2, XP V-2, uncategorized II-1, uncategorized IV-2, uncategorized IV-3, uncategorized XI-3, uncategorized XV-1, uncategorized XIX-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   max_science_pack: production_science_pack #production_science_pack -> chemical_science_pack
   goal: satellite # satellite -> rocket
-  tech_tree_layout: large_diamonds #large_diamonds -> single
+  tech_tree_layout: single
   min_tech_cost: 50 #50 -> 5
   max_tech_cost: 2000 # 2000 -> 500
   tech_cost_distribution: even
   tech_cost_mix: 70
   ramping_tech_costs: 'false'
-  silo: randomize_recipe # randomize_recipe -> spawn
+  silo: spawn
   satellite: randomize_recipe
   free_samples: none # none -> single_craft -> stack
   tech_tree_information: advancement
@@ -140,8 +140,8 @@ Factorio:
     # solar-panel-equipment: 9
     # construction-robot: 15
     
-    ## Spoodertron (4 items)
-    # Spidertron: 1
+    # Spoodertron (4 items)
+    Spidertron: 1
 
     
     ## Nuclear survival kit

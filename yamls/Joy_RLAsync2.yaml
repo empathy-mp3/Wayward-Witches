@@ -156,7 +156,7 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
   enable_eote_dlc: 'false'
   randomize_coordinates: 'true'
   randomize_orbits: 'true' # -> 'false'
-  randomize_rotations: 'true' # -> 'false'
+  randomize_rotations: 'false'
   randomize_warp_platforms: 'true'
   randomize_dark_bramble_layout:
     'false': 10
@@ -218,11 +218,11 @@ Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and
       from_pool: true
   progression_balancing: 0 # -> 25 -> 50
   accessibility: full
-  area_rando: courses_and_secrets # -> courses_and_secrets_separate
+  area_rando: courses_and_secrets_separate
   buddy_checks: 'true'
   exclamation_boxes: 1ups_only
   progressive_keys: 'false'
-  enable_coin_stars: 'true' # -> 'false'
+  enable_coin_stars: 'false'
   enable_move_rando: 'true'
   move_rando_actions:
   - Triple Jump
@@ -321,7 +321,7 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
     anywhere: 5
   obelisk_keys: 'true'
   trap_percentage: random-range-0-5
-  puzzle_skip_amount: 5 #-> 7
+  puzzle_skip_amount: 7
   hint_amount:
     0: 0  
     5: 0 
