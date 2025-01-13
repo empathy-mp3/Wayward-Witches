@@ -1,10 +1,10 @@
 name: hecate.mp3
 game: 
-  Noita: 4
-  Outer Wilds: 4
-  Manual_DeckedOut2_mp3: 3
-  ULTRAKILL: 5
-  TUNIC: 3
+  Noita: 0
+  Outer Wilds: 5
+  Manual_DeckedOut2_mp3: 0
+  ULTRAKILL: 6
+  TUNIC: 0
 description: empathy.mp3 game for Wayward Witches async
 Noita:
   start_inventory: {Extra Life Perk: 1}
@@ -33,7 +33,7 @@ Noita:
     main_path: 3
     side_path: 10
     all_bosses: 1
-  extra_orbs: random-low # change to random-high
+  extra_orbs: random-high
   shop_price: 
     75_percent_off: 5
     50_percent_off: 2
@@ -314,8 +314,8 @@ Manual_DeckedOut2_mp3:
   death_link: 'true'
   frost_ember_locations: 'true'
   coin_crown_locations: 'true'
-  artifake_locations: 'true'
-  unique_card_locations: 'true'
+  artifake_locations: 'false'
+  unique_card_locations: 'false'
   difficulty_objective_locations: 'true'
   area_objective_locations: 'true'
   various_ground_item_locations: 'true'
@@ -325,19 +325,8 @@ Manual_DeckedOut2_mp3:
   uncommon_card_location_count: 0
   rare_card_location_count: 0
   legendary_card_location_count: 0
-  crown_shop_location_count: 0
+  crown_shop_location_count: 6
   victory_tome_location_count: 6
-  crown_victory:
-    crown: 1
-    victory: 1
-  triggers:
-    - option_category: Manual_DeckedOut2_mp3
-      option_name: crown_victory
-      option_result: crown
-      options:
-        Manual_DeckedOut2_mp3:
-          crown_shop_location_count: 6
-          victory_tome_location_count: 0
   # change the next 3 options to random-high
   tactical_approach_count: random-low
   pork_chop_power_count: random-low
@@ -476,17 +465,17 @@ ULTRAKILL:
     standard: 7 # reduce to 2
     extended: 11 # reduce to 1
   challenge_rewards:
-    'true': 10
-    'false': 2
+    'true': 2
+    'false': 10
   p_rank_rewards: 
-    'true': 10
-    'false': 2
+    'true': 2
+    'false': 10
   hank_rewards: random
   randomize_clash_mode: false
   fish_rewards: random
   cleaning_rewards: false
   chess_reward: false
-  rocket_race_reward: random
+  rocket_race_reward: false
   starting_weapon: 
     any_weapon: 5
     any_weapon_or_arm: 15 # reduce to 1

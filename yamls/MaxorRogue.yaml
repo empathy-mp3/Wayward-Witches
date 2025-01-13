@@ -1,6 +1,7 @@
 name: Maxor
 game: A Link to the Past
 A Link to the Past:
+  start_inventory: {Moon Pearl: 1}
   plando_items: [{"item": "Boss Heart Container", "location": "vitality VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Heart Container", "location": "vitality XV-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Mail", "location": "defense IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Magic Upgrade (1/2)", "location": "mana II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle", "location": "second chance II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bug Catching Net", "location": "second chance III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle", "location": "second chance III-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle", "location": "second chance VIII-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Sword", "location": "melee weapon VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Sword", "location": "melee weapon XI-2", "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 50
   accessibility: items

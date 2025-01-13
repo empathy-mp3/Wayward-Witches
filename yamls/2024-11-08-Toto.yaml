@@ -298,7 +298,7 @@ Timespinner:
   show_drops: true
   enter_sandman: true
   dad_percent:
-    false: 4 # 4 -> 1
+    false: 1
     true: 1
   rising_tides: random
   rising_tides_overrides:

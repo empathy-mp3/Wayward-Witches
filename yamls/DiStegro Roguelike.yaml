@@ -364,11 +364,10 @@ Ocarina of Time:
     double: 0
     quadruple: 50
     
-  #Deadly Bonks from Quadruple to Double to Normal
   deadly_bonks:
-    normal: 0
+    normal: 50
     double: 0
-    quadruple: 50
+    quadruple: 0
 
   no_collectible_hearts: false
   starting_tod: random

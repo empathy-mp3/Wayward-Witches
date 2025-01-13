@@ -367,9 +367,9 @@ Blasphemous:
     easy: 1
     normal: 5
     hard: 5 # 1
-  skip_long_quests: # reduce 'true' to 40, then reduce 'true' to 0
-    'false': 20
-    'true': 80
+  skip_long_quests: # reduce 'false' to 40, then reduce 'false' to 0
+    'true': 20
+    'false': 80
   boots_of_pleading: 'false' # random
   purified_hand: 'false' # random
   starting_location: # remove rooftops, then remove knot of words

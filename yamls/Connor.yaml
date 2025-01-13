@@ -5,12 +5,13 @@ game:
   Undertale: 2
   Hollow Knight: 2
 Manual_Godhome_Eszenn:
+  start_inventory: {Unbreakable Strength: 1}
   plando_items: [{"item": "Flukenest", "location": "ranged weapon I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood Heart", "location": "vitality V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood Core", "location": "vitality X-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hiveblood", "location": "healing VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fury of the Fallen", "location": "low HP I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Grubsong", "location": "revenge I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"The Urge to Keep Fighting": 23}, "locations": [ranged weapon II-1, fire I-2, vitality IV-1, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing IV-1, speed VII-6, defense IV-2, defense VII-1, defense XIX-1, attack II-2, electricity I-3, XP XIII-1, melee weapon X-4, ice II-2, beast I-1, beast I-2, god I-1, water I-1, army II-1, robot I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing:
     0: 50
   victory_condition: boss_rush
   number_of_bosses:
-    random-range-30-40: 50 #Start with random-range-30-40, lower to random-range-20-30
+    random-range-20-30: 50
   exclude_p5:
     'false': 50 #Start false change to true
   death_link:
@@ -69,6 +70,7 @@ Timespinner:
   - Poison Trap
 Undertale:
   plando_items: [{"item": "ITEM", "location": "healing IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "temy armor", "location": "defense VII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Temmie Flakes": 27, "100G": 27}, "locations": [ranged weapon I-3, ranged weapon II-1, fire I-2, vitality IV-1, vitality V-2, vitality X-2, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing VII-3, speed VII-6, defense IV-2, defense XIX-1, attack II-2, electricity I-3, low HP I-1, XP XIII-1, melee weapon X-4, revenge I-1, ice II-2, beast I-1, beast I-2, god I-1, water I-1, army II-1, robot I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
+  start_inventory: {Waterfall Key: 1}
   progression_balancing: '0' #change to 20 then to 40
   accessibility: full
   route_required: pacifist
@@ -84,6 +86,7 @@ Undertale:
   prog_weapons: 'true'
   rando_item_button: 'true' 
 Hollow Knight:
+  start_inventory: {Mantis_Claw: 1}
   plando_items: [{"item": "Shaman_Stone", "location": "ranged weapon II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood_Heart", "location": "vitality IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood_Core", "location": "vitality XII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Heart", "location": "vitality XVI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Focus", "location": "healing I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hiveblood", "location": "healing III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Quick_Slash", "location": "speed VII-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Strength", "location": "attack II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Mark_of_Pride", "location": "melee weapon X-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 20}, "locations": [ranged weapon I-3, fire I-2, vitality V-2, vitality X-2, healing IV-1, healing VII-3, defense IV-2, defense VII-1, defense XIX-1, electricity I-3, low HP I-1, XP XIII-1, revenge I-1, ice II-2, beast I-1, beast I-2, god I-1, water I-1, army II-1, robot I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '0'
   accessibility: minimal
@@ -165,7 +168,7 @@ Hollow Knight:
   ExtraShopSlots: random
   SplitCrystalHeart: random
   SplitMothwingCloak: random
-  SplitMantisClaw: random
+  SplitMantisClaw: 'false'
   CostSanity: random
   CostSanityHybridChance: random
   CostSanityEggWeight: random

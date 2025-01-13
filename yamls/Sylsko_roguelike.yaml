@@ -24,7 +24,7 @@ Celeste 64:
   carsanity: true
   badeline_chaser_source: random
   badeline_chaser_frequency: 0
-  badeline_chaser_speed: 8 #change to 5, then to 2
+  badeline_chaser_speed: 2
   exclude_locations:
     - Badeline Cassette Strawberry
   
@@ -116,7 +116,7 @@ Astalon:
   start_with_bell: 'true'
   apex_elevator: included
   cost_multiplier: zero
-  fast_blood_chalice: 'true'
+  fast_blood_chalice: 'not_bosses'
   campfire_warp: 'true'
   open_early_doors: 'true'
   cheap_kyuli_ray: 'true'

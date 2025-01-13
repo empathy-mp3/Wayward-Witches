@@ -8,7 +8,7 @@ The Witness:
   victory_condition:
     elevator: 8 # change to 3
     challenge: 0
-    mountain_box_short: 1 # change to 5
+    mountain_box_short: 5
     mountain_box_long: 4
     panel_hunt: 3
   mountain_lasers: random-range-7-11 # change to random-low
@@ -52,6 +52,20 @@ The Witness:
   shuffle_dog:
     puzzle_skip: 6
     random_item: 10 
+  plando_items:
+    - items: 
+        "Speed Boost": 8
+      locations:
+        - healing VIII-1
+        - defense II-2
+        - attack VI-1
+        - attack VI-2
+        - mana IV-1
+        - slots II-5
+        - melee weapon III-2
+        - melee weapon IV-1
+      world: The Cauldron
+      force: true
 
 Rogue Legacy:
   starting_gender: random
@@ -87,3 +101,37 @@ Rogue Legacy:
   crit_chance_pool: random-range-3-5
   crit_damage_pool: random-range-3-5
   death_link: 'true'
+
+  plando_items:
+    - item: "Vampire Runes"
+      location: healing VIII-1
+      world: The Cauldron
+      force: true
+    - item: "Armor Up"
+      location: defense II-2
+      world: The Cauldron
+      force: true
+    - item: "Crit Chance Up"
+      location: attack VI-1
+      world: The Cauldron
+      force: true
+    - item: "Crit Damage Up"
+      location: attack VI-2
+      world: The Cauldron
+      force: true
+    - item: "Siphon Runes"
+      location: mana IV-1
+      world: The Cauldron
+      force: true
+    - item: "Equip Up"
+      location: slots II-5
+      world: The Cauldron
+      force: true
+    - item: "Sky Blueprints"
+      location: melee weapon III-2
+      world: The Cauldron
+      force: true
+    - item: "Dragon Blueprints"
+      location: melee weapon IV-1
+      world: The Cauldron
+      force: true

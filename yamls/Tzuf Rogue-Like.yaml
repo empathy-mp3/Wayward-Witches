@@ -1,6 +1,6 @@
 name: TzufRougelike
 game: 
- Super Metroid: 2
+ Super Metroid: 0
  Hollow Knight: 2
  Ocarina of Time: 2
  A Link to the Past: 2
@@ -56,7 +56,7 @@ Super Metroid:
 
 
 Hollow Knight:
-  plando_items: [{"item": "Shaman_Stone", "location": "ranged weapon I-8", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Full_Mask", "location": "vitality VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Quick_Focus", "location": "healing V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Quick_Slash", "location": "speed VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Strength", "location": "attack V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Charm_Notch", "location": "slots II-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Mark_of_Pride", "location": "melee weapon X-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 27}, "locations": [progressive I-1, progressive I-2, explosion II-4, explosion V-4, vitality II-1, vitality III-4, vitality V-3, vitality VII-3, vitality VIII-3, vitality IX-3, vitality XI-4, vitality XIII-4, vitality XV-1, healing IV-2, healing VII-4, defense I-2, defense III-2, defense VI-2, defense VII-2, defense XV-2, defense XVI-3, second chance V-3, melee weapon I-3, travel II-3, uncategorized XX-1], "world": "The Cauldron", "force": true, "from_pool": true}]
+  plando_items: [{"item": "Shaman_Stone", "location": "ranged weapon I-8", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Full_Mask", "location": "vitality VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Quick_Focus", "location": "healing V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Quick_Slash", "location": "speed VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Strength", "location": "attack V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Charm_Notch", "location": "slots II-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Mark_of_Pride", "location": "melee weapon X-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 27}, "locations": [progressive I-1, progressive I-2, explosion II-4, explosion V-4, vitality II-1, vitality III-4, vitality V-3, vitality VII-3, vitality VIII-3, vitality IX-3, vitality XI-4, vitality XIII-4, vitality XV-1, healing IV-2, healing VII-4, defense I-2, defense III-2, defense VI-2, defense VII-2, defense XV-2, defense XVI-3, second chance V-3, melee weapon I-3, travel II-3, uncategorized XX-1], "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Left_Mantis_Claw", "location": "World_Sense", "world": "false", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: items
   RandomizeDreamers: 'true'
@@ -103,7 +103,7 @@ Hollow Knight:
   DarkRooms: 'false'
   ComplexSkips: 'false'
   DifficultSkips: 'false'
-  RemoveSpellUpgrades: 'true' 	# Change to False
+  RemoveSpellUpgrades: 'false'
   StartLocation: king's_pass
   Goal: godhome 	# Change to Radiance
   WhitePalace: exclude
@@ -320,7 +320,7 @@ A Link to the Past:
   compass_shuffle: any_world
   map_shuffle: any_world
   restrict_dungeon_item_on_boss: 'false'
-  item_pool: hard   # Change to Normal
+  item_pool: normal
   item_functionality: normal
   enemy_health: default
   enemy_damage: shuffled # Change to Default
@@ -342,7 +342,7 @@ A Link to the Past:
   include_witch_hut: 'true'
   randomize_shop_prices: 'true'
   randomize_cost_types: 'true'
-  shop_price_modifier: '100' # Change to 50
+  shop_price_modifier: '50'
   shuffle_capacity_upgrades: 'on'
   bombless_start: 'true' # Change to False
   shuffle_prizes: both

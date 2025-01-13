@@ -76,7 +76,7 @@ Super Metroid Map Rando: #11 yaml changes
   fast_pause_menu: 'true'
   respin: 'false'
   infinite_space_jump: 'false'
-  momentum_conservation: 'false' #false -> true
+  momentum_conservation: 'true'
   wall_jump: vanilla
   etank_refill: vanilla
   maps_revealed: revealed

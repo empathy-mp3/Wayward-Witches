@@ -1,9 +1,9 @@
 game:                 # go to line (Ctrl+G):
   A Hat in Time: 3    # line 14
-  DLCQuest: 6         # line 174
-  Pokemon Emerald: 2  # line 233
+  DLCQuest: 4         # line 174
+  Pokemon Emerald: 6  # line 233
   Hollow Knight: 5    # line 358
-  Minecraft: 1        # line 588
+  Minecraft: 6        # line 588
   Timespinner: 9      # line 603
 name: MiroRogue
 description: Miro combined yaml for Rougelike Async

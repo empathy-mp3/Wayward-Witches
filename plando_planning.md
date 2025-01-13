@@ -3751,420 +3751,420 @@ JoyTheBard (Witness): increase `hint_amount`
 *death may be inevitable, but we can delay it a little...*
 (+2 life)
 
-+2 life
++2 dragon scales
 
 ## defy death II
 
 *a golden charm from an ancient civilization.*
 (+1 life, referencing ankh from spelunky 2)
 
-+1 life
++1 dragon scale
 
 ## defy death III
 
 *a power gained from a dark mirror.*
-(+1 life, referencing death defiance from hades)
+(+2 life, referencing death defiance from hades)
 
-+1 life
++2 dragon scales
 
 ## defy death IV
 
 *a little plush that can be altered by void.*
 (+1 life, referencing dio's best friend from ror2)
 
-+1 life
++1 dragon scale
 
 ## defy death V
 
 *a red amulet, made with a little shadow.*
 (+1 life, referencing life giving amulet from don't starve)
 
-+1 life
++1 dragon scale
 
 ## defy death VI
 
 *a golden ring, found in a volcano.*
 (+1 life, referencing phoenix ring from stardew)
 
-+1 life
++1 dragon scale
 
 ## defy death VII
 
 *eternity (12)*
-(+1 life, referencing [i was gonna say the reference but it seems i cant])
+(+2 life, referencing [i was gonna say the reference but it seems i cant])
 
-+1 life (it was originally 2 but that's too much)
++2 dragon scale
 
 ## defy death VIII
 
 *a candlestick.*
 (+1 life, referencing the candles in inscryption)
 
-+1 life
++1 dragon scale
 
 ## defy death IX
 
 *a little doll, infused with gold and vapor.*
 (+1 life, referencing death protection poppet from the minecraft witchery mod)
 
-+1 life
++1 dragon scale
 
 ## defy death X
 
 *a fountain guarded by a serpent.*
 (+1 life, referencing fountain of youth from don't starve: hamlet)
 
-+1 life
++1 dragon scale
 
 ## defy death XI
 
 *a stone slab, gleaming with light.*
 (+1 life, referencing touch stone from don't starve)
 
-+1 life
++1 dragon scale
 
 ## defy death XII
 
 *a wooden effigy, resembling a certain scientist.*
 (+1 life, referencing meat effigy from don't starve)
 
-+1 life
++1 dragon scale
 
 ## defy death XIII
 
 *a fake tail.*
 (+1 life, referencing lizard tail from slay the spire)
 
-+1 life
++1 dragon scale
 
 ## defy death XIV
 
 *a light with wings.*
 (+1 life, referecing fairies from zelda.)
 
-+1 life
++1 dragon scale
 
 ## defy death XV
 
 *a potion that amplifies your mana (among other things).*
 (+1 life, referencing permafrost's concoction from terraria calamity mod)
 
-+1 life
++1 dragon scale
 
 ## defy death XVI
 
 *a blue and purple core.*
 (+1 life, referencing nebulous core from terraria calamity mod)
 
-+1 life
++1 dragon scale
 
 ## defy death XVII
 
 *a green and gold set of armor.*
 (+1 life, referencing silva armor from terraria calamity mod)
 
-+1 life
++1 dragon scale
 
 ## defy death XVIII
 
 *an electric suit of armor.*
-(+1 life, referencing auric tesla armor from terraria calamity mod)
+(+2 life, referencing auric tesla armor from terraria calamity mod)
 
-+1 life
++2 dragon scales
 
 ## defy death XIX
 
 *but it refused.*
-(+1 life, referencing "but it refused." from undertale)
+(+2 life, referencing "but it refused." from undertale)
 
-+1 life
++2 dragon scales
 
 ## defy death XX
 
 *a bright green potion.*
 (+1 life, referencing fairy in a bottle from slay the spire)
 
-+1 life
++1 dragon scale
 
 ## defy death XXI
 
 *a beating heart, made at a price.*
 (+1 life, referencing telltale heart from don't starve together)
 
-+1 life
++1 dragon scale
 
 ## defy death XXII
 
 *a coffin marked with a skull.*
 (+1 life, referencing the coffins from spelunky 2)
 
-+1 life
++1 dragon scale
 
 ## defy death XXIII
 
 *ray gun.*
 (+1 life) [hint by DiStegro!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXIV
 
 *dunno what it is but Mikey likes it*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXV
 
 *oh baby give me one more chaaaaaaance*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXVI
 
 *E G e c d g*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXVII
 
 *i get knocked down, but i get up again*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXVIII
 
 *encore*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXIX
 
 *golden bear-shaped trophy*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXX
 
 *[mint] 2nd room countdown panel*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXI
 
 *maybe this time will be different*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXII
 
 *another coin for the machine*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXIII
 
 *nobody wants to take the last one*
 (+1 life) [hint by Joy the Bard!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXIV
 
 *Press X to Respawn*
 (+1 Life) [hint by jonfunk!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXV
 
 *Summoning: Impure World Reincarnation Jutsu*
 (+1 Life) [hint by jonfunk!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXVI
 
 *Are the mushrooms safe to eat?*
 (+1 Life) [hint by jonfunk!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXVII
 
 *https://www.reddit.com/r/2healthbars/*
 (+1 Life) [hint by jonfunk!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXVIII
 
 *The Matrix: Reloaded*
 (+1 Life) [hint by jonfunk!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXIX
 
 *"How many times do I have to kill you, boy"*
 (+1 Life) [hint by jonfunk!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXX
 
 *"Get busy living, or get busy dying."*
 (+1 Life) [hint by jonfunk!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXXI
 
 *moon, minus 1*
 (+1 life) [hint sorta adapted from Deathclaw99's hint!]
 
-+2 life
++2 dragon scales
 
 ## defy death XXXXII
 
 *200 bucks.*
 (+1 life) [hint adapted from Deathclaw99's hint!]
 
-+2 life
++2 dragon scales
 
 ## defy death XXXXIII
 
 *Biscuit*
 (+1 Life) [hint by Deathclaw99!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXXIV
 
 *Raise Dead*
 (+1 Life) [hint by Deathclaw99!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXXV
 
 *Monster Reborn*
 (+1 Life) [hint by Deathclaw99!]
 
-+1 life
++1 dragon scale
 
 ## defy death XXXXVI
 
 *thrown out from the gates.*
 (+1 life)
 
-+1 life
++1 dragon scale
 
 ## defy death XXXXVII
 
 *it always happens with those large trucks.*
 (+1 life)
 
-+1 life
++1 dragon scale
 
 ## defy death XXXXVIII
 
 *it's before fourth flare.*
 (+1 life, referencing phoenix pet's Rekindle ability in hypixel skyblock)
 
-+1 life
++1 dragon scale
 
 ## defy death XXXXIX
 
 *5 less than that one soda.*
 (+2 life)
 
-+2 life
++2 dragon scales
 
 ## defy death L
 
 *a green flame.*
 (+1 life, referencing [REDACTED])
 
-+1 life
++1 dragon scale
 
 ## defy death LI
 
 *A golden banjo*
 (+1 life) [hint by Ravanan!]
 
-+1 life
++1 dragon scale
 
 ## defy death LII
 
 *thanatos's vacation*
-(+1 life)
+(+2 life)
 
-+1 life
++2 dragon scales
 
 ## defy death LIII
 
 *a gift from the goddess of wisdom.*
 (+1 life, referencing how a lot of athena boons in hades give you death defiances)
 
-+1 life
++1 dragon scale
 
 ## defy death LIV
 
 *a gift from an extremely moody hero's boyfriend.*
 (+2 life, referencing patroclus from hades restorting all empty death defiances. in the iliad by homer, achilles (patroclus's boyfriend) is extremely moody. not so much in hades though)
 
-+2 life
++2 dragon scales
 
 ## defy death LV
 
 *a secret red orb.*
 (+1 life, referencing ultrakill)
 
-+1 life
++1 dragon scale
 
 ## defy death LVI
 
 *a miracle taught by morne.*
 (+1 life) [hint adapted from Deathclaw99's hint!]
 
-+1 life
++1 dragon scale
 
 ## defy death LVII
 
 *bought for 12 bones at the café.*
 (+1 life) [hint adapted from Deathclaw99's hint!]
 
-+1 life
++1 dragon scale
 
 ## defy death LVIII
 
 *the most expensive thing at westside goods.*
 (+1 life)
 
-+1 life
++1 dragon scale
 
 ## defy death LIX
 
 *sold at three shops: in one side of a two-sided place, in a desert, and in a crag.*
 (+1 life)
 
-+1 life
++1 dragon scale
 
 ## defy death LX
 
 *a weird substance, but also a feeling. the substance version is more hazardous to use.*
 (+1 life, referencing DETERMINATION from undertale)
 
-+1 life
++1 dragon scale
 
 ## refund I
 

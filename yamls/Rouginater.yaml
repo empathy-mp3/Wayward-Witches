@@ -12,7 +12,7 @@ Minecraft:
   accessibility: full
   advancement_goal: random-range-45-50 # Upgrades: Change random range to 45-50 > 40-45
   egg_shards_required: 20 # Upgrades: Change to 20 > 19 > 17 > 15
-  egg_shards_available: 20 # Upgrades: Change to 20 > 21 > 23 > 25
+  egg_shards_available: 21 # Upgrades: Change to 21 > 23 > 25
   required_bosses: ender_dragon
   shuffle_structures: true
   structure_compasses: true
@@ -52,10 +52,10 @@ Meritous:
     true_ending: 2
   include_psi_keys: true
   include_evolution_traps: false
-  item_cache_cost: # Upgrades: Set to 2/1/0 > 1/1/1 > 0/1/2 > 0/0/2
-    vanilla: 2
+  item_cache_cost: # Upgrades: Set to 1/1/1 > 0/1/2 > 0/0/2
+    vanilla: 1
     reduced: 1
-    heavily_reduced: 0
+    heavily_reduced: 1
   death_link: true
 Manual_PeggleDeluxe_Freezinater:
   plando_items: [{"item": "Lord Cinderbottom", "location": "fire II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Splork", "location": "explosion II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Renfield", "location": "second chance IX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Tula", "location": "sun I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Jimmy Lightning", "location": "copy II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Broken Peg": 13}, "locations": [fire III-2, explosion III-1, sight II-1, price III-2, price IV-1, price XI-2, price XVI-2, defense IV-1, slots I-1, second chance III-1, utility IV-1, sun I-2, copy I-2], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -63,7 +63,7 @@ Manual_PeggleDeluxe_Freezinater:
   accessibility: full
   shuffle_starting_balls: false
   certificates_available: 25
-  certificates_required: 25 # Upgrades: 25 > 23 > 21 > 19 > 17 > 15
+  certificates_required: 23 # Upgrades: 23 > 21 > 19 > 17 > 15
   full_clears_are_checks: false
   challenges_are_checks: false
   insane_challenges_are_checks: false

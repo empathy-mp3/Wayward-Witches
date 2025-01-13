@@ -359,3 +359,36 @@ uncategorized XVI-2
 uncategorized XVI-3
 uncategorized XVI-4
 uncategorized XVI-5
+fire I-1
+fire I-2
+dangerous areas IX-1
+copy I-1
+copy I-2
+speed VII-1
+speed VII-2
+speed VII-3
+speed VII-4
+speed VII-5
+speed VII-6
+melee weapon IV-1
+melee weapon IV-2
+melee weapon IV-3
+melee weapon IV-4
+careful movement I-1
+speed II-1
+speed II-2
+speed II-3
+speed II-4
+speed II-5
+vitality XIII-1
+vitality XIII-2
+vitality XIII-3
+vitality XIII-4
+vitality XIII-5
+vitality XIII-6
+ranged weapon VI-1
+ranged weapon VI-2
+ranged weapon VI-3
+ranged weapon VI-4
+ranged weapon VI-5
+ranged weapon VI-6

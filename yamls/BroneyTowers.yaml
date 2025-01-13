@@ -9,10 +9,10 @@ Super Metroid:
   plando_items: [{"item": "Spazer", "location": "ranged weapon IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Plasma Beam", "location": "ranged weapon VIII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Power Bomb", "location": "explosion II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Power Bomb", "location": "explosion V-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Missile": 11}, "locations": [ranged weapon I-4, ranged weapon II-4, ranged weapon III-3, explosion I-2, explosion III-3, defense XII-3, melee weapon IV-4, utility II-2, utility III-2, utility V-2, utility VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '0'    # Yaml changes (2) - +25 each
   death_link: 'enable_survive'
-  minor_qty: 20                 # Yaml changes (4) - +20 each, eventually reaching 100: 50
+  minor_qty: 40                 # Yaml changes (3) - +20 each, eventually reaching 100: 50
   energy_qty: 'medium'    # Yaml changes (1) - medium => vanilla
   doors_colors_rando: 'true'    # Yaml change (false)
-  fun_combat: 'true'            # Yaml change (false)
+  fun_combat: 'false'
   fun_movement: 'false'
   nerfed_charge: 'true'
   tourian: 'disabled'

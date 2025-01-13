@@ -85,3 +85,4 @@ Super Metroid:
   escape_rando: random
   animals: random
   custom_objective: random
+  start_hints: ["Morph Ball"]

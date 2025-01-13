@@ -13,7 +13,7 @@ A Hat in Time:
     rush_hour: 2
   LogicDifficulty: hard # change to moderate, then to normal
   CTRLogic: sprint        # change to scooter, then to time_stop_only
-  PonCost: medium         # change to low
+  PonCost: low
   ChapterCost: high       # change to medium, then to low
   DLC: high               # change to medium, then to low, then to off
   TrapChance: random      # change to random-range-low-0-70, then to 0
@@ -202,7 +202,7 @@ Muse Dash:
   starting_song_count: '5'
   additional_song_count: random-range-high-40-100 #change to 'random-range-40-100' > random-range-low-40-100
   music_sheet_count_percentage: '40'
-  music_sheet_win_count_percentage: '100' #reduce by 11, 8 times
+  music_sheet_win_count_percentage: '67' #reduce by 11, 5 times
   dlc_packs:
   - Muse Plus
   - CHUNITHM COURSE MUSE

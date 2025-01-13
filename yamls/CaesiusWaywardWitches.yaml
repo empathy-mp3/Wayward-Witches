@@ -1,10 +1,10 @@
 name: Caesius
 game:
-  Ocarina of Time: 12
-  Timespinner: 12
-  Manual_MarbleBlastUltra_KitLemonfoot: 8
-  Pokemon Emerald: 10
-  Minecraft: 12
+  Timespinner: 25
+  Ocarina of Time: 25
+  Manual_MarbleBlastUltra_KitLemonfoot: 10
+  Pokemon Emerald: 20
+  Minecraft: 20
 
 description: Games for Wayward Witches
 
@@ -128,7 +128,7 @@ Ocarina of Time: # 6 yaml change upgrades
   hint_dist: async
   text_shuffle: none
   damage_multiplier: double # Change to normal, then half
-  deadly_bonks: normal # Change to half, then none
+  deadly_bonks: half # Change to none
   no_collectible_hearts: 'false'
   starting_tod:
     sunrise: 50
@@ -389,7 +389,7 @@ Pokemon Emerald: # 2 yaml change upgrades
   match_trainer_levels: 'off'
   match_trainer_levels_bonus: 0
   double_battle_chance: random-high
-  better_shops: 'false' # Change to 'true'
+  better_shops: 'true'
   remove_roadblocks: []
   extra_boulders: 'true'
   extra_bumpy_slope: 'true'

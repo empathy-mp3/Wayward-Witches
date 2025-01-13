@@ -221,7 +221,7 @@ Timespinner:
       link_replacement: true
 # Number of upgrades: 15
 A Link to the Past:
-  start_inventory: {Hammer: 1}
+  start_inventory_from_pool: {Hammer: 1}
 # Trigger block adding mercenary mode (1 Triforce piece needed to goal put on a random boss
   triggers:
   - option_name: goal
@@ -945,21 +945,13 @@ A Link to the Past:
           - text: "A hit has been put out on one of Ganon's generals."
             at: sign_ganon
 ### END Mercenary mode trigger block ###
-  goal: 
-    ganon: 1
+  goal:
     crystals: 1
     pedestal: 1
     ganon_pedestal: 1
     triforce_hunt: 1
     ganon_triforce_hunt: 1
-    mercenary: 1
-# # Upgrade to the following selection (2/2)
-    # crystals: 1
-    # pedestal: 1
-    # ganon_pedestal: 1
-    # triforce_hunt: 1
-    # ganon_triforce_hunt: 1
-    # mercenary: 3
+    mercenary: 3
   mode:
     open: 1
     inverted: 1
@@ -978,7 +970,7 @@ A Link to the Past:
   compass_shuffle: any_world
   map_shuffle: any_world
   restrict_dungeon_item_on_boss: false
-  item_pool: hard # Upgrade to easy
+  item_pool: easy
   item_functionality: easy
   enemy_health: default # Upgrade to easy
   enemy_damage: default

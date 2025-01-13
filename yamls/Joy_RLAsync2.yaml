@@ -245,7 +245,7 @@ Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and
   second_floor_star_door_cost: random-range-45-55 # -> 35-45
   mips1_cost: random-range-10-20
   mips2_cost: random-range-40-50
-  stars_to_finish: random-range-80-90 # -> 70-80 -> 60-70 -> 50-60 
+  stars_to_finish: random-range-60-70 # -> 50-60 
   death_link: 'true'
   completion_type: last_bowser_stage
   start_inventory: {"Second Floor Key": 1}

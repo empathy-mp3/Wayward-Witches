@@ -2,9 +2,9 @@ name: rhythm.ET2
 description: ["Rhythms YAML for the Sequel to Endless Towers"]
 game:
   Manual_RatchetAndClankUYA_Rhythm: 0
-  Dome Keeper: 0
-  Mindustry: 5
-  Sonic Adventure DX: 9
+  Dome Keeper: 6
+  Mindustry: 0
+  Sonic Adventure DX: 0
   Sonic Adventure 2 Battle: 9
   Kingdom Hearts Birth by Sleep: 6
   
@@ -188,8 +188,14 @@ Dome Keeper:
   kinetic_spheres: 10
     # The amount of kinetic spheres upgrades (when playing assessor) in the item pool.
     # It is not recommended to go lower than 6~7 on large/huge maps.
-  colored_layers: true
-    # Locks color layers with an item for progression.
+  progression_type:
+    relic_hunt_no_progression: 0
+    relic_hunt_progression_layers: 1
+    guild_assignments: 1
+  starting_cobalt: random
+  starting_water: random
+  challenge_mode: false
+  assignment_amount: random-high
   sphere_lifetime: 15
     # The amount of sphere lifetime upgrades (when playing assessor) in the item pool.
   extra_cobalt: random
@@ -203,6 +209,13 @@ Dome Keeper:
     # Start with these locations and their item prefilled into the ``!hint`` command.
     # I see these anyway when I load the game... It's not an info advantage, just sharing the info with the lobby.
     ["Upgrade Iron 1", "Upgrade Iron 2", "Upgrade Iron 3", "Upgrade Iron 4", "Upgrade Water 1", "Upgrade Water 2", "Upgrade Water 3", "Upgrade Water 4", "Upgrade Iron and Water 1", "Upgrade Iron and Water 2", "Upgrade Iron and Water 3", "Upgrade Iron and Water 4"]
+  triggers:
+    - option_category: Dome Keeper
+      option_name: progression_type
+      option_result: guild_assignments
+      options:
+        Dome Keeper:
+          +start_inventory: {Extra starting iron: 75, Extra starting water: 75}
 Mindustry:
   plando_items:
     - items:
@@ -366,7 +379,7 @@ Sonic Adventure DX:
   death_link: true
   # General Options
   goal_requires_levels: random
-  goal_requires_chaos_emeralds: random # Upgrade: Disabled
+  goal_requires_chaos_emeralds: false
   goal_requires_emblems: false
   goal_requires_missions: random
   goal_requires_bosses: random

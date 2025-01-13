@@ -23,6 +23,7 @@ Celeste 64:
   badeline_chaser_speed: '3'
   start_inventory: 
     Breakable Blocks: 1
+    Cassettes: 1
 
 
 
@@ -105,7 +106,7 @@ Ocarina of Time:
   hint_dist: async
   text_shuffle: none
   damage_multiplier: quadruple # Change to Double, then to Vanilla
-  deadly_bonks: double # Change to Vanilla
+  deadly_bonks: vanilla
   no_collectible_hearts: 'false'
   starting_tod: default
   blue_fire_arrows: 'true'
@@ -135,6 +136,7 @@ Ocarina of Time:
   sfx_ocarina: ocarina
   start_inventory: 
     Bomb Bag: 1
+    Magic Meter: 1
   open_forest: random
   open_kakariko: random
   open_door_of_time: random
@@ -204,7 +206,7 @@ Timespinner:
   start_with_meyef: 'false'
   lore_checks: 'true'
   damage_rando: mostlybuffs
-  hp_cap: '400' # Change to 600, then to 999
+  hp_cap: '600' # Change to 999
   level_cap: '99'
   extra_earrings_xp: '24'
   boss_healing: 'true'
@@ -224,11 +226,12 @@ Timespinner:
   - Poison Trap
   start_inventory: 
     Lightwall: 1
+    Timeworn Warp Beacon: 1
   start_with_jewelry_box: true
   eye_spy: false
   quick_seed: random
   specific_keycards: random
-  inverted: random
+  inverted: false
   gyre_archives: random
   cantoran: random
   boss_rando:  # Disable Scaled
@@ -271,6 +274,7 @@ Super Mario 64:
   death_link: 'true'
   start_inventory: 
     Second Floor Key: 1
+    Basement Key: 1
   area_rando: random # Disable Courses and Secrets from being rolled 
   buddy_checks: random # Change to No
   exclamation_boxes: random 

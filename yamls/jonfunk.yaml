@@ -215,7 +215,6 @@ A Hat in Time:
     'true': 25
   EndGoal:
     finale: 19
-    rush_hour: 6  # remove this line
     seal_the_deal: 3  # remove this line
     random: 6  # remove this line
   ShuffleAlpineZiplines:
@@ -626,7 +625,6 @@ Muse Dash:
   music_sheet_count_percentage:
     '10': 24
     '20': 25
-    '40': 23 # remove this option
   music_sheet_win_count_percentage:
     '50': 22
     '80': 25
