@@ -6,7 +6,7 @@ game:
 The Witness:
   puzzle_randomization: none
   victory_condition:
-    elevator: 8 # change to 3
+    elevator: 3
     challenge: 0
     mountain_box_short: 5
     mountain_box_long: 4

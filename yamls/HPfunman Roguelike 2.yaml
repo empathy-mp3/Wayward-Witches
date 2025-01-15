@@ -121,6 +121,6 @@ Slay the Spire:
   progression_balancing: 20 # change to 50, then 80
   accessibility: items
   character: ironclad
-  ascension: 16 # change to 14, then 12, then 10 (aka 4 "lower ascension by 2" unlocks available)
+  ascension: 14 # change to 12, then 10 (aka 4 "lower ascension by 2" unlocks available)
   final_act: 'true' # change to false
   death_link: 25 # change to 10

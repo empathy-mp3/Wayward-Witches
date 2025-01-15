@@ -14,13 +14,11 @@ Minecraft:
   advancement_goal: 30
   egg_shards_required: 10 # change to 5
   egg_shards_available: 15
-  required_bosses:
-    ender_dragon: 1
-    wither: 1
+  required_bosses: none
   shuffle_structures: 'true'
   structure_compasses: 'true'
   combat_difficulty: hard # change to normal, then easy
-  bee_traps: 50 # change to 0
+  bee_traps: 0
   death_link: 'true'
   exclude_locations:
     - Sniper Duel
@@ -35,3 +33,4 @@ Manual_SuperCatTales_ChromaNyan:
   progression_balancing: 0 # change to 20, then 40, then 60
   filler_traps: random-low
   death_link: 'true'
+  start_inventory: {Boss Token: 1}

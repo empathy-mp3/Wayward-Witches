@@ -386,7 +386,7 @@ Sonic Adventure DX:
   goal_requires_chao_races: false
   logic_level: hard_logic
   levels_percentage: random # Upgrade: random-low
-  mission_percentage: random # Upgrade: random-low
+  mission_percentage: random-low
   random_starting_location: true
   random_starting_location_per_character: true
   guaranteed_level: false # Upgrade: true

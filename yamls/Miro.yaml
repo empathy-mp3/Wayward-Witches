@@ -11,7 +11,7 @@ requires:
   plando: items
 
 A Hat in Time:
-  start_inventory: {Hookshot Badge: 1}
+  start_inventory: {Hookshot Badge: 1, Time Piece: 5}
   plando_items:
     - item: No Bonk Badge
       location: careful movement I-1
@@ -60,8 +60,8 @@ A Hat in Time:
     finale: 10
     rush_hour: 2
     seal_the_deal: 10     # remove this line (or change to 0)
-  LogicDifficulty: moderate # change to normal
-  CTRLogic: scooter       # change to time_stop_only
+  LogicDifficulty: normal
+  CTRLogic: time_stop_only
   PonCost: medium           # change to low
   ChapterCost: low
   DLC: off
@@ -222,7 +222,7 @@ DLCQuest:
     none: 25
     simple: 25              # remove this line (or change to 0)
   time_is_money: optional   # change to required
-  start_hints: ["Big Sword Pack", "Double Jump Pack", "Finish the Fight Pack", "Gun Pack"]           # add one per upgrade, 7 in total: "Incredibly Important Pack", "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
+  start_hints: ["Big Sword Pack", "Double Jump Pack", "Finish the Fight Pack", "Gun Pack", "Incredibly Important Pack"]           # add one per upgrade, 6 in total: "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
 
   death_link: true
   coinsanity:
@@ -234,7 +234,7 @@ DLCQuest:
     shuffled: 50
   coinbundlequantity: random-range-low-5-100
   permanent_coins: random
-  start_inventory: {Pause Menu Pack: 1, Day One Patch Pack: 1, "Live Freemium or Die: Progressive Weapon": 1}
+  start_inventory: {Pause Menu Pack: 1, Day One Patch Pack: 1, "Live Freemium or Die: Progressive Weapon": 1, Wall Jump Pack: 1}
   plando_items:
     - item: Health Bar Pack
       location: vitality III-6
@@ -390,17 +390,15 @@ Pokemon Emerald:
     'true': 20    # remove this line (or change to 0)
   trainersanity:
     'false': 50
-  require_flash:  # remove neither, then only_granite_cave AND only_victory_road.
-    neither: 50
-    only_granite_cave: 5
-    only_victory_road: 5
+  require_flash:
     both: 1
   legendary_hunt_count: random-high # change to random-low
   trainer_party_blacklist: []       # add "_Legendaries"
   force_fully_evolved: random-low   # change to random-high
-  ability_blacklist:                # add a new line with:  Wonder Guard: 1
+  ability_blacklist:
     Arena Trap: 1
     Shadow Tag: 1
+    Wonder Guard: 1
   exp_modifier: 300
   match_trainer_levels_bonus: -5   # change to 0, then to 5
 
@@ -486,6 +484,7 @@ Pokemon Emerald:
   start_inventory:
     HM02 Fly: 1
     HM03 Surf: 1
+    Balance Badge: 1
   triggers:
     - option_category: Pokemon Emerald
       option_name: trainersanity
@@ -575,7 +574,7 @@ Hollow Knight:
     'false': 25
     'true': 50          # remove this line (or change to 0)
   AnnoyingChecks: low
-  SkipDifficulty: hard   # change to medium, then easy, then off
+  SkipDifficulty: medium   # change to easy, then off
   GoalDifficulty: easy
   Costs: low
   SplitCrystalHeart: &split
@@ -628,6 +627,7 @@ Hollow Knight:
   start_inventory:
     Sprintmaster: 1
     Mantis_Claw: 1
+    Dreamer: 1
 
   triggers:
     - option_category: Hollow Knight
@@ -878,7 +878,7 @@ Minecraft:
   egg_shards_required: 0
   egg_shards_available: 0
   death_link: true
-  start_inventory: {Progressive Resource Crafting: 1}
+  start_inventory: {Progressive Resource Crafting: 1, Bucket: 1}
 
 Timespinner:
   plando_items:
@@ -961,7 +961,7 @@ Timespinner:
   shop_multiplier: 0
   dad_percent: random        # change to true
   trap_chance: random-range-low-5-90 # change to random-range-low-0-35, then to 0
-  start_inventory: {Lightwall: 1}
+  start_inventory: {Lightwall: 1, Timeworn Warp Beacon: 1}
 
   start_with_meyef: *convenience
   quick_seed:
@@ -987,7 +987,7 @@ Timespinner:
   accessibility: random
   downloadable_items: *2-5
   specific_keycards: *1-2
-  inverted: random
+  inverted: false
   lore_checks: *2-5
   shop_fill:
     default: 25

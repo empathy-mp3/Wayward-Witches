@@ -168,10 +168,10 @@ Factorio:
   teleport_traps: 0
   grenade_traps: 20
   cluster_grenade_traps: 20
-  artillery_traps: 10  #Change to 5 then to 0
+  artillery_traps: 5  #Change to 0
   atomic_rocket_traps: 0
   attack_traps: 0
-  evolution_traps: 5
+  evolution_traps: 0
   evolution_trap_increase: 5
   death_link: true
   energy_link: true

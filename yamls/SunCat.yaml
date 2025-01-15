@@ -111,7 +111,7 @@ Celeste 64:
 Risk of Rain 2:
   plando_items: [{"items": {"Item Scrap, White": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
   start_with_revive: 'true'
-  total_revivals: '4' #increase by 2, 3 times
+  total_revivals: '6' #increase by 2, 2 times
   final_stage_death: 'false' # change to 'true'
   item_pickup_step: '2' #reduce by 1, 2 times
   shrine_use_step: '1' #reduce to 0

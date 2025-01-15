@@ -93,7 +93,7 @@ Super Metroid Map Rando: #11 yaml changes
 
 Factorio:
   plando_items: [{"items": {"progressive-physical-projectile-damage": 20, "progressive-research-speed": 20}, "locations": [ranged weapon III-6, ranged weapon V-6, ranged weapon VI-5, ranged weapon VII-4, explosion III-5, explosion IV-3, vitality VI-5, vitality X-5, vitality XI-3, vitality XIV-3, vitality XVI-3, speed III-1, second chance V-2, XP V-2, uncategorized II-1, uncategorized IV-2, uncategorized IV-3, uncategorized XI-3, uncategorized XV-1, uncategorized XIX-2], "world": "The Cauldron", "force": true, "from_pool": true}]
-  max_science_pack: production_science_pack #production_science_pack -> chemical_science_pack
+  max_science_pack: chemical_science_pack
   goal: satellite # satellite -> rocket
   tech_tree_layout: single
   min_tech_cost: 50 #50 -> 5
@@ -141,7 +141,7 @@ Factorio:
     # construction-robot: 15
     
     # Spoodertron (4 items)
-    Spidertron: 1
+    spidertron: 1
 
     
     ## Nuclear survival kit

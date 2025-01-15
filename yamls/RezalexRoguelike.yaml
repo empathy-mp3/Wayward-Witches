@@ -57,7 +57,7 @@ A Link to the Past:
   turtle_rock_medallion: random
   glitch_boots: 'false'
   beemizer_total_chance: random-high
-  beemizer_trap_chance: random-high #change to random-low
+  beemizer_trap_chance: random-low
   timer: none
   death_link: 'true'
   allow_collect: 'true'

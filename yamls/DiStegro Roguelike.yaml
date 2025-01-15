@@ -164,8 +164,8 @@ Pokemon Emerald:
   #From 4-8 to 4-6
   elite_four_count:
     random-range-6-8: 0
-    random-range-4-8: 50
-    random-range-4-6: 0
+    random-range-4-8: 0
+    random-range-4-6: 50
 
   norman_requirement: badges
   norman_count: 4
@@ -361,8 +361,8 @@ Ocarina of Time:
   #Damage Multi from Quadruple to Double to Normal
   damage_multiplier:
     normal: 0
-    double: 0
-    quadruple: 50
+    double: 50
+    quadruple: 0
     
   deadly_bonks:
     normal: 50
@@ -489,10 +489,9 @@ A Link to the Past:
     hard: 0
     default: 50
   
-  #Enemy Damage from shuffled to default
   enemy_damage: 
-    shuffled: 50
-    default: 0
+    shuffled: 0
+    default: 50
   
   progressive: on
   swordless: false

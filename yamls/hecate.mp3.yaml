@@ -331,10 +331,9 @@ Manual_DeckedOut2_mp3:
   tactical_approach_count: random-low
   pork_chop_power_count: random-low
   dungeon_lackey_count: random-low
-  # change the next 3 options to random-high
-  pay_to_win_count: random-low
-  tailor_for_success_count: random-low
-  last_stand_count: random-low
+  pay_to_win_count: random-high
+  tailor_for_success_count: random-high
+  last_stand_count: random-high
   # change the next 3 options to random-high
   revelation_count: random-low
   aquata_breather_count: random-low

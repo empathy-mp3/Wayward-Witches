@@ -162,7 +162,7 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
     'false': 10
     'true': 0
     hub_start: 0
-  trap_chance: random-range-5-10 # -> 0-5
+  trap_chance: random-range-0-5
   trap_type_weights:
     Audio Trap: 1
     Nap Trap: 2
@@ -235,10 +235,9 @@ Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and
   - Kick
   - Climb
   - Ledge Grab
-  # Change all strict_x_requirements to 'true' with one upgrade
-  strict_cap_requirements: 'false'
-  strict_cannon_requirements: 'false'
-  strict_move_requirements: 'false' 
+  strict_cap_requirements: 'true'
+  strict_cannon_requirements: 'true'
+  strict_move_requirements: 'true' 
   amount_of_stars: '120'
   first_bowser_star_door_cost: random-range-15-25 # -> 5-15
   basement_star_door_cost: random-range-45-50 # -> 35-45 -> 25-35 -> 15-25
@@ -287,9 +286,9 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
   progression_balancing: 0 # -> 25 -> 50
   accessibility: full
   puzzle_randomization:
-    sigma_normal: 0 # -> 0 -> 5
-    umbra_variety: 0 #   5    5
-    sigma_expert: 10 #   5    0
+    sigma_normal: 0  # -> 5
+    umbra_variety: 5 #     5
+    sigma_expert: 5  #    0
   victory_condition:
     elevator: 10 # . . . -> 5
     challenge: 5 # . . .    0
@@ -334,7 +333,7 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
   area_hint_percentage: '20'
   laser_hints: 'false'
   early_caves: add_to_pool
-  elevators_come_to_you: 'false' # -> 'true'
+  elevators_come_to_you: 'true'
   death_link: 'true'
   death_link_amnesty: 0 # -> 2 -> 4
   shuffle_dog: random_item

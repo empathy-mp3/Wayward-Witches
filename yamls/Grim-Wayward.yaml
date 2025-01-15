@@ -76,7 +76,7 @@ Minecraft: # Note: Done. YAML Edits: 12
   plando_items: [{"items": {"Rotten Flesh": 20, "50 XP": 20, "32 Arrows": 20, "4 Emeralds": 20}, "locations": [ranged weapon I-7, ranged weapon II-6, ranged weapon III-5, ranged weapon IV-5, ranged weapon V-7, ranged weapon VI-4, ranged weapon VII-3, vitality IV-4, vitality XIV-5, vitality XV-4, speed I-3, defense V-2, careful movement II-2, attack I-2, mana V-2, mana V-3, mana VI-1, slots IV-2, slots IV-5, XP VI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: '50'
   accessibility: full
-  advancement_goal: '40' # Item: Reduce to 30
+  advancement_goal: '30'
   egg_shards_required: '20' # Item: Reduce to 15, then 10.
   egg_shards_available: '20'
   required_bosses: ender_dragon

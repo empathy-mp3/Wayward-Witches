@@ -392,3 +392,28 @@ ranged weapon VI-3
 ranged weapon VI-4
 ranged weapon VI-5
 ranged weapon VI-6
+melee weapon VII-1
+melee weapon VII-2
+melee weapon VII-3
+melee weapon VII-4
+speed V-1
+speed V-2
+speed V-3
+speed V-4
+uncategorized IX-1
+uncategorized IX-2
+uncategorized IX-3
+uncategorized IX-4
+uncategorized IX-5
+defense XV-1
+defense XV-2
+healing VIII-1
+healing VIII-2
+healing VIII-3
+healing VIII-4
+mana III-1
+mana III-2
+careful movement IV-1
+careful movement IV-2
+second chance I-1
+second chance I-2

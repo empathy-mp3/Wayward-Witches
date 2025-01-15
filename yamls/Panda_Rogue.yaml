@@ -11,7 +11,7 @@ Minecraft:
   required_bosses: ender_dragon
   shuffle_structures: true
   structure_compasses: true
-  combat_difficulty: hard # Upgrades: Set to hard > normal > easy
+  combat_difficulty: normal # Upgrades: Set to normal > easy
   include_hard_advancements: false
   include_unreasonable_advancements: false
   include_postgame_advancements: false

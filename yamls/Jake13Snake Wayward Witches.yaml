@@ -14,11 +14,11 @@ Adventure:
   freeincarnate_max: 17
   dragon_rando_type: random
   yorgle_speed: 2
-  yorgle_min_speed: 8 # Change to 1
+  yorgle_min_speed: 1
   grundle_speed: 2
   grundle_min_speed: 8 # Change to 1
   rhindle_speed: 2
-  rhindle_min_speed: 8 # Change to 1
+  rhindle_min_speed: 1
   difficulty_switch_a: hard_with_unlock_item
   difficulty_switch_b: hard_with_unlock_item
   start_castle: random
@@ -30,12 +30,12 @@ DOOM 1993:
   progression_balancing: 50
   accessibility: minimal
   goal: complete_boss_levels
-  difficulty: easy # Change to baby
+  difficulty: baby
   random_monsters: random_chaotic
   random_pickups: random_balanced
   random_music: shuffle_game
   flip_levels: randomly_flipped
-  allow_death_logic: 'true' # Change to 'false'
+  allow_death_logic: 'false'
   pro: 'true' # Change to 'false'
   start_with_computer_area_maps: 'false'
   death_link: 'true'

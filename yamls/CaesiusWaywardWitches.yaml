@@ -127,8 +127,8 @@ Ocarina of Time: # 6 yaml change upgrades
   misc_hints: 'true'
   hint_dist: async
   text_shuffle: none
-  damage_multiplier: double # Change to normal, then half
-  deadly_bonks: half # Change to none
+  damage_multiplier: normal # Change to half
+  deadly_bonks: none
   no_collectible_hearts: 'false'
   starting_tod:
     sunrise: 50
@@ -416,7 +416,7 @@ Minecraft: # 5 yaml change upgrades
   required_bosses: none
   shuffle_structures: 'true'
   structure_compasses: 'true'
-  combat_difficulty: hard # Change to normal, then easy
+  combat_difficulty: normal # Change to easy
   include_hard_advancements: 'false'
   include_unreasonable_advancements: 'false'
   include_postgame_advancements: 'false'

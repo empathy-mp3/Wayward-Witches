@@ -107,7 +107,7 @@ Hollow Knight:
   ComplexSkips: 'false'
   DifficultSkips: 'false'
   StartLocation: king's_pass
-  Goal: radiance #change to siblings then to any
+  Goal: any
   WhitePalace: include
   ExtraPlatforms: 'true'
   AddUnshuffledLocations: 'false'
