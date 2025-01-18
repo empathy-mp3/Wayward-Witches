@@ -1,7 +1,7 @@
 name: BennyRogue
 game: 
   The Witness: 3
-  Rogue Legacy: 4
+  Rogue Legacy: 0
 
 The Witness:
   puzzle_randomization: none
@@ -23,7 +23,7 @@ The Witness:
     'false': 2 
   shuffle_vault_boxes: 
     'true': 2
-    'false': 2 # increase to 7
+    'false': 7
   shuffle_EPs: 'off'
   EP_difficulty: normal 
   shuffle_postgame: 'false' 
@@ -43,7 +43,7 @@ The Witness:
   puzzle_skip_amount: random-high
   hint_amount: random-high
   vague_hints: stable 
-  area_hint_percentage: random-range-40-60 # change to random-range-60-80
+  area_hint_percentage: random-range-60-80
   laser_hints: 'false'
   early_caves: 'off'
   elevators_come_to_you: 'false'

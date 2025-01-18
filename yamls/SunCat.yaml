@@ -203,9 +203,10 @@ VVVVVV:
 
 Pokemon Emerald:
   plando_items: [{"item": "Leftovers", "location": "healing IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Leftovers", "location": "healing VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "HM02 Fly", "location": "travel II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rare Candy": 6}, "locations": [defense IX-3, defense XIX-2, XP III-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
-  ability_blacklist: # add Wonder Guard
+  ability_blacklist:
   - Arena Trap
   - Shadow Tag
+  - Wonder Guard
   match_trainer_levels_bonus: -1 # increase by 1, 6 times
 
   progression_balancing: '0'

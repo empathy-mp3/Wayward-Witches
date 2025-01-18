@@ -6,7 +6,7 @@ Pokemon Emerald:
   remove_roadblocks: ["Lilycove City Wailmer", "Route 110 Aqua Grunts"]
   extra_boulders: 'false'
   norman_count: random-low # random-low > random-high > random-range-4-7
-  starters: completely_random # completely_random > vanilla
+  starters: vanilla
   exp_modifier: 650 # 650 > 1000
   move_blacklist: [] # [] > ["Perish Song"]
 
@@ -16,7 +16,7 @@ Pokemon Emerald:
   badges:
     completely_random: 4
     shuffle: 1
-  hms: completely_random
+  hms: shuffle
   key_items: 'true'
   bikes: 'true'
   event_tickets: 'true'

@@ -958,8 +958,8 @@ A Link to the Past:
   glitches_required: no_glitches
   dark_room_logic: lamp
   open_pyramid: goal
-  crystals_needed_for_gt: random # Upgrade to random-range-0-4; also do the same for crystals_needed_for_ganon
-  crystals_needed_for_ganon: random # See above
+  crystals_needed_for_gt: random-range-0-4
+  crystals_needed_for_ganon: random-range-0-4
   triforce_pieces_mode: extra
   triforce_pieces_required: random
   triforce_pieces_extra: random
@@ -1211,8 +1211,8 @@ Secret of Evermore:
   available_fragments: random # See above
   money_modifier: random-range-1000-2500
   exp_modifier: random-range-300-1000 # Upgrade to random-range-1000-2500
-  sequence_breaks: on
-  out_of_bounds: off # Upgrade to on
+  sequence_breaks: logic
+  out_of_bounds: off # Upgrade to logic
   fix_cheats: true # Upgrade to false
   fix_infinite_ammo: false
   fix_atlas_glitch: false

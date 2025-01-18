@@ -16,7 +16,7 @@ Celeste 64:
   death_link: true
   death_link_amnesty: 10 #change to 20, then to 30
   logic_difficulty: standard
-  move_shuffle: true
+  move_shuffle: false
   total_strawberries: 40 #change to 30, then to 20
   strawberries_required_percentage: 100 #change to 90, then to 75, then to 60
   friendsanity: true
@@ -29,6 +29,7 @@ Celeste 64:
     - Badeline Cassette Strawberry
   
 Timespinner:
+  start_inventory: {Celestial Sash: 1}
   plando_items: [{"item": "Max HP", "location": "vitality I-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max HP", "location": "vitality II-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Eternal Coat", "location": "defense XX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Empire Crown", "location": "attack III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Aura", "location": "mana II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Aura", "location": "mana III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Aura", "location": "mana III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Jewelry Box", "location": "slots III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Galaxy Earrings", "location": "XP II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Sand", "location": "time I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Sand", "location": "time III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Max Sand", "location": "time V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Berry Pick-Mi-Up": 30, "Ether": 30}, "locations": [ranged weapon II-3, ranged weapon III-2, ranged weapon IV-2, explosion II-1, explosion V-2, vitality I-1, vitality V-1, vitality VIII-7, vitality IX-5, healing II-3, healing V-3, healing VII-1, healing VIII-2, healing VIII-4, speed IV-1, stealth II-1, price VI-1, price VII-1, price IX-2, price XIII-2, price XVI-1, defense VIII-2, attack IV-1, stamina I-3, mana IV-3, slots I-6, slots I-8, slots IV-4, ice I-1, travel I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   death_link: true
   progression_balancing: normal
@@ -67,6 +68,7 @@ Timespinner:
   trap_chance: 10
   
 TUNIC:
+  start_inventory: {Hero's Laurels: 1}
   plando_items: [{"item": "Magic Wand", "location": "ranged weapon II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Gun", "location": "ranged weapon III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Firecracker x5", "location": "explosion II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Firecracker x5", "location": "explosion V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - HP", "location": "vitality I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - POTION", "location": "healing II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Muffling Bell", "location": "stealth II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Money x255", "location": "price IX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Money x255", "location": "price XVI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - DEF", "location": "defense VIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - ATT", "location": "attack IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - SP", "location": "stamina I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hero Relic - MP", "location": "mana IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Magic Dagger", "location": "ice I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Dath Stone", "location": "travel I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"HP Berry": 27, "MP Berry": 27}, "locations": [ranged weapon IV-2, vitality I-6, vitality II-5, vitality V-1, vitality VIII-7, vitality IX-5, healing V-3, healing VII-1, healing VIII-2, healing VIII-4, speed IV-1, price VI-1, price VII-1, price XIII-2, defense XX-2, attack III-1, mana II-2, mana III-1, mana III-2, slots I-6, slots I-8, slots III-1, slots IV-4, XP II-1, time I-3, time III-1, time V-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   # Game Options
   progression_balancing: normal
@@ -99,7 +101,7 @@ Astalon:
   goal: random
   additional_eyes_required: random
   extra_eyes: random
-  randomize_characters: solo
+  randomize_characters: all
   randomize_key_items: 'true'
   randomize_health_pickups: 'random'
   randomize_attack_pickups: 'random'
@@ -132,6 +134,7 @@ Astalon:
           additional_eyes_required: random-range-0-15
 
 Ender Lilies:
+  start_inventory: {Guardian's Wings: 1}
   plando_items: [{"item": "Last Rites", "location": "ranged weapon IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Amulet Gem", "location": "vitality V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Amulet Gem", "location": "vitality VIII-7", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Amulet Jewel", "location": "vitality IX-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Priestess' Wish", "location": "healing V-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Priestess' Wish", "location": "healing VII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Priestess' Wish", "location": "healing VIII-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Furious Blight x800", "location": "price VII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Stagnant Blight x800", "location": "price XIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chain of Sorcery", "location": "slots I-6", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chain of Sorcery", "location": "slots I-8", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chain of Sorcery", "location": "slots IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Lily's Note": 30}, "locations": [ranged weapon II-3, ranged weapon III-2, explosion II-1, explosion V-2, vitality I-1, vitality I-6, vitality II-5, healing II-3, healing VIII-2, speed IV-1, stealth II-1, price VI-1, price IX-2, price XVI-1, defense VIII-2, defense XX-2, attack III-1, attack IV-1, stamina I-3, mana II-2, mana III-1, mana III-2, mana IV-3, slots III-1, XP II-1, ice I-1, travel I-1, time I-3, time III-1, time V-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: normal
   accessibility: items

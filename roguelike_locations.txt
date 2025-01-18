@@ -417,3 +417,22 @@ careful movement IV-1
 careful movement IV-2
 second chance I-1
 second chance I-2
+fire III-1
+fire III-2
+defense XII-1
+defense XII-2
+defense XII-3
+melee weapon III-1
+melee weapon III-2
+price IV-1
+slots I-1
+slots I-2
+slots I-3
+slots I-4
+slots I-5
+slots I-6
+slots I-7
+slots I-8
+uncategorized XVII-1
+uncategorized XVII-2
+uncategorized XVII-3

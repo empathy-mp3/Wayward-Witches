@@ -6,7 +6,7 @@ game:
   Mindustry: 0
   Sonic Adventure DX: 0
   Sonic Adventure 2 Battle: 9
-  Kingdom Hearts Birth by Sleep: 6
+  Kingdom Hearts Birth by Sleep: 0
   
 triggers:
   - option_category: null
@@ -156,7 +156,6 @@ Dome Keeper:
   dome:
     # What Dome do you wish to play with.
     laser: 3 # Upgrade: Disabled
-    sword: 3 # Upgrade: Disabled
     artillery: 5
     tesla: 3 # Upgrade: Disabled
 
@@ -191,7 +190,7 @@ Dome Keeper:
   progression_type:
     relic_hunt_no_progression: 0
     relic_hunt_progression_layers: 1
-    guild_assignments: 1
+    guild_assignments: 0
   starting_cobalt: random
   starting_water: random
   challenge_mode: false
@@ -736,7 +735,7 @@ Sonic Adventure 2 Battle:
   chao_animal_parts: 'false'
   chao_kindergarten: none
   black_market_slots: 64
-  black_market_unlock_costs: high #Upgrade: medium for first upgrade, low for second upgrade
+  black_market_unlock_costs: medium #Upgrade: low
   black_market_price_multiplier: 0
   shuffle_starting_chao_eggs: true
   chao_entrance_randomization: false
@@ -766,17 +765,17 @@ Sonic Adventure 2 Battle:
     eggman: 25
     tails: 25
   ring_loss: classic
-  speed_mission_count: random-range-middle-1-3
+  speed_mission_count: random-range-middle-1-2
   speed_mission_2: 'false'
   speed_mission_3: 'true'
   speed_mission_4: 'false'
   speed_mission_5: 'true'
-  mech_mission_count: random-range-low-1-3
+  mech_mission_count: random-range-low-1-2
   mech_mission_2: 'false'
   mech_mission_3: 'true'
   mech_mission_4: 'true'
   mech_mission_5: 'true'
-  hunt_mission_count: random-range-middle-2-4
+  hunt_mission_count: random-range-middle-1-2
   hunt_mission_2: 'false'
   hunt_mission_3: 'true'
   hunt_mission_4: 'true'
@@ -786,7 +785,7 @@ Sonic Adventure 2 Battle:
   kart_mission_3: 'false'
   kart_mission_4: 'false'
   kart_mission_5: 'false'
-  cannons_core_mission_count: random-low
+  cannons_core_mission_count: random-range-low-1-2
   cannons_core_mission_2: 'false'
   cannons_core_mission_3: 'true'
   cannons_core_mission_4: 'false'

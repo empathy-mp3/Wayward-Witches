@@ -8,6 +8,7 @@ game:
 description: Roguelike2 async by empathy.mp3
 
 Hollow Knight:
+  start_inventory: {Geo_Rock-Outskirts420: 2}
   plando_items: [{"item": "Hiveblood", "location": "healing III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Dashmaster", "location": "speed III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Sprintmaster", "location": "speed IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Strength", "location": "attack III-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 3}, "locations": [vitality III-3, vitality VI-3, vitality IX-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   # these will always be the value defined
   progression_balancing: random-range-low-33-83
@@ -111,7 +112,7 @@ Hollow Knight:
   local_items: [LifebloodCocoons, SoulTotems, JournalEntries, LoreTablets, Maps, Mimics]
 
   # these will be changed by upgrades and may affect the items just above
-  StartingGeo: random-range-0-1000 # random-range-0-3000
+  StartingGeo: random-range-0-1000
   RemoveSpellUpgrades: 'false'
   RandomCharmCosts: 'random-range-90-110' # random-range-70-110
   starting_difficulty:
@@ -364,9 +365,8 @@ Blasphemous:
     easy: 1
     normal: 5
     hard: 5 # 1
-  skip_long_quests: # reduce 'false' to 0
+  skip_long_quests:
     'true': 20
-    'false': 40
   boots_of_pleading: 'false' # random
   purified_hand: 'false' # random
   starting_location: # remove rooftops, then remove knot of words
@@ -549,7 +549,7 @@ The Witness:
     umbra_variety: 25 # reduce to 5
   panel_hunt_required_percentage: # change to random-range-high-75-100
     random-range-high-90-100: 50
-  shuffle_vault_boxes: 'true' # change to random
+  shuffle_vault_boxes: random
   EP_difficulty:
     normal: 30
     tedious: 20

@@ -97,7 +97,7 @@ Factorio:
   goal: satellite # satellite -> rocket
   tech_tree_layout: single
   min_tech_cost: 50 #50 -> 5
-  max_tech_cost: 2000 # 2000 -> 500
+  max_tech_cost: 500
   tech_cost_distribution: even
   tech_cost_mix: 70
   ramping_tech_costs: 'false'

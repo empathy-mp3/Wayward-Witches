@@ -127,7 +127,6 @@ Timespinner:
     'false': 25
   GyreArchives:
     'false': 25
-    'true': 5  # remove this line
   Cantoran:
     random: 10
   LoreChecks:
@@ -306,7 +305,6 @@ A Hat in Time:
     random-low: 11
   YarnCostMax:
     '8': 25
-    '12': 5  # remove this line
     '10': 12
   YarnAvailable:
     '50': 25

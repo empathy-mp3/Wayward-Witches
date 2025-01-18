@@ -100,7 +100,7 @@ Noita: # Note: Finalised. YAML Edits: 5.
   path_option:
     main_path: 10
     side_path: 25
-    main_world: 70 # Item: Reduce to 25/10/5
+    main_world: 10 # Item: Reduce to 5
   hidden_chests: random-range-2-4
   pedestal_checks: random-range-4-8
   orbs_as_checks:
@@ -243,7 +243,7 @@ Timespinner: # Edit count: 13
     empty: 5 # Item: Set to 0
   shop_warp_shards: 'true'
   shop_multiplier:
-    '0': 1 # Item: Set chance to 20
+    '0': 20
     '1': 40
   loot_pool: vanilla
   drop_rate_category: tiered

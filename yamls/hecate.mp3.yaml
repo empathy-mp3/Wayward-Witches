@@ -7,7 +7,7 @@ game:
   TUNIC: 0
 description: empathy.mp3 game for Wayward Witches async
 Noita:
-  start_inventory: {Extra Life Perk: 1}
+  start_inventory: {Extra Life Perk: 1, Orb: 4}
   progression_balancing: '50'
   death_link: 'true'
   bad_effects: 
@@ -138,7 +138,7 @@ Noita:
 
 
 Outer Wilds:
-  start_inventory_from_pool: {Launch Codes: 1}
+  start_inventory_from_pool: {Launch Codes: 1, Translator: 1}
   progression_balancing: normal
   goal:
     song_of_five: 1
@@ -186,7 +186,6 @@ Outer Wilds:
     'true': 1
   split_translator:
     'false': 2
-    'true': 1
   enable_hn1_mod: 'false'
   enable_outsider_mod: 'false'
   enable_ac_mod: 'false'
@@ -296,7 +295,7 @@ Outer Wilds:
 
 Manual_DeckedOut2_mp3:
   start_inventory_from_pool: {Boots of Swiftness: 1}
-  progression_balancing: 50
+  progression_balancing: 83
   goal:
     enter the hideout: 1
     craft all legendary cards: 1
@@ -445,18 +444,59 @@ Manual_DeckedOut2_mp3:
       force: true
 
 ULTRAKILL:
-  goal: 
-    "1_4": 5
-    "2_4": 5
-    "3_2": 5
-    "4_4": 5
-    "5_4": 5
-    "6_2": 5
-    "7_4": 5
-    "P_1": 1
-    "P_2": 1
-  goal_requirement: random-high # change to random-low
-  include_secret_mission_completion: random
+  start_level:
+    # Choose which level to start in.
+    '0_1': 20
+    '0_2': 50
+    '1_1': 50
+    '1_2': 50
+    '1_3': 50
+    '2_1': 50
+    '2_3': 50
+    '3_1': 50
+    '4_2': 50
+  goal_level:
+    # Choose which level must be completed to finish the game.
+    '0_1': 1
+    '0_2': 1
+    '0_3': 1
+    '0_4': 1
+    '0_5': 1
+    0_s: 0
+    '1_1': 1
+    '1_2': 1
+    '1_3': 1
+    '1_4': 5
+    1_s: 2
+    '2_1': 1
+    '2_2': 1
+    '2_3': 1
+    '2_4': 5
+    2_s: 0
+    '3_1': 1
+    '3_2': 5
+    '4_1': 1
+    '4_2': 1
+    '4_3': 1
+    '4_4': 5
+    4_s: 0
+    '5_1': 1
+    '5_2': 1
+    '5_3': 1
+    '5_4': 5
+    5_s: 2
+    '6_1': 0
+    '6_2': 5
+    '7_1': 1
+    '7_2': 1
+    '7_3': 1
+    '7_4': 5
+    7_s: 0
+  goal_requirement: random-range-high-5-32 # change to random-range-low-5-32
+  skipped_levels:
+    # List as many levels as you would like to skip completing for the goal.
+    ['P-2', 'P-1', '0-S', '4-S']
+  auto_exclude_skipped_locations: 'true'
   unlock_type: random
   trap_percent: random-high # change to random-low
   boss_rewards: 
@@ -464,10 +504,8 @@ ULTRAKILL:
     standard: 7 # reduce to 2
     extended: 11 # reduce to 1
   challenge_rewards:
-    'true': 2
     'false': 10
-  p_rank_rewards: 
-    'true': 2
+  p_rank_rewards:
     'false': 10
   hank_rewards: random
   randomize_clash_mode: false
@@ -475,19 +513,33 @@ ULTRAKILL:
   cleaning_rewards: false
   chess_reward: false
   rocket_race_reward: false
-  starting_weapon: 
-    any_weapon: 5
-    any_weapon_or_arm: 15 # reduce to 1
+  starting_weapon_pool:
+    Feedbacker: 0
+    Knuckleblaster: 0 # change weight to 100, and Whiplash to 75
+    Nailgun - Attractor: 0
+    Nailgun - JumpStart: 0
+    Nailgun - Overheat: 50
+    Railcannon - Electric: 0
+    Railcannon - Malicious: 0
+    Railcannon - Screwdriver: 50
+    Revolver - Marksman: 0
+    Revolver - Piercer: 50
+    Revolver - Sharpshooter: 0
+    Rocket Launcher - Firestarter: 0
+    Rocket Launcher - Freezeframe: 50
+    Rocket Launcher - S.R.S. Cannon: 0
+    Shotgun - Core Eject: 0
+    Shotgun - Pump Charge: 50
+    Shotgun - Sawed-On: 0
+    Whiplash: 25
   randomize_secondary_fire: random
   start_with_arm: true
   starting_stamina: random-high
   starting_walljumps: random-high
   start_with_slide: 
     'true': 3
-    'false': 1
   start_with_slam:
     'true': 3
-    'false': 1
   revolver_form: random
   shotgun_form: random
   nailgun_form: random
@@ -605,7 +657,7 @@ ULTRAKILL:
 TUNIC:
   progression_balancing: '50'
   sword_progression: 'true'
-  start_with_sword: 'false'
+  start_with_sword: 'true'
   ability_shuffling: 'true'
   laurels_location: anywhere
   non_local_items:

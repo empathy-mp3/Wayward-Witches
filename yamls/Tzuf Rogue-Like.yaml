@@ -121,7 +121,7 @@ Hollow Knight:
   MaximumEssencePrice: '1400'
   MinimumCharmPrice: '1'
   MaximumCharmPrice: '20'
-  RandomCharmCosts: '-2' # Change to 0
+  RandomCharmCosts: '0'
   MinimumEggPrice: '1'
   MaximumEggPrice: '10'
   EggShopSlots: '16'

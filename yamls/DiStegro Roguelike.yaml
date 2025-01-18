@@ -40,7 +40,7 @@ Pokemon Red and Blue:
   second_fossil_check_condition: 3
   fossil_check_item_types: key_items
   exp_all: randomize
-  old_man: vanilla
+  old_man: early_parcel
   badgesanity: true
   badges_needed_for_hm_moves: on
   key_items_only: false
@@ -146,7 +146,7 @@ Pokemon Emerald:
     
   badges: completely_random
   hms: completely_random
-  key_items: true
+  key_items: false
   bikes: true
   event_tickets: true
   rods: false
@@ -428,6 +428,8 @@ Ocarina of Time:
   local_items:
     - "Gold Skulltula Token"
     - "Ice Trap"
+    - "Kokiri Sword"
+    - "Slingshot"
   non_local_items:
     []
 triggers:
@@ -478,7 +480,7 @@ A Link to the Past:
   compass_shuffle: start_with
   map_shuffle: start_with
   restrict_dungeon_item_on_boss: false
-  item_pool: normal
+  item_pool: easy
   
   #Item Functionality from Normal to Easy
   item_functionality: 
