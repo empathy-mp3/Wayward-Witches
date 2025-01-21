@@ -37,7 +37,7 @@ EarthBound:
   shuffle_enemy_drops: true
   common_filler_weight: 6
   uncommon_filler_weight: 2
-  rare_filler_weight: 2  #Change this to 10
+  rare_filler_weight: 10
   death_link: true
   death_link_mode: mortal_mercy
 
@@ -80,8 +80,8 @@ Factorio:
     slow: 0
     chaos: 0
     new_fast: 0
-    new_normal: 0
-    new_slow: 50
+    new_normal: 50
+    new_slow: 0
   recipe_ingredients:
     science_pack: 50
   recipe_ingredients_offset: 5  # Change to 3, then to 1 then to -1
@@ -168,7 +168,7 @@ Factorio:
   teleport_traps: 0
   grenade_traps: 20
   cluster_grenade_traps: 20
-  artillery_traps: 5  #Change to 0
+  artillery_traps: 0
   atomic_rocket_traps: 0
   attack_traps: 0
   evolution_traps: 0

@@ -13,7 +13,7 @@ Manual_Godhome_Eszenn:
   number_of_bosses:
     random-range-20-30: 50
   exclude_p5:
-    'false': 50 #Start false change to true
+    'true': 50
   death_link:
     'true': 10
   include_bindings:

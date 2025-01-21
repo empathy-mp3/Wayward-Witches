@@ -71,10 +71,9 @@ Pokemon Red and Blue:
   minimum_steps_between_encounters: 25
   level_scaling: auto
   
-  # EXP Modifier from 32 to 48
   exp_modifier:
-    32: 50
-    48: 0
+    32: 0
+    48: 50
 
   randomize_wild_pokemon: completely_random
   area_1_to_1_mapping: true
@@ -178,9 +177,7 @@ Pokemon Emerald:
   #Replace "_Legendaries" with "[]"
   wild_encounter_blacklist: _Legendaries
   starters: completely_random
-
-  #Replace "_Legendaries" with "[]"
-  starter_blacklist: _Legendaries
+  starter_blacklist: []
 
   trainer_parties: completely_random
   trainer_party_blacklist: _Legendaries
@@ -213,11 +210,10 @@ Pokemon Emerald:
   purge_spinners: true
   match_trainer_levels: multiplicative
 
-  #Levels Bonus from 50 to 60, to 70
   match_trainer_levels_bonus:
     50: 0
-    60: 60
-    70: 0
+    60: 0
+    70: 50
 
   double_battle_chance: random-range-30-60
   better_shops: true
@@ -265,12 +261,8 @@ Ocarina of Time:
   owl_drops: false
   warp_songs: false
   spawn_positions: off
-  
-  #Shuffle Bosses from Full to Limited
   shuffle_bosses:
-    limited: 0
-    full: 50
-
+    limited: 50
   triforce_hunt: true
   triforce_goal: random
   extra_triforce_percentage: random-range-10-25

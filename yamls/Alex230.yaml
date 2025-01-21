@@ -1,6 +1,6 @@
 Manual_SingleLevelRoguelike2_Alexander230:
   plando_items: [{"item": "Disable Atmosfear Mod", "location": "fearless I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Disable Spooky Mod", "location": "fearless I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Disable Malice Mod", "location": "fearless II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Skill Level 3", "location": "challenge V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Disable Fast Monsters", "location": "challenge X-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Brighter Gamma", "location": "sight I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Allow Using Automap", "location": "sight III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Free Choice of Map", "location": "choice II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Allow Free Saves and Loads", "location": "rest I-1", "world": "The Cauldron", "force": true, "from_pool": true}]
-  progression_balancing: 20    # increase this by 10, 3 times
+  progression_balancing: 53    # increase this by 10, 3 times
   death_link: 'true'
 
 game: Manual_SingleLevelRoguelike2_Alexander230

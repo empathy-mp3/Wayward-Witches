@@ -44,7 +44,7 @@ Timespinner:
   gyre_archives: random
   cantoran: random
   lore_checks: random
-  boss_rando: scaled #change to off
+  boss_rando: off
   EnemyRando: off
   damage_rando: mostlynerfs #change to balanced, then to mostlybuffs
   hp_cap: 999
@@ -90,8 +90,8 @@ TUNIC:
   ice_grappling: off
   ladder_storage: off
   ladder_storage_without_items: false
-  # exclude_locations:
-  #   - Rooted Ziggurat Lower - Hexagon Blue
+  exclude_locations:
+    - Rooted Ziggurat Lower - Hexagon Blue
 
 Astalon:
   plando_items: [{"item": "Blood Chalice", "location": "healing VIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Icarus Emblem", "location": "speed IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Amulet of Sol", "location": "price VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"200 Orbs": 39}, "locations": [ranged weapon II-3, ranged weapon III-2, ranged weapon IV-2, explosion II-1, explosion V-2, vitality I-1, vitality I-6, vitality II-5, vitality V-1, vitality VIII-7, vitality IX-5, healing II-3, healing V-3, healing VII-1, healing VIII-4, stealth II-1, price VII-1, price IX-2, price XIII-2, price XVI-1, defense VIII-2, defense XX-2, attack III-1, attack IV-1, stamina I-3, mana II-2, mana III-1, mana III-2, mana IV-3, slots I-6, slots I-8, slots III-1, slots IV-4, XP II-1, ice I-1, travel I-1, time I-3, time III-1, time V-2], "world": "The Cauldron", "force": true, "from_pool": true}]

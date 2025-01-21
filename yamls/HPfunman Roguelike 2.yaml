@@ -42,14 +42,12 @@ Kingdom Hearts:
     false: 50
     true: 0
   atlantica:
-    false: 0
-    true: 50 # change to false
+    false: 50
   hundred_acre_wood:
     false: 0
     true: 50 # change to false
   cups:
-    false: 0
-    true: 50 # change to false
+    false: 50
   puppies:
     full: 0
     triplets: 0

@@ -309,7 +309,7 @@ Manual_DeckedOut2_mp3:
     complete a 70 ember and 16 crown run: 8
     complete a deepfrost difficulty run: 4
     blow up the gateway with the bomb: 8
-  filler_traps: random # change to random-low
+  filler_traps: random-low
   death_link: 'true'
   frost_ember_locations: 'true'
   coin_crown_locations: 'true'
@@ -318,7 +318,7 @@ Manual_DeckedOut2_mp3:
   difficulty_objective_locations: 'true'
   area_objective_locations: 'true'
   various_ground_item_locations: 'true'
-  legendary_part_locations: 'true' # change to 'false'
+  legendary_part_locations: 'false'
   various_area_locations: 'true'
   common_card_location_count: 0
   uncommon_card_location_count: 0
@@ -500,8 +500,8 @@ ULTRAKILL:
   unlock_type: random
   trap_percent: random-high # change to random-low
   boss_rewards: 
-    disabled: 3
-    standard: 7 # reduce to 2
+    disabled: 10
+    standard: 2
     extended: 11 # reduce to 1
   challenge_rewards:
     'false': 10

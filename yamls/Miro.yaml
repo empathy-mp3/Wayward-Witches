@@ -221,8 +221,8 @@ DLCQuest:
   double_jump_glitch:
     none: 25
     simple: 25              # remove this line (or change to 0)
-  time_is_money: optional   # change to required
-  start_hints: ["Big Sword Pack", "Double Jump Pack", "Finish the Fight Pack", "Gun Pack", "Incredibly Important Pack"]           # add one per upgrade, 6 in total: "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
+  time_is_money: required
+  start_hints: ["Big Sword Pack", "Double Jump Pack", "Finish the Fight Pack", "Gun Pack", "Incredibly Important Pack", "Map Pack"]           # add one per upgrade, 6 in total: , "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
 
   death_link: true
   coinsanity:
@@ -393,14 +393,14 @@ Pokemon Emerald:
   require_flash:
     both: 1
   legendary_hunt_count: random-high # change to random-low
-  trainer_party_blacklist: []       # add "_Legendaries"
+  trainer_party_blacklist: _Legendaries
   force_fully_evolved: random-low   # change to random-high
   ability_blacklist:
     Arena Trap: 1
     Shadow Tag: 1
     Wonder Guard: 1
   exp_modifier: 300
-  match_trainer_levels_bonus: -5   # change to 0, then to 5
+  match_trainer_levels_bonus: 0   # change to 5
 
   progression_balancing: 1
   badges:
@@ -872,7 +872,7 @@ Minecraft:
     'true': 50
   combat_difficulty: normal   # change to easy
   include_postgame_advancements: true # change to false
-  bee_traps: random-high    # change to random-low, then to 0
+  bee_traps: random-low    # change to 0
   send_defeated_mobs: true  # change to false
   progression_balancing: 1
   egg_shards_required: 0
@@ -960,7 +960,7 @@ Timespinner:
   boss_healing: false       # change to true
   shop_multiplier: 0
   dad_percent: random        # change to true
-  trap_chance: random-range-low-5-90 # change to random-range-low-0-35, then to 0
+  trap_chance: random-range-low-0-35 # change to 0
   start_inventory: {Lightwall: 1, Timeworn Warp Beacon: 1}
 
   start_with_meyef: *convenience

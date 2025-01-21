@@ -9,6 +9,7 @@ requires:
   version: 0.5.1
   
 Hollow Knight:
+  start_inventory: {Monarch_Wings: 1}
   plando_items: [{"item": "Fragile_Heart", "location": "vitality XV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hiveblood", "location": "healing III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fragile_Greed", "location": "price XII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Nailmaster's_Glory", "location": "melee weapon IX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Great_Slash", "location": "melee weapon X-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Geo_Rock-Default": 4}, "locations": [defense XVIII-1, travel III-1, uncategorized XII-1, uncategorized XIII-1], "world": "The Cauldron", "force": true, "from_pool": true}]
 # 12 UPGRADES
   progression_balancing: 0
@@ -104,7 +105,7 @@ Hollow Knight:
     [Grub, Mimic_Grub]
  
 Terraria:
-  plando_items: [{"item": "Reward: Cobalt Shield", "location": "defense XVIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Rod of Discord", "location": "travel III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Black Belt", "location": "uncategorized XII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Lava Charm", "location": "uncategorized XIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Reward: Coins": 5}, "locations": [vitality XV-3, healing III-3, price XII-1, melee weapon IX-2, melee weapon X-2], "world": "The Cauldron", "force": true, "from_pool": true}]
+  plando_items: [{"item": "Reward: Cobalt Shield", "location": "defense XVIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Rod of Discord", "location": "travel III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Black Belt", "location": "uncategorized XII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Reward: Lava Charm", "location": "uncategorized XIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Reward: Coins": 5}, "locations": [vitality XV-3, healing III-3, price XII-1, melee weapon IX-2, melee weapon X-2], "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hardmode", "location": "Wall of Flesh", "world": false, "force": true, "from_pool": true}]
 # 10 UPGRADES
   progression_balancing: 0
   accessibility: full
@@ -124,6 +125,7 @@ Terraria:
     ["Real Estate Agent", "Dead Men Tell No Tales", "The Great Slime Mitosis", "Funkytown", "Gelatin World Tour", "Watch Your Step!", "And Good Riddance!"] # Can be upgraded to include: Lucky Break, It Can Talk?!
 
 Stardew Valley:
+  start_inventory: {Island Obelisk: 1, Parrot Express: 1}
   plando_items: [{"items": {"Joja Cola": 9}, "locations": [vitality XV-3, healing III-3, price XII-1, defense XVIII-1, melee weapon IX-2, melee weapon X-2, travel III-1, uncategorized XII-1, uncategorized XIII-1], "world": "The Cauldron", "force": true, "from_pool": true}]
 # 12 UPGRADES
   goal:
@@ -175,9 +177,9 @@ Stardew Valley:
     ['Puzzles', 'Bushes', 'Dig Spots', 'Repeatables']
 
   quick_start: true
-  starting_money: random-middle # Can be upgraded to random-high
+  starting_money: random-high
   profit_margin: random-range-low-100-400 # Can be upgraded to random-range-middle-100-400
-  experience_multiplier: random-range-low-100-400 # Can be upgraded to random-range-middle-100-400
+  experience_multiplier: random-range-middle-100-400
   friendship_multiplier: random-range-low-100-400 # Can be upgraded to random-range-middle-100-400
   debris_multiplier:
     vanilla: 8
@@ -188,7 +190,7 @@ Stardew Valley:
   movement_buff_number: random-low
   enabled_filler_buffs:
     ['Bite Rate', 'Defense', 'Luck', 'Damage', 'Immunity', 'Health', 'Energy', 'Fish Trap', 'Fishing Bar Size']
-  trap_items: easy # Can be upgraded to no_traps
+  trap_items: no_traps
   multiple_day_sleep_enabled: true
   multiple_day_sleep_cost: free
 

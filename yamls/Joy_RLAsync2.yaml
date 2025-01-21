@@ -6,7 +6,7 @@ game:
  The Witness: 1 #    line 130
 description: YAML for Roguelike Async 2.
 DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
-  start_inventory: {"Live Freemium or Die: Progressive Weapon": 1}
+  start_inventory: {"Live Freemium or Die: Progressive Weapon": 1, Pause Menu Pack: 1, Movement Pack: 1}
   progression_balancing: 10 # -> 20 -> 30 -> 40 -> 50
   accessibility: full
   coinsanity: coin
@@ -175,7 +175,7 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
   enable_ac_mod: 'false'
   enable_hn2_mod: 'false'
   enable_fq_mod: 'false'
-  start_inventory: {"Signalscope": 1}
+  start_inventory: {"Signalscope": 1, Nomai Warp Codes: 1}
       
   item_links:
     - name: OuterWildsTrapLink
@@ -247,7 +247,7 @@ Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and
   stars_to_finish: random-range-60-70 # -> 50-60 
   death_link: 'true'
   completion_type: last_bowser_stage
-  start_inventory: {"Second Floor Key": 1}
+  start_inventory: {"Second Floor Key": 1, "Basement Key": 1}
 
 The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 183
   plando_items:
@@ -286,9 +286,9 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
   progression_balancing: 0 # -> 25 -> 50
   accessibility: full
   puzzle_randomization:
-    sigma_normal: 0  # -> 5
-    umbra_variety: 5 #     5
-    sigma_expert: 5  #    0
+    sigma_normal: 5
+    umbra_variety: 5
+    sigma_expert: 0
   victory_condition:
     elevator: 10 # . . . -> 5
     challenge: 5 # . . .    0
@@ -337,14 +337,4 @@ The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 
   death_link: 'true'
   death_link_amnesty: 0 # -> 2 -> 4
   shuffle_dog: random_item
-  start_inventory: {"Town Obelisk Key": 1}
-
-      
-  item_links:
-    - name: WitnessTrapLink
-      item_pool:
-        - Slowness
-        - Power Surge
-        - Bonk
-      replacement_item: "Bonk"
-      link_replacement: true
+  start_inventory: {"Town Obelisk Key": 1, Quarry Obelisk Key: 1}

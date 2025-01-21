@@ -17,7 +17,7 @@ Minecraft:
   required_bosses: none
   shuffle_structures: 'true'
   structure_compasses: 'true'
-  combat_difficulty: hard # change to normal, then easy
+  combat_difficulty: normal # change to easy
   bee_traps: 0
   death_link: 'true'
   exclude_locations:

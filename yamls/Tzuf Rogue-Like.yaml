@@ -1,6 +1,6 @@
 name: TzufRougelike
 game: 
- Super Metroid: 0
+ Super Metroid: 2
  Hollow Knight: 2
  Ocarina of Time: 2
  A Link to the Past: 2
@@ -52,7 +52,7 @@ Super Metroid:
   custom_objective_list: random
   custom_objective_count: '5'
   relaxed_round_robin_cf: 'false'
-  start_inventory: {Morph Ball: 1}
+  start_inventory: {Morph Ball: 1, Speed Booster: 1}
 
 
 Hollow Knight:
@@ -144,7 +144,7 @@ Hollow Knight:
   CostSanityCharmWeight: '1'
   CostSanityGeoWeight: '8'
   CostSanityHybridChance: random
-  start_inventory: {Left_Mantis_Claw: 1}
+  start_inventory: {Left_Mantis_Claw: 1, Right_Mothwing_Cloak: 1}
 
 Ocarina of Time:
   plando_items: [{"item": "Heart Container", "location": "vitality II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality III-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Heart Container", "location": "vitality IX-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle with Red Potion", "location": "healing VII-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Double Defense", "location": "defense III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hylian Shield", "location": "defense VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Biggoron Sword", "location": "melee weapon I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Farores Wind", "location": "travel II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Arrows (5)": 23, "Bombs (5)": 23, "Rupee (1)": 23, "Rupees (5)": 23}, "locations": [ranged weapon I-8, progressive I-1, progressive I-2, explosion II-4, explosion V-4, vitality V-3, vitality VII-2, vitality VIII-3, vitality XI-4, vitality XIII-4, vitality XV-1, healing IV-2, healing V-2, speed VII-2, defense I-2, defense VII-2, defense XV-2, defense XVI-3, attack V-1, slots II-4, second chance V-3, melee weapon X-3, uncategorized XX-1], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -153,7 +153,7 @@ Ocarina of Time:
   logic_rules: glitchless
   logic_no_night_tokens_without_suns_song: 'true'
   open_forest: open
-  open_kakariko: zelda  # Change to open
+  open_kakariko: open
   open_door_of_time: 'true'
   zora_fountain: closed
   gerudo_fortress: fast
@@ -240,7 +240,7 @@ Ocarina of Time:
   start_with_consumables: 'false'
   start_with_rupees: 'false'
   item_pool_value: balanced 
-  junk_ice_traps: onslaught # change to on
+  junk_ice_traps: on
   ice_trap_appearance: major_only
   adult_trade_start: claim_check
   default_targeting: hold
@@ -294,7 +294,7 @@ Ocarina of Time:
   sfx_horse_neigh: random
   sfx_hover_boots: random
   sfx_ocarina: random
-  start_inventory: {Bomb Bag: 1}
+  start_inventory: {Bomb Bag: 1, Magic Meter: 1}
 
 A Link to the Past:
   plando_items: [{"item": "Boss Heart Container", "location": "vitality V-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Heart Container", "location": "vitality XI-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Heart Container", "location": "vitality XIII-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bottle (Red Potion)", "location": "healing IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Red Mail", "location": "defense I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Shield", "location": "defense VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Blue Mail", "location": "defense XV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Shield", "location": "defense XVI-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Bug Catching Net", "location": "uncategorized XX-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rupee (1)": 23, "Rupees (5)": 10}, "locations": [ranged weapon I-8, progressive I-1, progressive I-2, explosion II-4, explosion V-4, vitality II-1, vitality III-4, vitality VII-2, vitality VII-3, vitality VIII-3, vitality IX-3, vitality XV-1, healing V-2, healing VII-4, speed VII-2, defense III-2, defense VI-2, attack V-1, slots II-4, second chance V-3, melee weapon I-3, melee weapon X-3, travel II-3], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -348,7 +348,7 @@ A Link to the Past:
   shuffle_prizes: both
   tile_shuffle: 'false'
   glitch_boots: 'true'
-  beemizer_total_chance: '75' # Change to 50
+  beemizer_total_chance: '50'
   beemizer_trap_chance: '60'
   timer: none
   countdown_start_time: '10'
@@ -369,7 +369,7 @@ A Link to the Past:
   music: 'true'
   reduceflashing: 'true'
   triforcehud: normal
-  start_inventory: {Hammer: 1}
+  start_inventory: {Hammer: 1, Hookshot: 1}
   misery_mire_medallion: random
   turtle_rock_medallion: random
   item_links:

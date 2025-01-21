@@ -436,3 +436,47 @@ slots I-8
 uncategorized XVII-1
 uncategorized XVII-2
 uncategorized XVII-3
+uncategorized V-1
+uncategorized V-2
+uncategorized V-3
+uncategorized V-4
+uncategorized V-5
+uncategorized V-6
+defense XX-1
+defense XX-2
+XP XIV-1
+uncategorized X-1
+uncategorized X-2
+uncategorized X-3
+uncategorized X-4
+ranged weapon I-1
+ranged weapon I-2
+ranged weapon I-3
+ranged weapon I-4
+ranged weapon I-5
+ranged weapon I-6
+ranged weapon I-7
+ranged weapon I-8
+XP III-1
+XP III-2
+water I-1
+water I-2
+time I-1
+time I-2
+time I-3
+price XI-1
+price XI-2
+challenge X-1
+utility VI-1
+utility VI-2
+time IV-1
+time IV-2
+time IV-3
+time IV-4
+uncategorized XIX-1
+uncategorized XIX-2
+uncategorized XIX-3
+uncategorized XIX-4
+uncategorized XIX-5
+uncategorized XIX-6
+uncategorized XIX-7

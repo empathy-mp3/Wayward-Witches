@@ -17,7 +17,7 @@ A Hat in Time:
   PonCost: low
   ChapterCost: high       # change to medium, then to low
   DLC: medium               # change to low, then to off
-  TrapChance: random      # change to random-range-low-0-70, then to 0
+  TrapChance: random-range-low-0-70      # change to 0
   StartWithCompassBadge:
     'true': 25
 

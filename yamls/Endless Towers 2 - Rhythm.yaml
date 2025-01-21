@@ -151,13 +151,12 @@ Dome Keeper:
   # Game Options
   progression_balancing: 0
   accessibility: locations
-  keeper: random # Upgrade: engineer
+  keeper: engineer
     # What Keeper do you wish to play with.
   dome:
     # What Dome do you wish to play with.
     laser: 3 # Upgrade: Disabled
     artillery: 5
-    tesla: 3 # Upgrade: Disabled
 
   dome_gadget:
     # What Dome gadget do you wish to play with.
@@ -688,7 +687,7 @@ Manual_RatchetAndClankUYA_Rhythm:
       world: The Cauldron
       force: true
       from_pool: true
-  progression_balancing: 5 # Upgrade: Increase by 10, 15, 20, 25 (for total of 75 at max)
+  progression_balancing: 15 # Upgrade: Increase by 15, 20, 25 (for total of 75 at max)
   accessibility: locations
   start_inventory: {Map-O-Matic: 1}
   death_link: true
@@ -713,12 +712,8 @@ Sonic Adventure 2 Battle:
   required_rank: e
   required_cannons_core_missions: first
   emblem_percentage_for_cannons_core: 0
-  number_of_level_gates: # Upgrade: Always 0
+  number_of_level_gates:
     0: 9
-    1: 7
-    2: 5
-    3: 3
-    4: 1
   level_gate_distribution: random
   level_gate_costs: 
     low: 6

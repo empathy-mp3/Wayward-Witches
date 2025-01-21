@@ -36,7 +36,7 @@ DOOM 1993:
   random_music: shuffle_game
   flip_levels: randomly_flipped
   allow_death_logic: 'false'
-  pro: 'true' # Change to 'false'
+  pro: 'false'
   start_with_computer_area_maps: 'false'
   death_link: 'true'
   reset_level_on_death: 'false'
@@ -84,7 +84,7 @@ Links Awakening DX:
   tradequest: 'true'
   rooster: 'false' # Change to 'true'
   trendy_game: hardest # Change to easy
-  hard_mode: ohko # Change to none
+  hard_mode: none
   tarins_gift: bush_breaker
   overworld: open_mabe
   in_game_hints: 'true'

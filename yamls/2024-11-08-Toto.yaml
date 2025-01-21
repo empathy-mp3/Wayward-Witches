@@ -15,7 +15,7 @@ Slay the Spire:
   ascension: 16 # 16 -> 12 -> 9 -> 5 -> 1
   final_act:
     false: 1
-    true: 1 # 1 -> 0
+    true: 0
   death_link: 10
 Sentinels of the Multiverse:
   plando_items: [{"items": {"Hero Toughness 1": 22, "Villain Fragility 1": 22}, "locations": [vitality III-8, vitality VIII-1, speed IV-4, attack III-2, choice I-1, choice I-2, choice I-3, choice I-4, choice I-5, choice I-6, choice II-1, choice II-2, choice II-4, choice III-1, choice III-2, choice III-3, choice III-4, choice III-5, choice IV-1, utility II-1, utility III-1, utility V-1], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -46,10 +46,6 @@ Sentinels of the Multiverse:
     - The Cauldron
     - Cauldron Promos
   exclude_from_pool:
-    - Legacy # No change -> Remove this and the 3 below
-    - America's Greatest Legacy
-    - America's Newest Legacy
-    - Freedom Five Legacy
     - The Scholar # No change -> Remove this and the 1 below
     - The Scholar of the Infinite
     - Terminus # No change -> Remove this and the 2 below
@@ -172,11 +168,11 @@ Dark Souls III:
   min_levels_in_5: 1
   max_levels_in_5: 0 # 0 -> 3 -> 5
   min_levels_in_10: 0 # 0 -> 1
-  max_levels_in_10: 5 # 5 -> 10
+  max_levels_in_10: 10
   simple_early_bosses: true
   reduce_harmless_enemies: false
   random_enemy_preset:
-    RemoveSource: Ancient Wyvern; Ancient Wyvern Mob; Bridge Darkeater Midir; Darkeater Midir; King of the Storm
+    RemoveSource: Ancient Wyvern; Ancient Wyvern Mob; Bridge Darkeater Midir; Darkeater Midir; King of the Storm; Carthus Sandworm
     Boss:
       - Weight: 100
         Pool: default
@@ -190,7 +186,7 @@ Dark Souls III:
         Pool: default
       - Weight: 5 # 5 -> 0
         Pool: Minibosses
-      - Weight: 2 # 2 -> 0
+      - Weight: 0
         Pool: Bosses
       - Weight: 0
         Pool: Black Knight; Cathedral Knight; Red-Eyed Lothric Knight; Millwood Knight; Ringed Knight; Pontiff Knight; Silver Knight; Winged Knight
@@ -261,7 +257,7 @@ Hollow Knight:
   SplitMothwingCloak: true
   SplitMantisClaw: true
   CostSanity: on
-  CostSanityHybridChance: 50 # 50 -> 25
+  CostSanityHybridChance: 25
   CostSanityGeoWeight: 4
 
 Timespinner:
@@ -344,13 +340,3 @@ Timespinner:
     - Chaos Trap
     - Neurotoxin Trap
     - Bee Trap
-  item_links:
-    - name: TimespinnerTrapLink
-      item_pool:
-        - Bee Trap
-        - Chaos Trap
-        - Meteor Sparrow Trap
-        - Neurotoxin Trap
-        - Poison Trap
-      replacement_item: "Meteor Sparrow Trap"
-      link_replacement: true

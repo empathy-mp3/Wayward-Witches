@@ -33,7 +33,7 @@ The Witness:
   shuffle_boat: 'true'
   shuffle_lasers: anywhere
   obelisk_keys: 'false'
-  trap_percentage: random-high # change to random-low
+  trap_percentage: random-low
 
   trap_weights:
     Bonk: 0

@@ -295,16 +295,6 @@ Timespinner: # 3 yaml change upgrades
   back_to_the_future: 'true'
   trap_chance: random
   traps: ['Meteor Sparrow Trap', 'Poison Trap', 'Chaos Trap', 'Neurotoxin Trap', 'Bee Trap']
-  item_links:
-    - name: TimespinnerTrapLink
-      item_pool:
-        - Bee Trap
-        - Chaos Trap
-        - Meteor Sparrow Trap
-        - Neurotoxin Trap
-        - Poison Trap
-      replacement_item: "Meteor Sparrow Trap"
-      link_replacement: true
 
 Manual_MarbleBlastUltra_KitLemonfoot: # 1 yaml change upgrade
   plando_items: [{"item": "Time Travel (-5s)", "location": "time I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-5s)", "location": "time I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-5s)", "location": "time II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-5s)", "location": "time II-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-5s)", "location": "time III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-5s)", "location": "time III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-10s)", "location": "time IV-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-5s)", "location": "time IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-10s)", "location": "time IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-5s)", "location": "time V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-5s)", "location": "time V-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-10s)", "location": "time VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Time Travel (-5s)", "location": "time VI-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Time Travel (-3s)": 47}, "locations": [fire III-1, vitality VII-5, vitality IX-6, vitality IX-7, vitality X-6, vitality XI-1, vitality XI-6, vitality XII-1, vitality XII-7, vitality XIII-1, vitality XIII-6, vitality XIV-1, healing I-4, healing II-2, healing VII-2, healing IX-1, healing X-2, price III-1, price XI-1, defense V-1, defense IX-1, defense XV-1, defense XVI-1, attack VII-1, food I-2, food I-3, second chance I-1, second chance II-2, second chance VII-1, second chance VII-2, second chance VIII-1, second chance VIII-2, XP I-2, XP VI-1, XP VIII-1, XP XI-1, XP XII-2, XP XIII-2, melee weapon VII-1, melee weapon IX-1, water I-2, luck II-1, time II-1, time II-5, time V-5, time VI-1, copy III-1], "world": "The Cauldron", "force": true, "from_pool": true}]

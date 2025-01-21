@@ -234,9 +234,8 @@ Timespinner:
   inverted: false
   gyre_archives: random
   cantoran: random
-  boss_rando:  # Disable Scaled
+  boss_rando:
     'off': 20
-    scaled: 20
   show_bestiary: random
   show_drops: random
   enter_sandman: random

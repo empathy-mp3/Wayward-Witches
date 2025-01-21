@@ -12,7 +12,7 @@ game:
 Timespinner:
   plando_items: [{"item": "Eternal Crown", "location": "defense IX-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Eternal Coat", "location": "defense XIX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Galaxy Earrings", "location": "XP III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XIV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Silence Ring", "location": "uncategorized XIX-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Mind Refresh": 3, "Sand Vial": 3, "Antidote": 3}, "locations": [healing IV-4, healing VI-1, travel II-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   DamageRando: mostlybuffs #change to 'allbuffs'
-  ExtraEarringsXP: '6' #increase by 6, 3 times
+  ExtraEarringsXP: '12' #increase by 6, 2 times
   ShopMultiplier: random-range-low-1-5 #change to '0'
   LootTierDistro: 'inverted_weight'
   TrapChance: '25' #reduce by 25
@@ -54,16 +54,6 @@ Timespinner:
   EyeSpy: random
   Inverted: random
   UnchainedKeys: random
-  item_links:
-    - name: TimespinnerTrapLink
-      item_pool:
-        - Bee Trap
-        - Chaos Trap
-        - Meteor Sparrow Trap
-        - Neurotoxin Trap
-        - Poison Trap
-      replacement_item: "Meteor Sparrow Trap"
-      link_replacement: true
 
 Celeste 64:
   plando_items: [{"items": {"Raspberry": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
@@ -207,7 +197,7 @@ Pokemon Emerald:
   - Arena Trap
   - Shadow Tag
   - Wonder Guard
-  match_trainer_levels_bonus: -1 # increase by 1, 6 times
+  match_trainer_levels_bonus: 1 # increase by 1, 4 times
 
   progression_balancing: '0'
   badges: completely_random
