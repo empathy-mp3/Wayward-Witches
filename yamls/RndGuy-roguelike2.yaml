@@ -375,12 +375,10 @@ Blasphemous:
     knot_of_words: 10
     rooftops: 10
   reliquary_shuffle: random
-  enemy_randomiser_difficulty: # remove '4', then also remove '3', then also remove '2'
+  enemy_randomiser_difficulty: # remove '2'
     '0': 10
     '1': 20
     '2': 30
-    '3': 40
-    '4': 50
   triggers:
     - option_category: Blasphemous
       option_name: enemy_randomiser_difficulty

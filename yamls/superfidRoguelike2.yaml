@@ -20,7 +20,7 @@ DLCQuest:
     disabled: 1
     shuffled: 3
   coinbundlequantity: random-range-low-5-50
-  permanent_coins: false # Upgrade to true
+  permanent_coins: true
   ending_choice: true
   double_jump_glitch: none
   time_is_money: required

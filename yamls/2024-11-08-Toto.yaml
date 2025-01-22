@@ -12,7 +12,7 @@ Slay the Spire:
   progression_balancing: 33
   accessibility: minimal
   character: THE_PACKMASTER
-  ascension: 16 # 16 -> 12 -> 9 -> 5 -> 1
+  ascension: 12 # 12 -> 9 -> 5 -> 1
   final_act:
     false: 1
     true: 0
@@ -166,7 +166,7 @@ Dark Souls III:
   randomize_weapon_level: all
   randomize_weapon_level_percentage: 100
   min_levels_in_5: 1
-  max_levels_in_5: 0 # 0 -> 3 -> 5
+  max_levels_in_5: 5
   min_levels_in_10: 0 # 0 -> 1
   max_levels_in_10: 10
   simple_early_bosses: true

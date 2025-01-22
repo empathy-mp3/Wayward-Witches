@@ -11,7 +11,7 @@ Kingdom Hearts Birth by Sleep: #9 yaml changes
     aqua: 1
     terra: 1
   starting_worlds: 4 #4 -> 5
-  exp_multiplier: 4x # -> 6x
+  exp_multiplier: 6x
   final_terra_xehanort_ii: 'false'
   mirage_arena: 'false'
   command_board: 'false'
@@ -99,7 +99,7 @@ Factorio:
   max_science_pack: chemical_science_pack
   goal: satellite # satellite -> rocket
   tech_tree_layout: single
-  min_tech_cost: 50 #50 -> 5
+  min_tech_cost: 5
   max_tech_cost: 500
   tech_cost_distribution: even
   tech_cost_mix: 70
@@ -147,12 +147,12 @@ Factorio:
     spidertron: 1
 
     
-    ## Nuclear survival kit
-    # power-armor-mk2: 1
-    # energy-shield-mk2-equipment: 24
-    # personal-laser-defense-equipment: 5
-    # exoskeleton-equipment: 3
-    # fusion-reactor-equipment: 1 #NOTE: if AP moves to The Space Age, this may need to be renamed
+    # Nuclear survival kit
+    power-armor-mk2: 1
+    energy-shield-mk2-equipment: 24
+    personal-laser-defense-equipment: 5
+    exoskeleton-equipment: 3
+    fission-reactor-equipment: 1 #NOTE: if AP moves to The Space Age, this may need to be renamed
     
     ## Unlimited Power
     # nuclear-reactor: 1

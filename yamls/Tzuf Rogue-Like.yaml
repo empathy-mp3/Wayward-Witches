@@ -14,7 +14,7 @@ Super Metroid:
   start_location: landing_site
   remote_items: 'false'
   death_link: enable_survive
-  max_difficulty: medium  		# Change to Easy
+  max_difficulty: easy
   morph_placement: normal		# Change to Early
   hide_items: 'false'
   strict_minors: 'false'
@@ -89,7 +89,7 @@ Hollow Knight:
   RandomizeLoreTablets: 'true'
   RandomizeElevatorPass: 'true'
   PreciseMovement: 'true'
-  ProficientCombat: 'true' 	# Change to False
+  ProficientCombat: 'false'
   BackgroundObjectPogos: 'true'
   EnemyPogos: 'true'
   ObscureSkips: 'false'
@@ -231,7 +231,7 @@ Ocarina of Time:
   misc_hints: 'true'
   hint_dist: async
   text_shuffle: none
-  damage_multiplier: double # Change to normal
+  damage_multiplier: normal
   deadly_bonks: none 
   no_collectible_hearts: 'false'
   starting_tod: default

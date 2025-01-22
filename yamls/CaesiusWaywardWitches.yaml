@@ -127,7 +127,7 @@ Ocarina of Time: # 6 yaml change upgrades
   misc_hints: 'true'
   hint_dist: async
   text_shuffle: none
-  damage_multiplier: normal # Change to half
+  damage_multiplier: half
   deadly_bonks: none
   no_collectible_hearts: 'false'
   starting_tod:

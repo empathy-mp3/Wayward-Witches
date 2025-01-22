@@ -270,11 +270,11 @@ Ocarina of Time:
   dungeon_shortcuts: off
   dungeon_shortcuts_list: []
   
-  #MQ Dungeons Mode from mq to count to vanilla
+  #MQ Dungeons Mode from count to vanilla
   mq_dungeons_mode:
     vanilla: 0
-    count: 0
-    mq: 50
+    count: 50
+    mq: 0
 
   mq_dungeons_list: []
   mq_dungeons_count: 6
@@ -349,11 +349,9 @@ Ocarina of Time:
   misc_hints: true
   hint_dist: async
   text_shuffle: none
-  
-  #Damage Multi from Quadruple to Double to Normal
   damage_multiplier:
-    normal: 0
-    double: 50
+    normal: 50
+    double: 0
     quadruple: 0
     
   deadly_bonks:

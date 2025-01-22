@@ -105,7 +105,7 @@ Ocarina of Time:
   misc_hints: 'true'
   hint_dist: async
   text_shuffle: none
-  damage_multiplier: quadruple # Change to Double, then to Vanilla
+  damage_multiplier: vanilla
   deadly_bonks: vanilla
   no_collectible_hearts: 'false'
   starting_tod: default

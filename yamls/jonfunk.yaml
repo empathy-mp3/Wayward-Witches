@@ -44,7 +44,6 @@ Rogue Legacy:
   vendors:
     start_unlocked: 10
     early: 9
-    normal: 8  # remove this line
   architect:
     start_unlocked: 18
     early: 12
@@ -474,7 +473,6 @@ Hollow Knight:
     'false': 25
   ProficientCombat:
     'false': 25
-    'true': 9    # remove this option
   BackgroundObjectPogos:
     'false': 25
   EnemyPogos:
@@ -652,7 +650,6 @@ Muse Dash:
     any: 4
     b: 18
     a: 14
-    pinks: 11 # remove this option
   death_link:
     'true': 25
   chosen_traps:

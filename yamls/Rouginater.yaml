@@ -55,9 +55,9 @@ Meritous:
     true_ending: 2
   include_psi_keys: true
   include_evolution_traps: false
-  item_cache_cost: # Upgrades: Set to 0/1/2 > 0/0/2
+  item_cache_cost:
     vanilla: 0
-    reduced: 1
+    reduced: 0
     heavily_reduced: 2
   death_link: true
 Manual_PeggleDeluxe_Freezinater:

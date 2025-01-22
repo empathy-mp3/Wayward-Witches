@@ -480,3 +480,20 @@ uncategorized XIX-4
 uncategorized XIX-5
 uncategorized XIX-6
 uncategorized XIX-7
+defense XI-1
+defense XI-2
+defense II-1
+defense II-2
+defense II-3
+XP II-1
+XP II-2
+price VII-1
+XP VIII-1
+price IX-1
+price IX-2
+low HP I-1
+defense XVI-1
+defense XVI-2
+defense XVI-3
+melee weapon XI-1
+melee weapon XI-2

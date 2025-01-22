@@ -26,7 +26,7 @@ A Link to the Past:
   item_pool: normal
   item_functionality: normal
   enemy_health: default
-  enemy_damage: shuffled #change to default
+  enemy_damage: default
   progressive: 'on'
   swordless: 'false'
   dungeon_counters: 'on'

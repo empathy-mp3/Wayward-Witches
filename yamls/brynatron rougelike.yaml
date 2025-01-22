@@ -82,7 +82,7 @@ Hollow Knight:
   MinimumEssencePrice: random-low
   MaximumEssencePrice: random-high # Can be upgraded to random-middle
   MinimumCharmPrice: random-low
-  MaximumCharmPrice: random-high # Can be upgraded to random-middle
+  MaximumCharmPrice: random-middle
   RandomCharmCosts: 80 # Can be upgraded to 70
   MinimumEggPrice: 1
   MaximumEggPrice: random-high
@@ -178,7 +178,7 @@ Stardew Valley:
 
   quick_start: true
   starting_money: random-high
-  profit_margin: random-range-low-100-400 # Can be upgraded to random-range-middle-100-400
+  profit_margin: random-range-middle-100-400
   experience_multiplier: random-range-middle-100-400
   friendship_multiplier: random-range-low-100-400 # Can be upgraded to random-range-middle-100-400
   debris_multiplier:

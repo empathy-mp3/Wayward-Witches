@@ -4,6 +4,7 @@ game:
   Rogue Legacy: 0
 
 The Witness:
+  start_inventory: {"Progressive Dots": 1}
   puzzle_randomization: none
   victory_condition:
     elevator: 3
@@ -68,16 +69,17 @@ The Witness:
       force: true
 
 Rogue Legacy:
+  start_inventory: {"Health Up": 3}
   starting_gender: random
   starting_class: random
 
   available_classes:
-    ['Barbarian', 'Lich', 'Dragon', 'Knave', 'Miner', 'Spellthief', 'Knight', 'Mage', 'Traitor', 'Shinobi']
+    ['Barbarian', 'Lich', 'Dragon', 'Miner', 'Spellthief', 'Knight', 'Mage', 'Traitor', 'Shinobi']
 
   new_game_plus: normal
   fairy_chests_per_zone: random-low 
   chests_per_zone: random # change to random-low
-  vendors: normal # change to early
+  vendors: early
   architect: early
   architect_fee: random-low
 
