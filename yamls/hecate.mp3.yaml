@@ -326,10 +326,9 @@ Manual_DeckedOut2_mp3:
   legendary_card_location_count: 0
   crown_shop_location_count: 6
   victory_tome_location_count: 6
-  # change the next 3 options to random-high
-  tactical_approach_count: random-low
-  pork_chop_power_count: random-low
-  dungeon_lackey_count: random-low
+  tactical_approach_count: random-high
+  pork_chop_power_count: random-high
+  dungeon_lackey_count: random-high
   pay_to_win_count: random-high
   tailor_for_success_count: random-high
   last_stand_count: random-high

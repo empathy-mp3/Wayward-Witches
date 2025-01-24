@@ -497,3 +497,8 @@ defense XVI-2
 defense XVI-3
 melee weapon XI-1
 melee weapon XI-2
+mana I-1
+food I-1
+food I-2
+food I-3
+food I-4

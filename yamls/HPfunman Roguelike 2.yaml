@@ -91,10 +91,8 @@ Kingdom Hearts:
     14: 50
   keyblade_min_str:
     3: 50 # change min_str to 14
-  keyblade_max_mp:
-    3: 50 # change max_mp to 5
-  keyblade_min_mp:
-    0: 50 # change min_mp to 3
+  keyblade_max_mp: 5
+  keyblade_min_mp: 3
   level_checks:
     50: 50
   force_stats_on_levels:
