@@ -4,7 +4,7 @@ description: so we back in the mine
 
 game:
   Minecraft: 2
-  Manual_SuperCatTales_ChromaNyan: 2
+  Manual_SuperCatTales_ChromaNyan: 1
 requires:
   version: 0.5.0
 
@@ -12,7 +12,7 @@ Minecraft:
   plando_items: [{"item": "4 Diamond Ore", "location": "price IX-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "4 Diamond Ore", "location": "price XIII-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Sharpness III Book", "location": "attack II-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shulker Box", "location": "slots I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Shulker Box", "location": "slots II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "16 Porkchops", "location": "food I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Looting III Book", "location": "luck II-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Infinity Book", "location": "copy I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rotten Flesh": 5, "50 XP": 5, "32 Arrows": 5, "4 Emeralds": 5}, "locations": [uncategorized V-1, uncategorized V-2, uncategorized VII-2, uncategorized VII-3, uncategorized XII-5], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 50
   advancement_goal: 30
-  egg_shards_required: 10 # change to 5
+  egg_shards_required: 5
   egg_shards_available: 15
   required_bosses: none
   shuffle_structures: 'true'
@@ -28,9 +28,11 @@ Minecraft:
         - Bee Trap
       replacement_item: "Bee Trap"
       link_replacement: true
+  local_items:
+    - Dragon Egg Shard
 Manual_SuperCatTales_ChromaNyan:
   plando_items: [{"item": "Single-Use Golden Cat", "location": "uncategorized V-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Mr. Cloud", "location": "uncategorized V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Golden Bat", "location": "uncategorized VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Ghost", "location": "uncategorized VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Single-Use Golden Cat", "location": "uncategorized XII-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rusted Bell": 8}, "locations": [price IX-1, price XIII-1, attack II-1, slots I-2, slots II-3, food I-1, luck II-5, copy I-1], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0 # change to 20, then 40, then 60
   filler_traps: random-low
   death_link: 'true'
-  start_inventory: {Boss Token: 1}
+  start_inventory: {Boss Token: 2}

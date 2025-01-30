@@ -26,8 +26,8 @@ Pokemon Red and Blue:
   #Elite 4 Key Items to 50-70
   elite_four_key_items_condition:
     random-range-80-100: 0
-    random-range-50-100: 50
-    random-range-50-70: 0
+    random-range-50-100: 0
+    random-range-50-70: 50
   
   elite_four_pokedex_condition: 0
   victory_road_condition: 2
@@ -175,7 +175,7 @@ Pokemon Emerald:
   wild_pokemon: completely_random
   
   #Replace "_Legendaries" with "[]"
-  wild_encounter_blacklist: _Legendaries
+  wild_encounter_blacklist: []
   starters: completely_random
   starter_blacklist: []
 

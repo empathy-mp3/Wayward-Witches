@@ -2,9 +2,9 @@ name: hecate.mp3
 game: 
   Noita: 0
   Outer Wilds: 5
-  Manual_DeckedOut2_mp3: 0
+  Manual_DeckedOut2_mp3: 6
   ULTRAKILL: 6
-  TUNIC: 0
+  TUNIC: 8000
 description: empathy.mp3 game for Wayward Witches async
 Noita:
   start_inventory: {Extra Life Perk: 1, Orb: 4}
@@ -154,17 +154,10 @@ Outer Wilds:
     giants_deep: 3
     stranger: 6
   early_key_item:
-    translator: 3
+    translator: 0
     nomai_warp_codes: 3
-    launch_codes: 1
-    stranger_light_modulator: 0
-  triggers:
-    - option_category: Outer Wilds
-      option_name: spawn
-      option_result: stranger
-      options:
-        Outer Wilds:
-          early_key_item: stranger_light_modulator
+    launch_codes: 0
+    stranger_light_modulator: 3
   enable_eote_dlc: 'true'
   dlc_only: 'false'
   randomize_coordinates: 'true'
@@ -501,7 +494,7 @@ ULTRAKILL:
   boss_rewards: 
     disabled: 10
     standard: 2
-    extended: 11 # reduce to 1
+    extended: 1
   challenge_rewards:
     'false': 10
   p_rank_rewards:

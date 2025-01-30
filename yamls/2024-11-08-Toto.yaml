@@ -46,11 +46,6 @@ Sentinels of the Multiverse:
     - The Cauldron
     - Cauldron Promos
   exclude_from_pool:
-    - The Scholar # No change -> Remove this and the 1 below
-    - The Scholar of the Infinite
-    - Terminus # No change -> Remove this and the 2 below
-    - Ministry of Strategic Science Terminus
-    - Terminus 2199
     - Freedom Six Tachyon # No change -> Remove this
     - Cypher # No change -> Remove this and the 2 below
     - First Response Cypher
@@ -194,9 +189,9 @@ Dark Souls III:
         Pool: Darkwraith; Grave Warden; Lycanthrope
       - Weight: 0
         Pool: Jailer
-      - Weight: 2 # 2 -> 0
+      - Weight: 0
         Pool: Angel Pilgrim; Fire Witch; Judicator
-      - Weight: 5 # 5 -> 0
+      - Weight: 0
         Pool: Monstrosity of Sin; Pus of Man
   exclude_locations:
     - Small Crystal Lizards
@@ -229,11 +224,11 @@ Hollow Knight:
   RandomizeLoreTablets: true
   RandomizeElevatorPass: true
   RemoveSpellUpgrades: false
-  Goal: # 2/6/8/4 -> 3/7/7/3 -> 4/8/6/2 -> 10/6/3/1
-    hollowknight: 2
-    siblings: 6
-    radiance: 8
-    godhome: 4
+  Goal: # 3/7/7/3 -> 4/8/6/2 -> 10/6/3/1
+    hollowknight: 3
+    siblings: 7
+    radiance: 7
+    godhome: 3
   WhitePalace: include
   ExtraPlatforms: true
   DeathLink: true
@@ -241,7 +236,7 @@ Hollow Knight:
   MaximumGrubPrice: 46
   MaximumEssencePrice: 2800
   MaximumCharmPrice: 40
-  RandomCharmCosts: 100 # 100 -> 80
+  RandomCharmCosts: 80
   PlandoCharmCosts: {"Sprintmaster": 0}
   MaximumEggPrice: 20
   EggShopSlots: 16

@@ -148,7 +148,7 @@ Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
       from_pool: true
   progression_balancing: 25 # -> 50
   accessibility: full
-  goal: song_of_the_nomai # -> song_of_five
+  goal: song_of_five
   spawn:
     vanilla: 5 # . . . .  . -> 5
     random_non_vanilla: 5 #    0

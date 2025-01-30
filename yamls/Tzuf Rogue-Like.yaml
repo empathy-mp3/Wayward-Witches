@@ -2,7 +2,7 @@ name: TzufRougelike
 game: 
  Super Metroid: 2
  Hollow Knight: 2
- Ocarina of Time: 2
+ Ocarina of Time: 0
  A Link to the Past: 2
 
 Super Metroid:
@@ -21,7 +21,7 @@ Super Metroid:
   missile_qty: '30'
   super_qty: '20'
   power_bomb_qty: '10'
-  minor_qty: '75' 	# Change to 100
+  minor_qty: '100'
   energy_qty: medium 		# Change to Vanilla
   area_randomization: 'off'
   area_layout: 'false'
@@ -105,7 +105,7 @@ Hollow Knight:
   DifficultSkips: 'false'
   RemoveSpellUpgrades: 'false'
   StartLocation: king's_pass
-  Goal: godhome 	# Change to Radiance
+  Goal: radiance
   WhitePalace: exclude
   ExtraPlatforms: 'true'
   AddUnshuffledLocations: 'false'

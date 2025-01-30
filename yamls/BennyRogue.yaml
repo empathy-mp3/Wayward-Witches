@@ -49,7 +49,7 @@ The Witness:
   early_caves: 'off'
   elevators_come_to_you: 'false'
   death_link: 'true'
-  death_link_amnesty: 2 # Change to 3, 4, then 5
+  death_link_amnesty: 3 # Change to 4, then 5
   shuffle_dog:
     puzzle_skip: 6
     random_item: 10 
@@ -78,7 +78,7 @@ Rogue Legacy:
 
   new_game_plus: normal
   fairy_chests_per_zone: random-low 
-  chests_per_zone: random # change to random-low
+  chests_per_zone: random-low
   vendors: early
   architect: early
   architect_fee: random-low

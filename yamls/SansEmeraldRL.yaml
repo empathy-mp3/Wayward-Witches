@@ -8,7 +8,7 @@ Pokemon Emerald:
   extra_boulders: 'false'
   norman_count: random-low # random-low > random-high > random-range-4-7
   starters: vanilla
-  exp_modifier: 650 # 650 > 1000
+  exp_modifier: 1000
   move_blacklist: [] # [] > ["Perish Song"]
 
   progression_balancing: 0

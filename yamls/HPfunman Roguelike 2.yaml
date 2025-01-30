@@ -50,14 +50,14 @@ Kingdom Hearts:
     false: 50
   puppies:
     full: 0
-    triplets: 0
-    individual: 50 # change to triplets
+    triplets: 50
+    individual: 0
   keyblades_unlock_chests:
-    'false': 0
-    'true': 50
-  interact_in_battle:
     'false': 50
     'true': 0
+  interact_in_battle:
+    'false': 0
+    'true': 50
   exp_multiplier:
     2x: 0 # change to 8x
     4x: 50 
@@ -113,10 +113,11 @@ Kingdom Hearts:
     0: 50
 
 Slay the Spire:
+  start_inventory: {"Card Draw": 2}
   plando_items: [{"item": "Rare Card Draw", "location": "choice IV-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Rare Card Draw", "location": "choice IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Relic", "location": "utility III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Boss Relic", "location": "utility VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Card Draw": 8}, "locations": [careful movement IV-2, second chance VIII-3, uncategorized I-1, uncategorized I-3, uncategorized VI-2, uncategorized VI-4, uncategorized X-4, uncategorized XI-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 20 # change to 50, then 80
   accessibility: items
   character: ironclad
   ascension: 12 # change to 10 (aka 4 "lower ascension by 2" unlocks available)
-  final_act: 'true' # change to false
+  final_act: 'false'
   death_link: 25 # change to 10

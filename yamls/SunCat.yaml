@@ -11,11 +11,11 @@ game:
 
 Timespinner:
   plando_items: [{"item": "Eternal Crown", "location": "defense IX-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Eternal Coat", "location": "defense XIX-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Galaxy Earrings", "location": "XP III-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Chaos Horn", "location": "uncategorized XIV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Silence Ring", "location": "uncategorized XIX-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Mind Refresh": 3, "Sand Vial": 3, "Antidote": 3}, "locations": [healing IV-4, healing VI-1, travel II-2], "world": "The Cauldron", "force": true, "from_pool": true}]
-  DamageRando: mostlybuffs #change to 'allbuffs'
-  ExtraEarringsXP: '18' #increase by 6, 1 times
+  DamageRando: 'allbuffs'
+  ExtraEarringsXP: '24'
   ShopMultiplier: random-range-low-1-5 #change to '0'
   LootTierDistro: 'inverted_weight'
-  TrapChance: '25' #reduce by 25
+  TrapChance: '0'
 
   progression_balancing: '0'
   StartWithJewelryBox: 'true'
@@ -57,7 +57,7 @@ Timespinner:
 
 Celeste 64:
   plando_items: [{"items": {"Raspberry": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
-  death_link_amnesty: '20' # change to '30'
+  death_link_amnesty: '30'
   total_strawberries: random-range-high-5-46 # change to 'random-range-5-46' > 'random-range-low-5-46'
   strawberries_required_percentage: '70' # reduce by 10, 6 times
 
@@ -181,7 +181,7 @@ Muse Dash:
 
 VVVVVV:
   plando_items: [{"items": {"Trinket 13": 9, "Trinket 14": 9, "Trinket 15": 9, "Trinket 16": 9, "Trinket 17": 9, "Trinket 18": 9, "Trinket 19": 9, "Trinket 20": 9}, "locations": [healing IV-4, healing VI-1, defense IX-3, defense XIX-2, XP III-2, travel II-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]
-  death_link_amnesty: '12' #increase by 3, 6 times
+  death_link_amnesty: '24' #increase by 3, 2 times
   door_cost: random-range-low-1-3
 
   progression_balancing: '0'
@@ -189,7 +189,7 @@ VVVVVV:
   area_rando: 'true'
   area_cost: 'true'
   death_link: 'true'
-  start_inventory: {Trinket 01: 1}
+  start_inventory: {Trinket 01: 1, Trinket 02: 1}
 
 Pokemon Emerald:
   plando_items: [{"item": "Leftovers", "location": "healing IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Leftovers", "location": "healing VI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "HM02 Fly", "location": "travel II-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Rare Candy": 6}, "locations": [defense IX-3, defense XIX-2, XP III-2, uncategorized XII-3, uncategorized XIV-4, uncategorized XIX-4], "world": "The Cauldron", "force": true, "from_pool": true}]

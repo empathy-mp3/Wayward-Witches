@@ -495,7 +495,6 @@ Hollow Knight:
     'false': 25
   DarkRooms:
     'false': 25
-    'true': 6   # remove this option
   ComplexSkips:
     'false': 25
   DifficultSkips:

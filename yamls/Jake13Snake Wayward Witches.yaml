@@ -82,7 +82,7 @@ Links Awakening DX:
   shuffle_stone_beaks: random
   shuffle_instruments: random
   tradequest: 'true'
-  rooster: 'false' # Change to 'true'
+  rooster: 'true'
   trendy_game: hardest # Change to easy
   hard_mode: none
   tarins_gift: bush_breaker

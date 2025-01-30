@@ -13,7 +13,7 @@ Celeste 64:
   death_link_amnesty: '20' # Change Amnesty to 25, then 30
   logic_difficulty: standard
   move_shuffle: 'false' 
-  total_strawberries: '46' # Change to 40, then 35, then 30, then 25, then 20, then 15, then 10
+  total_strawberries: '35' # Change to 30, then 25, then 20, then 15, then 10
   strawberries_required_percentage: '80'
   friendsanity: 'true'
   signsanity: 'true'

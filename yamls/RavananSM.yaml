@@ -16,7 +16,7 @@ Super Metroid:
   missile_qty: '30'
   super_qty: '20'
   power_bomb_qty: '10'
-  minor_qty: '50' 		# Change to 75 and then 100
+  minor_qty: '75' 		# Change to 100
   energy_qty: vanilla
   area_randomization: full
   area_layout: 'true'

@@ -11,7 +11,7 @@ Kingdom Hearts Birth by Sleep: #9 yaml changes
     aqua: 1
     terra: 1
   starting_worlds: 4 #4 -> 5
-  exp_multiplier: 6x
+  exp_multiplier: 96
   final_terra_xehanort_ii: 'false'
   mirage_arena: 'false'
   command_board: 'false'
@@ -97,7 +97,7 @@ Factorio:
   start_inventory: {oil-gathering: 1}
   plando_items: [{"items": {"progressive-physical-projectile-damage": 20, "progressive-research-speed": 20}, "locations": [ranged weapon III-6, ranged weapon V-6, ranged weapon VI-5, ranged weapon VII-4, explosion III-5, explosion IV-3, vitality VI-5, vitality X-5, vitality XI-3, vitality XIV-3, vitality XVI-3, speed III-1, second chance V-2, XP V-2, uncategorized II-1, uncategorized IV-2, uncategorized IV-3, uncategorized XI-3, uncategorized XV-1, uncategorized XIX-2], "world": "The Cauldron", "force": true, "from_pool": true}]
   max_science_pack: chemical_science_pack
-  goal: satellite # satellite -> rocket
+  goal: rocket
   tech_tree_layout: single
   min_tech_cost: 5
   max_tech_cost: 500
@@ -136,12 +136,12 @@ Factorio:
     transport-belt: 300
 
 
-    ## starting robots (5 items)
-    # power-armor: 1
-    # battery-equipment: 5
-    # personal-roboport-equipment: 1
-    # solar-panel-equipment: 9
-    # construction-robot: 15
+    # starting robots (5 items)
+    power-armor: 1
+    battery-equipment: 5
+    personal-roboport-equipment: 1
+    solar-panel-equipment: 9
+    construction-robot: 15
     
     # Spoodertron (4 items)
     spidertron: 1
@@ -154,11 +154,11 @@ Factorio:
     exoskeleton-equipment: 3
     fission-reactor-equipment: 1 #NOTE: if AP moves to The Space Age, this may need to be renamed
     
-    ## Unlimited Power
-    # nuclear-reactor: 1
-    # uranium-fuel-cell: 300
-    # heat-exchanger: 4
-    # steam-turbine: 8
+    # Unlimited Power
+    nuclear-reactor: 1
+    uranium-fuel-cell: 300
+    heat-exchanger: 4
+    steam-turbine: 8
     
 
 

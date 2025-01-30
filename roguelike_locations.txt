@@ -502,3 +502,40 @@ food I-1
 food I-2
 food I-3
 food I-4
+healing V-1
+healing V-2
+healing V-3
+defense IV-1
+defense IV-2
+defense IV-3
+beast I-1
+beast I-2
+beast I-3
+macguffins VIII-1
+melee weapon IX-1
+melee weapon IX-2
+melee weapon IX-3
+melee weapon IX-4
+robot I-1
+attack II-1
+attack II-2
+attack II-3
+attack II-4
+electricity I-1
+electricity I-2
+electricity I-3
+slots II-1
+slots II-2
+slots II-3
+slots II-4
+slots II-5
+vitality VI-1
+vitality VI-2
+vitality VI-3
+vitality VI-4
+vitality VI-5
+vitality VI-6
+vitality VI-7
+vitality VI-8
+sight II-1
+sight II-2

@@ -1297,7 +1297,7 @@ MiroRogue (DLCQ): change `ending_choice` to `any`
 DiStegRogue (RB): lower `elite_four_key_items_condition` range
 rhythm.SADX: set `goal: levels_and_emerald_hunt` weight to 0
 Connor (HK): change `Goal` to easier goals
-hecate.mp3 (OW): reduce `goal: song of seven` chance
+hecate.mp3 (OW): reduce `goal: song_of_seven` chance
 Toto (HK): make `Goal` more reasonable
 
 ## goal XIV
@@ -1334,7 +1334,7 @@ Toto (HK): make `Goal` more reasonable
 jf-rogue (aHiT): change `EndGoal: seal_the_deal` weight to 0
 DiStegRogue (Emerald): change `goal` to easier options
 MiroRogue (TS): increase `dad_percent` chance
-hecate.mp3 (OW): reduce `goal: song of seven` chance
+hecate.mp3 (OW): reduce `goal: song_of_seven` chance
 
 ## goal XVII
 

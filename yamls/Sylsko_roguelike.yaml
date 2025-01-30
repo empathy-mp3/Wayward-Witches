@@ -2,10 +2,10 @@
 description: 
 
 game: 
-  Celeste 64: 1
-  Timespinner: 1
-  TUNIC: 1
-  Astalon: 1
+  Celeste 64: 2
+  Timespinner: 2
+  TUNIC: 2
+  Astalon: 2
   Ender Lilies: 1
 
 Celeste 64:
@@ -46,7 +46,7 @@ Timespinner:
   lore_checks: random
   boss_rando: off
   EnemyRando: off
-  damage_rando: mostlynerfs #change to balanced, then to mostlybuffs
+  damage_rando: balanced #change to mostlybuffs
   hp_cap: 999
   level_cap: 99
   extra_earrings_xp: random

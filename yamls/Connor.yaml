@@ -1,9 +1,9 @@
 ﻿name: Connor
 
 game: 
-  Manual_Godhome_Eszenn: 1
-  Undertale: 2
-  Hollow Knight: 2
+  Manual_Godhome_Eszenn: 2
+  Undertale: 1
+  Hollow Knight: 4
 Manual_Godhome_Eszenn:
   start_inventory: {Unbreakable Strength: 1}
   plando_items: [{"item": "Flukenest", "location": "ranged weapon I-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood Heart", "location": "vitality V-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Lifeblood Core", "location": "vitality X-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Hiveblood", "location": "healing VII-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Fury of the Fallen", "location": "low HP I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Grubsong", "location": "revenge I-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"The Urge to Keep Fighting": 23}, "locations": [ranged weapon II-1, fire I-2, vitality IV-1, vitality XII-2, vitality XVI-2, healing I-3, healing III-1, healing IV-1, speed VII-6, defense IV-2, defense VII-1, defense XIX-1, attack II-2, electricity I-3, XP XIII-1, melee weapon X-4, ice II-2, beast I-1, beast I-2, god I-1, water I-1, army II-1, robot I-1], "world": "The Cauldron", "force": true, "from_pool": true}]

@@ -9,7 +9,7 @@ EarthBound:
   plando_items: [{"item": "Progressive Gun", "location": "ranged weapon I-5", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Gun", "location": "ranged weapon IV-4", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Gun", "location": "ranged weapon VI-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Bat", "location": "melee weapon I-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon II-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Bat", "location": "melee weapon III-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon VII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon VIII-2", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Fry Pan", "location": "melee weapon IX-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Progressive Bat", "location": "melee weapon XI-1", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"Teddy Bear": 10, "Repel Superwich": 10, "Big Bottle Rocket": 10}, "locations": [luck I-1, luck I-2, luck I-3, luck I-4, luck I-5, luck I-6, luck II-3, luck II-4, luck II-6, luck II-7], "world": "The Cauldron", "force": true, "from_pool": true}]
   progression_balancing: 0
   accessibility: minimal
-  giygas_required: true
+  giygas_required: false
   sanctuaries_required: 4
   skip_prayer_sequences: true
   random_start_location: true
@@ -22,7 +22,7 @@ EarthBound:
   character_shuffle: anywhere
   psi_shuffle: basic
   allow_flash_as_favorite_thing: false
-  experience_modifier: 120 #Change this to 200 then to 280
+  experience_modifier: 200 #Change this to 280
   starting_money: random
   easy_deaths: true
   progressive_weapons: true
@@ -57,7 +57,7 @@ Factorio:
   goal: rocket
   tech_tree_layout: random
   min_tech_cost: 100  #Change to 1
-  max_tech_cost: random
+  max_tech_cost: 500
   tech_cost_distribution: even
   tech_cost_mix: random-high
   ramping_tech_costs: false
@@ -199,7 +199,7 @@ Pokemon Red and Blue:
   second_fossil_check_condition: 3
   fossil_check_item_types: any
   exp_all: randomize
-  old_man: vanilla
+  old_man: open_viridian_city
   badgesanity: random
   badges_needed_for_hm_moves: on
   key_items_only: false

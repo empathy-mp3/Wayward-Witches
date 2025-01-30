@@ -15,6 +15,7 @@ Minecraft:
   include_hard_advancements: false
   include_unreasonable_advancements: false
   include_postgame_advancements: false
-  bee_traps: 20 # Upgrades: Change to 20 > 0
+  bee_traps: 0
   send_defeated_mobs: false
   death_link: true
+  start_inventory: {Dragon Egg Shard: 4}

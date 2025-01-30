@@ -956,10 +956,10 @@ Timespinner:
     scaled: 50
     unscaled: &reduce_difficulty 0
   hp_cap: 350               # increase to 450, then 999
-  boss_healing: false       # change to true
+  boss_healing: true
   shop_multiplier: 0
   dad_percent: random        # change to true
-  trap_chance: random-range-low-0-35 # change to 0
+  trap_chance: 0
   start_inventory: {Lightwall: 1, Timeworn Warp Beacon: 1}
 
   start_with_meyef: *convenience

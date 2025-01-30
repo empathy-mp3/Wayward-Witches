@@ -83,7 +83,7 @@ Hollow Knight:
   MaximumEssencePrice: random-high # Can be upgraded to random-middle
   MinimumCharmPrice: random-low
   MaximumCharmPrice: random-middle
-  RandomCharmCosts: 80 # Can be upgraded to 70
+  RandomCharmCosts: 70
   MinimumEggPrice: 1
   MaximumEggPrice: random-high
   EggShopSlots: random-high
@@ -142,7 +142,7 @@ Stardew Valley:
 
   season_randomization: randomized
   cropsanity: enabled
-  backpack_progression: progressive # Can be upgraded to early_progressive
+  backpack_progression: early_progressive
   tool_progression: progressive_very_cheap
   skill_progression: progressive_with_masteries
   building_progression: progressive_cheap # Can be upgraded to progressive_very_cheap

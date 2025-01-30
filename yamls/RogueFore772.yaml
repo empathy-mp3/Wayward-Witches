@@ -205,7 +205,7 @@ Muse Dash:
   starting_song_count: '5'
   additional_song_count: random-range-high-40-100 #change to 'random-range-40-100' > random-range-low-40-100
   music_sheet_count_percentage: '40'
-  music_sheet_win_count_percentage: '67' #reduce by 11, 5 times
+  music_sheet_win_count_percentage: '56' #reduce by 11, 4 times
   dlc_packs:
   - Muse Plus
   - CHUNITHM COURSE MUSE
@@ -230,7 +230,7 @@ Muse Dash:
   - Pixelate Trap
   - Ripple Trap
   - Vignette Trap
-  trap_count_percentage: 'random-range-15-35' # random-range-5-35
+  trap_count_percentage: 'random-range-5-35'
   start_inventory: {}
   local_items: [Music Sheet]
   triggers:

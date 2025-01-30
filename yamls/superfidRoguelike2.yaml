@@ -188,7 +188,7 @@ Timespinner:
   damage_rando: mostlybuffs
   hp_cap: 999
   level_cap: 99
-  extra_earrings_xp: random-range-12-24 # Upgrade to 24
+  extra_earrings_xp: 24
   boss_healing: true
   shop_fill: randomized
   shop_warp_shards: true
@@ -962,7 +962,7 @@ A Link to the Past:
   restrict_dungeon_item_on_boss: false
   item_pool: easy
   item_functionality: easy
-  enemy_health: default # Upgrade to easy
+  enemy_health: easy
   enemy_damage: default
   progressive: on
   swordless: false
@@ -1044,7 +1044,7 @@ Celeste 64:
   death_link_amnesty: 15 # Upgrade to 20, then 30
   logic_difficulty: standard
   move_shuffle: false
-  total_strawberries: random-range-20-46 # Upgrade to random
+  total_strawberries: random
   strawberries_required_percentage: 100 #Upgrade to random, then random-range-0-50
   friendsanity: random
   signsanity: random
