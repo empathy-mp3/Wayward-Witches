@@ -29,7 +29,7 @@ Super Metroid:
   layout_patches: 'true'
   varia_tweaks: 'true'
   nerfed_charge: 'true'
-  gravity_behaviour: balanced
+  gravity_behaviour: vanilla
   elevators_speed: 'true'
   fast_doors: 'true'
   spin_jump_restart: 'true'
@@ -39,7 +39,7 @@ Super Metroid:
   hud: 'true'
   no_music: 'false'
   random_music: 'false'
-  tourian: fast
+  tourian: disabled
   custom_objective_list: random
   custom_objective_count: '5'
   objective:
@@ -81,7 +81,7 @@ Super Metroid:
   relaxed_round_robin_cf: 'true'
   start_inventory: {}
   start_location: random
-  doors_colors_rando: random
+  doors_colors_rando: 'false'
   escape_rando: random
   animals: random
   custom_objective: random

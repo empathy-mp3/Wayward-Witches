@@ -8,6 +8,7 @@ description: Fore772 yaml for Roguelike Async
 
 A Hat in Time:
   start_inventory: {Hookshot Badge: 1}
+  progression_balancing: 83
   plando_items: [{"item": "No Bonk Badge", "location": "careful movement III-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"item": "Badge Pin", "location": "slots IV-3", "world": "The Cauldron", "force": true, "from_pool": true}, {"items": {"25 Pons": 20}, "locations": ["ranged weapon VI-3", "vitality XII-5", "healing X-3", "stealth II-2", "defense VIII-1", "defense XVIII-2", "careful movement III-2", "attack II-3", "stamina I-4"], "world": "The Cauldron", "force": true, "from_pool": true}]
   EndGoal:
     finale: 10
@@ -198,10 +199,13 @@ TUNIC:
     easy: 50 # change to 'off'
   ladder_storage_without_items:
     'false': 10
+  start_with_sword: 'true'
 
 Muse Dash:
   plando_items: [{"items": {"Extra Life": 10, "Great to Perfect (10 Pack)": 10, "Miss to Great (5 Pack)": 10}, "locations": ["careful movement III-3", "slots IV-3", "ranged weapon VI-3", "vitality XII-5", "healing X-3", "stealth II-2", "defense VIII-1", "defense XVIII-2", "careful movement III-2", "attack II-3", "stamina I-4"], "world": "The Cauldron", "force": true, "from_pool": true}]
-  progression balancing: 83
+  progression_balancing: 99
+  start_hints:
+    - Music Sheet
   starting_song_count: '5'
   additional_song_count: random-range-high-40-100 #change to 'random-range-40-100' > random-range-low-40-100
   music_sheet_count_percentage: '40'
@@ -295,7 +299,7 @@ VVVVVV:
   area_rando: 'true'
   area_cost: 'true'
   death_link: 'true'
-  start_inventory: {Trinket 01: 1}
+  start_inventory: {Trinket 01: 1, Trinket 02: 1, Trinket 03: 1, Trinket 04: 1}
 
 triggers:
   - option_category: null
